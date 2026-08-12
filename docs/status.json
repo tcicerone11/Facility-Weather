@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-12T22:41:11.443292Z",
+  "generated_at": "2026-08-12T23:23:02.705711Z",
   "facilities": [
     {
       "id": "den",
@@ -24,10 +24,10 @@
         }
       ],
       "metar": {
-        "raw": "SPECI KDEN 122218Z 36007KT 10SM FEW075 SCT130 BKN160 BKN220 33/06 A2991 RMK AO2 SLP041 T03280061",
-        "observed": "2026-08-12T22:18:00.000Z",
-        "wind_kt": 7.0,
-        "wind_mph": 8.1,
+        "raw": "METAR KDEN 122253Z 32005KT 10SM SCT110 BKN160 BKN220 33/06 A2991 RMK AO2 VIRGA DSNT S SLP030 T03280056",
+        "observed": "2026-08-12T23:00:00.000Z",
+        "wind_kt": 5.0,
+        "wind_mph": 5.8,
         "gust_kt": null,
         "gust_mph": null,
         "temperature_f": 91.0,
@@ -56,7 +56,7 @@
           "temperature": 95,
           "temperatureUnit": "F",
           "shortForecast": "Chance Showers And Thunderstorms",
-          "windSpeed": "7 to 12 mph",
+          "windSpeed": "6 to 12 mph",
           "windDirection": "NE"
         },
         {
@@ -116,7 +116,7 @@
           "windDirection": "S"
         }
       ],
-      "checked_at": "2026-08-12T22:41:13.818568Z",
+      "checked_at": "2026-08-12T23:23:04.136885Z",
       "next_check_minutes": 15
     },
     {
@@ -142,10 +142,10 @@
         }
       ],
       "metar": {
-        "raw": "METAR KIAD 122152Z 20004KT 10SM FEW044 SCT250 28/21 A2985 RMK AO2 SLP105 T02830206",
-        "observed": "2026-08-12T22:00:00.000Z",
-        "wind_kt": 4.0,
-        "wind_mph": 4.6,
+        "raw": "METAR KIAD 122252Z 25005KT 10SM FEW050 SCT250 28/19 A2985 RMK AO2 SLP106 T02830194",
+        "observed": "2026-08-12T23:00:00.000Z",
+        "wind_kt": 5.0,
+        "wind_mph": 5.8,
         "gust_kt": null,
         "gust_mph": null,
         "temperature_f": 82.9,
@@ -234,7 +234,7 @@
           "windDirection": "S"
         }
       ],
-      "checked_at": "2026-08-12T22:41:15.134543Z",
+      "checked_at": "2026-08-12T23:23:05.045369Z",
       "next_check_minutes": 15
     }
   ],
