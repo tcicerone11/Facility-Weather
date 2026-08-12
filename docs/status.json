@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-12T20:08:55.845856Z",
+  "generated_at": "2026-08-12T20:25:35.742462Z",
   "facilities": [
     {
       "name": "Denver International Airport",
@@ -106,7 +106,7 @@
           "windDirection": "S"
         }
       ],
-      "checked_at": "2026-08-12T20:08:56.709123Z",
+      "checked_at": "2026-08-12T20:25:36.767260Z",
       "next_check_minutes": 15
     },
     {
@@ -214,7 +214,7 @@
           "windDirection": "SE"
         }
       ],
-      "checked_at": "2026-08-12T20:08:58.863264Z",
+      "checked_at": "2026-08-12T20:25:37.722594Z",
       "next_check_minutes": 15
     }
   ],
