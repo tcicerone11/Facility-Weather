@@ -1,7 +1,8 @@
 {
-  "generated_at": "2026-08-12T20:29:11.635652Z",
+  "generated_at": "2026-08-12T20:47:58.252521Z",
   "facilities": [
     {
+      "id": "den",
       "name": "Denver International Airport",
       "icao": "KDEN",
       "zone": "COZ040",
@@ -9,18 +10,26 @@
       "longitude": -104.6737,
       "forecast_zone_name": "COZ040",
       "status": "watch",
+      "status_copy": {
+        "label": "WATCH",
+        "summary": "Weather could affect operations if conditions develop as forecast.",
+        "action": "Monitor conditions and prepare staff, equipment, or outdoor operations."
+      },
       "reasons": [
         {
           "level": "watch",
-          "title": "Thunderstorm potential",
-          "detail": "Thunderstorm signal in the next 6 hours or airport TAF"
+          "title": "Thunderstorms may affect the facility",
+          "detail": "A thunderstorm signal appears in the next 6 hours in the local or airport forecast.",
+          "action": "Monitor official warnings and your approved lightning procedure. This system does not measure lightning strike distance."
         }
       ],
       "metar": {
         "raw": "METAR KDEN 121953Z 27008G14KT 10SM FEW100 SCT140 SCT220 35/06 A2995 RMK AO2 FU VC NE SLP037 T03500061",
         "observed": "2026-08-12T20:00:00.000Z",
         "wind_kt": 8.0,
+        "wind_mph": 9.2,
         "gust_kt": 14.0,
+        "gust_mph": 16.1,
         "temperature_f": 95.0,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
@@ -34,9 +43,19 @@
         "snow": false,
         "freezing_precip": false
       },
-      "alerts": [],
+      "alerts": [
+        {
+          "event": "Special Weather Statement",
+          "headline": "Special Weather Statement issued August 12 at 2:37PM MDT by NWS Denver CO",
+          "severity": "Moderate",
+          "urgency": "Expected",
+          "expires": "2026-08-12T15:15:00-06:00",
+          "source": "Broader NWS zone COZ040"
+        }
+      ],
       "metrics": {
         "peak_gust_24h_kt": 18.0,
+        "peak_gust_24h_mph": 20.7,
         "precip_7d_in": 1.85,
         "snow_7d_in": 0.0
       },
@@ -106,10 +125,11 @@
           "windDirection": "S"
         }
       ],
-      "checked_at": "2026-08-12T20:29:12.293201Z",
+      "checked_at": "2026-08-12T20:47:59.365832Z",
       "next_check_minutes": 15
     },
     {
+      "id": "iad",
       "name": "Washington Dulles International Airport",
       "icao": "KIAD",
       "zone": "VAZ506",
@@ -117,18 +137,26 @@
       "longitude": -77.4565,
       "forecast_zone_name": "VAZ506",
       "status": "watch",
+      "status_copy": {
+        "label": "WATCH",
+        "summary": "Weather could affect operations if conditions develop as forecast.",
+        "action": "Monitor conditions and prepare staff, equipment, or outdoor operations."
+      },
       "reasons": [
         {
           "level": "watch",
-          "title": "Thunderstorm potential",
-          "detail": "Thunderstorm signal in the next 6 hours or airport TAF"
+          "title": "Thunderstorms may affect the facility",
+          "detail": "A thunderstorm signal appears in the next 6 hours in the local or airport forecast.",
+          "action": "Monitor official warnings and your approved lightning procedure. This system does not measure lightning strike distance."
         }
       ],
       "metar": {
         "raw": "METAR KIAD 121952Z 26005KT 10SM FEW041 BKN120 29/19 A2987 RMK AO2 SLP110 T02940194",
         "observed": "2026-08-12T20:00:00.000Z",
         "wind_kt": 5.0,
+        "wind_mph": 5.8,
         "gust_kt": null,
+        "gust_mph": null,
         "temperature_f": 84.9,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
@@ -145,6 +173,7 @@
       "alerts": [],
       "metrics": {
         "peak_gust_24h_kt": 14.0,
+        "peak_gust_24h_mph": 16.1,
         "precip_7d_in": 0.27,
         "snow_7d_in": 0.0
       },
@@ -214,7 +243,7 @@
           "windDirection": "SE"
         }
       ],
-      "checked_at": "2026-08-12T20:29:13.697728Z",
+      "checked_at": "2026-08-12T20:48:07.293614Z",
       "next_check_minutes": 15
     }
   ],
