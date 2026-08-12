@@ -16,6 +16,7 @@
   },
   "facilities": [
     {
+      "id": "den",
       "name": "Denver International Airport",
       "icao": "KDEN",
       "zone": "COZ040",
@@ -23,6 +24,7 @@
       "longitude": -104.6737
     },
     {
+      "id": "iad",
       "name": "Washington Dulles International Airport",
       "icao": "KIAD",
       "zone": "VAZ506",
