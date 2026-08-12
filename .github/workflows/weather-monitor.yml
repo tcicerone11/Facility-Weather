@@ -1,0 +1,35 @@
+name: Facility Weather Monitor
+
+on:
+  schedule:
+    - cron: "*/5 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-dashboard:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Get project files
+        uses: actions/checkout@v5
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: Install Python requirement
+        run: pip install -r requirements.txt
+
+      - name: Check facilities and rebuild dashboard
+        run: python monitor.py
+
+      - name: Save updated dashboard
+        run: |
+          git config user.name "Facility Weather Bot"
+          git config user.email "actions@github.com"
+          git add docs/status.json docs/index.html
+          git diff --staged --quiet || git commit -m "Update facility weather dashboard"
+          git push
