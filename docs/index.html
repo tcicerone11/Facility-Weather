@@ -4,47 +4,655 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Facility Weather Operations</title>
+
 <style>
-:root{--bg:#eef2f5;--card:#fff;--ink:#18212a;--muted:#66727d;--line:#d9e0e5;--normal:#24764b;--watch:#a87300;--action:#c45500;--close:#aa271d}
-*{box-sizing:border-box}body{margin:0;font-family:Arial,Helvetica,sans-serif;background:var(--bg);color:var(--ink)}.wrap{max-width:1180px;margin:auto;padding:24px}
-h1{margin:0 0 6px;font-size:34px}h2{margin-top:0}h3{margin-top:28px}.intro,.muted,.small{color:var(--muted)}.small{font-size:13px}
-.test-notice{margin:18px 0;padding:14px 16px;border-radius:12px;background:#fff4d7;border:1px solid #e6c56c;line-height:1.45}
-.legend{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:10px;margin:18px 0 24px}.legend-item{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px}.legend-item strong{display:block;margin-bottom:6px}.legend-item.normal{border-top:5px solid var(--normal)}.legend-item.watch{border-top:5px solid var(--watch)}.legend-item.action{border-top:5px solid var(--action)}.legend-item.close{border-top:5px solid var(--close)}
-.facility{background:var(--card);border:1px solid var(--line);border-radius:18px;overflow:hidden;margin:24px 0;box-shadow:0 3px 12px rgba(0,0,0,.06)}.banner{padding:22px;color:white;display:flex;justify-content:space-between;gap:18px;align-items:flex-start;flex-wrap:wrap}.banner.normal{background:var(--normal)}.banner.watch{background:var(--watch)}.banner.action{background:var(--action)}.banner.close{background:var(--close)}.level{font-size:30px;font-weight:900;letter-spacing:.04em;margin-top:5px}.status-summary{max-width:670px;margin-top:8px;line-height:1.4}.body{padding:22px}
-.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(175px,1fr));gap:12px;margin:16px 0}.metric{border:1px solid var(--line);background:#fbfcfd;border-radius:11px;padding:14px}.metric strong{display:block;font-size:23px;margin-top:5px}
-.reason{border-left:5px solid #999;background:#fafafa;padding:12px 14px;margin:10px 0;border-radius:7px}.reason.watch{border-color:var(--watch)}.reason.action{border-color:var(--action)}.reason.close{border-color:var(--close)}.reason .do{display:block;margin-top:7px;font-weight:700}
-.alert{padding:12px 13px;background:#fff9e9;border:1px solid #ead7a4;border-radius:9px;margin:8px 0}.forecast{display:grid;grid-template-columns:repeat(auto-fit,minmax(145px,1fr));gap:9px}.forecast>div{border:1px solid var(--line);border-radius:10px;padding:11px;background:#fbfcfd}details{margin-top:25px;border-top:1px solid var(--line);padding-top:15px}summary{cursor:pointer;font-weight:700}code{display:block;margin-top:8px;font-size:12px;white-space:pre-wrap;word-break:break-word;background:#f5f7f8;padding:10px;border-radius:8px}.footer{font-size:13px;color:var(--muted);line-height:1.55;margin:28px 0}
+:root{
+    --bg:#eef2f5;
+    --card:#fff;
+    --ink:#18212a;
+    --muted:#66727d;
+    --line:#d9e0e5;
+    --normal:#24764b;
+    --watch:#a87300;
+    --action:#c45500;
+    --close:#aa271d;
+}
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+    margin:0;
+    font-family:Arial,Helvetica,sans-serif;
+    background:var(--bg);
+    color:var(--ink);
+}
+
+.wrap{
+    max-width:1180px;
+    margin:auto;
+    padding:24px;
+}
+
+h1{
+    margin:0 0 6px;
+    font-size:34px;
+}
+
+h2{
+    margin-top:0;
+}
+
+h3{
+    margin-top:28px;
+}
+
+.intro,
+.muted,
+.small{
+    color:var(--muted);
+}
+
+.small{
+    font-size:13px;
+}
+
+.test-notice{
+    margin:18px 0;
+    padding:14px 16px;
+    border-radius:12px;
+    background:#fff4d7;
+    border:1px solid #e6c56c;
+    line-height:1.45;
+}
+
+.legend{
+    display:grid;
+    grid-template-columns:
+        repeat(auto-fit,minmax(210px,1fr));
+    gap:10px;
+    margin:18px 0 24px;
+}
+
+.legend-item{
+    background:var(--card);
+    border:1px solid var(--line);
+    border-radius:12px;
+    padding:14px;
+}
+
+.legend-item strong{
+    display:block;
+    margin-bottom:6px;
+}
+
+.legend-item.normal{
+    border-top:5px solid var(--normal);
+}
+
+.legend-item.watch{
+    border-top:5px solid var(--watch);
+}
+
+.legend-item.action{
+    border-top:5px solid var(--action);
+}
+
+.legend-item.close{
+    border-top:5px solid var(--close);
+}
+
+.facility{
+    background:var(--card);
+    border:1px solid var(--line);
+    border-radius:18px;
+    overflow:hidden;
+    margin:24px 0;
+    box-shadow:0 3px 12px rgba(0,0,0,.06);
+}
+
+.banner{
+    padding:22px;
+    color:white;
+    display:flex;
+    justify-content:space-between;
+    gap:18px;
+    align-items:flex-start;
+    flex-wrap:wrap;
+}
+
+.banner.normal{
+    background:var(--normal);
+}
+
+.banner.watch{
+    background:var(--watch);
+}
+
+.banner.action{
+    background:var(--action);
+}
+
+.banner.close{
+    background:var(--close);
+}
+
+.level{
+    font-size:30px;
+    font-weight:900;
+    letter-spacing:.04em;
+    margin-top:5px;
+}
+
+.status-summary{
+    max-width:670px;
+    margin-top:8px;
+    line-height:1.4;
+}
+
+.body{
+    padding:22px;
+}
+
+.grid{
+    display:grid;
+    grid-template-columns:
+        repeat(auto-fit,minmax(175px,1fr));
+    gap:12px;
+    margin:16px 0;
+}
+
+.metric{
+    border:1px solid var(--line);
+    background:#fbfcfd;
+    border-radius:11px;
+    padding:14px;
+}
+
+.metric strong{
+    display:block;
+    font-size:23px;
+    margin-top:5px;
+}
+
+.reason{
+    border-left:5px solid #999;
+    background:#fafafa;
+    padding:12px 14px;
+    margin:10px 0;
+    border-radius:7px;
+}
+
+.reason.watch{
+    border-color:var(--watch);
+}
+
+.reason.action{
+    border-color:var(--action);
+}
+
+.reason.close{
+    border-color:var(--close);
+}
+
+.reason .do{
+    display:block;
+    margin-top:7px;
+    font-weight:700;
+}
+
+.alert{
+    padding:12px 13px;
+    background:#fff9e9;
+    border:1px solid #ead7a4;
+    border-radius:9px;
+    margin:8px 0;
+}
+
+.forecast{
+    display:grid;
+    grid-template-columns:
+        repeat(auto-fit,minmax(145px,1fr));
+    gap:9px;
+}
+
+.forecast > div{
+    border:1px solid var(--line);
+    border-radius:10px;
+    padding:11px;
+    background:#fbfcfd;
+}
+
+details{
+    margin-top:25px;
+    border-top:1px solid var(--line);
+    padding-top:15px;
+}
+
+summary{
+    cursor:pointer;
+    font-weight:700;
+}
+
+code{
+    display:block;
+    margin-top:8px;
+    font-size:12px;
+    white-space:pre-wrap;
+    word-break:break-word;
+    background:#f5f7f8;
+    padding:10px;
+    border-radius:8px;
+}
+
+.footer{
+    font-size:13px;
+    color:var(--muted);
+    line-height:1.55;
+    margin:28px 0;
+}
 </style>
 </head>
+
 <body>
 <div class="wrap">
+
 <h1>Facility Weather Operations</h1>
-<div class="intro">Weather translated into operational awareness for facility managers.</div>
-<div class="test-notice"><strong>TEST SYSTEM.</strong> The thresholds on this dashboard are examples for development and testing. They are not approved operating, restriction, or closure policy.</div>
+
+<div class="intro">
+Weather translated into operational awareness
+for facility managers.
+</div>
+
+<div class="test-notice">
+<strong>TEST SYSTEM.</strong>
+The thresholds on this dashboard are examples
+for development and testing.
+They are not approved operating,
+restriction, or closure policy.
+</div>
+
 <h2>Status Guide</h2>
+
 <div class="legend">
-<div class="legend-item normal"><strong>NORMAL</strong>Normal operations. No configured weather threshold currently suggests an operational change.</div>
-<div class="legend-item watch"><strong>WATCH</strong>Weather could affect operations. Monitor conditions and prepare staff or equipment.</div>
-<div class="legend-item action"><strong>ACTION</strong>A significant condition has been reached or is expected. Take the protective action in the facility plan.</div>
-<div class="legend-item close"><strong>CLOSE CRITERIA MET</strong>A configured closure threshold or critical warning has been reached. Follow approved closure or emergency procedures.</div>
+
+<div class="legend-item normal">
+<strong>NORMAL</strong>
+Normal operations.
+No configured weather threshold currently
+suggests an operational change.
 </div>
+
+<div class="legend-item watch">
+<strong>WATCH</strong>
+Weather could affect operations.
+Monitor conditions and prepare staff
+or equipment.
+</div>
+
+<div class="legend-item action">
+<strong>ACTION</strong>
+A significant condition has been reached
+or is expected.
+Take the protective action in the facility plan.
+</div>
+
+<div class="legend-item close">
+<strong>CLOSE CRITERIA MET</strong>
+A configured closure threshold
+or critical warning has been reached.
+Follow approved closure
+or emergency procedures.
+</div>
+
+</div>
+
 <div id="app"></div>
-<div class="footer">This system uses exact facility coordinates for NWS point forecasts and point-based alerts, plus the configured broader NWS zone for additional context. Airport facilities can also use airport observations and airport short-term forecasts. This dashboard does not provide live lightning-strike distance.</div>
+
+<div class="footer">
+This system uses exact facility coordinates
+for NWS point forecasts and point-based alerts,
+plus the configured broader NWS zone
+for additional context.
+Airport facilities can also use airport
+observations and airport short-term forecasts.
+This dashboard does not provide
+live lightning-strike distance.
 </div>
+
+</div>
+
 <script>
-const DATA={"generated_at": "2026-08-12T20:47:58.252521Z", "facilities": [{"id": "den", "name": "Denver International Airport", "icao": "KDEN", "zone": "COZ040", "latitude": 39.8561, "longitude": -104.6737, "forecast_zone_name": "COZ040", "status": "watch", "status_copy": {"label": "WATCH", "summary": "Weather could affect operations if conditions develop as forecast.", "action": "Monitor conditions and prepare staff, equipment, or outdoor operations."}, "reasons": [{"level": "watch", "title": "Thunderstorms may affect the facility", "detail": "A thunderstorm signal appears in the next 6 hours in the local or airport forecast.", "action": "Monitor official warnings and your approved lightning procedure. This system does not measure lightning strike distance."}], "metar": {"raw": "METAR KDEN 121953Z 27008G14KT 10SM FEW100 SCT140 SCT220 35/06 A2995 RMK AO2 FU VC NE SLP037 T03500061", "observed": "2026-08-12T20:00:00.000Z", "wind_kt": 8.0, "wind_mph": 9.2, "gust_kt": 14.0, "gust_mph": 16.1, "temperature_f": 95.0, "visibility_sm": 10.0, "flight_category": "VFR"}, "taf": {"raw": "TAF KDEN 121948Z 1220/1324 30010KT P6SM VCSH FEW060 SCT100 BKN150 PROB30 1221/1303 VRB20G35KT 5SM -TSRA BKN090CB FM130300 06010KT P6SM SCT080 BKN120 FM130600 VRB06KT P6SM FEW050 SCT090 BKN140 FM131200 35007KT P6SM SCT020 BKN080 TEMPO 1312/1316 BKN020 FM131600 04007KT P6SM FEW090 SCT140 BKN200 FM132000 10008KT P6SM VCSH SCT090 BKN140 BKN200 PROB30 1320/1324 VRB20G30KT 3SM -TSRA BKN080CB", "issued": "2026-08-12T19:48:00.000Z", "valid_from": 1786564800, "valid_to": 1786665600, "thunder": true, "snow": false, "freezing_precip": false}, "alerts": [{"event": "Special Weather Statement", "headline": "Special Weather Statement issued August 12 at 2:37PM MDT by NWS Denver CO", "severity": "Moderate", "urgency": "Expected", "expires": "2026-08-12T15:15:00-06:00", "source": "Broader NWS zone COZ040"}], "metrics": {"peak_gust_24h_kt": 18.0, "peak_gust_24h_mph": 20.7, "precip_7d_in": 1.85, "snow_7d_in": 0.0}, "forecast": [{"name": "This Afternoon", "temperature": 95, "temperatureUnit": "F", "shortForecast": "Chance Showers And Thunderstorms", "windSpeed": "7 to 12 mph", "windDirection": "NE"}, {"name": "Tonight", "temperature": 61, "temperatureUnit": "F", "shortForecast": "Showers And Thunderstorms Likely then Mostly Cloudy", "windSpeed": "3 to 13 mph", "windDirection": "WNW"}, {"name": "Thursday", "temperature": 83, "temperatureUnit": "F", "shortForecast": "Partly Sunny then Showers And Thunderstorms Likely", "windSpeed": "3 to 10 mph", "windDirection": "E"}, {"name": "Thursday Night", "temperature": 58, "temperatureUnit": "F", "shortForecast": "Showers And Thunderstorms Likely", "windSpeed": "3 to 9 mph", "windDirection": "SSE"}, {"name": "Friday", "temperature": 84, "temperatureUnit": "F", "shortForecast": "Partly Sunny then Showers And Thunderstorms Likely", "windSpeed": "3 to 8 mph", "windDirection": "SE"}, {"name": "Friday Night", "temperature": 56, "temperatureUnit": "F", "shortForecast": "Showers And Thunderstorms", "windSpeed": "3 to 8 mph", "windDirection": "WSW"}, {"name": "Saturday", "temperature": 82, "temperatureUnit": "F", "shortForecast": "Partly Sunny then Showers And Thunderstorms Likely", "windSpeed": "6 mph", "windDirection": "NNE"}, {"name": "Saturday Night", "temperature": 56, "temperatureUnit": "F", "shortForecast": "Showers And Thunderstorms Likely", "windSpeed": "7 mph", "windDirection": "S"}], "checked_at": "2026-08-12T20:47:59.365832Z", "next_check_minutes": 15}, {"id": "iad", "name": "Washington Dulles International Airport", "icao": "KIAD", "zone": "VAZ506", "latitude": 38.9531, "longitude": -77.4565, "forecast_zone_name": "VAZ506", "status": "watch", "status_copy": {"label": "WATCH", "summary": "Weather could affect operations if conditions develop as forecast.", "action": "Monitor conditions and prepare staff, equipment, or outdoor operations."}, "reasons": [{"level": "watch", "title": "Thunderstorms may affect the facility", "detail": "A thunderstorm signal appears in the next 6 hours in the local or airport forecast.", "action": "Monitor official warnings and your approved lightning procedure. This system does not measure lightning strike distance."}], "metar": {"raw": "METAR KIAD 121952Z 26005KT 10SM FEW041 BKN120 29/19 A2987 RMK AO2 SLP110 T02940194", "observed": "2026-08-12T20:00:00.000Z", "wind_kt": 5.0, "wind_mph": 5.8, "gust_kt": null, "gust_mph": null, "temperature_f": 84.9, "visibility_sm": 10.0, "flight_category": "VFR"}, "taf": {"raw": "TAF KIAD 121740Z 1218/1324 32007KT P6SM BKN030 OVC100 FM122100 29005KT P6SM SCT040 BKN100 PROB30 1301/1304 4SM -TSRA BKN040CB FM130400 00000KT P6SM SCT040 OVC100 FM131200 30005KT P6SM FEW100 SCT200 FM131900 33006KT P6SM FEW100 SCT250", "issued": "2026-08-12T17:40:00.000Z", "valid_from": 1786557600, "valid_to": 1786665600, "thunder": true, "snow": false, "freezing_precip": false}, "alerts": [], "metrics": {"peak_gust_24h_kt": 14.0, "peak_gust_24h_mph": 16.1, "precip_7d_in": 0.27, "snow_7d_in": 0.0}, "forecast": [{"name": "This Afternoon", "temperature": 86, "temperatureUnit": "F", "shortForecast": "Partly Sunny", "windSpeed": "5 mph", "windDirection": "NW"}, {"name": "Tonight", "temperature": 70, "temperatureUnit": "F", "shortForecast": "Chance Showers And Thunderstorms", "windSpeed": "5 mph", "windDirection": "SW"}, {"name": "Thursday", "temperature": 89, "temperatureUnit": "F", "shortForecast": "Mostly Sunny", "windSpeed": "2 to 7 mph", "windDirection": "NW"}, {"name": "Thursday Night", "temperature": 70, "temperatureUnit": "F", "shortForecast": "Partly Cloudy", "windSpeed": "2 to 6 mph", "windDirection": "NW"}, {"name": "Friday", "temperature": 84, "temperatureUnit": "F", "shortForecast": "Showers And Thunderstorms Likely", "windSpeed": "5 mph", "windDirection": "N"}, {"name": "Friday Night", "temperature": 67, "temperatureUnit": "F", "shortForecast": "Showers And Thunderstorms Likely", "windSpeed": "1 to 5 mph", "windDirection": "N"}, {"name": "Saturday", "temperature": 85, "temperatureUnit": "F", "shortForecast": "Mostly Sunny", "windSpeed": "5 mph", "windDirection": "NE"}, {"name": "Saturday Night", "temperature": 68, "temperatureUnit": "F", "shortForecast": "Mostly Cloudy then Slight Chance Showers And Thunderstorms", "windSpeed": "5 mph", "windDirection": "SE"}], "checked_at": "2026-08-12T20:48:07.293614Z", "next_check_minutes": 15}], "settings": {"normal_check_minutes": 30, "watch_check_minutes": 15, "action_check_minutes": 5, "close_check_minutes": 5, "wind_watch_kt": 30, "wind_action_kt": 35, "wind_close_kt": 40, "snow_watch_in": 4, "snow_action_in": 6, "snow_close_in": 8, "precip_watch_in": 2, "precip_action_in": 4, "thunder_watch_hours": 6}};
-const e=s=>String(s??'').replace(/[&<>"]/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[m]));
+const DATA={"generated_at": "2026-08-12T21:55:52.810929Z", "facilities": [{"id": "den", "name": "Denver International Airport", "icao": "KDEN", "zone": "COZ040", "latitude": 39.8561, "longitude": -104.6737, "forecast_zone_name": "COZ040", "status": "watch", "status_copy": {"label": "WATCH", "summary": "Weather could affect operations if conditions develop as forecast.", "action": "Monitor conditions and prepare staff, equipment, or outdoor operations."}, "reasons": [{"level": "watch", "title": "Thunderstorms may affect the facility", "detail": "A thunderstorm signal appears in the next 6 hours in the local or airport forecast.", "action": "Monitor official warnings and your approved lightning procedure. This system does not measure lightning strike distance."}], "metar": {"raw": "METAR KDEN 122053Z 29020KT 10SM FEW100 BKN140 SCT220 33/07 A2994 RMK AO2 PK WND 30033/2042 VIRGA SLP039 T03280067 56019", "observed": "2026-08-12T21:00:00.000Z", "wind_kt": 20.0, "wind_mph": 23.0, "gust_kt": null, "gust_mph": null, "temperature_f": 91.0, "visibility_sm": 10.0, "flight_category": "VFR"}, "taf": {"raw": "TAF KDEN 122058Z 1221/1324 29012KT P6SM VCSH FEW060 SCT100 BKN150 PROB30 1221/1303 VRB20G35KT -TSRA BKN090CB FM130300 02010KT P6SM SCT080 BKN120 FM130600 VRB06KT P6SM FEW050 SCT090 BKN140 FM131200 35007KT P6SM SCT020 BKN080 TEMPO 1312/1316 BKN020 FM131600 04007KT P6SM FEW090 SCT140 BKN200 FM132000 10008KT P6SM VCSH SCT090 BKN140 BKN200 PROB30 1320/1324 VRB20G30KT 3SM -TSRA BKN080CB", "issued": "2026-08-12T20:58:00.000Z", "valid_from": 1786568400, "valid_to": 1786665600, "thunder": true, "snow": false, "freezing_precip": false}, "alerts": [], "metrics": {"peak_gust_24h_kt": 18.0, "peak_gust_24h_mph": 20.7, "precip_7d_in": 1.85, "snow_7d_in": 0.0}, "forecast": [{"name": "This Afternoon", "temperature": 95, "temperatureUnit": "F", "shortForecast": "Chance Showers And Thunderstorms", "windSpeed": "7 to 12 mph", "windDirection": "NE"}, {"name": "Tonight", "temperature": 61, "temperatureUnit": "F", "shortForecast": "Showers And Thunderstorms Likely then Mostly Cloudy", "windSpeed": "3 to 13 mph", "windDirection": "WNW"}, {"name": "Thursday", "temperature": 83, "temperatureUnit": "F", "shortForecast": "Partly Sunny then Showers And Thunderstorms Likely", "windSpeed": "3 to 10 mph", "windDirection": "E"}, {"name": "Thursday Night", "temperature": 58, "temperatureUnit": "F", "shortForecast": "Showers And Thunderstorms Likely", "windSpeed": "3 to 9 mph", "windDirection": "SSE"}, {"name": "Friday", "temperature": 84, "temperatureUnit": "F", "shortForecast": "Partly Sunny then Showers And Thunderstorms Likely", "windSpeed": "3 to 8 mph", "windDirection": "SE"}, {"name": "Friday Night", "temperature": 56, "temperatureUnit": "F", "shortForecast": "Showers And Thunderstorms", "windSpeed": "3 to 8 mph", "windDirection": "WSW"}, {"name": "Saturday", "temperature": 82, "temperatureUnit": "F", "shortForecast": "Partly Sunny then Showers And Thunderstorms Likely", "windSpeed": "6 mph", "windDirection": "NNE"}, {"name": "Saturday Night", "temperature": 56, "temperatureUnit": "F", "shortForecast": "Showers And Thunderstorms Likely", "windSpeed": "7 mph", "windDirection": "S"}], "checked_at": "2026-08-12T21:55:55.744223Z", "next_check_minutes": 15}, {"id": "iad", "name": "Washington Dulles International Airport", "icao": "KIAD", "zone": "VAZ506", "latitude": 38.9531, "longitude": -77.4565, "forecast_zone_name": "VAZ506", "status": "watch", "status_copy": {"label": "WATCH", "summary": "Weather could affect operations if conditions develop as forecast.", "action": "Monitor conditions and prepare staff, equipment, or outdoor operations."}, "reasons": [{"level": "watch", "title": "Thunderstorms may affect the facility", "detail": "A thunderstorm signal appears in the next 6 hours in the local or airport forecast.", "action": "Monitor official warnings and your approved lightning procedure. This system does not measure lightning strike distance."}], "metar": {"raw": "METAR KIAD 122152Z 20004KT 10SM FEW044 SCT250 28/21 A2985 RMK AO2 SLP105 T02830206", "observed": "2026-08-12T22:00:00.000Z", "wind_kt": 4.0, "wind_mph": 4.6, "gust_kt": null, "gust_mph": null, "temperature_f": 82.9, "visibility_sm": 10.0, "flight_category": "VFR"}, "taf": {"raw": "TAF KIAD 121740Z 1218/1324 32007KT P6SM BKN030 OVC100 FM122100 29005KT P6SM SCT040 BKN100 PROB30 1301/1304 4SM -TSRA BKN040CB FM130400 00000KT P6SM SCT040 OVC100 FM131200 30005KT P6SM FEW100 SCT200 FM131900 33006KT P6SM FEW100 SCT250", "issued": "2026-08-12T17:40:00.000Z", "valid_from": 1786557600, "valid_to": 1786665600, "thunder": true, "snow": false, "freezing_precip": false}, "alerts": [], "metrics": {"peak_gust_24h_kt": 13.0, "peak_gust_24h_mph": 15.0, "precip_7d_in": 0.27, "snow_7d_in": 0.0}, "forecast": [{"name": "This Afternoon", "temperature": 86, "temperatureUnit": "F", "shortForecast": "Partly Sunny", "windSpeed": "5 mph", "windDirection": "W"}, {"name": "Tonight", "temperature": 70, "temperatureUnit": "F", "shortForecast": "Chance Showers And Thunderstorms", "windSpeed": "5 mph", "windDirection": "SW"}, {"name": "Thursday", "temperature": 89, "temperatureUnit": "F", "shortForecast": "Mostly Sunny", "windSpeed": "2 to 7 mph", "windDirection": "NW"}, {"name": "Thursday Night", "temperature": 70, "temperatureUnit": "F", "shortForecast": "Partly Cloudy", "windSpeed": "2 to 6 mph", "windDirection": "NW"}, {"name": "Friday", "temperature": 84, "temperatureUnit": "F", "shortForecast": "Showers And Thunderstorms Likely", "windSpeed": "5 mph", "windDirection": "N"}, {"name": "Friday Night", "temperature": 67, "temperatureUnit": "F", "shortForecast": "Showers And Thunderstorms Likely", "windSpeed": "1 to 5 mph", "windDirection": "N"}, {"name": "Saturday", "temperature": 85, "temperatureUnit": "F", "shortForecast": "Mostly Sunny", "windSpeed": "5 mph", "windDirection": "NE"}, {"name": "Saturday Night", "temperature": 68, "temperatureUnit": "F", "shortForecast": "Mostly Cloudy then Slight Chance Showers And Thunderstorms", "windSpeed": "5 mph", "windDirection": "SE"}], "checked_at": "2026-08-12T21:56:02.392908Z", "next_check_minutes": 15}], "settings": {"normal_check_minutes": 30, "watch_check_minutes": 15, "action_check_minutes": 5, "close_check_minutes": 5, "wind_watch_kt": 30, "wind_action_kt": 35, "wind_close_kt": 40, "snow_watch_in": 4, "snow_action_in": 6, "snow_close_in": 8, "precip_watch_in": 2, "precip_action_in": 4, "thunder_watch_hours": 6}};
+
+const e=s=>String(s??'').replace(
+    /[&<>"]/g,
+    m=>({
+        '&':'&amp;',
+        '<':'&lt;',
+        '>':'&gt;',
+        '"':'&quot;'
+    }[m])
+);
+
 function card(r){
- const m=r.metrics||{},met=r.metar||{},taf=r.taf||{},sc=r.status_copy||{};
- const reasons=(r.reasons||[]).length ? r.reasons.map(x=>`<div class="reason ${e(x.level)}"><b>${e(x.title)}</b><br>${e(x.detail)}<span class="do">What to do: ${e(x.action||'Review the facility operating plan.')}</span></div>`).join('') : '<p class="muted">No configured operational threshold is currently triggered.</p>';
- const alerts=(r.alerts||[]).length ? r.alerts.map(a=>`<div class="alert"><b>${e(a.event)}</b><br>${e(a.headline||'Official NWS weather alert.')}<br><span class="small">${e(a.source||'NWS')}</span></div>`).join('') : '<p class="muted">No active official NWS alerts affecting the exact facility point or configured broader zone.</p>';
- const forecast=(r.forecast||[]).map(p=>`<div><b>${e(p.name)}</b><br>${e(p.temperature)}°${e(p.temperatureUnit)}<br>${e(p.shortForecast)}<br><span class="muted small">${e(p.windSpeed)} ${e(p.windDirection)}</span></div>`).join('');
- const airportCurrent=r.icao?`<h3>Current Airport Conditions</h3><div class="grid"><div class="metric">Temperature<strong>${met.temperature_f==null?'—':e(met.temperature_f)+'°F'}</strong></div><div class="metric">Current wind<strong>${met.wind_mph==null?'—':e(met.wind_mph)+' mph'}</strong><span class="small">${met.wind_kt==null?'':e(met.wind_kt)+' kt'}</span></div><div class="metric">Current gust<strong>${met.gust_mph==null?'—':e(met.gust_mph)+' mph'}</strong><span class="small">${met.gust_kt==null?'':e(met.gust_kt)+' kt'}</span></div><div class="metric">Visibility<strong>${met.visibility_sm==null?'—':e(met.visibility_sm)+' mi'}</strong></div></div>`:'';
- const technical=r.icao?`<details><summary>Technical airport weather details</summary><p class="small">METAR is the coded current airport observation. TAF is the coded airport short-term forecast.</p><b>Raw current airport observation, ${e(r.icao)} METAR</b><code>${e(met.raw||'Unavailable')}</code><br><b>Raw airport short-term forecast, ${e(r.icao)} TAF</b><code>${e(taf.raw||'Unavailable')}</code></details>`:'';
- const meta=[r.icao?`Airport station ${e(r.icao)}`:'',r.zone?`NWS zone ${e(r.zone)}`:'',`${e(r.latitude)}, ${e(r.longitude)}`].filter(Boolean).join(' · ');
- return `<section class="facility"><div class="banner ${e(r.status)}"><div><div class="small">${e(r.name)} · ${meta}</div><div class="level">${e(sc.label||String(r.status).toUpperCase())}</div><div class="status-summary">${e(sc.summary||'')}</div></div><div>Next weather check: ${e(r.next_check_minutes)} min<br><span class="small">Last checked ${e(new Date(r.checked_at).toLocaleString())}</span></div></div><div class="body"><h3>What should the facility manager do?</h3><p><strong>${e(sc.action||'Review current conditions and facility policy.')}</strong></p>${airportCurrent}<h3>Facility Weather Outlook</h3><div class="grid"><div class="metric">Peak gust, next 24h<strong>${m.peak_gust_24h_mph==null?'—':e(Math.round(m.peak_gust_24h_mph))+' mph'}</strong><span class="small">${m.peak_gust_24h_kt==null?'':e(Math.round(m.peak_gust_24h_kt))+' kt'}</span></div><div class="metric">Snow, next 7 days<strong>${e(m.snow_7d_in??0)} in</strong></div><div class="metric">Precipitation, next 7 days<strong>${e(m.precip_7d_in??0)} in</strong></div></div><h3>Why is the facility at this level?</h3>${reasons}<h3>Official Weather Alerts</h3>${alerts}<h3>7 Day Facility Outlook</h3><div class="forecast">${forecast}</div>${technical}</div></section>`;
+
+    const m=r.metrics||{};
+    const met=r.metar||{};
+    const taf=r.taf||{};
+    const sc=r.status_copy||{};
+
+    const reasons=(r.reasons||[]).length
+        ? r.reasons.map(x=>`
+            <div class="reason ${e(x.level)}">
+                <b>${e(x.title)}</b><br>
+                ${e(x.detail)}
+                <span class="do">
+                    What to do:
+                    ${e(
+                        x.action
+                        || 'Review the facility operating plan.'
+                    )}
+                </span>
+            </div>
+        `).join('')
+        : `
+            <p class="muted">
+                No configured operational threshold
+                is currently triggered.
+            </p>
+        `;
+
+    const alerts=(r.alerts||[]).length
+        ? r.alerts.map(a=>`
+            <div class="alert">
+                <b>${e(a.event)}</b><br>
+                ${e(
+                    a.headline
+                    || 'Official NWS weather alert.'
+                )}<br>
+                <span class="small">
+                    ${e(a.source||'NWS')}
+                </span>
+            </div>
+        `).join('')
+        : `
+            <p class="muted">
+                No active official NWS alerts affecting
+                the exact facility point or configured
+                broader zone.
+            </p>
+        `;
+
+    const forecast=(r.forecast||[]).map(p=>`
+        <div>
+            <b>${e(p.name)}</b><br>
+            ${e(p.temperature)}°${e(p.temperatureUnit)}<br>
+            ${e(p.shortForecast)}<br>
+            <span class="muted small">
+                ${e(p.windSpeed)}
+                ${e(p.windDirection)}
+            </span>
+        </div>
+    `).join('');
+
+    const airportCurrent=r.icao
+        ? `
+            <h3>Current Airport Conditions</h3>
+
+            <div class="grid">
+
+                <div class="metric">
+                    Temperature
+                    <strong>
+                        ${
+                            met.temperature_f==null
+                            ? '—'
+                            : e(met.temperature_f)+'°F'
+                        }
+                    </strong>
+                </div>
+
+                <div class="metric">
+                    Current wind
+                    <strong>
+                        ${
+                            met.wind_mph==null
+                            ? '—'
+                            : e(met.wind_mph)+' mph'
+                        }
+                    </strong>
+                    <span class="small">
+                        ${
+                            met.wind_kt==null
+                            ? ''
+                            : e(met.wind_kt)+' kt'
+                        }
+                    </span>
+                </div>
+
+                <div class="metric">
+                    Current gust
+                    <strong>
+                        ${
+                            met.gust_mph==null
+                            ? '—'
+                            : e(met.gust_mph)+' mph'
+                        }
+                    </strong>
+                    <span class="small">
+                        ${
+                            met.gust_kt==null
+                            ? ''
+                            : e(met.gust_kt)+' kt'
+                        }
+                    </span>
+                </div>
+
+                <div class="metric">
+                    Visibility
+                    <strong>
+                        ${
+                            met.visibility_sm==null
+                            ? '—'
+                            : e(met.visibility_sm)+' mi'
+                        }
+                    </strong>
+                </div>
+
+            </div>
+        `
+        : '';
+
+    const technical=r.icao
+        ? `
+            <details>
+                <summary>
+                    Technical airport weather details
+                </summary>
+
+                <p class="small">
+                    METAR is the coded current airport
+                    observation.
+                    TAF is the coded airport
+                    short-term forecast.
+                </p>
+
+                <b>
+                    Raw current airport observation,
+                    ${e(r.icao)} METAR
+                </b>
+
+                <code>
+                    ${e(met.raw||'Unavailable')}
+                </code>
+
+                <br>
+
+                <b>
+                    Raw airport short-term forecast,
+                    ${e(r.icao)} TAF
+                </b>
+
+                <code>
+                    ${e(taf.raw||'Unavailable')}
+                </code>
+
+            </details>
+        `
+        : '';
+
+    const meta=[
+        r.icao
+            ? `Airport station ${e(r.icao)}`
+            : '',
+        r.zone
+            ? `NWS zone ${e(r.zone)}`
+            : '',
+        `${e(r.latitude)}, ${e(r.longitude)}`
+    ]
+    .filter(Boolean)
+    .join(' · ');
+
+    return `
+        <section class="facility">
+
+            <div class="banner ${e(r.status)}">
+
+                <div>
+                    <div class="small">
+                        ${e(r.name)} · ${meta}
+                    </div>
+
+                    <div class="level">
+                        ${
+                            e(
+                                sc.label
+                                || String(r.status).toUpperCase()
+                            )
+                        }
+                    </div>
+
+                    <div class="status-summary">
+                        ${e(sc.summary||'')}
+                    </div>
+                </div>
+
+                <div>
+                    Next weather check:
+                    ${e(r.next_check_minutes)} min
+                    <br>
+
+                    <span class="small">
+                        Last checked
+                        ${
+                            e(
+                                new Date(
+                                    r.checked_at
+                                ).toLocaleString()
+                            )
+                        }
+                    </span>
+                </div>
+
+            </div>
+
+            <div class="body">
+
+                <h3>
+                    What should the facility manager do?
+                </h3>
+
+                <p>
+                    <strong>
+                        ${
+                            e(
+                                sc.action
+                                || 'Review current conditions and facility policy.'
+                            )
+                        }
+                    </strong>
+                </p>
+
+                ${airportCurrent}
+
+                <h3>Facility Weather Outlook</h3>
+
+                <div class="grid">
+
+                    <div class="metric">
+                        Peak gust, next 24h
+                        <strong>
+                            ${
+                                m.peak_gust_24h_mph==null
+                                ? '—'
+                                : e(
+                                    Math.round(
+                                        m.peak_gust_24h_mph
+                                    )
+                                )+' mph'
+                            }
+                        </strong>
+
+                        <span class="small">
+                            ${
+                                m.peak_gust_24h_kt==null
+                                ? ''
+                                : e(
+                                    Math.round(
+                                        m.peak_gust_24h_kt
+                                    )
+                                )+' kt'
+                            }
+                        </span>
+                    </div>
+
+                    <div class="metric">
+                        Snow, next 7 days
+                        <strong>
+                            ${e(m.snow_7d_in??0)} in
+                        </strong>
+                    </div>
+
+                    <div class="metric">
+                        Precipitation, next 7 days
+                        <strong>
+                            ${e(m.precip_7d_in??0)} in
+                        </strong>
+                    </div>
+
+                </div>
+
+                <h3>
+                    Why is the facility at this level?
+                </h3>
+
+                ${reasons}
+
+                <h3>Official Weather Alerts</h3>
+
+                ${alerts}
+
+                <h3>7 Day Facility Outlook</h3>
+
+                <div class="forecast">
+                    ${forecast}
+                </div>
+
+                ${technical}
+
+            </div>
+
+        </section>
+    `;
 }
-document.getElementById('app').innerHTML=(DATA.facilities||[]).map(card).join('');
+
+document.getElementById('app').innerHTML=
+    (DATA.facilities||[])
+    .map(card)
+    .join('');
 </script>
+
 </body>
 </html>
