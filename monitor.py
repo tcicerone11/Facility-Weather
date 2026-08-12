@@ -372,4 +372,4 @@ def main(force=False):
 
 
 if __name__ == "__main__":
-    sys.exit(main(force="--force" in sys.ar
+    sys.exit(main(force="--force" in sys.argv))
