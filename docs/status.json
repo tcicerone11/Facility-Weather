@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-13T16:35:19.697647Z",
+  "generated_at": "2026-08-13T17:37:31.334329Z",
   "facilities": [
     {
       "id": "den",
@@ -24,13 +24,13 @@
         }
       ],
       "metar": {
-        "raw": "METAR KDEN 131553Z 04008KT 10SM FEW030 BKN110 BKN200 24/13 A3008 RMK AO2 SLP102 T02390133",
-        "observed": "2026-08-13T16:00:00.000Z",
+        "raw": "METAR KDEN 131653Z 34008KT 10SM FEW030 BKN110 BKN200 24/13 A3008 RMK AO2 SLP103 T02440133",
+        "observed": "2026-08-13T17:00:00.000Z",
         "wind_kt": 8.0,
         "wind_mph": 9.2,
         "gust_kt": null,
         "gust_mph": null,
-        "temperature_f": 75.0,
+        "temperature_f": 75.9,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
@@ -116,7 +116,7 @@
           "windDirection": "S"
         }
       ],
-      "checked_at": "2026-08-13T16:35:23.045008Z",
+      "checked_at": "2026-08-13T17:37:33.901666Z",
       "next_check_minutes": 15
     },
     {
@@ -135,13 +135,13 @@
       },
       "reasons": [],
       "metar": {
-        "raw": "METAR KIAD 131552Z 33007KT 10SM FEW030 FEW250 29/19 A2995 RMK AO2 SLP138 T02890189",
-        "observed": "2026-08-13T16:00:00.000Z",
-        "wind_kt": 7.0,
-        "wind_mph": 8.1,
+        "raw": "METAR KIAD 131652Z 00000KT 10SM FEW030 FEW250 29/19 A2994 RMK AO2 SLP135 T02940194",
+        "observed": "2026-08-13T17:00:00.000Z",
+        "wind_kt": 0.0,
+        "wind_mph": 0.0,
         "gust_kt": null,
         "gust_mph": null,
-        "temperature_f": 84.0,
+        "temperature_f": 84.9,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
@@ -163,7 +163,7 @@
       },
       "forecast": [
         {
-          "name": "Today",
+          "name": "This Afternoon",
           "temperature": 90,
           "temperatureUnit": "F",
           "shortForecast": "Mostly Sunny",
@@ -227,7 +227,7 @@
           "windDirection": "SW"
         }
       ],
-      "checked_at": "2026-08-13T16:35:24.881969Z",
+      "checked_at": "2026-08-13T17:37:35.087124Z",
       "next_check_minutes": 30
     }
   ],
