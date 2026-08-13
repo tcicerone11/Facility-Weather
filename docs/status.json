@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-13T12:00:38.648620Z",
+  "generated_at": "2026-08-13T13:37:53.733173Z",
   "facilities": [
     {
       "id": "den",
@@ -24,10 +24,10 @@
         }
       ],
       "metar": {
-        "raw": "METAR KDEN 131153Z 00000KT 10SM FEW120 SCT150 BKN220 19/14 A3002 RMK AO2 SLP077 T01890144 10211 20183 53007",
-        "observed": "2026-08-13T12:00:00.000Z",
-        "wind_kt": 0.0,
-        "wind_mph": 0.0,
+        "raw": "METAR KDEN 131253Z 31007KT 10SM SCT110 BKN150 BKN220 19/14 A3004 RMK AO2 SLP089 T01890144",
+        "observed": "2026-08-13T13:00:00.000Z",
+        "wind_kt": 7.0,
+        "wind_mph": 8.1,
         "gust_kt": null,
         "gust_mph": null,
         "temperature_f": 66.0,
@@ -52,15 +52,7 @@
       },
       "forecast": [
         {
-          "name": "Overnight",
-          "temperature": 62,
-          "temperatureUnit": "F",
-          "shortForecast": "Chance Rain Showers",
-          "windSpeed": "6 mph",
-          "windDirection": "W"
-        },
-        {
-          "name": "Thursday",
+          "name": "Today",
           "temperature": 82,
           "temperatureUnit": "F",
           "shortForecast": "Partly Sunny then Showers And Thunderstorms Likely",
@@ -68,7 +60,7 @@
           "windDirection": "NE"
         },
         {
-          "name": "Thursday Night",
+          "name": "Tonight",
           "temperature": 60,
           "temperatureUnit": "F",
           "shortForecast": "Showers And Thunderstorms Likely",
@@ -114,9 +106,17 @@
           "shortForecast": "Partly Sunny then Chance Showers And Thunderstorms",
           "windSpeed": "8 mph",
           "windDirection": "SSE"
+        },
+        {
+          "name": "Sunday Night",
+          "temperature": 56,
+          "temperatureUnit": "F",
+          "shortForecast": "Chance Showers And Thunderstorms",
+          "windSpeed": "5 to 8 mph",
+          "windDirection": "S"
         }
       ],
-      "checked_at": "2026-08-13T12:00:40.153003Z",
+      "checked_at": "2026-08-13T13:37:55.843803Z",
       "next_check_minutes": 15
     },
     {
@@ -135,30 +135,30 @@
       },
       "reasons": [],
       "metar": {
-        "raw": "METAR KIAD 131052Z 00000KT 10SM FEW120 21/18 A2990 RMK AO2 SLP121 T02110183 $",
-        "observed": "2026-08-13T11:00:00.000Z",
-        "wind_kt": 0.0,
-        "wind_mph": 0.0,
+        "raw": "METAR KIAD 131252Z 34008KT 10SM FEW250 26/18 A2993 RMK AO2 SLP132 T02610183",
+        "observed": "2026-08-13T13:00:00.000Z",
+        "wind_kt": 8.0,
+        "wind_mph": 9.2,
         "gust_kt": null,
         "gust_mph": null,
-        "temperature_f": 70.0,
+        "temperature_f": 79.0,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
       "taf": {
-        "raw": "TAF KIAD 130850Z 1309/1412 32009KT P6SM BKN070 BKN110 FM131400 31007KT P6SM FEW120 SCT250 FM132100 30008KT P6SM SCT070 BKN250 FM140300 35002KT P6SM BKN060 BKN250 FM140800 01002KT P6SM BKN080 OVC160",
-        "issued": "2026-08-13T08:50:00.000Z",
-        "valid_from": 1786611600,
-        "valid_to": 1786708800,
+        "raw": "TAF KIAD 131136Z 1312/1418 00000KT P6SM FEW120 FM131400 31007KT P6SM FEW120 SCT250 FM132100 30008G16KT P6SM SCT070 BKN250 FM140300 35004KT P6SM SCT060 BKN250 FM140800 01003KT P6SM BKN090 BKN160 FM141500 02005KT P6SM BKN060 OVC120",
+        "issued": "2026-08-13T11:36:00.000Z",
+        "valid_from": 1786622400,
+        "valid_to": 1786730400,
         "thunder": false,
         "snow": false,
         "freezing_precip": false
       },
       "alerts": [],
       "metrics": {
-        "peak_gust_24h_kt": 13.0,
-        "peak_gust_24h_mph": 15.0,
-        "precip_7d_in": 0.19,
+        "peak_gust_24h_kt": 15.0,
+        "peak_gust_24h_mph": 17.3,
+        "precip_7d_in": 0.14,
         "snow_7d_in": 0.0
       },
       "forecast": [
@@ -167,7 +167,7 @@
           "temperature": 90,
           "temperatureUnit": "F",
           "shortForecast": "Mostly Sunny",
-          "windSpeed": "3 to 8 mph",
+          "windSpeed": "8 mph",
           "windDirection": "NW"
         },
         {
@@ -182,7 +182,7 @@
           "name": "Friday",
           "temperature": 84,
           "temperatureUnit": "F",
-          "shortForecast": "Chance Showers And Thunderstorms",
+          "shortForecast": "Chance Rain Showers",
           "windSpeed": "3 mph",
           "windDirection": "N"
         },
@@ -227,9 +227,8 @@
           "windDirection": "SW"
         }
       ],
-      "checked_at": "2026-08-13T11:12:04.777841Z",
-      "next_check_minutes": 30,
-      "data_error": "502 Server Error: Bad Gateway for url: https://aviationweather.gov/api/data/taf?ids=KIAD&format=json"
+      "checked_at": "2026-08-13T13:37:57.833747Z",
+      "next_check_minutes": 30
     }
   ],
   "settings": {
