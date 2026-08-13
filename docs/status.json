@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-13T11:12:00.515941Z",
+  "generated_at": "2026-08-13T12:00:38.648620Z",
   "facilities": [
     {
       "id": "den",
@@ -24,8 +24,8 @@
         }
       ],
       "metar": {
-        "raw": "METAR KDEN 131053Z 00000KT 10SM SCT120 BKN220 19/14 A3001 RMK AO2 SLP068 T01890144",
-        "observed": "2026-08-13T11:00:00.000Z",
+        "raw": "METAR KDEN 131153Z 00000KT 10SM FEW120 SCT150 BKN220 19/14 A3002 RMK AO2 SLP077 T01890144 10211 20183 53007",
+        "observed": "2026-08-13T12:00:00.000Z",
         "wind_kt": 0.0,
         "wind_mph": 0.0,
         "gust_kt": null,
@@ -35,10 +35,10 @@
         "flight_category": "VFR"
       },
       "taf": {
-        "raw": "TAF KDEN 130856Z 1309/1412 VRB06KT P6SM FEW050 FEW110 FM131000 34007KT P6SM SCT020 BKN080 FM131600 05007KT P6SM FEW090 SCT140 BKN200 FM132000 10008KT P6SM VCSH SCT080 BKN140 BKN200 PROB30 1321/1403 VRB20G30KT 4SM -TSRA BKN070CB FM140300 17009KT P6SM FEW020 BKN040 BKN140 FM140700 VRB06KT P6SM FEW005 OVC040",
-        "issued": "2026-08-13T08:56:00.000Z",
-        "valid_from": 1786611600,
-        "valid_to": 1786708800,
+        "raw": "TAF KDEN 131130Z 1312/1418 VRB06KT P6SM FEW050 FEW110 FM131300 34007KT P6SM FEW020 SCT080 FM131600 05007KT P6SM FEW090 SCT140 BKN200 FM132000 08008KT P6SM VCSH SCT080 BKN140 BKN200 TEMPO 1321/1401 VRB20G30KT 4SM -TSRA BKN070CB FM140100 10009KT P6SM SCT080 BKN140 PROB30 1401/1404 VRB20G30KT -TSRA BKN070CB FM140400 15009KT P6SM FEW010 BKN040 BKN140 FM140700 21007KT P6SM FEW005 BKN040 FM141300 20007KT P6SM FEW050 SCT100",
+        "issued": "2026-08-13T11:30:00.000Z",
+        "valid_from": 1786622400,
+        "valid_to": 1786730400,
         "thunder": true,
         "snow": false,
         "freezing_precip": false
@@ -116,7 +116,7 @@
           "windDirection": "SSE"
         }
       ],
-      "checked_at": "2026-08-13T11:12:02.281525Z",
+      "checked_at": "2026-08-13T12:00:40.153003Z",
       "next_check_minutes": 15
     },
     {
@@ -228,7 +228,8 @@
         }
       ],
       "checked_at": "2026-08-13T11:12:04.777841Z",
-      "next_check_minutes": 30
+      "next_check_minutes": 30,
+      "data_error": "502 Server Error: Bad Gateway for url: https://aviationweather.gov/api/data/taf?ids=KIAD&format=json"
     }
   ],
   "settings": {
