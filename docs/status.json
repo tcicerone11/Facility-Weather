@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-13T13:37:53.733173Z",
+  "generated_at": "2026-08-13T15:40:16.517302Z",
   "facilities": [
     {
       "id": "den",
@@ -24,20 +24,20 @@
         }
       ],
       "metar": {
-        "raw": "METAR KDEN 131253Z 31007KT 10SM SCT110 BKN150 BKN220 19/14 A3004 RMK AO2 SLP089 T01890144",
-        "observed": "2026-08-13T13:00:00.000Z",
-        "wind_kt": 7.0,
-        "wind_mph": 8.1,
+        "raw": "METAR KDEN 131453Z 36005KT 10SM SCT110 BKN150 BKN220 21/13 A3008 RMK AO2 SLP105 T02110133 51015",
+        "observed": "2026-08-13T15:00:00.000Z",
+        "wind_kt": 5.0,
+        "wind_mph": 5.8,
         "gust_kt": null,
         "gust_mph": null,
-        "temperature_f": 66.0,
+        "temperature_f": 70.0,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
       "taf": {
-        "raw": "TAF KDEN 131130Z 1312/1418 VRB06KT P6SM FEW050 FEW110 FM131300 34007KT P6SM FEW020 SCT080 FM131600 05007KT P6SM FEW090 SCT140 BKN200 FM132000 08008KT P6SM VCSH SCT080 BKN140 BKN200 TEMPO 1321/1401 VRB20G30KT 4SM -TSRA BKN070CB FM140100 10009KT P6SM SCT080 BKN140 PROB30 1401/1404 VRB20G30KT -TSRA BKN070CB FM140400 15009KT P6SM FEW010 BKN040 BKN140 FM140700 21007KT P6SM FEW005 BKN040 FM141300 20007KT P6SM FEW050 SCT100",
-        "issued": "2026-08-13T11:30:00.000Z",
-        "valid_from": 1786622400,
+        "raw": "TAF KDEN 131500Z 1315/1418 02007KT P6SM VCSH FEW030 BKN110 FM131600 05007KT P6SM VCSH SCT050 BKN110 FM131900 08008KT P6SM VCSH SCT060 BKN110 TEMPO 1320/1324 VRB20G30KT 4SM TSRA BKN050CB FM140000 10009KT P6SM SCT080 BKN140 PROB30 1400/1404 VRB20G30KT -TSRA BKN070CB FM140400 15009KT P6SM FEW010 BKN040 BKN140 FM140700 21007KT P6SM FEW005 BKN040 FM141300 20007KT P6SM FEW050 SCT100",
+        "issued": "2026-08-13T15:00:00.000Z",
+        "valid_from": 1786633200,
         "valid_to": 1786730400,
         "thunder": true,
         "snow": false,
@@ -57,7 +57,7 @@
           "temperatureUnit": "F",
           "shortForecast": "Partly Sunny then Showers And Thunderstorms Likely",
           "windSpeed": "6 to 10 mph",
-          "windDirection": "NE"
+          "windDirection": "ENE"
         },
         {
           "name": "Tonight",
@@ -116,7 +116,7 @@
           "windDirection": "S"
         }
       ],
-      "checked_at": "2026-08-13T13:37:55.843803Z",
+      "checked_at": "2026-08-13T15:40:35.885354Z",
       "next_check_minutes": 15
     },
     {
@@ -135,20 +135,20 @@
       },
       "reasons": [],
       "metar": {
-        "raw": "METAR KIAD 131252Z 34008KT 10SM FEW250 26/18 A2993 RMK AO2 SLP132 T02610183",
-        "observed": "2026-08-13T13:00:00.000Z",
-        "wind_kt": 8.0,
-        "wind_mph": 9.2,
+        "raw": "METAR KIAD 131452Z 33010KT 7SM FEW030 FEW250 28/18 A2995 RMK AO2 SLP137 T02830183 51010",
+        "observed": "2026-08-13T15:00:00.000Z",
+        "wind_kt": 10.0,
+        "wind_mph": 11.5,
         "gust_kt": null,
         "gust_mph": null,
-        "temperature_f": 79.0,
-        "visibility_sm": 10.0,
+        "temperature_f": 82.9,
+        "visibility_sm": 7.0,
         "flight_category": "VFR"
       },
       "taf": {
-        "raw": "TAF KIAD 131136Z 1312/1418 00000KT P6SM FEW120 FM131400 31007KT P6SM FEW120 SCT250 FM132100 30008G16KT P6SM SCT070 BKN250 FM140300 35004KT P6SM SCT060 BKN250 FM140800 01003KT P6SM BKN090 BKN160 FM141500 02005KT P6SM BKN060 OVC120",
-        "issued": "2026-08-13T11:36:00.000Z",
-        "valid_from": 1786622400,
+        "raw": "TAF KIAD 131458Z 1315/1418 32009KT P6SM FEW030 FEW250 FM132100 30008G16KT P6SM SCT070 BKN250 FM140300 35004KT P6SM SCT060 BKN250 FM140800 01003KT P6SM BKN090 BKN160 FM141500 02005KT P6SM BKN060 OVC120",
+        "issued": "2026-08-13T14:58:00.000Z",
+        "valid_from": 1786633200,
         "valid_to": 1786730400,
         "thunder": false,
         "snow": false,
@@ -227,7 +227,7 @@
           "windDirection": "SW"
         }
       ],
-      "checked_at": "2026-08-13T13:37:57.833747Z",
+      "checked_at": "2026-08-13T15:40:44.491866Z",
       "next_check_minutes": 30
     }
   ],
