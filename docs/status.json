@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T15:27:04.671332Z",
+  "generated_at": "2026-08-14T16:25:15.203776Z",
   "facilities": [
     {
       "id": "den",
@@ -24,14 +24,14 @@
         }
       ],
       "metar": {
-        "raw": "METAR KDEN 141453Z VRB03KT 7SM FEW010 FEW018 SCT220 20/16 A3013 RMK AO2 SLP135 T02000161 50001",
-        "observed": "2026-08-14T15:00:00.000Z",
+        "raw": "METAR KDEN 141553Z VRB03KT 8SM FEW020 FEW120 FEW220 23/16 A3014 RMK AO2 SLP132 T02280161",
+        "observed": "2026-08-14T16:00:00.000Z",
         "wind_kt": 3.0,
         "wind_mph": 3.5,
         "gust_kt": null,
         "gust_mph": null,
-        "temperature_f": 68.0,
-        "visibility_sm": 7.0,
+        "temperature_f": 73.0,
+        "visibility_sm": 8.0,
         "flight_category": "VFR"
       },
       "taf": {
@@ -57,7 +57,7 @@
           "temperatureUnit": "F",
           "shortForecast": "Partly Sunny then Slight Chance Showers And Thunderstorms",
           "windSpeed": "3 to 9 mph",
-          "windDirection": "SE"
+          "windDirection": "SSE"
         },
         {
           "name": "Tonight",
@@ -116,7 +116,7 @@
           "windDirection": "S"
         }
       ],
-      "checked_at": "2026-08-14T15:27:05.567189Z",
+      "checked_at": "2026-08-14T16:25:16.200897Z",
       "next_check_minutes": 15
     },
     {
@@ -142,20 +142,20 @@
         }
       ],
       "metar": {
-        "raw": "METAR KIAD 141452Z 00000KT 10SM -RA OVC095 26/22 A3006 RMK AO2 RAB21 SLP177 P0000 60000 T02560217 53003",
-        "observed": "2026-08-14T15:00:00.000Z",
-        "wind_kt": 0.0,
-        "wind_mph": 0.0,
+        "raw": "METAR KIAD 141552Z 32006KT 10SM OVC085 26/21 A3008 RMK AO2 RAE1457B14E29 SLP183 P0000 T02610206",
+        "observed": "2026-08-14T16:00:00.000Z",
+        "wind_kt": 6.0,
+        "wind_mph": 6.9,
         "gust_kt": null,
         "gust_mph": null,
-        "temperature_f": 78.1,
+        "temperature_f": 79.0,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
       "taf": {
-        "raw": "TAF KIAD 141459Z 1415/1518 00000KT P6SM VCSH OVC100 FM141600 VRB03KT 6SM -SHRA BKN050 FM142200 VRB03KT P6SM BKN050 FM150900 03005KT P6SM BKN250 FM151600 08003KT P6SM SCT150",
-        "issued": "2026-08-14T14:59:00.000Z",
-        "valid_from": 1786719600,
+        "raw": "TAF KIAD 141601Z 1416/1518 VRB03KT 6SM -SHRA BKN050 TEMPO 1416/1418 4SM -SHRA BKN025 OVC050 FM142200 VRB03KT P6SM BKN050 FM150900 03005KT P6SM BKN250 FM151600 08003KT P6SM SCT150",
+        "issued": "2026-08-14T16:01:00.000Z",
+        "valid_from": 1786723200,
         "valid_to": 1786816800,
         "thunder": false,
         "snow": false,
@@ -170,10 +170,10 @@
       },
       "forecast": [
         {
-          "name": "Today",
+          "name": "This Afternoon",
           "temperature": 84,
           "temperatureUnit": "F",
-          "shortForecast": "Slight Chance Rain Showers then Chance Showers And Thunderstorms",
+          "shortForecast": "Chance Showers And Thunderstorms",
           "windSpeed": "3 mph",
           "windDirection": "N"
         },
@@ -234,7 +234,7 @@
           "windDirection": "NW"
         }
       ],
-      "checked_at": "2026-08-14T15:27:07.457880Z",
+      "checked_at": "2026-08-14T16:25:17.659979Z",
       "next_check_minutes": 15
     }
   ],
