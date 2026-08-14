@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T21:03:28.502979Z",
+  "generated_at": "2026-08-14T21:35:52.652921Z",
   "facilities": [
     {
       "id": "den",
@@ -18,19 +18,25 @@
       "reasons": [
         {
           "level": "watch",
+          "title": "Wind may affect operations",
+          "detail": "Observed or forecast gusts may reach about 39 mph (34 kt).",
+          "action": "Monitor wind conditions and prepare for outdoor restrictions if winds increase."
+        },
+        {
+          "level": "watch",
           "title": "Thunderstorms may affect the facility",
           "detail": "A thunderstorm signal appears in the next 6 hours in the local or airport forecast.",
           "action": "Monitor official warnings and your approved lightning procedure. This system does not measure lightning strike distance."
         }
       ],
       "metar": {
-        "raw": "METAR KDEN 142053Z 10021KT 10SM BKN075 BKN150 BKN220 28/13 A3008 RMK AO2 WSHFT 2005 OCNL LTGICCG DSNT E-S AND W CB DSNT E-S AND W MOV E SLP107 T02780133 58017",
-        "observed": "2026-08-14T21:00:00.000Z",
-        "wind_kt": 21.0,
-        "wind_mph": 24.2,
-        "gust_kt": null,
-        "gust_mph": null,
-        "temperature_f": 82.0,
+        "raw": "SPECI KDEN 142125Z 13022G34KT 10SM TS BKN070CB BKN150 BKN220 23/12 A3007 RMK AO2 PK WND 12034/2122 OCNL LTGICCG VC N TSB22 TS VC N MOV NE T02330122",
+        "observed": "2026-08-14T21:25:00.000Z",
+        "wind_kt": 22.0,
+        "wind_mph": 25.3,
+        "gust_kt": 34.0,
+        "gust_mph": 39.1,
+        "temperature_f": 73.9,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
@@ -46,16 +52,16 @@
       "alerts": [
         {
           "event": "Special Weather Statement",
-          "headline": "Special Weather Statement issued August 14 at 2:59PM MDT by NWS Denver CO",
+          "headline": "Special Weather Statement issued August 14 at 3:30PM MDT by NWS Denver CO",
           "severity": "Moderate",
           "urgency": "Expected",
-          "expires": "2026-08-14T15:30:00-06:00",
-          "source": "Broader NWS zone COZ040"
+          "expires": "2026-08-14T16:00:00-06:00",
+          "source": "Exact facility location"
         }
       ],
       "metrics": {
-        "peak_gust_24h_kt": 14.0,
-        "peak_gust_24h_mph": 16.1,
+        "peak_gust_24h_kt": 34.0,
+        "peak_gust_24h_mph": 39.1,
         "precip_7d_in": 0.88,
         "snow_7d_in": 0.0
       },
@@ -125,7 +131,7 @@
           "windDirection": "S"
         }
       ],
-      "checked_at": "2026-08-14T21:03:30.321225Z",
+      "checked_at": "2026-08-14T21:35:58.392250Z",
       "next_check_minutes": 15
     },
     {
@@ -162,9 +168,9 @@
         "flight_category": "VFR"
       },
       "taf": {
-        "raw": "TAF KIAD 141744Z 1418/1524 35009KT P6SM VCSH SCT030 OVC090 FM141900 34008KT 6SM -SHRA SCT030 BKN070 FM142200 VRB03KT P6SM SCT030 BKN070 FM150900 03005KT P6SM FEW030 SCT150 FM151600 08003KT P6SM FEW050 FEW150",
-        "issued": "2026-08-14T17:44:00.000Z",
-        "valid_from": 1786730400,
+        "raw": "TAF KIAD 142103Z 1421/1524 VRB03KT P6SM SCT030 BKN070 FM150900 03005KT P6SM FEW030 SCT150 FM151600 08003KT P6SM FEW050 FEW150",
+        "issued": "2026-08-14T21:03:00.000Z",
+        "valid_from": 1786741200,
         "valid_to": 1786838400,
         "thunder": false,
         "snow": false,
@@ -243,7 +249,7 @@
           "windDirection": "NW"
         }
       ],
-      "checked_at": "2026-08-14T21:03:33.462717Z",
+      "checked_at": "2026-08-14T21:35:59.399999Z",
       "next_check_minutes": 15
     }
   ],
