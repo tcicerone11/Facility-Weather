@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T13:34:59.238646Z",
+  "generated_at": "2026-08-14T14:35:19.313718Z",
   "facilities": [
     {
       "id": "den",
@@ -24,15 +24,15 @@
         }
       ],
       "metar": {
-        "raw": "SPECI KDEN 141310Z 2205KT 5SMSM BR BKN018 BKN040 BKN220 18/17 A3014 RMK AO2 T01780167",
-        "observed": "2026-08-14T13:10:00.000Z",
-        "wind_kt": null,
-        "wind_mph": null,
+        "raw": "SPECI KDEN 141417Z 22004KT 6SM BR FEW009 SCT018 SCT220 19/17 A3014 RMK AO2 T01940167",
+        "observed": "2026-08-14T14:17:00.000Z",
+        "wind_kt": 4.0,
+        "wind_mph": 4.6,
         "gust_kt": null,
         "gust_mph": null,
-        "temperature_f": 64.0,
-        "visibility_sm": null,
-        "flight_category": null
+        "temperature_f": 66.9,
+        "visibility_sm": 6.0,
+        "flight_category": "VFR"
       },
       "taf": {
         "raw": "TAF KDEN 141223Z 1412/1518 21006KT 4SM BR FEW008 SCT016 TEMPO 1412/1414 6SM BR BKN018 FM141430 25008KT P6SM SCT020 SCT120 FM141700 VRB06KT P6SM SCT050 SCT100 FM142000 12009KT P6SM VCSH SCT050 BKN110 TEMPO 1421/1501 VRB20G30KT 5SM -TSRA BKN050CB FM150100 09007KT P6SM VCSH SCT050 BKN080 PROB30 1501/1505 VRB20G30KT 5SM -TSRA FEW010 BKN050CB FM150600 VRB06KT P6SM SCT050 BKN120 FM151000 21007KT P6SM FEW060 BKN120",
@@ -57,7 +57,7 @@
           "temperatureUnit": "F",
           "shortForecast": "Partly Sunny then Slight Chance Showers And Thunderstorms",
           "windSpeed": "3 to 9 mph",
-          "windDirection": "SE"
+          "windDirection": "SSE"
         },
         {
           "name": "Tonight",
@@ -116,7 +116,7 @@
           "windDirection": "S"
         }
       ],
-      "checked_at": "2026-08-14T13:35:00.829733Z",
+      "checked_at": "2026-08-14T14:35:20.102032Z",
       "next_check_minutes": 15
     },
     {
@@ -235,7 +235,8 @@
         }
       ],
       "checked_at": "2026-08-14T13:35:04.053849Z",
-      "next_check_minutes": 15
+      "next_check_minutes": 15,
+      "data_error": "502 Server Error: Bad Gateway for url: https://aviationweather.gov/api/data/taf?ids=KIAD&format=json"
     }
   ],
   "settings": {
