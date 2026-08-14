@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T22:47:14.552616Z",
+  "generated_at": "2026-08-14T23:06:08.591161Z",
   "facilities": [
     {
       "id": "den",
@@ -24,13 +24,13 @@
         }
       ],
       "metar": {
-        "raw": "SPECI KDEN 142237Z 33014G19KT 10SM TS FEW025 BKN060CB OVC140 20/14 A3015 RMK AO2 PK WND 30026/2219 WSHFT 2217 FRQ LTGICCCCG VC W-N TS VC W-N MOV NE T02000144",
-        "observed": "2026-08-14T22:37:00.000Z",
-        "wind_kt": 14.0,
-        "wind_mph": 16.1,
-        "gust_kt": 19.0,
-        "gust_mph": 21.9,
-        "temperature_f": 68.0,
+        "raw": "METAR KDEN 142253Z 33011KT 10SM -TSRA FEW035 BKN065CB BKN140 19/14 A3015 RMK AO2 PK WND 30026/2219 WSHFT 2217 OCNL LTGICCCCG VC SW-N RAB44 TS VC SW-N MOV NE SLP148 P0000 T01890139",
+        "observed": "2026-08-14T23:00:00.000Z",
+        "wind_kt": 11.0,
+        "wind_mph": 12.7,
+        "gust_kt": null,
+        "gust_mph": null,
+        "temperature_f": 66.0,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
@@ -45,8 +45,8 @@
       },
       "alerts": [],
       "metrics": {
-        "peak_gust_24h_kt": 19.0,
-        "peak_gust_24h_mph": 21.9,
+        "peak_gust_24h_kt": 14.0,
+        "peak_gust_24h_mph": 16.1,
         "precip_7d_in": 0.88,
         "snow_7d_in": 0.0
       },
@@ -116,7 +116,7 @@
           "windDirection": "S"
         }
       ],
-      "checked_at": "2026-08-14T22:47:15.795118Z",
+      "checked_at": "2026-08-14T23:06:13.353606Z",
       "next_check_minutes": 15
     },
     {
@@ -235,7 +235,8 @@
         }
       ],
       "checked_at": "2026-08-14T22:47:17.028300Z",
-      "next_check_minutes": 15
+      "next_check_minutes": 15,
+      "data_error": "503 Server Error: Service Unavailable for url: https://api.weather.gov/gridpoints/LWX/82,72/forecast"
     }
   ],
   "settings": {
