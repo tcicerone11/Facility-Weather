@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T23:33:35.761529Z",
+  "generated_at": "2026-08-14T23:55:28.740141Z",
   "facilities": [
     {
       "id": "den",
@@ -55,8 +55,8 @@
           "name": "This Afternoon",
           "temperature": 84,
           "temperatureUnit": "F",
-          "shortForecast": "Chance Showers And Thunderstorms",
-          "windSpeed": "7 to 10 mph",
+          "shortForecast": "Slight Chance Showers And Thunderstorms",
+          "windSpeed": "6 to 10 mph",
           "windDirection": "ESE"
         },
         {
@@ -116,7 +116,7 @@
           "windDirection": "S"
         }
       ],
-      "checked_at": "2026-08-14T23:33:37.097942Z",
+      "checked_at": "2026-08-14T23:55:31.624319Z",
       "next_check_minutes": 15
     },
     {
@@ -142,8 +142,8 @@
         }
       ],
       "metar": {
-        "raw": "METAR KIAD 142252Z 03006KT 10SM FEW040 SCT090 BKN120 BKN250 27/21 A3004 RMK AO2 SLP167 T02670211",
-        "observed": "2026-08-14T23:00:00.000Z",
+        "raw": "METAR KIAD 142352Z 36006KT 10SM SCT043 BKN090 OVC120 27/22 A3005 RMK AO2 SLP171 60000 T02670217 10283 20256 53005 $",
+        "observed": "2026-08-15T00:00:00.000Z",
         "wind_kt": 6.0,
         "wind_mph": 6.9,
         "gust_kt": null,
@@ -234,7 +234,7 @@
           "windDirection": "NW"
         }
       ],
-      "checked_at": "2026-08-14T23:33:41.522875Z",
+      "checked_at": "2026-08-14T23:55:32.995908Z",
       "next_check_minutes": 15
     }
   ],
