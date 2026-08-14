@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T22:23:15.193324Z",
+  "generated_at": "2026-08-14T22:47:14.552616Z",
   "facilities": [
     {
       "id": "den",
@@ -24,13 +24,13 @@
         }
       ],
       "metar": {
-        "raw": "METAR KDEN 142153Z 11015G23KT 10SM TS FEW035 BKN070CB BKN150 BKN220 22/13 A3007 RMK AO2 PK WND 12034/2122 FRQ LTGICCCCG VC W-N TSB22 TS VC W-N MOV NE SLP112 T02170133",
-        "observed": "2026-08-14T22:00:00.000Z",
-        "wind_kt": 15.0,
-        "wind_mph": 17.3,
-        "gust_kt": 23.0,
-        "gust_mph": 26.5,
-        "temperature_f": 71.1,
+        "raw": "SPECI KDEN 142237Z 33014G19KT 10SM TS FEW025 BKN060CB OVC140 20/14 A3015 RMK AO2 PK WND 30026/2219 WSHFT 2217 FRQ LTGICCCCG VC W-N TS VC W-N MOV NE T02000144",
+        "observed": "2026-08-14T22:37:00.000Z",
+        "wind_kt": 14.0,
+        "wind_mph": 16.1,
+        "gust_kt": 19.0,
+        "gust_mph": 21.9,
+        "temperature_f": 68.0,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
@@ -45,8 +45,8 @@
       },
       "alerts": [],
       "metrics": {
-        "peak_gust_24h_kt": 23.0,
-        "peak_gust_24h_mph": 26.5,
+        "peak_gust_24h_kt": 19.0,
+        "peak_gust_24h_mph": 21.9,
         "precip_7d_in": 0.88,
         "snow_7d_in": 0.0
       },
@@ -116,7 +116,7 @@
           "windDirection": "S"
         }
       ],
-      "checked_at": "2026-08-14T22:23:16.711099Z",
+      "checked_at": "2026-08-14T22:47:15.795118Z",
       "next_check_minutes": 15
     },
     {
@@ -169,6 +169,14 @@
         "snow_7d_in": 0.0
       },
       "forecast": [
+        {
+          "name": "This Afternoon",
+          "temperature": 84,
+          "temperatureUnit": "F",
+          "shortForecast": "Isolated Showers And Thunderstorms",
+          "windSpeed": "3 mph",
+          "windDirection": "N"
+        },
         {
           "name": "Tonight",
           "temperature": 69,
@@ -224,17 +232,9 @@
           "shortForecast": "Slight Chance Showers And Thunderstorms then Partly Cloudy",
           "windSpeed": "7 mph",
           "windDirection": "NW"
-        },
-        {
-          "name": "Tuesday",
-          "temperature": 86,
-          "temperatureUnit": "F",
-          "shortForecast": "Sunny",
-          "windSpeed": "7 mph",
-          "windDirection": "NW"
         }
       ],
-      "checked_at": "2026-08-14T22:23:37.051146Z",
+      "checked_at": "2026-08-14T22:47:17.028300Z",
       "next_check_minutes": 15
     }
   ],
