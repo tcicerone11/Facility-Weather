@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T23:06:08.591161Z",
+  "generated_at": "2026-08-14T23:33:35.761529Z",
   "facilities": [
     {
       "id": "den",
@@ -35,10 +35,10 @@
         "flight_category": "VFR"
       },
       "taf": {
-        "raw": "TAF KDEN 142057Z 1421/1524 10009KT P6SM VCSH SCT060 BKN110 TEMPO 1421/1501 VRB22G35KT 4SM TSRA BKN050CB FM150100 10007KT P6SM VCSH SCT050 BKN080 PROB30 1501/1505 VRB20G30KT 5SM -TSRA FEW010 BKN050CB FM150600 VRB06KT P6SM SCT050 BKN120 FM151000 21007KT P6SM FEW060 BKN120 FM151500 VRB06KT P6SM SCT120 FM151800 10007KT P6SM SCT060 SCT120 TEMPO 1521/1524 VRB20G30KT 5SM -TSRA BKN060CB",
-        "issued": "2026-08-14T20:57:00.000Z",
-        "valid_from": 1786741200,
-        "valid_to": 1786838400,
+        "raw": "TAF KDEN 142329Z 1500/1606 10009KT P6SM VCSH FEW030 SCT060 BKN110 TEMPO 1500/1503 VRB22G35KT 4SM TSRA BKN050CB FM150300 10007KT P6SM VCSH SCT050 BKN080 PROB30 1503/1505 VRB20G30KT 5SM -TSRA FEW010 BKN050CB FM150600 VRB06KT P6SM FEW005 SCT050 BKN120 FM151000 21007KT P6SM FEW005 FEW060 BKN120 FM151500 VRB06KT P6SM SCT100 FM151700 08007KT P6SM SCT060 SCT120 TEMPO 1521/1601 VRB20G30KT 5SM -TSRA BKN060CB FM160100 VRB06KT P6SM SCT060 BKN120 FM160500 20008KT P6SM SCT060 BKN140",
+        "issued": "2026-08-14T23:29:00.000Z",
+        "valid_from": 1786752000,
+        "valid_to": 1786860000,
         "thunder": true,
         "snow": false,
         "freezing_precip": false
@@ -55,8 +55,8 @@
           "name": "This Afternoon",
           "temperature": 84,
           "temperatureUnit": "F",
-          "shortForecast": "Slight Chance Showers And Thunderstorms",
-          "windSpeed": "6 to 10 mph",
+          "shortForecast": "Chance Showers And Thunderstorms",
+          "windSpeed": "7 to 10 mph",
           "windDirection": "ESE"
         },
         {
@@ -116,7 +116,7 @@
           "windDirection": "S"
         }
       ],
-      "checked_at": "2026-08-14T23:06:13.353606Z",
+      "checked_at": "2026-08-14T23:33:37.097942Z",
       "next_check_minutes": 15
     },
     {
@@ -142,21 +142,21 @@
         }
       ],
       "metar": {
-        "raw": "METAR KIAD 142152Z 00000KT 10SM FEW050 SCT090 BKN180 BKN250 28/20 A3003 RMK AO2 SLP164 T02780200",
-        "observed": "2026-08-14T22:00:00.000Z",
-        "wind_kt": 0.0,
-        "wind_mph": 0.0,
+        "raw": "METAR KIAD 142252Z 03006KT 10SM FEW040 SCT090 BKN120 BKN250 27/21 A3004 RMK AO2 SLP167 T02670211",
+        "observed": "2026-08-14T23:00:00.000Z",
+        "wind_kt": 6.0,
+        "wind_mph": 6.9,
         "gust_kt": null,
         "gust_mph": null,
-        "temperature_f": 82.0,
+        "temperature_f": 80.1,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
       "taf": {
-        "raw": "TAF KIAD 142103Z 1421/1524 VRB03KT P6SM SCT030 BKN070 FM150900 03005KT P6SM FEW030 SCT150 FM151600 08003KT P6SM FEW050 FEW150",
-        "issued": "2026-08-14T21:03:00.000Z",
-        "valid_from": 1786741200,
-        "valid_to": 1786838400,
+        "raw": "TAF KIAD 142328Z 1500/1606 03006KT P6SM FEW040 BKN120 TEMPO 1500/1503 6SM -SHRA BKN035 FM150900 03005KT P6SM FEW030 SCT150 FM151600 08003KT P6SM FEW050 FEW150",
+        "issued": "2026-08-14T23:28:00.000Z",
+        "valid_from": 1786752000,
+        "valid_to": 1786860000,
         "thunder": false,
         "snow": false,
         "freezing_precip": false
@@ -169,14 +169,6 @@
         "snow_7d_in": 0.0
       },
       "forecast": [
-        {
-          "name": "This Afternoon",
-          "temperature": 84,
-          "temperatureUnit": "F",
-          "shortForecast": "Isolated Showers And Thunderstorms",
-          "windSpeed": "3 mph",
-          "windDirection": "N"
-        },
         {
           "name": "Tonight",
           "temperature": 69,
@@ -232,11 +224,18 @@
           "shortForecast": "Slight Chance Showers And Thunderstorms then Partly Cloudy",
           "windSpeed": "7 mph",
           "windDirection": "NW"
+        },
+        {
+          "name": "Tuesday",
+          "temperature": 86,
+          "temperatureUnit": "F",
+          "shortForecast": "Sunny",
+          "windSpeed": "7 mph",
+          "windDirection": "NW"
         }
       ],
-      "checked_at": "2026-08-14T22:47:17.028300Z",
-      "next_check_minutes": 15,
-      "data_error": "503 Server Error: Service Unavailable for url: https://api.weather.gov/gridpoints/LWX/82,72/forecast"
+      "checked_at": "2026-08-14T23:33:41.522875Z",
+      "next_check_minutes": 15
     }
   ],
   "settings": {
