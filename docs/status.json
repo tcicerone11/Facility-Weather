@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T21:55:48.959426Z",
+  "generated_at": "2026-08-14T22:23:15.193324Z",
   "facilities": [
     {
       "id": "den",
@@ -18,25 +18,19 @@
       "reasons": [
         {
           "level": "watch",
-          "title": "Wind may affect operations",
-          "detail": "Observed or forecast gusts may reach about 39 mph (34 kt).",
-          "action": "Monitor wind conditions and prepare for outdoor restrictions if winds increase."
-        },
-        {
-          "level": "watch",
           "title": "Thunderstorms may affect the facility",
           "detail": "A thunderstorm signal appears in the next 6 hours in the local or airport forecast.",
           "action": "Monitor official warnings and your approved lightning procedure. This system does not measure lightning strike distance."
         }
       ],
       "metar": {
-        "raw": "SPECI KDEN 142125Z 13022G34KT 10SM TS BKN070CB BKN150 BKN220 23/12 A3007 RMK AO2 PK WND 12034/2122 OCNL LTGICCG VC N TSB22 TS VC N MOV NE T02330122",
-        "observed": "2026-08-14T21:25:00.000Z",
-        "wind_kt": 22.0,
-        "wind_mph": 25.3,
-        "gust_kt": 34.0,
-        "gust_mph": 39.1,
-        "temperature_f": 73.9,
+        "raw": "METAR KDEN 142153Z 11015G23KT 10SM TS FEW035 BKN070CB BKN150 BKN220 22/13 A3007 RMK AO2 PK WND 12034/2122 FRQ LTGICCCCG VC W-N TSB22 TS VC W-N MOV NE SLP112 T02170133",
+        "observed": "2026-08-14T22:00:00.000Z",
+        "wind_kt": 15.0,
+        "wind_mph": 17.3,
+        "gust_kt": 23.0,
+        "gust_mph": 26.5,
+        "temperature_f": 71.1,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
@@ -49,27 +43,10 @@
         "snow": false,
         "freezing_precip": false
       },
-      "alerts": [
-        {
-          "event": "Special Weather Statement",
-          "headline": "Special Weather Statement issued August 14 at 3:30PM MDT by NWS Denver CO",
-          "severity": "Moderate",
-          "urgency": "Expected",
-          "expires": "2026-08-14T16:00:00-06:00",
-          "source": "Exact facility location"
-        },
-        {
-          "event": "Special Weather Statement",
-          "headline": "Special Weather Statement issued August 14 at 3:43PM MDT by NWS Denver CO",
-          "severity": "Moderate",
-          "urgency": "Expected",
-          "expires": "2026-08-14T16:15:00-06:00",
-          "source": "Broader NWS zone COZ040"
-        }
-      ],
+      "alerts": [],
       "metrics": {
-        "peak_gust_24h_kt": 34.0,
-        "peak_gust_24h_mph": 39.1,
+        "peak_gust_24h_kt": 23.0,
+        "peak_gust_24h_mph": 26.5,
         "precip_7d_in": 0.88,
         "snow_7d_in": 0.0
       },
@@ -139,7 +116,7 @@
           "windDirection": "S"
         }
       ],
-      "checked_at": "2026-08-14T21:55:49.978405Z",
+      "checked_at": "2026-08-14T22:23:16.711099Z",
       "next_check_minutes": 15
     },
     {
@@ -192,14 +169,6 @@
         "snow_7d_in": 0.0
       },
       "forecast": [
-        {
-          "name": "This Afternoon",
-          "temperature": 84,
-          "temperatureUnit": "F",
-          "shortForecast": "Isolated Showers And Thunderstorms",
-          "windSpeed": "3 mph",
-          "windDirection": "N"
-        },
         {
           "name": "Tonight",
           "temperature": 69,
@@ -255,9 +224,17 @@
           "shortForecast": "Slight Chance Showers And Thunderstorms then Partly Cloudy",
           "windSpeed": "7 mph",
           "windDirection": "NW"
+        },
+        {
+          "name": "Tuesday",
+          "temperature": 86,
+          "temperatureUnit": "F",
+          "shortForecast": "Sunny",
+          "windSpeed": "7 mph",
+          "windDirection": "NW"
         }
       ],
-      "checked_at": "2026-08-14T21:55:51.446264Z",
+      "checked_at": "2026-08-14T22:23:37.051146Z",
       "next_check_minutes": 15
     }
   ],
