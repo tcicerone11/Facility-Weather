@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T19:29:51.005835Z",
+  "generated_at": "2026-08-14T20:05:32.013895Z",
   "facilities": [
     {
       "id": "den",
@@ -117,7 +117,8 @@
         }
       ],
       "checked_at": "2026-08-14T19:29:55.139343Z",
-      "next_check_minutes": 15
+      "next_check_minutes": 15,
+      "data_error": "502 Server Error: Bad Gateway for url: https://aviationweather.gov/api/data/metar?ids=KDEN&format=json"
     },
     {
       "id": "iad",
@@ -235,7 +236,8 @@
         }
       ],
       "checked_at": "2026-08-14T19:29:56.913071Z",
-      "next_check_minutes": 15
+      "next_check_minutes": 15,
+      "data_error": "502 Server Error: Bad Gateway for url: https://aviationweather.gov/api/data/metar?ids=KIAD&format=json"
     }
   ],
   "settings": {
