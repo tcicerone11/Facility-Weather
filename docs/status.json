@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T03:14:52.191128Z",
+  "generated_at": "2026-08-14T05:08:24.687575Z",
   "facilities": [
     {
       "id": "den",
@@ -24,13 +24,13 @@
         }
       ],
       "metar": {
-        "raw": "METAR KDEN 140253Z 20006KT 10SM FEW035 SCT070 BKN110 19/17 A3006 RMK AO2 RAE34 SLP107 P0001 60005 T01890167 53009",
-        "observed": "2026-08-14T03:00:00.000Z",
-        "wind_kt": 6.0,
-        "wind_mph": 6.9,
+        "raw": "METAR KDEN 140453Z 21009KT 10SM FEW090 BKN110 BKN140 19/16 A3008 RMK AO2 SLP105 T01940161",
+        "observed": "2026-08-14T05:00:00.000Z",
+        "wind_kt": 9.0,
+        "wind_mph": 10.4,
         "gust_kt": null,
         "gust_mph": null,
-        "temperature_f": 66.0,
+        "temperature_f": 66.9,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
@@ -56,7 +56,7 @@
           "temperature": 60,
           "temperatureUnit": "F",
           "shortForecast": "Showers And Thunderstorms Likely",
-          "windSpeed": "5 to 9 mph",
+          "windSpeed": "5 to 8 mph",
           "windDirection": "SSE"
         },
         {
@@ -116,7 +116,7 @@
           "windDirection": "ENE"
         }
       ],
-      "checked_at": "2026-08-14T03:14:53.540632Z",
+      "checked_at": "2026-08-14T05:08:25.173466Z",
       "next_check_minutes": 15
     },
     {
@@ -135,8 +135,8 @@
       },
       "reasons": [],
       "metar": {
-        "raw": "METAR KIAD 140252Z 00000KT 10SM FEW065 25/21 A2999 RMK AO2 SLP153 T02500211 51023",
-        "observed": "2026-08-14T03:00:00.000Z",
+        "raw": "METAR KIAD 140452Z 00000KT 10SM SCT075 25/22 A3002 RMK AO2 SLP161 T02500217 403170206",
+        "observed": "2026-08-14T05:00:00.000Z",
         "wind_kt": 0.0,
         "wind_mph": 0.0,
         "gust_kt": null,
@@ -163,7 +163,7 @@
       },
       "forecast": [
         {
-          "name": "Tonight",
+          "name": "Overnight",
           "temperature": 71,
           "temperatureUnit": "F",
           "shortForecast": "Mostly Cloudy",
@@ -227,7 +227,7 @@
           "windDirection": "NW"
         }
       ],
-      "checked_at": "2026-08-14T03:14:55.390136Z",
+      "checked_at": "2026-08-14T05:08:26.059239Z",
       "next_check_minutes": 30
     }
   ],
