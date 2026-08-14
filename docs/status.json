@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T17:28:15.181648Z",
+  "generated_at": "2026-08-14T18:26:52.437320Z",
   "facilities": [
     {
       "id": "den",
@@ -24,13 +24,13 @@
         }
       ],
       "metar": {
-        "raw": "METAR KDEN 141653Z 01003KT 10SM FEW040 FEW075 FEW120 SCT220 26/16 A3015 RMK AO2 SLP127 T02560156",
-        "observed": "2026-08-14T17:00:00.000Z",
-        "wind_kt": 3.0,
-        "wind_mph": 3.5,
+        "raw": "METAR KDEN 141753Z VRB06KT 10SM FEW050 FEW080 SCT150 SCT220 28/14 A3013 RMK AO2 SLP119 T02830144 10283 20167 50000",
+        "observed": "2026-08-14T18:00:00.000Z",
+        "wind_kt": 6.0,
+        "wind_mph": 6.9,
         "gust_kt": null,
         "gust_mph": null,
-        "temperature_f": 78.1,
+        "temperature_f": 82.9,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
@@ -116,7 +116,7 @@
           "windDirection": "S"
         }
       ],
-      "checked_at": "2026-08-14T17:28:15.943110Z",
+      "checked_at": "2026-08-14T18:26:54.285140Z",
       "next_check_minutes": 15
     },
     {
@@ -235,7 +235,8 @@
         }
       ],
       "checked_at": "2026-08-14T17:28:16.582859Z",
-      "next_check_minutes": 15
+      "next_check_minutes": 15,
+      "data_error": "504 Server Error: Gateway Time-out for url: https://aviationweather.gov/api/data/metar?ids=KIAD&format=json"
     }
   ],
   "settings": {
