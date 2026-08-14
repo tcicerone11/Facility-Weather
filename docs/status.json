@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T12:03:32.449770Z",
+  "generated_at": "2026-08-14T13:34:59.238646Z",
   "facilities": [
     {
       "id": "den",
@@ -24,19 +24,19 @@
         }
       ],
       "metar": {
-        "raw": "METAR KDEN 141153Z 00000KT 7SM BKN018 BKN050 17/17 A3013 RMK AO2 VIRGA SLP129 70005 T01720167 10194 20161 51007",
-        "observed": "2026-08-14T12:00:00.000Z",
-        "wind_kt": 0.0,
-        "wind_mph": 0.0,
+        "raw": "SPECI KDEN 141310Z 2205KT 5SMSM BR BKN018 BKN040 BKN220 18/17 A3014 RMK AO2 T01780167",
+        "observed": "2026-08-14T13:10:00.000Z",
+        "wind_kt": null,
+        "wind_mph": null,
         "gust_kt": null,
         "gust_mph": null,
-        "temperature_f": 63.0,
-        "visibility_sm": 7.0,
-        "flight_category": "MVFR"
+        "temperature_f": 64.0,
+        "visibility_sm": null,
+        "flight_category": null
       },
       "taf": {
-        "raw": "TAF KDEN 141132Z 1412/1518 20004KT P6SM FEW006 BKN015 FM141500 25009KT P6SM SCT020 SCT120 FM141700 VRB06KT P6SM SCT050 SCT100 FM142000 12009KT P6SM VCSH SCT050 BKN110 TEMPO 1421/1501 VRB20G30KT 5SM -TSRA BKN050CB FM150100 09007KT P6SM VCSH SCT050 BKN080 PROB30 1501/1505 VRB20G30KT 5SM -TSRA FEW010 BKN050CB FM150600 VRB06KT P6SM SCT050 BKN120 FM151000 21007KT P6SM FEW060 BKN120",
-        "issued": "2026-08-14T11:32:00.000Z",
+        "raw": "TAF KDEN 141223Z 1412/1518 21006KT 4SM BR FEW008 SCT016 TEMPO 1412/1414 6SM BR BKN018 FM141430 25008KT P6SM SCT020 SCT120 FM141700 VRB06KT P6SM SCT050 SCT100 FM142000 12009KT P6SM VCSH SCT050 BKN110 TEMPO 1421/1501 VRB20G30KT 5SM -TSRA BKN050CB FM150100 09007KT P6SM VCSH SCT050 BKN080 PROB30 1501/1505 VRB20G30KT 5SM -TSRA FEW010 BKN050CB FM150600 VRB06KT P6SM SCT050 BKN120 FM151000 21007KT P6SM FEW060 BKN120",
+        "issued": "2026-08-14T12:23:00.000Z",
         "valid_from": 1786708800,
         "valid_to": 1786816800,
         "thunder": true,
@@ -52,23 +52,15 @@
       },
       "forecast": [
         {
-          "name": "Overnight",
-          "temperature": 57,
-          "temperatureUnit": "F",
-          "shortForecast": "Slight Chance Rain Showers",
-          "windSpeed": "6 mph",
-          "windDirection": "SSE"
-        },
-        {
-          "name": "Friday",
+          "name": "Today",
           "temperature": 83,
           "temperatureUnit": "F",
           "shortForecast": "Partly Sunny then Slight Chance Showers And Thunderstorms",
           "windSpeed": "3 to 9 mph",
-          "windDirection": "SSE"
+          "windDirection": "SE"
         },
         {
-          "name": "Friday Night",
+          "name": "Tonight",
           "temperature": 57,
           "temperatureUnit": "F",
           "shortForecast": "Showers And Thunderstorms Likely then Mostly Cloudy",
@@ -114,9 +106,17 @@
           "shortForecast": "Mostly Sunny",
           "windSpeed": "2 to 6 mph",
           "windDirection": "SSE"
+        },
+        {
+          "name": "Monday Night",
+          "temperature": 60,
+          "temperatureUnit": "F",
+          "shortForecast": "Partly Cloudy",
+          "windSpeed": "7 to 12 mph",
+          "windDirection": "S"
         }
       ],
-      "checked_at": "2026-08-14T12:03:33.589654Z",
+      "checked_at": "2026-08-14T13:35:00.829733Z",
       "next_check_minutes": 15
     },
     {
@@ -142,10 +142,10 @@
         }
       ],
       "metar": {
-        "raw": "METAR KIAD 141152Z 03005KT 10SM FEW048 BKN080 BKN250 26/21 A3006 RMK AO2 SLP174 T02560211 10261 20233 51019",
-        "observed": "2026-08-14T12:00:00.000Z",
-        "wind_kt": 5.0,
-        "wind_mph": 5.8,
+        "raw": "METAR KIAD 141252Z 03006KT 10SM FEW080 BKN120 BKN250 26/20 A3005 RMK AO2 SLP171 T02560200",
+        "observed": "2026-08-14T13:00:00.000Z",
+        "wind_kt": 6.0,
+        "wind_mph": 6.9,
         "gust_kt": null,
         "gust_mph": null,
         "temperature_f": 78.1,
@@ -234,7 +234,7 @@
           "windDirection": "NW"
         }
       ],
-      "checked_at": "2026-08-14T12:03:35.883893Z",
+      "checked_at": "2026-08-14T13:35:04.053849Z",
       "next_check_minutes": 15
     }
   ],
