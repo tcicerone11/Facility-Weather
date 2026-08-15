@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T12:01:23.015390Z",
+  "generated_at": "2026-08-15T12:54:59.765456Z",
   "facilities": [
     {
       "id": "den",
@@ -30,10 +30,10 @@
         }
       ],
       "metar": {
-        "raw": "METAR KDEN 151053Z 15007KT 10SM FEW100 15/14 A3023 RMK AO2 SLP175 T01500144",
-        "observed": "2026-08-15T11:00:00.000Z",
-        "wind_kt": 7.0,
-        "wind_mph": 8.1,
+        "raw": "METAR KDEN 151153Z 17008KT 10SM FEW100 FEW220 15/14 A3022 RMK AO2 SLP173 70036 T01500139 10167 20144 58003",
+        "observed": "2026-08-15T12:00:00.000Z",
+        "wind_kt": 8.0,
+        "wind_mph": 9.2,
         "gust_kt": null,
         "gust_mph": null,
         "temperature_f": 59.0,
@@ -67,15 +67,7 @@
       },
       "forecast": [
         {
-          "name": "Overnight",
-          "temperature": 60,
-          "temperatureUnit": "F",
-          "shortForecast": "Slight Chance Rain Showers",
-          "windSpeed": "6 mph",
-          "windDirection": "S"
-        },
-        {
-          "name": "Saturday",
+          "name": "Today",
           "temperature": 82,
           "temperatureUnit": "F",
           "shortForecast": "Patchy Fog then Slight Chance Showers And Thunderstorms",
@@ -83,7 +75,7 @@
           "windDirection": "N"
         },
         {
-          "name": "Saturday Night",
+          "name": "Tonight",
           "temperature": 60,
           "temperatureUnit": "F",
           "shortForecast": "Chance Showers And Thunderstorms",
@@ -129,9 +121,17 @@
           "shortForecast": "Mostly Sunny",
           "windSpeed": "6 to 9 mph",
           "windDirection": "W"
+        },
+        {
+          "name": "Tuesday Night",
+          "temperature": 59,
+          "temperatureUnit": "F",
+          "shortForecast": "Slight Chance Showers And Thunderstorms then Mostly Cloudy",
+          "windSpeed": "8 mph",
+          "windDirection": "N"
         }
       ],
-      "checked_at": "2026-08-15T11:48:49.455032Z",
+      "checked_at": "2026-08-15T12:55:00.940002Z",
       "next_check_minutes": 15
     },
     {
@@ -150,13 +150,13 @@
       },
       "reasons": [],
       "metar": {
-        "raw": "METAR KIAD 151152Z 02005KT 10SM FEW250 23/19 A3015 RMK AO2 SLP206 T02330194 10239 20217 51015 $",
-        "observed": "2026-08-15T12:00:00.000Z",
-        "wind_kt": 5.0,
-        "wind_mph": 5.8,
+        "raw": "METAR KIAD 151252Z 02004KT 10SM FEW250 24/19 A3016 RMK AO2 SLP211 T02440189 $",
+        "observed": "2026-08-15T13:00:00.000Z",
+        "wind_kt": 4.0,
+        "wind_mph": 4.6,
         "gust_kt": null,
         "gust_mph": null,
-        "temperature_f": 73.9,
+        "temperature_f": 75.9,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
@@ -242,7 +242,7 @@
           "windDirection": "NW"
         }
       ],
-      "checked_at": "2026-08-15T12:01:34.791590Z",
+      "checked_at": "2026-08-15T12:55:03.595725Z",
       "next_check_minutes": 30
     }
   ],
