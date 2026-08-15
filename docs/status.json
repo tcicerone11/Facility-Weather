@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T05:22:00.459648Z",
+  "generated_at": "2026-08-15T05:47:55.290525Z",
   "facilities": [
     {
       "id": "den",
@@ -35,10 +35,10 @@
         "flight_category": "VFR"
       },
       "taf": {
-        "raw": "TAF KDEN 150258Z 1503/1606 04009KT P6SM VCSH SCT060 BKN080 BKN120 FM150500 VRB06KT P6SM FEW005 SCT050 BKN120 FM151000 21007KT P6SM FEW005 FEW060 BKN120 FM151500 VRB06KT P6SM SCT100 FM151700 08007KT P6SM SCT060 SCT120 TEMPO 1521/1601 VRB20G30KT 5SM -TSRA BKN060CB FM160100 VRB06KT P6SM SCT060 BKN120 FM160500 20008KT P6SM SCT060 BKN140",
-        "issued": "2026-08-15T02:58:00.000Z",
-        "valid_from": 1786762800,
-        "valid_to": 1786860000,
+        "raw": "TAF KDEN 150535Z 1506/1612 VRB06KT P6SM FEW010 SCT050 BKN120 FM151000 20007KT P6SM FEW010 FEW060 BKN120 FM151300 VRB06KT P6SM SCT100 FM151800 06007KT P6SM SCT060 SCT120 TEMPO 1521/1601 VRB20G30KT 5SM -TSRA BKN060CB FM160100 VRB06KT P6SM SCT060 BKN120 FM160600 VRB06KT P6SM SCT010 BKN120 FM161100 20007KT P6SM FEW010 SCT100",
+        "issued": "2026-08-15T05:35:00.000Z",
+        "valid_from": 1786773600,
+        "valid_to": 1786881600,
         "thunder": true,
         "snow": false,
         "freezing_precip": false
@@ -56,7 +56,7 @@
           "temperature": 61,
           "temperatureUnit": "F",
           "shortForecast": "Chance Showers And Thunderstorms",
-          "windSpeed": "5 to 10 mph",
+          "windSpeed": "5 to 8 mph",
           "windDirection": "SSE"
         },
         {
@@ -116,7 +116,7 @@
           "windDirection": "WNW"
         }
       ],
-      "checked_at": "2026-08-15T05:22:01.880032Z",
+      "checked_at": "2026-08-15T05:47:56.146827Z",
       "next_check_minutes": 15
     },
     {
@@ -146,10 +146,10 @@
         "flight_category": "VFR"
       },
       "taf": {
-        "raw": "TAF KIAD 150259Z 1503/1606 03006KT P6SM FEW040 BKN120 FM150900 03005KT P6SM FEW030 SCT150 FM151600 08003KT P6SM FEW050 FEW150",
-        "issued": "2026-08-15T02:59:00.000Z",
-        "valid_from": 1786762800,
-        "valid_to": 1786860000,
+        "raw": "TAF KIAD 150520Z 1506/1612 03006KT P6SM FEW040 BKN120 FM150900 03005KT P6SM FEW030 SCT150 FM151600 08003KT P6SM FEW050 FEW150 FM152100 13003KT P6SM BKN060 FM160900 16005KT P6SM BKN030 PROB30 1609/1612 5SM -SHRA BR BKN020",
+        "issued": "2026-08-15T05:20:00.000Z",
+        "valid_from": 1786773600,
+        "valid_to": 1786881600,
         "thunder": false,
         "snow": false,
         "freezing_precip": false
@@ -227,7 +227,7 @@
           "windDirection": "NW"
         }
       ],
-      "checked_at": "2026-08-15T04:54:53.842363Z",
+      "checked_at": "2026-08-15T05:47:57.263962Z",
       "next_check_minutes": 30
     }
   ],
