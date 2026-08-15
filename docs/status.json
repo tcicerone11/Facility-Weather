@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T03:53:22.843811Z",
+  "generated_at": "2026-08-15T04:23:15.298270Z",
   "facilities": [
     {
       "id": "den",
@@ -24,10 +24,10 @@
         }
       ],
       "metar": {
-        "raw": "METAR KDEN 150253Z 03008KT 10SM -RA FEW055 BKN090 OVC120 17/16 A3023 RMK AO2 SLP171 P0008 60034 T01720161 51019",
-        "observed": "2026-08-15T03:00:00.000Z",
-        "wind_kt": 8.0,
-        "wind_mph": 9.2,
+        "raw": "SPECI KDEN 150357Z 15003KT 10SM SCT009 BKN040 OVC090 17/16 A3025 RMK AO2 T01720161",
+        "observed": "2026-08-15T03:57:00.000Z",
+        "wind_kt": 3.0,
+        "wind_mph": 3.5,
         "gust_kt": null,
         "gust_mph": null,
         "temperature_f": 63.0,
@@ -116,7 +116,7 @@
           "windDirection": "WNW"
         }
       ],
-      "checked_at": "2026-08-15T03:53:23.730905Z",
+      "checked_at": "2026-08-15T04:23:16.053344Z",
       "next_check_minutes": 15
     },
     {
