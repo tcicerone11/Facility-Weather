@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T18:01:04.294245Z",
+  "generated_at": "2026-08-15T18:41:36.363261Z",
   "facilities": [
     {
       "id": "den",
@@ -19,7 +19,7 @@
         {
           "level": "watch",
           "title": "Flood Watch",
-          "detail": "Flood Watch issued August 15 at 1:06AM MDT until August 15 at 10:00PM MDT by NWS Denver CO",
+          "detail": "Flood Watch issued August 15 at 11:52AM MDT until August 15 at 10:00PM MDT by NWS Denver CO",
           "action": "Monitor updates and prepare staff or equipment. Source: Exact facility location."
         },
         {
@@ -30,13 +30,13 @@
         }
       ],
       "metar": {
-        "raw": "METAR KDEN 151653Z 04004KT 10SM FEW070 SCT120 SCT150 BKN200 24/13 A3027 RMK AO2 SLP175 T02440133",
-        "observed": "2026-08-15T17:00:00.000Z",
-        "wind_kt": 4.0,
-        "wind_mph": 4.6,
-        "gust_kt": null,
-        "gust_mph": null,
-        "temperature_f": 75.9,
+        "raw": "METAR KDEN 151753Z 07006G14KT 10SM FEW075 FEW120 SCT150 SCT200 26/13 A3027 RMK AO2 SLP174 T02610128 10261 20144 51006",
+        "observed": "2026-08-15T18:00:00.000Z",
+        "wind_kt": 6.0,
+        "wind_mph": 6.9,
+        "gust_kt": 14.0,
+        "gust_mph": 16.1,
+        "temperature_f": 79.0,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
@@ -52,10 +52,10 @@
       "alerts": [
         {
           "event": "Flood Watch",
-          "headline": "Flood Watch issued August 15 at 1:06AM MDT until August 15 at 10:00PM MDT by NWS Denver CO",
+          "headline": "Flood Watch issued August 15 at 11:52AM MDT until August 15 at 10:00PM MDT by NWS Denver CO",
           "severity": "Severe",
           "urgency": "Future",
-          "expires": "2026-08-15T14:15:00-06:00",
+          "expires": "2026-08-15T22:00:00-06:00",
           "source": "Exact facility location"
         }
       ],
@@ -131,7 +131,7 @@
           "windDirection": "N"
         }
       ],
-      "checked_at": "2026-08-15T17:49:38.804233Z",
+      "checked_at": "2026-08-15T18:41:37.912779Z",
       "next_check_minutes": 15
     },
     {
@@ -188,21 +188,21 @@
           "name": "This Afternoon",
           "temperature": 87,
           "temperatureUnit": "F",
-          "shortForecast": "Mostly Sunny",
+          "shortForecast": "Partly Sunny",
           "windSpeed": "3 mph",
-          "windDirection": "NE"
+          "windDirection": "N"
         },
         {
           "name": "Tonight",
           "temperature": 70,
           "temperatureUnit": "F",
-          "shortForecast": "Mostly Cloudy then Chance Showers And Thunderstorms",
-          "windSpeed": "2 to 6 mph",
+          "shortForecast": "Mostly Cloudy",
+          "windSpeed": "5 mph",
           "windDirection": "SE"
         },
         {
           "name": "Sunday",
-          "temperature": 84,
+          "temperature": 83,
           "temperatureUnit": "F",
           "shortForecast": "Showers And Thunderstorms",
           "windSpeed": "6 to 12 mph",
@@ -210,31 +210,31 @@
         },
         {
           "name": "Sunday Night",
-          "temperature": 72,
+          "temperature": 71,
           "temperatureUnit": "F",
-          "shortForecast": "Showers And Thunderstorms Likely",
-          "windSpeed": "5 to 9 mph",
-          "windDirection": "SW"
+          "shortForecast": "Showers And Thunderstorms",
+          "windSpeed": "3 to 8 mph",
+          "windDirection": "S"
         },
         {
           "name": "Monday",
           "temperature": 88,
           "temperatureUnit": "F",
-          "shortForecast": "Slight Chance Rain Showers then Mostly Sunny",
-          "windSpeed": "6 to 10 mph",
-          "windDirection": "NW"
+          "shortForecast": "Mostly Sunny then Slight Chance Showers And Thunderstorms",
+          "windSpeed": "5 to 10 mph",
+          "windDirection": "W"
         },
         {
           "name": "Monday Night",
           "temperature": 68,
           "temperatureUnit": "F",
-          "shortForecast": "Mostly Clear",
-          "windSpeed": "8 mph",
+          "shortForecast": "Slight Chance Showers And Thunderstorms then Mostly Clear",
+          "windSpeed": "7 mph",
           "windDirection": "NW"
         },
         {
           "name": "Tuesday",
-          "temperature": 86,
+          "temperature": 85,
           "temperatureUnit": "F",
           "shortForecast": "Sunny",
           "windSpeed": "7 mph",
@@ -249,7 +249,7 @@
           "windDirection": "NW"
         }
       ],
-      "checked_at": "2026-08-15T18:01:11.492632Z",
+      "checked_at": "2026-08-15T18:41:40.644642Z",
       "next_check_minutes": 15
     }
   ],
