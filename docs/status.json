@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T22:24:26.765002Z",
+  "generated_at": "2026-08-15T22:46:21.643657Z",
   "facilities": [
     {
       "id": "den",
@@ -132,7 +132,8 @@
         }
       ],
       "checked_at": "2026-08-15T22:24:32.076839Z",
-      "next_check_minutes": 15
+      "next_check_minutes": 15,
+      "data_error": "504 Server Error: Gateway Time-out for url: https://aviationweather.gov/api/data/taf?ids=KDEN&format=json"
     },
     {
       "id": "iad",
@@ -184,14 +185,6 @@
         "snow_7d_in": 0.0
       },
       "forecast": [
-        {
-          "name": "This Afternoon",
-          "temperature": 87,
-          "temperatureUnit": "F",
-          "shortForecast": "Partly Sunny",
-          "windSpeed": "3 mph",
-          "windDirection": "SE"
-        },
         {
           "name": "Tonight",
           "temperature": 70,
@@ -247,9 +240,17 @@
           "shortForecast": "Mostly Clear",
           "windSpeed": "1 to 5 mph",
           "windDirection": "NW"
+        },
+        {
+          "name": "Wednesday",
+          "temperature": 88,
+          "temperatureUnit": "F",
+          "shortForecast": "Sunny",
+          "windSpeed": "1 to 7 mph",
+          "windDirection": "W"
         }
       ],
-      "checked_at": "2026-08-15T22:24:33.312821Z",
+      "checked_at": "2026-08-15T22:46:48.547513Z",
       "next_check_minutes": 15
     }
   ],
