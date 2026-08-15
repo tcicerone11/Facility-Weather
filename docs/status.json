@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T19:03:56.571193Z",
+  "generated_at": "2026-08-15T19:30:13.403008Z",
   "facilities": [
     {
       "id": "den",
@@ -60,9 +60,9 @@
         }
       ],
       "metrics": {
-        "peak_gust_24h_kt": 14.0,
-        "peak_gust_24h_mph": 16.1,
-        "precip_7d_in": 0.41,
+        "peak_gust_24h_kt": 13.0,
+        "peak_gust_24h_mph": 15.0,
+        "precip_7d_in": 0.35,
         "snow_7d_in": 0.0
       },
       "forecast": [
@@ -131,7 +131,7 @@
           "windDirection": "S"
         }
       ],
-      "checked_at": "2026-08-15T19:03:58.520097Z",
+      "checked_at": "2026-08-15T19:30:20.417286Z",
       "next_check_minutes": 15
     },
     {
@@ -249,7 +249,7 @@
           "windDirection": "NW"
         }
       ],
-      "checked_at": "2026-08-15T19:04:03.916987Z",
+      "checked_at": "2026-08-15T19:30:21.632805Z",
       "next_check_minutes": 15
     }
   ],
