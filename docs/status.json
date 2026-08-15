@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T23:28:56.396790Z",
+  "generated_at": "2026-08-15T23:48:57.883841Z",
   "facilities": [
     {
       "id": "den",
@@ -41,10 +41,10 @@
         "flight_category": "VFR"
       },
       "taf": {
-        "raw": "TAF KDEN 152207Z 1522/1624 15007KT P6SM VCSH FEW040 SCT080 BKN100 PROB30 1522/1601 VRB20G30KT -TSRA BKN080CB FM160100 13007KT P6SM SCT060 BKN120 FM160700 17006KT P6SM FEW007 BKN100 FM161400 VRB06KT P6SM SCT100 FM161800 34007KT P6SM FEW080 SCT150 PROB30 1621/1624 VRB20G35KT -TSRA BKN080CB",
-        "issued": "2026-08-15T22:07:00.000Z",
-        "valid_from": 1786831200,
-        "valid_to": 1786924800,
+        "raw": "TAF KDEN 152341Z 1600/1706 31007KT P6SM FEW040 SCT080 BKN100 PROB30 1600/1602 VRB20G30KT -TSRA BKN080CB FM160200 19006KT P6SM FEW007 BKN100 FM161200 VRB04KT P6SM VCFG SCT030 TEMPO 1612/1614 1/2SM FG BKN002 FM161800 11007KT P6SM FEW080 SCT150 PROB30 1622/1702 VRB20G30KT -SHRA BKN080 FM170200 17006KT P6SM SCT150",
+        "issued": "2026-08-15T23:41:00.000Z",
+        "valid_from": 1786838400,
+        "valid_to": 1786946400,
         "thunder": true,
         "snow": false,
         "freezing_precip": false
@@ -131,7 +131,7 @@
           "windDirection": "S"
         }
       ],
-      "checked_at": "2026-08-15T23:28:57.232076Z",
+      "checked_at": "2026-08-15T23:49:00.148746Z",
       "next_check_minutes": 15
     },
     {
@@ -168,10 +168,10 @@
         "flight_category": "VFR"
       },
       "taf": {
-        "raw": "TAF KIAD 152102Z 1521/1624 VRB04KT P6SM SCT050 FM160000 13003KT P6SM FEW050 SCT250 FM160900 16005KT P6SM BKN030 FM161300 17008KT 6SM -SHRA BKN015 PROB30 1614/1620 4SM TSRA OVC015CB FM162100 19008KT 6SM -SHRA BKN020",
-        "issued": "2026-08-15T21:02:00.000Z",
-        "valid_from": 1786827600,
-        "valid_to": 1786924800,
+        "raw": "TAF KIAD 152338Z 1600/1706 09005KT P6SM FEW050 SCT250 FM160900 16005KT P6SM BKN030 FM161300 17008KT 6SM -SHRA BKN015 PROB30 1614/1620 4SM TSRA OVC015CB FM162100 19008KT 6SM -SHRA BKN020",
+        "issued": "2026-08-15T23:38:00.000Z",
+        "valid_from": 1786838400,
+        "valid_to": 1786946400,
         "thunder": true,
         "snow": false,
         "freezing_precip": false
@@ -249,7 +249,7 @@
           "windDirection": "W"
         }
       ],
-      "checked_at": "2026-08-15T23:28:58.983658Z",
+      "checked_at": "2026-08-15T23:49:01.739512Z",
       "next_check_minutes": 15
     }
   ],
