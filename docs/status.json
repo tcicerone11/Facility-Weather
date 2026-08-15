@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T10:45:33.555820Z",
+  "generated_at": "2026-08-15T11:01:21.208497Z",
   "facilities": [
     {
       "id": "den",
@@ -30,13 +30,13 @@
         }
       ],
       "metar": {
-        "raw": "METAR KDEN 150953Z 13007KT 10SM BKN100 16/14 A3023 RMK AO2 SLP171 T01560144",
-        "observed": "2026-08-15T10:00:00.000Z",
+        "raw": "METAR KDEN 151053Z 15007KT 10SM FEW100 15/14 A3023 RMK AO2 SLP175 T01500144",
+        "observed": "2026-08-15T11:00:00.000Z",
         "wind_kt": 7.0,
         "wind_mph": 8.1,
         "gust_kt": null,
         "gust_mph": null,
-        "temperature_f": 60.1,
+        "temperature_f": 59.0,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
@@ -131,7 +131,7 @@
           "windDirection": "W"
         }
       ],
-      "checked_at": "2026-08-15T10:45:35.627391Z",
+      "checked_at": "2026-08-15T11:01:22.534316Z",
       "next_check_minutes": 15
     },
     {
@@ -243,7 +243,8 @@
         }
       ],
       "checked_at": "2026-08-15T10:22:46.717339Z",
-      "next_check_minutes": 30
+      "next_check_minutes": 30,
+      "data_error": "503 Server Error: Service Unavailable for url: https://api.weather.gov/gridpoints/LWX/82,72"
     }
   ],
   "settings": {
