@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T06:14:11.923234Z",
+  "generated_at": "2026-08-15T07:00:29.326278Z",
   "facilities": [
     {
       "id": "den",
@@ -24,8 +24,8 @@
         }
       ],
       "metar": {
-        "raw": "METAR KDEN 150553Z 06004KT 5SM BR FEW003 BKN100 17/17 A3025 RMK AO2 VIRGA SLP162 60034 T01670167 10194 20167 51004",
-        "observed": "2026-08-15T06:00:00.000Z",
+        "raw": "METAR KDEN 150653Z 17004KT 5SM BR FEW005 FEW100 BKN220 17/16 A3024 RMK AO2 SLP157 T01670161 403110161",
+        "observed": "2026-08-15T07:00:00.000Z",
         "wind_kt": 4.0,
         "wind_mph": 4.6,
         "gust_kt": null,
@@ -116,7 +116,7 @@
           "windDirection": "WNW"
         }
       ],
-      "checked_at": "2026-08-15T06:14:27.365488Z",
+      "checked_at": "2026-08-15T07:00:30.736668Z",
       "next_check_minutes": 15
     },
     {
@@ -135,13 +135,13 @@
       },
       "reasons": [],
       "metar": {
-        "raw": "METAR KIAD 150452Z 29005KT 10SM BKN060 BKN090 24/21 A3011 RMK AO2 SLP194 T02390206 402830233 $",
-        "observed": "2026-08-15T05:00:00.000Z",
-        "wind_kt": 5.0,
-        "wind_mph": 5.8,
+        "raw": "METAR KIAD 150652Z 31004KT 10SM BKN070 BKN100 23/21 A3011 RMK AO2 SLP193 T02330206 $",
+        "observed": "2026-08-15T07:00:00.000Z",
+        "wind_kt": 4.0,
+        "wind_mph": 4.6,
         "gust_kt": null,
         "gust_mph": null,
-        "temperature_f": 75.0,
+        "temperature_f": 73.9,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
@@ -156,9 +156,9 @@
       },
       "alerts": [],
       "metrics": {
-        "peak_gust_24h_kt": 7.0,
-        "peak_gust_24h_mph": 8.1,
-        "precip_7d_in": 0.77,
+        "peak_gust_24h_kt": 9.0,
+        "peak_gust_24h_mph": 10.4,
+        "precip_7d_in": 0.71,
         "snow_7d_in": 0.0
       },
       "forecast": [
@@ -166,7 +166,7 @@
           "name": "Overnight",
           "temperature": 69,
           "temperatureUnit": "F",
-          "shortForecast": "Mostly Cloudy",
+          "shortForecast": "Partly Cloudy",
           "windSpeed": "3 mph",
           "windDirection": "N"
         },
@@ -227,7 +227,7 @@
           "windDirection": "NW"
         }
       ],
-      "checked_at": "2026-08-15T05:47:57.263962Z",
+      "checked_at": "2026-08-15T07:00:52.519096Z",
       "next_check_minutes": 30
     }
   ],
