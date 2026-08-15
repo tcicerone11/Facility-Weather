@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T20:54:49.844982Z",
+  "generated_at": "2026-08-15T21:18:33.276975Z",
   "facilities": [
     {
       "id": "den",
@@ -30,14 +30,14 @@
         }
       ],
       "metar": {
-        "raw": "SPECI KDEN 152023Z 06011G20KT 10SM TS FEW047 BKN060CB BKN120 BKN220 26/13 A3024 RMK AO2 OCNL LTGICCG VC SW-W TSB23 TS VC SW-W MOV E T02610133",
-        "observed": "2026-08-15T20:23:00.000Z",
-        "wind_kt": 11.0,
-        "wind_mph": 12.7,
-        "gust_kt": 20.0,
-        "gust_mph": 23.0,
-        "temperature_f": 79.0,
-        "visibility_sm": 10.0,
+        "raw": "SPECI KDEN 152104Z 08016G27KT 6SM TSRA FEW020 BKN050CB BKN070 BKN220 19/16 A3031 RMK AO2 PK WND 32026/2057 OCNL LTGICCG OHD TS OHD MOV NE P0018 T01890156",
+        "observed": "2026-08-15T21:04:00.000Z",
+        "wind_kt": 16.0,
+        "wind_mph": 18.4,
+        "gust_kt": 27.0,
+        "gust_mph": 31.1,
+        "temperature_f": 66.0,
+        "visibility_sm": 6.0,
         "flight_category": "VFR"
       },
       "taf": {
@@ -60,8 +60,8 @@
         }
       ],
       "metrics": {
-        "peak_gust_24h_kt": 20.0,
-        "peak_gust_24h_mph": 23.0,
+        "peak_gust_24h_kt": 27.0,
+        "peak_gust_24h_mph": 31.1,
         "precip_7d_in": 0.35,
         "snow_7d_in": 0.0
       },
@@ -131,7 +131,7 @@
           "windDirection": "S"
         }
       ],
-      "checked_at": "2026-08-15T20:54:50.706804Z",
+      "checked_at": "2026-08-15T21:18:34.135112Z",
       "next_check_minutes": 15
     },
     {
@@ -168,9 +168,9 @@
         "flight_category": "VFR"
       },
       "taf": {
-        "raw": "TAF KIAD 151739Z 1518/1624 VRB04KT P6SM SCT050 SCT250 FM160000 13003KT P6SM FEW050 SCT250 FM160900 16005KT P6SM BKN030 FM161300 17008KT 6SM -SHRA BKN015 PROB30 1614/1620 4SM TSRA OVC015CB FM162100 19008KT 6SM -SHRA BKN020",
-        "issued": "2026-08-15T17:39:00.000Z",
-        "valid_from": 1786816800,
+        "raw": "TAF KIAD 152102Z 1521/1624 VRB04KT P6SM SCT050 FM160000 13003KT P6SM FEW050 SCT250 FM160900 16005KT P6SM BKN030 FM161300 17008KT 6SM -SHRA BKN015 PROB30 1614/1620 4SM TSRA OVC015CB FM162100 19008KT 6SM -SHRA BKN020",
+        "issued": "2026-08-15T21:02:00.000Z",
+        "valid_from": 1786827600,
         "valid_to": 1786924800,
         "thunder": true,
         "snow": false,
@@ -190,7 +190,7 @@
           "temperatureUnit": "F",
           "shortForecast": "Partly Sunny",
           "windSpeed": "3 mph",
-          "windDirection": "E"
+          "windDirection": "SE"
         },
         {
           "name": "Tonight",
@@ -249,7 +249,7 @@
           "windDirection": "NW"
         }
       ],
-      "checked_at": "2026-08-15T20:54:54.830305Z",
+      "checked_at": "2026-08-15T21:18:41.269091Z",
       "next_check_minutes": 15
     }
   ],
