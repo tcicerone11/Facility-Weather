@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T02:19:59.428589Z",
+  "generated_at": "2026-08-15T03:08:52.790650Z",
   "facilities": [
     {
       "id": "den",
@@ -24,20 +24,20 @@
         }
       ],
       "metar": {
-        "raw": "METAR KDEN 150153Z 23010KT 8SM -RA SCT050 BKN080 OVC120 18/16 A3022 RMK AO2 OCNL LTGICCG DSNT NE CB DSNT NE MOV NE SLP167 P0011 T01780161",
-        "observed": "2026-08-15T02:00:00.000Z",
-        "wind_kt": 10.0,
-        "wind_mph": 11.5,
+        "raw": "METAR KDEN 150253Z 03008KT 10SM -RA FEW055 BKN090 OVC120 17/16 A3023 RMK AO2 SLP171 P0008 60034 T01720161 51019",
+        "observed": "2026-08-15T03:00:00.000Z",
+        "wind_kt": 8.0,
+        "wind_mph": 9.2,
         "gust_kt": null,
         "gust_mph": null,
-        "temperature_f": 64.0,
-        "visibility_sm": 8.0,
+        "temperature_f": 63.0,
+        "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
       "taf": {
-        "raw": "TAF KDEN 150015Z 1500/1606 07009KT P6SM VCSH FEW030 SCT060 BKN110 PROB30 1500/1505 VRB22G35KT 4SM -TSRA BKN050CB FM150500 VRB06KT P6SM FEW005 SCT050 BKN120 FM151000 21007KT P6SM FEW005 FEW060 BKN120 FM151500 VRB06KT P6SM SCT100 FM151700 08007KT P6SM SCT060 SCT120 TEMPO 1521/1601 VRB20G30KT 5SM -TSRA BKN060CB FM160100 VRB06KT P6SM SCT060 BKN120 FM160500 20008KT P6SM SCT060 BKN140",
-        "issued": "2026-08-15T00:15:00.000Z",
-        "valid_from": 1786752000,
+        "raw": "TAF KDEN 150258Z 1503/1606 04009KT P6SM VCSH SCT060 BKN080 BKN120 FM150500 VRB06KT P6SM FEW005 SCT050 BKN120 FM151000 21007KT P6SM FEW005 FEW060 BKN120 FM151500 VRB06KT P6SM SCT100 FM151700 08007KT P6SM SCT060 SCT120 TEMPO 1521/1601 VRB20G30KT 5SM -TSRA BKN060CB FM160100 VRB06KT P6SM SCT060 BKN120 FM160500 20008KT P6SM SCT060 BKN140",
+        "issued": "2026-08-15T02:58:00.000Z",
+        "valid_from": 1786762800,
         "valid_to": 1786860000,
         "thunder": true,
         "snow": false,
@@ -56,7 +56,7 @@
           "temperature": 61,
           "temperatureUnit": "F",
           "shortForecast": "Chance Showers And Thunderstorms",
-          "windSpeed": "5 to 8 mph",
+          "windSpeed": "5 to 10 mph",
           "windDirection": "SSE"
         },
         {
@@ -116,7 +116,7 @@
           "windDirection": "WNW"
         }
       ],
-      "checked_at": "2026-08-15T02:20:00.855038Z",
+      "checked_at": "2026-08-15T03:08:54.305134Z",
       "next_check_minutes": 15
     },
     {
@@ -135,20 +135,20 @@
       },
       "reasons": [],
       "metar": {
-        "raw": "METAR KIAD 150152Z 03004KT 10SM BKN044 BKN060 26/21 A3009 RMK AO2 RAB16E29 SLP184 P0000 T02560211 $",
-        "observed": "2026-08-15T02:00:00.000Z",
-        "wind_kt": 4.0,
-        "wind_mph": 4.6,
+        "raw": "METAR KIAD 150252Z 30005KT 10SM BKN075 BKN090 25/21 A3009 RMK AO2 SLP186 60000 T02500206 51014 $",
+        "observed": "2026-08-15T03:00:00.000Z",
+        "wind_kt": 5.0,
+        "wind_mph": 5.8,
         "gust_kt": null,
         "gust_mph": null,
-        "temperature_f": 78.1,
+        "temperature_f": 77.0,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
       "taf": {
-        "raw": "TAF KIAD 142328Z 1500/1606 03006KT P6SM FEW040 BKN120 TEMPO 1500/1503 6SM -SHRA BKN035 FM150900 03005KT P6SM FEW030 SCT150 FM151600 08003KT P6SM FEW050 FEW150",
-        "issued": "2026-08-14T23:28:00.000Z",
-        "valid_from": 1786752000,
+        "raw": "TAF KIAD 150259Z 1503/1606 03006KT P6SM FEW040 BKN120 FM150900 03005KT P6SM FEW030 SCT150 FM151600 08003KT P6SM FEW050 FEW150",
+        "issued": "2026-08-15T02:59:00.000Z",
+        "valid_from": 1786762800,
         "valid_to": 1786860000,
         "thunder": false,
         "snow": false,
@@ -158,7 +158,7 @@
       "metrics": {
         "peak_gust_24h_kt": 7.0,
         "peak_gust_24h_mph": 8.1,
-        "precip_7d_in": 1.09,
+        "precip_7d_in": 1.03,
         "snow_7d_in": 0.0
       },
       "forecast": [
@@ -166,7 +166,7 @@
           "name": "Tonight",
           "temperature": 69,
           "temperatureUnit": "F",
-          "shortForecast": "Mostly Cloudy then Patchy Fog",
+          "shortForecast": "Partly Cloudy then Patchy Fog",
           "windSpeed": "3 mph",
           "windDirection": "N"
         },
@@ -227,7 +227,7 @@
           "windDirection": "NW"
         }
       ],
-      "checked_at": "2026-08-15T02:20:06.299829Z",
+      "checked_at": "2026-08-15T03:08:56.104052Z",
       "next_check_minutes": 30
     }
   ],
