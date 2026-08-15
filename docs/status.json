@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T21:56:32.849010Z",
+  "generated_at": "2026-08-15T22:24:26.765002Z",
   "facilities": [
     {
       "id": "den",
@@ -30,7 +30,7 @@
         }
       ],
       "metar": {
-        "raw": "METAR KDEN 152153Z 14007KT 10SM -RA SCT048 BKN070 BKN100 BKN200 19/17 A3029 RMK AO2 PK WND 32026/2057 SLP197 P0028 T01890167",
+        "raw": "METAR KDEN 152153Z COR 14007KT 10SM -RA SCT048 BKN070 BKN100 BKN200 19/17 A3029 RMK AO2 PK WND 32026/2057 TSE45 SLP197 P0028 T01890167",
         "observed": "2026-08-15T22:00:00.000Z",
         "wind_kt": 7.0,
         "wind_mph": 8.1,
@@ -41,9 +41,9 @@
         "flight_category": "VFR"
       },
       "taf": {
-        "raw": "TAF KDEN 152032Z 1521/1624 07015KT P6SM VCTS FEW010 SCT060 BKN070CB TEMPO 1521/1601 VRB23G40KT 2SM TSRA BKN050CB FM160100 13007KT P6SM SCT060 BKN120 PROB30 1601/1603 VRB20G30KT 6SM -TSRA BKN060CB FM160700 17006KT P6SM FEW007 BKN100 FM161400 VRB06KT P6SM SCT100 FM161800 34007KT P6SM FEW080 SCT150 PROB30 1621/1624 VRB20G35KT -TSRA BKN080CB",
-        "issued": "2026-08-15T20:32:00.000Z",
-        "valid_from": 1786827600,
+        "raw": "TAF KDEN 152207Z 1522/1624 15007KT P6SM VCSH FEW040 SCT080 BKN100 PROB30 1522/1601 VRB20G30KT -TSRA BKN080CB FM160100 13007KT P6SM SCT060 BKN120 FM160700 17006KT P6SM FEW007 BKN100 FM161400 VRB06KT P6SM SCT100 FM161800 34007KT P6SM FEW080 SCT150 PROB30 1621/1624 VRB20G35KT -TSRA BKN080CB",
+        "issued": "2026-08-15T22:07:00.000Z",
+        "valid_from": 1786831200,
         "valid_to": 1786924800,
         "thunder": true,
         "snow": false,
@@ -60,8 +60,8 @@
         }
       ],
       "metrics": {
-        "peak_gust_24h_kt": 13.0,
-        "peak_gust_24h_mph": 15.0,
+        "peak_gust_24h_kt": 14.0,
+        "peak_gust_24h_mph": 16.1,
         "precip_7d_in": 0.35,
         "snow_7d_in": 0.0
       },
@@ -131,7 +131,7 @@
           "windDirection": "S"
         }
       ],
-      "checked_at": "2026-08-15T21:56:34.219442Z",
+      "checked_at": "2026-08-15T22:24:32.076839Z",
       "next_check_minutes": 15
     },
     {
@@ -249,7 +249,7 @@
           "windDirection": "NW"
         }
       ],
-      "checked_at": "2026-08-15T21:56:37.871371Z",
+      "checked_at": "2026-08-15T22:24:33.312821Z",
       "next_check_minutes": 15
     }
   ],
