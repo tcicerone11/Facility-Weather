@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T07:58:04.867187Z",
+  "generated_at": "2026-08-15T08:36:48.188172Z",
   "facilities": [
     {
       "id": "den",
@@ -131,7 +131,7 @@
           "windDirection": "W"
         }
       ],
-      "checked_at": "2026-08-15T07:58:05.692023Z",
+      "checked_at": "2026-08-15T08:36:50.743506Z",
       "next_check_minutes": 15
     },
     {
@@ -150,10 +150,10 @@
       },
       "reasons": [],
       "metar": {
-        "raw": "METAR KIAD 150652Z 31004KT 10SM BKN070 BKN100 23/21 A3011 RMK AO2 SLP193 T02330206 $",
-        "observed": "2026-08-15T07:00:00.000Z",
-        "wind_kt": 4.0,
-        "wind_mph": 4.6,
+        "raw": "METAR KIAD 150752Z 33005KT 10SM BKN075 BKN100 23/21 A3011 RMK AO2 SLP192 T02330206 $",
+        "observed": "2026-08-15T08:00:00.000Z",
+        "wind_kt": 5.0,
+        "wind_mph": 5.8,
         "gust_kt": null,
         "gust_mph": null,
         "temperature_f": 73.9,
@@ -171,8 +171,8 @@
       },
       "alerts": [],
       "metrics": {
-        "peak_gust_24h_kt": 9.0,
-        "peak_gust_24h_mph": 10.4,
+        "peak_gust_24h_kt": 10.0,
+        "peak_gust_24h_mph": 11.5,
         "precip_7d_in": 0.71,
         "snow_7d_in": 0.0
       },
@@ -181,9 +181,9 @@
           "name": "Overnight",
           "temperature": 69,
           "temperatureUnit": "F",
-          "shortForecast": "Partly Cloudy",
+          "shortForecast": "Mostly Cloudy",
           "windSpeed": "3 mph",
-          "windDirection": "N"
+          "windDirection": "NW"
         },
         {
           "name": "Saturday",
@@ -242,7 +242,7 @@
           "windDirection": "NW"
         }
       ],
-      "checked_at": "2026-08-15T07:37:08.925028Z",
+      "checked_at": "2026-08-15T08:36:52.145549Z",
       "next_check_minutes": 30
     }
   ],
