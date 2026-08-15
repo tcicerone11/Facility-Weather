@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T11:01:21.208497Z",
+  "generated_at": "2026-08-15T11:29:31.405753Z",
   "facilities": [
     {
       "id": "den",
@@ -131,7 +131,7 @@
           "windDirection": "W"
         }
       ],
-      "checked_at": "2026-08-15T11:01:22.534316Z",
+      "checked_at": "2026-08-15T11:29:33.960280Z",
       "next_check_minutes": 15
     },
     {
@@ -150,8 +150,8 @@
       },
       "reasons": [],
       "metar": {
-        "raw": "METAR KIAD 150952Z 33004KT 10SM FEW075 22/21 A3012 RMK AO2 SLP195 T02170206 $",
-        "observed": "2026-08-15T10:00:00.000Z",
+        "raw": "METAR KIAD 151052Z 32004KT 10SM FEW250 22/20 A3014 RMK AO2 SLP202 T02170200 $",
+        "observed": "2026-08-15T11:00:00.000Z",
         "wind_kt": 4.0,
         "wind_mph": 4.6,
         "gust_kt": null,
@@ -161,18 +161,18 @@
         "flight_category": "VFR"
       },
       "taf": {
-        "raw": "TAF KIAD 150901Z 1509/1612 32005KT P6SM FEW070 FM151200 03005KT P6SM FEW030 SCT150 FM151600 08003KT P6SM FEW050 FEW150 FM152100 13003KT P6SM BKN060 FM160900 16005KT P6SM BKN030 PROB30 1609/1612 5SM -SHRA BR BKN020",
-        "issued": "2026-08-15T09:01:00.000Z",
-        "valid_from": 1786784400,
-        "valid_to": 1786881600,
+        "raw": "TAF KIAD 151121Z 1512/1618 32004KT P6SM FEW250 FM151600 08003KT P6SM FEW050 FEW150 FM152100 13003KT P6SM BKN060 FM160900 16005KT P6SM BKN030 PROB30 1609/1615 3SM SHRA BR BKN010",
+        "issued": "2026-08-15T11:21:00.000Z",
+        "valid_from": 1786795200,
+        "valid_to": 1786903200,
         "thunder": false,
         "snow": false,
         "freezing_precip": false
       },
       "alerts": [],
       "metrics": {
-        "peak_gust_24h_kt": 11.0,
-        "peak_gust_24h_mph": 12.7,
+        "peak_gust_24h_kt": 12.0,
+        "peak_gust_24h_mph": 13.8,
         "precip_7d_in": 0.71,
         "snow_7d_in": 0.0
       },
@@ -182,8 +182,8 @@
           "temperature": 87,
           "temperatureUnit": "F",
           "shortForecast": "Mostly Sunny",
-          "windSpeed": "5 mph",
-          "windDirection": "N"
+          "windSpeed": "3 mph",
+          "windDirection": "NE"
         },
         {
           "name": "Tonight",
@@ -242,9 +242,8 @@
           "windDirection": "NW"
         }
       ],
-      "checked_at": "2026-08-15T10:22:46.717339Z",
-      "next_check_minutes": 30,
-      "data_error": "503 Server Error: Service Unavailable for url: https://api.weather.gov/gridpoints/LWX/82,72"
+      "checked_at": "2026-08-15T11:29:35.462107Z",
+      "next_check_minutes": 30
     }
   ],
   "settings": {
