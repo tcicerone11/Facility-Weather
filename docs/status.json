@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T08:36:48.188172Z",
+  "generated_at": "2026-08-15T09:01:51.709552Z",
   "facilities": [
     {
       "id": "den",
@@ -30,20 +30,20 @@
         }
       ],
       "metar": {
-        "raw": "METAR KDEN 150753Z 18008KT 6SM BR FEW005 FEW100 SCT220 16/16 A3023 RMK AO2 SLP153 T01610156",
-        "observed": "2026-08-15T08:00:00.000Z",
-        "wind_kt": 8.0,
-        "wind_mph": 9.2,
+        "raw": "METAR KDEN 150853Z 17006KT 10SM FEW100 SCT220 16/15 A3023 RMK AO2 SLP159 T01610150 55005",
+        "observed": "2026-08-15T09:00:00.000Z",
+        "wind_kt": 6.0,
+        "wind_mph": 6.9,
         "gust_kt": null,
         "gust_mph": null,
         "temperature_f": 61.0,
-        "visibility_sm": 6.0,
+        "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
       "taf": {
-        "raw": "TAF KDEN 150600Z 1506/1612 VRB06KT P6SM FEW010 BKN100 TEMPO 1506/1510 4SM BR FEW005 FM151000 20007KT P6SM FEW005 FEW060 BKN120 FM151300 VRB06KT P6SM SCT100 FM151800 06007KT P6SM SCT060 SCT120 TEMPO 1521/1601 VRB20G30KT 5SM -TSRA BKN060CB FM160100 VRB06KT P6SM SCT060 BKN120 FM160600 VRB06KT P6SM SCT010 BKN120 FM161100 20007KT P6SM FEW010 SCT100",
-        "issued": "2026-08-15T06:00:00.000Z",
-        "valid_from": 1786773600,
+        "raw": "TAF KDEN 150852Z 1509/1612 18007KT P6SM FEW005 SCT100 FM151100 21007KT P6SM FEW005 FEW060 BKN120 FM151300 VRB06KT P6SM SCT100 FM151800 06007KT P6SM SCT060 SCT120 TEMPO 1521/1601 VRB20G30KT 5SM -TSRA BKN060CB FM160100 VRB06KT P6SM SCT060 BKN120 FM160600 VRB06KT P6SM SCT010 BKN120 FM161100 20007KT P6SM FEW010 SCT100",
+        "issued": "2026-08-15T08:52:00.000Z",
+        "valid_from": 1786784400,
         "valid_to": 1786881600,
         "thunder": true,
         "snow": false,
@@ -131,7 +131,7 @@
           "windDirection": "W"
         }
       ],
-      "checked_at": "2026-08-15T08:36:50.743506Z",
+      "checked_at": "2026-08-15T09:01:52.893106Z",
       "next_check_minutes": 15
     },
     {
