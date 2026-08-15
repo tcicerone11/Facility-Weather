@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T18:41:36.363261Z",
+  "generated_at": "2026-08-15T19:03:56.571193Z",
   "facilities": [
     {
       "id": "den",
@@ -30,13 +30,13 @@
         }
       ],
       "metar": {
-        "raw": "METAR KDEN 151753Z 07006G14KT 10SM FEW075 FEW120 SCT150 SCT200 26/13 A3027 RMK AO2 SLP174 T02610128 10261 20144 51006",
-        "observed": "2026-08-15T18:00:00.000Z",
-        "wind_kt": 6.0,
-        "wind_mph": 6.9,
-        "gust_kt": 14.0,
-        "gust_mph": 16.1,
-        "temperature_f": 79.0,
+        "raw": "METAR KDEN 151853Z 0809G19KT 10SM FEW050 FEW080 SCT120 SCT200 27/14 A3026 RMK AO2 SLP171 OCNL LTGICCG DSNT SW-W CB DSNT SW-W MOV E T02670139",
+        "observed": "2026-08-15T19:00:00.000Z",
+        "wind_kt": null,
+        "wind_mph": null,
+        "gust_kt": null,
+        "gust_mph": null,
+        "temperature_f": 80.1,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
@@ -67,12 +67,12 @@
       },
       "forecast": [
         {
-          "name": "Today",
-          "temperature": 82,
+          "name": "This Afternoon",
+          "temperature": 81,
           "temperatureUnit": "F",
-          "shortForecast": "Patchy Fog then Slight Chance Showers And Thunderstorms",
-          "windSpeed": "5 to 9 mph",
-          "windDirection": "N"
+          "shortForecast": "Chance Showers And Thunderstorms",
+          "windSpeed": "9 mph",
+          "windDirection": "ENE"
         },
         {
           "name": "Tonight",
@@ -86,52 +86,52 @@
           "name": "Sunday",
           "temperature": 84,
           "temperatureUnit": "F",
-          "shortForecast": "Mostly Sunny then Chance Showers And Thunderstorms",
-          "windSpeed": "5 to 12 mph",
+          "shortForecast": "Mostly Sunny then Slight Chance Showers And Thunderstorms",
+          "windSpeed": "5 to 10 mph",
           "windDirection": "SSE"
         },
         {
           "name": "Sunday Night",
-          "temperature": 57,
+          "temperature": 60,
           "temperatureUnit": "F",
           "shortForecast": "Slight Chance Showers And Thunderstorms then Partly Cloudy",
-          "windSpeed": "6 to 9 mph",
+          "windSpeed": "7 to 10 mph",
           "windDirection": "S"
         },
         {
           "name": "Monday",
-          "temperature": 88,
+          "temperature": 89,
           "temperatureUnit": "F",
-          "shortForecast": "Sunny",
+          "shortForecast": "Mostly Sunny",
           "windSpeed": "2 to 6 mph",
-          "windDirection": "E"
+          "windDirection": "NNW"
         },
         {
           "name": "Monday Night",
-          "temperature": 61,
+          "temperature": 62,
           "temperatureUnit": "F",
-          "shortForecast": "Partly Cloudy",
+          "shortForecast": "Mostly Clear",
           "windSpeed": "6 to 10 mph",
           "windDirection": "S"
         },
         {
           "name": "Tuesday",
-          "temperature": 91,
+          "temperature": 92,
           "temperatureUnit": "F",
           "shortForecast": "Mostly Sunny",
-          "windSpeed": "6 to 9 mph",
-          "windDirection": "W"
+          "windSpeed": "5 to 8 mph",
+          "windDirection": "WNW"
         },
         {
           "name": "Tuesday Night",
-          "temperature": 59,
+          "temperature": 60,
           "temperatureUnit": "F",
           "shortForecast": "Slight Chance Showers And Thunderstorms then Mostly Cloudy",
-          "windSpeed": "8 mph",
-          "windDirection": "N"
+          "windSpeed": "5 to 9 mph",
+          "windDirection": "S"
         }
       ],
-      "checked_at": "2026-08-15T18:41:37.912779Z",
+      "checked_at": "2026-08-15T19:03:58.520097Z",
       "next_check_minutes": 15
     },
     {
@@ -157,13 +157,13 @@
         }
       ],
       "metar": {
-        "raw": "METAR KIAD 151752Z 00000KT 10SM SCT055 SCT250 29/17 A3016 RMK AO2 SLP210 T02940172 10306 20233 58002 $",
-        "observed": "2026-08-15T18:00:00.000Z",
+        "raw": "METAR KIAD 151852Z 00000KT 10SM SCT055 BKN250 30/18 A3015 RMK AO2 SLP205 T03000183 $",
+        "observed": "2026-08-15T19:00:00.000Z",
         "wind_kt": 0.0,
         "wind_mph": 0.0,
         "gust_kt": null,
         "gust_mph": null,
-        "temperature_f": 84.9,
+        "temperature_f": 86.0,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
@@ -190,7 +190,7 @@
           "temperatureUnit": "F",
           "shortForecast": "Partly Sunny",
           "windSpeed": "3 mph",
-          "windDirection": "N"
+          "windDirection": "NE"
         },
         {
           "name": "Tonight",
@@ -249,7 +249,7 @@
           "windDirection": "NW"
         }
       ],
-      "checked_at": "2026-08-15T18:41:40.644642Z",
+      "checked_at": "2026-08-15T19:04:03.916987Z",
       "next_check_minutes": 15
     }
   ],
