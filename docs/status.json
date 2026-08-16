@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T04:58:01.327436Z",
+  "generated_at": "2026-08-16T05:33:55.357933Z",
   "facilities": [
     {
       "id": "den",
@@ -35,18 +35,18 @@
         "flight_category": "VFR"
       },
       "taf": {
-        "raw": "TAF KDEN 160255Z 1603/1706 32006KT P6SM FEW035 SCT100 FM161100 VRB05KT P6SM VCFG SCT002 TEMPO 1611/1614 1/2SM FG BKN002 FM161500 18006KT P6SM FEW030 SCT150 FM161800 11007KT P6SM FEW080 SCT150 PROB30 1622/1702 VRB20G30KT -TSRA BKN080CB FM170200 17006KT P6SM SCT150",
-        "issued": "2026-08-16T02:55:00.000Z",
-        "valid_from": 1786849200,
-        "valid_to": 1786946400,
+        "raw": "TAF KDEN 160530Z 1606/1712 21006KT P6SM FEW050 SCT100 FM160900 04011KT P6SM FEW030 SCT100 FM161100 31005KT P6SM VCFG FEW002 SCT020 TEMPO 1611/1614 1/2SM FG BKN002 FM161500 VRB06KT P6SM FEW030 SCT150 FM161900 11007KT P6SM FEW080 SCT150 PROB30 1622/1703 VRB20G30KT -TSRA BKN080CB FM170300 17009KT P6SM SCT150 FM170700 21007KT P6SM FEW150",
+        "issued": "2026-08-16T05:30:00.000Z",
+        "valid_from": 1786860000,
+        "valid_to": 1786968000,
         "thunder": true,
         "snow": false,
         "freezing_precip": false
       },
       "alerts": [],
       "metrics": {
-        "peak_gust_24h_kt": 15.0,
-        "peak_gust_24h_mph": 17.3,
+        "peak_gust_24h_kt": 16.0,
+        "peak_gust_24h_mph": 18.4,
         "precip_7d_in": 0.28,
         "snow_7d_in": 0.0
       },
@@ -116,7 +116,7 @@
           "windDirection": "E"
         }
       ],
-      "checked_at": "2026-08-16T04:58:02.562035Z",
+      "checked_at": "2026-08-16T05:33:56.477784Z",
       "next_check_minutes": 15
     },
     {
@@ -153,10 +153,10 @@
         "flight_category": "VFR"
       },
       "taf": {
-        "raw": "TAF KIAD 160255Z 1603/1706 15004KT P6SM FEW110 BKN180 FM160900 16005KT P6SM BKN030 FM161300 17008KT 6SM -SHRA BKN015 PROB30 1614/1620 4SM TSRA OVC015CB FM162100 19008KT 6SM -SHRA BKN020",
-        "issued": "2026-08-16T02:55:00.000Z",
-        "valid_from": 1786849200,
-        "valid_to": 1786946400,
+        "raw": "TAF KIAD 160520Z 1606/1712 16003KT P6SM BKN100 TEMPO 1609/1611 6SM -SHRA OVC050 FM161100 17006KT 6SM -SHRA OVC035 FM161300 17007KT 5SM -SHRA BR SCT010 OVC025 PROB30 1613/1617 3SM TSRA BR BKN010CB FM161700 18010G20KT P6SM SCT010 BKN025 PROB30 1621/1703 3SM TSRA BR BKN010CB FM170300 20004KT P6SM BKN030",
+        "issued": "2026-08-16T05:20:00.000Z",
+        "valid_from": 1786860000,
+        "valid_to": 1786968000,
         "thunder": true,
         "snow": false,
         "freezing_precip": false
@@ -234,7 +234,7 @@
           "windDirection": "W"
         }
       ],
-      "checked_at": "2026-08-16T04:58:03.769167Z",
+      "checked_at": "2026-08-16T05:33:58.834661Z",
       "next_check_minutes": 15
     }
   ],
