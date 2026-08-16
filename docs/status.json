@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T21:14:21.595243Z",
+  "generated_at": "2026-08-16T21:37:19.722375Z",
   "facilities": [
     {
       "id": "den",
@@ -71,7 +71,7 @@
           "temperature": 83,
           "temperatureUnit": "F",
           "shortForecast": "Chance Showers And Thunderstorms",
-          "windSpeed": "7 to 10 mph",
+          "windSpeed": "10 mph",
           "windDirection": "ESE"
         },
         {
@@ -131,7 +131,7 @@
           "windDirection": "S"
         }
       ],
-      "checked_at": "2026-08-16T21:14:22.704124Z",
+      "checked_at": "2026-08-16T21:37:20.430782Z",
       "next_check_minutes": 15
     },
     {
@@ -149,6 +149,12 @@
         "action": "Monitor conditions and prepare staff, equipment, or outdoor operations."
       },
       "reasons": [
+        {
+          "level": "watch",
+          "title": "Flood Watch",
+          "detail": "Flood Watch issued August 16 at 5:22PM EDT until August 17 at 3:00AM EDT by NWS Baltimore MD/Washington DC",
+          "action": "Monitor updates and prepare staff or equipment. Source: Exact facility location."
+        },
         {
           "level": "watch",
           "title": "Severe Thunderstorm Watch",
@@ -184,6 +190,14 @@
       },
       "alerts": [
         {
+          "event": "Flood Watch",
+          "headline": "Flood Watch issued August 16 at 5:22PM EDT until August 17 at 3:00AM EDT by NWS Baltimore MD/Washington DC",
+          "severity": "Severe",
+          "urgency": "Future",
+          "expires": "2026-08-17T01:30:00-04:00",
+          "source": "Exact facility location"
+        },
+        {
           "event": "Severe Thunderstorm Watch",
           "headline": "Severe Thunderstorm Watch issued August 16 at 4:42PM EDT until August 16 at 11:00PM EDT by NWS Baltimore MD/Washington DC",
           "severity": "Severe",
@@ -195,7 +209,7 @@
       "metrics": {
         "peak_gust_24h_kt": 19.0,
         "peak_gust_24h_mph": 21.9,
-        "precip_7d_in": 1.05,
+        "precip_7d_in": 1.02,
         "snow_7d_in": 0.0
       },
       "forecast": [
@@ -264,7 +278,7 @@
           "windDirection": "W"
         }
       ],
-      "checked_at": "2026-08-16T21:14:24.769388Z",
+      "checked_at": "2026-08-16T21:37:22.290264Z",
       "next_check_minutes": 15
     }
   ],
