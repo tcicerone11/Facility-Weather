@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T23:48:57.883841Z",
+  "generated_at": "2026-08-16T01:53:37.870638Z",
   "facilities": [
     {
       "id": "den",
@@ -18,25 +18,19 @@
       "reasons": [
         {
           "level": "watch",
-          "title": "Flood Watch",
-          "detail": "Flood Watch issued August 15 at 11:52AM MDT until August 15 at 10:00PM MDT by NWS Denver CO",
-          "action": "Monitor updates and prepare staff or equipment. Source: Exact facility location."
-        },
-        {
-          "level": "watch",
           "title": "Thunderstorms may affect the facility",
           "detail": "A thunderstorm signal appears in the next 6 hours in the local or airport forecast.",
           "action": "Monitor official warnings and your approved lightning procedure. This system does not measure lightning strike distance."
         }
       ],
       "metar": {
-        "raw": "METAR KDEN 152253Z 21007KT 10SM SCT070 BKN100 BKN160 BKN200 21/16 A2027 RMK AO2 RAE00 SLP188 P0000 T02060161",
-        "observed": "2026-08-15T23:00:00.000Z",
-        "wind_kt": 7.0,
-        "wind_mph": 8.1,
+        "raw": "METAR KDEN 160053Z VRB04KT 10SM FEW027 BKN110 BKN160 BKN220 22/14 A3031 RMK AO2 SLP198 T02170144",
+        "observed": "2026-08-16T01:00:00.000Z",
+        "wind_kt": 4.0,
+        "wind_mph": 4.6,
         "gust_kt": null,
         "gust_mph": null,
-        "temperature_f": 69.1,
+        "temperature_f": 71.1,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
@@ -49,16 +43,7 @@
         "snow": false,
         "freezing_precip": false
       },
-      "alerts": [
-        {
-          "event": "Flood Watch",
-          "headline": "Flood Watch issued August 15 at 11:52AM MDT until August 15 at 10:00PM MDT by NWS Denver CO",
-          "severity": "Severe",
-          "urgency": "Future",
-          "expires": "2026-08-15T22:00:00-06:00",
-          "source": "Exact facility location"
-        }
-      ],
+      "alerts": [],
       "metrics": {
         "peak_gust_24h_kt": 15.0,
         "peak_gust_24h_mph": 17.3,
@@ -66,14 +51,6 @@
         "snow_7d_in": 0.0
       },
       "forecast": [
-        {
-          "name": "This Afternoon",
-          "temperature": 81,
-          "temperatureUnit": "F",
-          "shortForecast": "Chance Showers And Thunderstorms",
-          "windSpeed": "9 mph",
-          "windDirection": "ENE"
-        },
         {
           "name": "Tonight",
           "temperature": 60,
@@ -129,9 +106,17 @@
           "shortForecast": "Slight Chance Showers And Thunderstorms then Mostly Cloudy",
           "windSpeed": "5 to 9 mph",
           "windDirection": "S"
+        },
+        {
+          "name": "Wednesday",
+          "temperature": 87,
+          "temperatureUnit": "F",
+          "shortForecast": "Partly Sunny then Chance Showers And Thunderstorms",
+          "windSpeed": "5 to 10 mph",
+          "windDirection": "E"
         }
       ],
-      "checked_at": "2026-08-15T23:49:00.148746Z",
+      "checked_at": "2026-08-16T01:53:40.306167Z",
       "next_check_minutes": 15
     },
     {
@@ -157,13 +142,13 @@
         }
       ],
       "metar": {
-        "raw": "METAR KIAD 152252Z 09005KT 10SM FEW055 SCT170 SCT250 29/19 A3011 RMK AO2 SLP194 T02890189 $",
-        "observed": "2026-08-15T23:00:00.000Z",
+        "raw": "METAR KIAD 160052Z 14005KT 10SM SCT055 BKN170 BKN210 27/20 A3013 RMK AO2 SLP199 T02720200 $",
+        "observed": "2026-08-16T01:00:00.000Z",
         "wind_kt": 5.0,
         "wind_mph": 5.8,
         "gust_kt": null,
         "gust_mph": null,
-        "temperature_f": 84.0,
+        "temperature_f": 81.0,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
@@ -186,7 +171,7 @@
       "forecast": [
         {
           "name": "Tonight",
-          "temperature": 70,
+          "temperature": 71,
           "temperatureUnit": "F",
           "shortForecast": "Mostly Cloudy",
           "windSpeed": "5 mph",
@@ -249,7 +234,7 @@
           "windDirection": "W"
         }
       ],
-      "checked_at": "2026-08-15T23:49:01.739512Z",
+      "checked_at": "2026-08-16T01:53:45.662856Z",
       "next_check_minutes": 15
     }
   ],
