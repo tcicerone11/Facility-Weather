@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T14:09:24.498278Z",
+  "generated_at": "2026-08-16T14:37:50.970120Z",
   "facilities": [
     {
       "id": "den",
@@ -116,7 +116,7 @@
           "windDirection": "SSW"
         }
       ],
-      "checked_at": "2026-08-16T14:09:25.795641Z",
+      "checked_at": "2026-08-16T14:37:52.813961Z",
       "next_check_minutes": 15
     },
     {
@@ -142,14 +142,14 @@
         }
       ],
       "metar": {
-        "raw": "METAR KIAD 161252Z 19009KT 10SM FEW014 FEW025 BKN045 BKN130 OVC180 24/22 A3009 RMK AO2 SLP184 T02440217 $",
-        "observed": "2026-08-16T13:00:00.000Z",
-        "wind_kt": 9.0,
-        "wind_mph": 10.4,
+        "raw": "METAR KIAD 161352Z 18010KT 8SM -RA FEW020 SCT045 BKN060 OVC130 23/20 A3008 RMK AO2 RAB11 SLP183 P0000 T02330200 $",
+        "observed": "2026-08-16T14:00:00.000Z",
+        "wind_kt": 10.0,
+        "wind_mph": 11.5,
         "gust_kt": null,
         "gust_mph": null,
-        "temperature_f": 75.9,
-        "visibility_sm": 10.0,
+        "temperature_f": 73.9,
+        "visibility_sm": 8.0,
         "flight_category": "VFR"
       },
       "taf": {
@@ -174,7 +174,7 @@
           "temperature": 82,
           "temperatureUnit": "F",
           "shortForecast": "Chance Showers And Thunderstorms",
-          "windSpeed": "7 to 12 mph",
+          "windSpeed": "8 to 12 mph",
           "windDirection": "S"
         },
         {
@@ -234,9 +234,8 @@
           "windDirection": "SW"
         }
       ],
-      "checked_at": "2026-08-16T13:19:43.262614Z",
-      "next_check_minutes": 15,
-      "data_error": "504 Server Error: Gateway Time-out for url: https://aviationweather.gov/api/data/taf?ids=KIAD&format=json"
+      "checked_at": "2026-08-16T14:37:54.457627Z",
+      "next_check_minutes": 15
     }
   ],
   "settings": {
