@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T09:43:59.412285Z",
+  "generated_at": "2026-08-16T10:01:40.177049Z",
   "facilities": [
     {
       "id": "den",
@@ -24,15 +24,15 @@
         }
       ],
       "metar": {
-        "raw": "METAR KDEN 160853Z 02004KT 4SM BR FEW040 15/14 A3033 RMK AO2 SLP207 T01500144 58002",
-        "observed": "2026-08-16T09:00:00.000Z",
-        "wind_kt": 4.0,
-        "wind_mph": 4.6,
+        "raw": "METAR KDEN 160953Z 04006KT 0SM FG 16/15 A3036 RMK AO2 SFC VIS 1/8 SLP221 T01560150",
+        "observed": "2026-08-16T10:00:00.000Z",
+        "wind_kt": 6.0,
+        "wind_mph": 6.9,
         "gust_kt": null,
         "gust_mph": null,
-        "temperature_f": 59.0,
-        "visibility_sm": 4.0,
-        "flight_category": "MVFR"
+        "temperature_f": 60.1,
+        "visibility_sm": 0.0,
+        "flight_category": null
       },
       "taf": {
         "raw": "TAF KDEN 160848Z 1609/1712 04006KT 5SM BR FEW040 FM161000 35005KT 5SM BR VCFG FEW003 SCT020 TEMPO 1610/1614 1/2SM FG BKN003 FM161500 VRB06KT P6SM FEW030 SCT150 FM161900 11007KT P6SM FEW080 SCT150 PROB30 1622/1703 VRB20G30KT -TSRA BKN080CB FM170300 17009KT P6SM SCT150 FM170700 21007KT P6SM FEW150",
@@ -116,7 +116,7 @@
           "windDirection": "ESE"
         }
       ],
-      "checked_at": "2026-08-16T09:44:00.464356Z",
+      "checked_at": "2026-08-16T10:01:41.927816Z",
       "next_check_minutes": 15
     },
     {
@@ -142,10 +142,10 @@
         }
       ],
       "metar": {
-        "raw": "METAR KIAD 160852Z 18004KT 10SM BKN055 OVC085 24/21 A3009 RMK AO2 SLP185 T02390211 56010 $",
-        "observed": "2026-08-16T09:00:00.000Z",
-        "wind_kt": 4.0,
-        "wind_mph": 4.6,
+        "raw": "METAR KIAD 160952Z 18006KT 10SM BKN060 OVC090 24/21 A3009 RMK AO2 SLP185 T02390211 $",
+        "observed": "2026-08-16T10:00:00.000Z",
+        "wind_kt": 6.0,
+        "wind_mph": 6.9,
         "gust_kt": null,
         "gust_mph": null,
         "temperature_f": 75.0,
@@ -170,15 +170,7 @@
       },
       "forecast": [
         {
-          "name": "Overnight",
-          "temperature": 71,
-          "temperatureUnit": "F",
-          "shortForecast": "Scattered Rain Showers",
-          "windSpeed": "6 mph",
-          "windDirection": "S"
-        },
-        {
-          "name": "Sunday",
+          "name": "Today",
           "temperature": 82,
           "temperatureUnit": "F",
           "shortForecast": "Chance Showers And Thunderstorms",
@@ -186,7 +178,7 @@
           "windDirection": "S"
         },
         {
-          "name": "Sunday Night",
+          "name": "Tonight",
           "temperature": 71,
           "temperatureUnit": "F",
           "shortForecast": "Scattered Showers And Thunderstorms then Showers And Thunderstorms",
@@ -232,11 +224,18 @@
           "shortForecast": "Sunny",
           "windSpeed": "1 to 6 mph",
           "windDirection": "W"
+        },
+        {
+          "name": "Wednesday Night",
+          "temperature": 69,
+          "temperatureUnit": "F",
+          "shortForecast": "Chance Showers And Thunderstorms",
+          "windSpeed": "5 mph",
+          "windDirection": "SW"
         }
       ],
-      "checked_at": "2026-08-16T09:13:02.305733Z",
-      "next_check_minutes": 15,
-      "data_error": "504 Server Error: Gateway Time-out for url: https://aviationweather.gov/api/data/taf?ids=KIAD&format=json"
+      "checked_at": "2026-08-16T10:01:46.641341Z",
+      "next_check_minutes": 15
     }
   ],
   "settings": {
