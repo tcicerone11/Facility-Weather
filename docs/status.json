@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T22:58:08.976951Z",
+  "generated_at": "2026-08-16T23:26:37.537009Z",
   "facilities": [
     {
       "id": "den",
@@ -71,7 +71,7 @@
           "temperature": 83,
           "temperatureUnit": "F",
           "shortForecast": "Chance Showers And Thunderstorms",
-          "windSpeed": "10 mph",
+          "windSpeed": "7 to 10 mph",
           "windDirection": "ESE"
         },
         {
@@ -131,7 +131,7 @@
           "windDirection": "S"
         }
       ],
-      "checked_at": "2026-08-16T22:58:26.052426Z",
+      "checked_at": "2026-08-16T23:26:38.395279Z",
       "next_check_minutes": 15
     },
     {
@@ -169,20 +169,20 @@
         }
       ],
       "metar": {
-        "raw": "METAR KIAD 162252Z 11006KT 10SM -TSRA FEW015 SCT034CB BKN055 BKN250 26/23 A2993 RMK AO2 RAB52 TSB19 SLP132 FRQ LTGIC N-NE AND W-NW TS N-NE AND W-NW MOV E P0000 T02560233 $",
-        "observed": "2026-08-16T23:00:00.000Z",
-        "wind_kt": 6.0,
-        "wind_mph": 6.9,
+        "raw": "SPECI KIAD 162316Z 14015KT 1/4SM R01R/1800V4500FT +TSRA FG BKN009 BKN029CB OVC050 24/24 A2989 RMK AO2 PRESFR FRQ LTGICCG ALQDS TS OHD MOV E P0043 T02440239 $",
+        "observed": "2026-08-16T23:16:00.000Z",
+        "wind_kt": 15.0,
+        "wind_mph": 17.3,
         "gust_kt": null,
         "gust_mph": null,
-        "temperature_f": 78.1,
-        "visibility_sm": 10.0,
-        "flight_category": "VFR"
+        "temperature_f": 75.9,
+        "visibility_sm": 0.25,
+        "flight_category": "LIFR"
       },
       "taf": {
-        "raw": "TAF KIAD 162222Z 1622/1724 16005KT 4SM -TSRA FEW015 BKN035CB FM162300 18008KT 5SM -SHRA VCTS BKN025 OVC035CB TEMPO 1700/1704 3SM TSRA BR BKN030CB FM170500 20004KT P6SM BKN040",
-        "issued": "2026-08-16T22:22:00.000Z",
-        "valid_from": 1786917600,
+        "raw": "TAF KIAD 162259Z 1623/1724 11006KT 1/2SM +TSRA BKN035CB FM170000 22007KT 3SM SHRA VCTS BKN030CB FM170200 20004KT 5SM -SHRA BKN035 FM170600 21005KT P6SM OVC050 FM171200 28008KT P6SM BKN050",
+        "issued": "2026-08-16T22:59:00.000Z",
+        "valid_from": 1786921200,
         "valid_to": 1787011200,
         "thunder": true,
         "snow": false,
@@ -217,8 +217,8 @@
           "name": "Tonight",
           "temperature": 71,
           "temperatureUnit": "F",
-          "shortForecast": "Scattered Showers And Thunderstorms then Widespread Showers And Thunderstorms",
-          "windSpeed": "3 to 8 mph",
+          "shortForecast": "Widespread Showers And Thunderstorms",
+          "windSpeed": "3 to 7 mph",
           "windDirection": "S"
         },
         {
@@ -278,7 +278,7 @@
           "windDirection": "N"
         }
       ],
-      "checked_at": "2026-08-16T22:58:29.656453Z",
+      "checked_at": "2026-08-16T23:26:40.195161Z",
       "next_check_minutes": 15
     }
   ],
