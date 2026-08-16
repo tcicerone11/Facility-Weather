@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T11:39:10.243181Z",
+  "generated_at": "2026-08-16T11:56:30.858946Z",
   "facilities": [
     {
       "id": "den",
@@ -116,7 +116,7 @@
           "windDirection": "ESE"
         }
       ],
-      "checked_at": "2026-08-16T11:39:12.895736Z",
+      "checked_at": "2026-08-16T11:56:32.677141Z",
       "next_check_minutes": 15
     },
     {
@@ -142,21 +142,21 @@
         }
       ],
       "metar": {
-        "raw": "METAR KIAD 161052Z 16006KT 10SM BKN050 BKN075 BKN120 24/22 A3009 RMK AO2 SLP185 T02390217 $",
-        "observed": "2026-08-16T11:00:00.000Z",
-        "wind_kt": 6.0,
-        "wind_mph": 6.9,
+        "raw": "METAR KIAD 161152Z 17007KT 10SM FEW025 SCT047 OVC065 24/21 A3010 RMK AO2 SLP188 T02440211 10244 20239 53002 $",
+        "observed": "2026-08-16T12:00:00.000Z",
+        "wind_kt": 7.0,
+        "wind_mph": 8.1,
         "gust_kt": null,
         "gust_mph": null,
-        "temperature_f": 75.0,
+        "temperature_f": 75.9,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
       "taf": {
-        "raw": "TAF KIAD 160901Z 1609/1712 17004KT P6SM SCT050 OVC080 TEMPO 1609/1611 6SM -SHRA OVC050 FM161100 17006KT 6SM -SHRA OVC035 FM161300 17007KT 5SM -SHRA BR SCT010 OVC025 PROB30 1613/1617 3SM TSRA BR BKN010CB FM161700 18010G20KT P6SM SCT010 BKN025 PROB30 1621/1703 3SM TSRA BR BKN010CB FM170300 20004KT P6SM BKN030",
-        "issued": "2026-08-16T09:01:00.000Z",
-        "valid_from": 1786870800,
-        "valid_to": 1786968000,
+        "raw": "TAF KIAD 161139Z 1612/1718 16006KT 6SM -SHRA OVC050 FM161300 17007KT 5SM SHRA BR SCT010 OVC025 FM161600 18010G20KT P6SM SCT010 BKN025 PROB30 1617/1621 3SM TSRA BR BKN010CB FM162100 18010G20KT P6SM BKN025 PROB30 1700/1704 3SM TSRA BR BKN010CB FM170400 20004KT P6SM BKN030",
+        "issued": "2026-08-16T11:39:00.000Z",
+        "valid_from": 1786881600,
+        "valid_to": 1786989600,
         "thunder": true,
         "snow": false,
         "freezing_precip": false
@@ -234,7 +234,7 @@
           "windDirection": "SW"
         }
       ],
-      "checked_at": "2026-08-16T11:39:16.626667Z",
+      "checked_at": "2026-08-16T11:56:38.663725Z",
       "next_check_minutes": 15
     }
   ],
