@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T18:40:07.232324Z",
+  "generated_at": "2026-08-16T19:02:22.493837Z",
   "facilities": [
     {
       "id": "den",
@@ -118,7 +118,7 @@
       ],
       "checked_at": "2026-08-16T17:45:28.012213Z",
       "next_check_minutes": 15,
-      "data_error": "502 Server Error: Bad Gateway for url: https://aviationweather.gov/api/data/metar?ids=KDEN&format=json"
+      "data_error": "502 Server Error: Bad Gateway for url: https://aviationweather.gov/api/data/taf?ids=KDEN&format=json"
     },
     {
       "id": "iad",
@@ -143,10 +143,10 @@
         }
       ],
       "metar": {
-        "raw": "METAR KIAD 161752Z 17005KT 10SM BKN008 OVC011 24/23 A3002 RMK AO2 RAB00E18 SLP164 P0000 60015 T02390228 10244 20222 58015 $",
-        "observed": "2026-08-16T18:00:00.000Z",
-        "wind_kt": 5.0,
-        "wind_mph": 5.8,
+        "raw": "METAR KIAD 161852Z 15009KT 10SM BKN008 OVC011 24/22 A2999 RMK AO2 RAB04E49 SLP154 P0000 T02390222 $",
+        "observed": "2026-08-16T19:00:00.000Z",
+        "wind_kt": 9.0,
+        "wind_mph": 10.4,
         "gust_kt": null,
         "gust_mph": null,
         "temperature_f": 75.0,
@@ -235,7 +235,7 @@
           "windDirection": "W"
         }
       ],
-      "checked_at": "2026-08-16T18:40:13.104414Z",
+      "checked_at": "2026-08-16T19:02:28.739981Z",
       "next_check_minutes": 15
     }
   ],
