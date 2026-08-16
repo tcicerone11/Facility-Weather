@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T20:32:29.674788Z",
+  "generated_at": "2026-08-16T20:53:37.581596Z",
   "facilities": [
     {
       "id": "den",
@@ -131,7 +131,7 @@
           "windDirection": "S"
         }
       ],
-      "checked_at": "2026-08-16T20:32:32.158135Z",
+      "checked_at": "2026-08-16T20:53:39.836909Z",
       "next_check_minutes": 15
     },
     {
@@ -151,21 +151,27 @@
       "reasons": [
         {
           "level": "watch",
+          "title": "Severe Thunderstorm Watch",
+          "detail": "Severe Thunderstorm Watch issued August 16 at 4:42PM EDT until August 16 at 11:00PM EDT by NWS Baltimore MD/Washington DC",
+          "action": "Monitor updates and prepare staff or equipment. Source: Exact facility location."
+        },
+        {
+          "level": "watch",
           "title": "Thunderstorms may affect the facility",
           "detail": "A thunderstorm signal appears in the next 6 hours in the local or airport forecast.",
           "action": "Monitor official warnings and your approved lightning procedure. This system does not measure lightning strike distance."
         }
       ],
       "metar": {
-        "raw": "SPECI KIAD 161939Z 16005KT 10SM FEW008 OVC011 24/22 A2998 RMK AO2 T02390222 $",
-        "observed": "2026-08-16T19:39:00.000Z",
-        "wind_kt": 5.0,
-        "wind_mph": 5.8,
+        "raw": "SPECI KIAD 162029Z 15010KT 10SM FEW012 SCT018 BKN055 26/23 A2996 RMK AO2 T02560228 $",
+        "observed": "2026-08-16T20:29:00.000Z",
+        "wind_kt": 10.0,
+        "wind_mph": 11.5,
         "gust_kt": null,
         "gust_mph": null,
-        "temperature_f": 75.0,
+        "temperature_f": 78.1,
         "visibility_sm": 10.0,
-        "flight_category": "MVFR"
+        "flight_category": "VFR"
       },
       "taf": {
         "raw": "TAF KIAD 161740Z 1618/1724 17008KT 6SM -SHRA OVC016 PROB30 1619/1623 3SM TSRA BR BKN015CB FM162300 18008KT P6SM BKN040 TEMPO 1700/1704 3SM TSRA BR BKN030CB FM170500 20004KT P6SM BKN040",
@@ -176,11 +182,20 @@
         "snow": false,
         "freezing_precip": false
       },
-      "alerts": [],
+      "alerts": [
+        {
+          "event": "Severe Thunderstorm Watch",
+          "headline": "Severe Thunderstorm Watch issued August 16 at 4:42PM EDT until August 16 at 11:00PM EDT by NWS Baltimore MD/Washington DC",
+          "severity": "Severe",
+          "urgency": "Future",
+          "expires": "2026-08-16T23:00:00-04:00",
+          "source": "Exact facility location"
+        }
+      ],
       "metrics": {
         "peak_gust_24h_kt": 19.0,
         "peak_gust_24h_mph": 21.9,
-        "precip_7d_in": 1.11,
+        "precip_7d_in": 1.05,
         "snow_7d_in": 0.0
       },
       "forecast": [
@@ -189,7 +204,7 @@
           "temperature": 80,
           "temperatureUnit": "F",
           "shortForecast": "Chance Showers And Thunderstorms",
-          "windSpeed": "10 mph",
+          "windSpeed": "9 mph",
           "windDirection": "S"
         },
         {
@@ -249,9 +264,8 @@
           "windDirection": "W"
         }
       ],
-      "checked_at": "2026-08-16T19:47:47.563319Z",
-      "next_check_minutes": 15,
-      "data_error": "503 Server Error: Service Unavailable for url: https://api.weather.gov/gridpoints/LWX/82,72/forecast/hourly"
+      "checked_at": "2026-08-16T20:53:41.727653Z",
+      "next_check_minutes": 15
     }
   ],
   "settings": {
