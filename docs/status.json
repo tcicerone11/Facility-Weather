@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T21:54:26.475240Z",
+  "generated_at": "2026-08-16T22:17:24.406033Z",
   "facilities": [
     {
       "id": "den",
@@ -30,13 +30,13 @@
         }
       ],
       "metar": {
-        "raw": "METAR KDEN 162053Z 08011G17KT 10SM FEW060 SCT110 SCT220 27/14 A3030 RMK AO2 SLP185 T02720139 58017",
-        "observed": "2026-08-16T21:00:00.000Z",
-        "wind_kt": 11.0,
-        "wind_mph": 12.7,
-        "gust_kt": 17.0,
-        "gust_mph": 19.6,
-        "temperature_f": 81.0,
+        "raw": "METAR KDEN 162153Z 13016G24KT 10SM FEW050 BKN080 BKN220 27/14 A3029 RMK AO2 PK WND 12027/2132 SLP182 T02670139",
+        "observed": "2026-08-16T22:00:00.000Z",
+        "wind_kt": 16.0,
+        "wind_mph": 18.4,
+        "gust_kt": 24.0,
+        "gust_mph": 27.6,
+        "temperature_f": 80.1,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
@@ -60,8 +60,8 @@
         }
       ],
       "metrics": {
-        "peak_gust_24h_kt": 17.0,
-        "peak_gust_24h_mph": 19.6,
+        "peak_gust_24h_kt": 24.0,
+        "peak_gust_24h_mph": 27.6,
         "precip_7d_in": 0.15,
         "snow_7d_in": 0.0
       },
@@ -71,7 +71,7 @@
           "temperature": 83,
           "temperatureUnit": "F",
           "shortForecast": "Chance Showers And Thunderstorms",
-          "windSpeed": "10 mph",
+          "windSpeed": "7 to 10 mph",
           "windDirection": "ESE"
         },
         {
@@ -131,9 +131,8 @@
           "windDirection": "S"
         }
       ],
-      "checked_at": "2026-08-16T21:37:20.430782Z",
-      "next_check_minutes": 15,
-      "data_error": "504 Server Error: Gateway Time-out for url: https://aviationweather.gov/api/data/taf?ids=KDEN&format=json"
+      "checked_at": "2026-08-16T22:17:25.703313Z",
+      "next_check_minutes": 15
     },
     {
       "id": "iad",
@@ -170,13 +169,13 @@
         }
       ],
       "metar": {
-        "raw": "METAR KIAD 162152Z 17005KT 10SM FEW015 SCT044 BKN210 27/23 A2994 RMK AO2 SLP137 T02670233 $",
-        "observed": "2026-08-16T22:00:00.000Z",
+        "raw": "SPECI KIAD 162214Z 16005KT 10SM FEW015 FEW025 SCT034CB BKN210 BKN250 26/23 A2994 RMK AO2 CB NW MOV E T02610233 $",
+        "observed": "2026-08-16T22:14:00.000Z",
         "wind_kt": 5.0,
         "wind_mph": 5.8,
         "gust_kt": null,
         "gust_mph": null,
-        "temperature_f": 80.1,
+        "temperature_f": 79.0,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
@@ -279,7 +278,7 @@
           "windDirection": "W"
         }
       ],
-      "checked_at": "2026-08-16T21:54:48.299304Z",
+      "checked_at": "2026-08-16T22:17:26.591449Z",
       "next_check_minutes": 15
     }
   ],
