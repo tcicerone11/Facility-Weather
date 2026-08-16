@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T17:59:29.848104Z",
+  "generated_at": "2026-08-16T18:40:07.232324Z",
   "facilities": [
     {
       "id": "den",
@@ -117,7 +117,8 @@
         }
       ],
       "checked_at": "2026-08-16T17:45:28.012213Z",
-      "next_check_minutes": 15
+      "next_check_minutes": 15,
+      "data_error": "502 Server Error: Bad Gateway for url: https://aviationweather.gov/api/data/metar?ids=KDEN&format=json"
     },
     {
       "id": "iad",
@@ -165,13 +166,13 @@
       "metrics": {
         "peak_gust_24h_kt": 19.0,
         "peak_gust_24h_mph": 21.9,
-        "precip_7d_in": 1.27,
+        "precip_7d_in": 1.11,
         "snow_7d_in": 0.0
       },
       "forecast": [
         {
-          "name": "Today",
-          "temperature": 82,
+          "name": "This Afternoon",
+          "temperature": 80,
           "temperatureUnit": "F",
           "shortForecast": "Chance Showers And Thunderstorms",
           "windSpeed": "8 to 12 mph",
@@ -181,24 +182,24 @@
           "name": "Tonight",
           "temperature": 71,
           "temperatureUnit": "F",
-          "shortForecast": "Scattered Showers And Thunderstorms then Showers And Thunderstorms",
-          "windSpeed": "5 to 8 mph",
+          "shortForecast": "Chance Showers And Thunderstorms then Showers And Thunderstorms",
+          "windSpeed": "3 to 8 mph",
           "windDirection": "S"
         },
         {
           "name": "Monday",
           "temperature": 89,
           "temperatureUnit": "F",
-          "shortForecast": "Mostly Sunny",
-          "windSpeed": "5 to 12 mph",
+          "shortForecast": "Mostly Sunny then Chance Showers And Thunderstorms",
+          "windSpeed": "5 to 9 mph",
           "windDirection": "W"
         },
         {
           "name": "Monday Night",
           "temperature": 68,
           "temperatureUnit": "F",
-          "shortForecast": "Partly Cloudy",
-          "windSpeed": "8 mph",
+          "shortForecast": "Chance Showers And Thunderstorms then Partly Cloudy",
+          "windSpeed": "7 mph",
           "windDirection": "NW"
         },
         {
@@ -229,12 +230,12 @@
           "name": "Wednesday Night",
           "temperature": 69,
           "temperatureUnit": "F",
-          "shortForecast": "Chance Showers And Thunderstorms",
-          "windSpeed": "5 mph",
-          "windDirection": "SW"
+          "shortForecast": "Partly Cloudy",
+          "windSpeed": "3 mph",
+          "windDirection": "W"
         }
       ],
-      "checked_at": "2026-08-16T17:59:31.076522Z",
+      "checked_at": "2026-08-16T18:40:13.104414Z",
       "next_check_minutes": 15
     }
   ],
