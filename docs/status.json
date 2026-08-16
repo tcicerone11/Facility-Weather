@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T19:47:44.979037Z",
+  "generated_at": "2026-08-16T20:32:29.674788Z",
   "facilities": [
     {
       "id": "den",
@@ -18,19 +18,25 @@
       "reasons": [
         {
           "level": "watch",
+          "title": "Severe Thunderstorm Watch",
+          "detail": "Severe Thunderstorm Watch issued August 16 at 2:07PM MDT until August 16 at 9:00PM MDT by NWS Denver CO",
+          "action": "Monitor updates and prepare staff or equipment. Source: Exact facility location."
+        },
+        {
+          "level": "watch",
           "title": "Thunderstorms may affect the facility",
           "detail": "A thunderstorm signal appears in the next 6 hours in the local or airport forecast.",
           "action": "Monitor official warnings and your approved lightning procedure. This system does not measure lightning strike distance."
         }
       ],
       "metar": {
-        "raw": "METAR KDEN 161853Z 09009G15KT 10SM FEW050 SCT100 BKN220 26/15 A3034 RMK AO2 SLP199 T02560150",
-        "observed": "2026-08-16T19:00:00.000Z",
-        "wind_kt": 9.0,
-        "wind_mph": 10.4,
-        "gust_kt": 15.0,
-        "gust_mph": 17.3,
-        "temperature_f": 78.1,
+        "raw": "METAR KDEN 161953Z 08010G17KT 10SM FEW060 SCT110 SCT220 27/15 A3032 RMK AO2 SLP192 T02670150",
+        "observed": "2026-08-16T20:00:00.000Z",
+        "wind_kt": 10.0,
+        "wind_mph": 11.5,
+        "gust_kt": 17.0,
+        "gust_mph": 19.6,
+        "temperature_f": 80.1,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
@@ -43,10 +49,19 @@
         "snow": false,
         "freezing_precip": false
       },
-      "alerts": [],
+      "alerts": [
+        {
+          "event": "Severe Thunderstorm Watch",
+          "headline": "Severe Thunderstorm Watch issued August 16 at 2:07PM MDT until August 16 at 9:00PM MDT by NWS Denver CO",
+          "severity": "Severe",
+          "urgency": "Future",
+          "expires": "2026-08-16T21:00:00-06:00",
+          "source": "Exact facility location"
+        }
+      ],
       "metrics": {
-        "peak_gust_24h_kt": 16.0,
-        "peak_gust_24h_mph": 18.4,
+        "peak_gust_24h_kt": 17.0,
+        "peak_gust_24h_mph": 19.6,
         "precip_7d_in": 0.15,
         "snow_7d_in": 0.0
       },
@@ -116,7 +131,7 @@
           "windDirection": "S"
         }
       ],
-      "checked_at": "2026-08-16T19:47:47.022933Z",
+      "checked_at": "2026-08-16T20:32:32.158135Z",
       "next_check_minutes": 15
     },
     {
@@ -235,7 +250,8 @@
         }
       ],
       "checked_at": "2026-08-16T19:47:47.563319Z",
-      "next_check_minutes": 15
+      "next_check_minutes": 15,
+      "data_error": "503 Server Error: Service Unavailable for url: https://api.weather.gov/gridpoints/LWX/82,72/forecast/hourly"
     }
   ],
   "settings": {
