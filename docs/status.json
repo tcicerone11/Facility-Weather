@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T11:16:58.193012Z",
+  "generated_at": "2026-08-16T11:39:10.243181Z",
   "facilities": [
     {
       "id": "den",
@@ -24,10 +24,10 @@
         }
       ],
       "metar": {
-        "raw": "METAR KDEN 161053Z 36004KT 0SM R35L/1600V1800FT FG VV001 16/16 A3038 RMK AO2 SFC VIS 1/8 SLP224 T01560156",
-        "observed": "2026-08-16T11:00:00.000Z",
-        "wind_kt": 4.0,
-        "wind_mph": 4.6,
+        "raw": "SPECI KDEN 161120Z COR 00000KT 0SM FG VV002 16/16 A3038 RMK AO2 SFC VIS 1/8 T01560156",
+        "observed": "2026-08-16T11:20:00.000Z",
+        "wind_kt": 0.0,
+        "wind_mph": 0.0,
         "gust_kt": null,
         "gust_mph": null,
         "temperature_f": 60.1,
@@ -35,10 +35,10 @@
         "flight_category": "LIFR"
       },
       "taf": {
-        "raw": "TAF KDEN 161002Z 1610/1712 02006KT 4SM BR VCFG FEW002 SCT030 TEMPO 1610/1614 1/4SM FG BKN002 FM161500 VRB06KT P6SM FEW030 SCT150 FM161900 11007KT P6SM FEW080 SCT150 PROB30 1622/1703 VRB20G30KT -TSRA BKN080CB FM170300 17009KT P6SM SCT150 FM170700 21007KT P6SM FEW150",
-        "issued": "2026-08-16T10:02:00.000Z",
-        "valid_from": 1786874400,
-        "valid_to": 1786968000,
+        "raw": "TAF KDEN 161131Z 1612/1718 02006KT 4SM BR VCFG SCT002 SCT030 TEMPO 1612/1614 1/2SM FG BKN002 FM161500 23007KT P6SM FEW030 SCT150 FM161900 10007KT P6SM FEW080 SCT150 PROB30 1622/1703 VRB20G30KT -TSRA BKN080CB FM170300 17009KT P6SM SCT150 FM170700 21008KT P6SM FEW150 FM171500 28007KT P6SM FEW150",
+        "issued": "2026-08-16T11:31:00.000Z",
+        "valid_from": 1786881600,
+        "valid_to": 1786989600,
         "thunder": true,
         "snow": false,
         "freezing_precip": false
@@ -116,7 +116,7 @@
           "windDirection": "ESE"
         }
       ],
-      "checked_at": "2026-08-16T11:16:59.329390Z",
+      "checked_at": "2026-08-16T11:39:12.895736Z",
       "next_check_minutes": 15
     },
     {
@@ -174,7 +174,7 @@
           "temperature": 82,
           "temperatureUnit": "F",
           "shortForecast": "Chance Showers And Thunderstorms",
-          "windSpeed": "6 to 12 mph",
+          "windSpeed": "7 to 12 mph",
           "windDirection": "S"
         },
         {
@@ -234,7 +234,7 @@
           "windDirection": "SW"
         }
       ],
-      "checked_at": "2026-08-16T11:17:00.988486Z",
+      "checked_at": "2026-08-16T11:39:16.626667Z",
       "next_check_minutes": 15
     }
   ],
