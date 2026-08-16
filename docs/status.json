@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T17:45:26.600886Z",
+  "generated_at": "2026-08-16T17:59:29.848104Z",
   "facilities": [
     {
       "id": "den",
@@ -142,21 +142,21 @@
         }
       ],
       "metar": {
-        "raw": "METAR KIAD 161652Z 17008KT 8SM OVC016 23/22 A3004 RMK AO2 RAE39 SLP169 P0001 T02280217 $",
-        "observed": "2026-08-16T17:00:00.000Z",
-        "wind_kt": 8.0,
-        "wind_mph": 9.2,
+        "raw": "METAR KIAD 161752Z 17005KT 10SM BKN008 OVC011 24/23 A3002 RMK AO2 RAB00E18 SLP164 P0000 60015 T02390228 10244 20222 58015 $",
+        "observed": "2026-08-16T18:00:00.000Z",
+        "wind_kt": 5.0,
+        "wind_mph": 5.8,
         "gust_kt": null,
         "gust_mph": null,
-        "temperature_f": 73.0,
-        "visibility_sm": 8.0,
-        "flight_category": "MVFR"
+        "temperature_f": 75.0,
+        "visibility_sm": 10.0,
+        "flight_category": "IFR"
       },
       "taf": {
-        "raw": "TAF KIAD 161504Z 1615/1718 17007KT 6SM -SHRA FEW025 BKN035 FM161600 18010G20KT 6SM -SHRA SCT010 BKN025 PROB30 1618/1623 3SM TSRA BR BKN010CB FM162300 18010G20KT P6SM BKN040 PROB30 1702/1705 3SM TSRA BR BKN010CB FM170500 20004KT P6SM BKN030",
-        "issued": "2026-08-16T15:04:00.000Z",
-        "valid_from": 1786892400,
-        "valid_to": 1786989600,
+        "raw": "TAF KIAD 161740Z 1618/1724 17008KT 6SM -SHRA OVC016 PROB30 1619/1623 3SM TSRA BR BKN015CB FM162300 18008KT P6SM BKN040 TEMPO 1700/1704 3SM TSRA BR BKN030CB FM170500 20004KT P6SM BKN040",
+        "issued": "2026-08-16T17:40:00.000Z",
+        "valid_from": 1786903200,
+        "valid_to": 1787011200,
         "thunder": true,
         "snow": false,
         "freezing_precip": false
@@ -170,7 +170,7 @@
       },
       "forecast": [
         {
-          "name": "This Afternoon",
+          "name": "Today",
           "temperature": 82,
           "temperatureUnit": "F",
           "shortForecast": "Chance Showers And Thunderstorms",
@@ -234,9 +234,8 @@
           "windDirection": "SW"
         }
       ],
-      "checked_at": "2026-08-16T17:26:02.641784Z",
-      "next_check_minutes": 15,
-      "data_error": "502 Server Error: Bad Gateway for url: https://aviationweather.gov/api/data/taf?ids=KIAD&format=json"
+      "checked_at": "2026-08-16T17:59:31.076522Z",
+      "next_check_minutes": 15
     }
   ],
   "settings": {
