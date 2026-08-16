@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T22:41:26.738428Z",
+  "generated_at": "2026-08-16T22:58:08.976951Z",
   "facilities": [
     {
       "id": "den",
@@ -30,13 +30,13 @@
         }
       ],
       "metar": {
-        "raw": "SPECI KDEN 162234Z 10014KT 10SM FEW050 SCT080 BKN120 BKN220 26/13 A3027 RMK AO2 TSB17E33 CB DSNT SW MOV E T02610133",
-        "observed": "2026-08-16T22:34:00.000Z",
-        "wind_kt": 14.0,
-        "wind_mph": 16.1,
+        "raw": "METAR KDEN 162253Z 14018KT 10SM SCT100 BKN140 BKN220 27/16 A3027 RMK AO2 TSB17E33 SLP176 T02670156",
+        "observed": "2026-08-16T23:00:00.000Z",
+        "wind_kt": 18.0,
+        "wind_mph": 20.7,
         "gust_kt": null,
         "gust_mph": null,
-        "temperature_f": 79.0,
+        "temperature_f": 80.1,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
@@ -71,7 +71,7 @@
           "temperature": 83,
           "temperatureUnit": "F",
           "shortForecast": "Chance Showers And Thunderstorms",
-          "windSpeed": "7 to 10 mph",
+          "windSpeed": "10 mph",
           "windDirection": "ESE"
         },
         {
@@ -131,7 +131,7 @@
           "windDirection": "S"
         }
       ],
-      "checked_at": "2026-08-16T22:41:29.871927Z",
+      "checked_at": "2026-08-16T22:58:26.052426Z",
       "next_check_minutes": 15
     },
     {
@@ -169,13 +169,13 @@
         }
       ],
       "metar": {
-        "raw": "SPECI KIAD 162221Z 15005KT 10SM TS FEW015 SCT034CB SCT110 BKN210 BKN250 26/23 A2994 RMK AO2 TSB19 OCNL LTGIC N TS N MOV E T02610233 $",
-        "observed": "2026-08-16T22:21:00.000Z",
-        "wind_kt": 5.0,
-        "wind_mph": 5.8,
+        "raw": "METAR KIAD 162252Z 11006KT 10SM -TSRA FEW015 SCT034CB BKN055 BKN250 26/23 A2993 RMK AO2 RAB52 TSB19 SLP132 FRQ LTGIC N-NE AND W-NW TS N-NE AND W-NW MOV E P0000 T02560233 $",
+        "observed": "2026-08-16T23:00:00.000Z",
+        "wind_kt": 6.0,
+        "wind_mph": 6.9,
         "gust_kt": null,
         "gust_mph": null,
-        "temperature_f": 79.0,
+        "temperature_f": 78.1,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
@@ -278,7 +278,7 @@
           "windDirection": "N"
         }
       ],
-      "checked_at": "2026-08-16T22:41:33.161925Z",
+      "checked_at": "2026-08-16T22:58:29.656453Z",
       "next_check_minutes": 15
     }
   ],
