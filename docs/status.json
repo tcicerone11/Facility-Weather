@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T13:19:35.518127Z",
+  "generated_at": "2026-08-16T13:49:12.275332Z",
   "facilities": [
     {
       "id": "den",
@@ -24,14 +24,14 @@
         }
       ],
       "metar": {
-        "raw": "SPECI KDEN 161304Z 12004KT 3/4SM R35L/6000V6000FT BR OVC003 16/16 A3038 RMK AO2 SFC VIS 1 T01610156",
-        "observed": "2026-08-16T13:04:00.000Z",
-        "wind_kt": 4.0,
-        "wind_mph": 4.6,
+        "raw": "SPECI KDEN 161339Z 21005KT 2SM R35L/5000V6000FT BR BKN003 OVC012 16/16 A3038 RMK AO2 VIS E 3 T01610161",
+        "observed": "2026-08-16T13:39:00.000Z",
+        "wind_kt": 5.0,
+        "wind_mph": 5.8,
         "gust_kt": null,
         "gust_mph": null,
         "temperature_f": 61.0,
-        "visibility_sm": 0.75,
+        "visibility_sm": 2.0,
         "flight_category": "LIFR"
       },
       "taf": {
@@ -47,7 +47,7 @@
       "metrics": {
         "peak_gust_24h_kt": 16.0,
         "peak_gust_24h_mph": 18.4,
-        "precip_7d_in": 0.09,
+        "precip_7d_in": 0.13,
         "snow_7d_in": 0.0
       },
       "forecast": [
@@ -55,9 +55,9 @@
           "name": "Today",
           "temperature": 83,
           "temperatureUnit": "F",
-          "shortForecast": "Patchy Fog then Chance Showers And Thunderstorms",
+          "shortForecast": "Areas Of Fog then Chance Showers And Thunderstorms",
           "windSpeed": "3 to 10 mph",
-          "windDirection": "SSE"
+          "windDirection": "SE"
         },
         {
           "name": "Tonight",
@@ -116,7 +116,7 @@
           "windDirection": "SSW"
         }
       ],
-      "checked_at": "2026-08-16T13:19:40.473465Z",
+      "checked_at": "2026-08-16T13:49:14.971245Z",
       "next_check_minutes": 15
     },
     {
@@ -235,7 +235,8 @@
         }
       ],
       "checked_at": "2026-08-16T13:19:43.262614Z",
-      "next_check_minutes": 15
+      "next_check_minutes": 15,
+      "data_error": "504 Server Error: Gateway Time-out for url: https://aviationweather.gov/api/data/metar?ids=KIAD&format=json"
     }
   ],
   "settings": {
