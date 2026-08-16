@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T13:49:12.275332Z",
+  "generated_at": "2026-08-16T14:09:24.498278Z",
   "facilities": [
     {
       "id": "den",
@@ -24,15 +24,15 @@
         }
       ],
       "metar": {
-        "raw": "SPECI KDEN 161339Z 21005KT 2SM R35L/5000V6000FT BR BKN003 OVC012 16/16 A3038 RMK AO2 VIS E 3 T01610161",
-        "observed": "2026-08-16T13:39:00.000Z",
-        "wind_kt": 5.0,
-        "wind_mph": 5.8,
+        "raw": "SPECI KDEN 161405Z 23006KT 2SM BR SCT004 OVC015 17/16 A3038 RMK AO2 SFC VIS 3 VIS W 2 T01670161",
+        "observed": "2026-08-16T14:05:00.000Z",
+        "wind_kt": 6.0,
+        "wind_mph": 6.9,
         "gust_kt": null,
         "gust_mph": null,
-        "temperature_f": 61.0,
+        "temperature_f": 62.1,
         "visibility_sm": 2.0,
-        "flight_category": "LIFR"
+        "flight_category": "IFR"
       },
       "taf": {
         "raw": "TAF KDEN 161227Z 1612/1718 04005KT 2SM BR BKN004 OVC012 TEMPO 1612/1614 1/2SM FG OVC002 FM161430 VRB05KT 4SM BR SCT006 BKN014 FM161600 VRB05KT P6SM FEW012 SCT030 FM161700 10007KT P6SM FEW080 SCT150 PROB30 1622/1703 VRB20G30KT -TSRA BKN080CB FM170300 17009KT P6SM SCT150 FM170700 21008KT P6SM FEW150 FM171500 28007KT P6SM FEW150",
@@ -47,7 +47,7 @@
       "metrics": {
         "peak_gust_24h_kt": 16.0,
         "peak_gust_24h_mph": 18.4,
-        "precip_7d_in": 0.13,
+        "precip_7d_in": 0.09,
         "snow_7d_in": 0.0
       },
       "forecast": [
@@ -116,7 +116,7 @@
           "windDirection": "SSW"
         }
       ],
-      "checked_at": "2026-08-16T13:49:14.971245Z",
+      "checked_at": "2026-08-16T14:09:25.795641Z",
       "next_check_minutes": 15
     },
     {
@@ -236,7 +236,7 @@
       ],
       "checked_at": "2026-08-16T13:19:43.262614Z",
       "next_check_minutes": 15,
-      "data_error": "504 Server Error: Gateway Time-out for url: https://aviationweather.gov/api/data/metar?ids=KIAD&format=json"
+      "data_error": "504 Server Error: Gateway Time-out for url: https://aviationweather.gov/api/data/taf?ids=KIAD&format=json"
     }
   ],
   "settings": {
