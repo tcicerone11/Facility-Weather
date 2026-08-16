@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T21:37:19.722375Z",
+  "generated_at": "2026-08-16T21:54:26.475240Z",
   "facilities": [
     {
       "id": "den",
@@ -132,7 +132,8 @@
         }
       ],
       "checked_at": "2026-08-16T21:37:20.430782Z",
-      "next_check_minutes": 15
+      "next_check_minutes": 15,
+      "data_error": "504 Server Error: Gateway Time-out for url: https://aviationweather.gov/api/data/taf?ids=KDEN&format=json"
     },
     {
       "id": "iad",
@@ -169,13 +170,13 @@
         }
       ],
       "metar": {
-        "raw": "METAR KIAD 162052Z 15009KT 10SM FEW012 SCT022 BKN055 BKN250 26/23 A2995 RMK AO2 SLP139 60000 T02610233 56024 $",
-        "observed": "2026-08-16T21:00:00.000Z",
-        "wind_kt": 9.0,
-        "wind_mph": 10.4,
+        "raw": "METAR KIAD 162152Z 17005KT 10SM FEW015 SCT044 BKN210 27/23 A2994 RMK AO2 SLP137 T02670233 $",
+        "observed": "2026-08-16T22:00:00.000Z",
+        "wind_kt": 5.0,
+        "wind_mph": 5.8,
         "gust_kt": null,
         "gust_mph": null,
-        "temperature_f": 79.0,
+        "temperature_f": 80.1,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
@@ -217,15 +218,15 @@
           "name": "This Afternoon",
           "temperature": 80,
           "temperatureUnit": "F",
-          "shortForecast": "Chance Showers And Thunderstorms",
-          "windSpeed": "9 mph",
+          "shortForecast": "Scattered Showers And Thunderstorms",
+          "windSpeed": "8 mph",
           "windDirection": "S"
         },
         {
           "name": "Tonight",
           "temperature": 71,
           "temperatureUnit": "F",
-          "shortForecast": "Chance Showers And Thunderstorms then Showers And Thunderstorms",
+          "shortForecast": "Scattered Showers And Thunderstorms then Widespread Showers And Thunderstorms",
           "windSpeed": "3 to 8 mph",
           "windDirection": "S"
         },
@@ -278,7 +279,7 @@
           "windDirection": "W"
         }
       ],
-      "checked_at": "2026-08-16T21:37:22.290264Z",
+      "checked_at": "2026-08-16T21:54:48.299304Z",
       "next_check_minutes": 15
     }
   ],
