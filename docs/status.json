@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T05:57:54.442264Z",
+  "generated_at": "2026-08-16T06:50:04.110989Z",
   "facilities": [
     {
       "id": "den",
@@ -116,7 +116,7 @@
           "windDirection": "E"
         }
       ],
-      "checked_at": "2026-08-16T05:57:55.284136Z",
+      "checked_at": "2026-08-16T06:50:05.155725Z",
       "next_check_minutes": 15
     },
     {
@@ -234,7 +234,7 @@
           "windDirection": "W"
         }
       ],
-      "checked_at": "2026-08-16T05:57:56.233144Z",
+      "checked_at": "2026-08-16T06:50:06.089830Z",
       "next_check_minutes": 15
     }
   ],
