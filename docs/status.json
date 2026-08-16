@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T16:37:03.872158Z",
+  "generated_at": "2026-08-16T16:58:18.460525Z",
   "facilities": [
     {
       "id": "den",
@@ -24,14 +24,14 @@
         }
       ],
       "metar": {
-        "raw": "METAR KDEN 161553Z VRB04KT 7SM FEW015 SCT090 20/15 A3036 RMK AO2 SLP217 T02000150",
-        "observed": "2026-08-16T16:00:00.000Z",
-        "wind_kt": 4.0,
-        "wind_mph": 4.6,
+        "raw": "METAR KDEN 161653Z 00000KT 10SM FEW040 FEW090 SCT220 22/15 A3037 RMK AO2 SLP215 T02220150",
+        "observed": "2026-08-16T17:00:00.000Z",
+        "wind_kt": 0.0,
+        "wind_mph": 0.0,
         "gust_kt": null,
         "gust_mph": null,
-        "temperature_f": 68.0,
-        "visibility_sm": 7.0,
+        "temperature_f": 72.0,
+        "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
       "taf": {
@@ -116,7 +116,7 @@
           "windDirection": "SSW"
         }
       ],
-      "checked_at": "2026-08-16T16:37:07.081402Z",
+      "checked_at": "2026-08-16T16:58:22.279049Z",
       "next_check_minutes": 15
     },
     {
@@ -142,14 +142,14 @@
         }
       ],
       "metar": {
-        "raw": "SPECI KIAD 161604Z 18012KT 5SM -RA BR FEW008 SCT022 BKN028 OVC130 22/21 A3006 RMK AO2 P0001 T02220211 $",
-        "observed": "2026-08-16T16:04:00.000Z",
-        "wind_kt": 12.0,
-        "wind_mph": 13.8,
+        "raw": "METAR KIAD 161652Z 17008KT 8SM OVC016 23/22 A3004 RMK AO2 RAE39 SLP169 P0001 T02280217 $",
+        "observed": "2026-08-16T17:00:00.000Z",
+        "wind_kt": 8.0,
+        "wind_mph": 9.2,
         "gust_kt": null,
         "gust_mph": null,
-        "temperature_f": 72.0,
-        "visibility_sm": 5.0,
+        "temperature_f": 73.0,
+        "visibility_sm": 8.0,
         "flight_category": "MVFR"
       },
       "taf": {
@@ -170,7 +170,7 @@
       },
       "forecast": [
         {
-          "name": "Today",
+          "name": "This Afternoon",
           "temperature": 82,
           "temperatureUnit": "F",
           "shortForecast": "Chance Showers And Thunderstorms",
@@ -234,7 +234,7 @@
           "windDirection": "SW"
         }
       ],
-      "checked_at": "2026-08-16T16:37:09.407630Z",
+      "checked_at": "2026-08-16T16:58:24.320169Z",
       "next_check_minutes": 15
     }
   ],
