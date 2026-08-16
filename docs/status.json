@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T05:33:55.357933Z",
+  "generated_at": "2026-08-16T05:57:54.442264Z",
   "facilities": [
     {
       "id": "den",
@@ -24,13 +24,13 @@
         }
       ],
       "metar": {
-        "raw": "METAR KDEN 160453Z 23008KT 10SM FEW050 SCT100 SCT220 18/15 A3033 RMK AO2 SLP196 T01780150",
-        "observed": "2026-08-16T05:00:00.000Z",
-        "wind_kt": 8.0,
-        "wind_mph": 9.2,
+        "raw": "METAR KDEN 160553Z 21007KT 10SM FEW010 FEW100 SCT200 17/14 A3034 RMK AO2 SLP199 T01670144 10222 20167 53004",
+        "observed": "2026-08-16T06:00:00.000Z",
+        "wind_kt": 7.0,
+        "wind_mph": 8.1,
         "gust_kt": null,
         "gust_mph": null,
-        "temperature_f": 64.0,
+        "temperature_f": 62.1,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
@@ -116,7 +116,7 @@
           "windDirection": "E"
         }
       ],
-      "checked_at": "2026-08-16T05:33:56.477784Z",
+      "checked_at": "2026-08-16T05:57:55.284136Z",
       "next_check_minutes": 15
     },
     {
@@ -142,8 +142,8 @@
         }
       ],
       "metar": {
-        "raw": "METAR KIAD 160452Z 17004KT 10SM FEW100 SCT200 BKN250 24/19 A3014 RMK AO2 SLP202 T02440189 403060217 $",
-        "observed": "2026-08-16T05:00:00.000Z",
+        "raw": "METAR KIAD 160552Z 16004KT 10SM BKN090 OVC250 24/20 A3012 RMK AO2 SLP195 T02440200 10278 20239 58006 $",
+        "observed": "2026-08-16T06:00:00.000Z",
         "wind_kt": 4.0,
         "wind_mph": 4.6,
         "gust_kt": null,
@@ -234,7 +234,7 @@
           "windDirection": "W"
         }
       ],
-      "checked_at": "2026-08-16T05:33:58.834661Z",
+      "checked_at": "2026-08-16T05:57:56.233144Z",
       "next_check_minutes": 15
     }
   ],
