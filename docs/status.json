@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T21:10:12.102516Z",
+  "generated_at": "2026-08-17T21:41:03.302714Z",
   "facilities": [
     {
       "id": "den",
@@ -116,7 +116,7 @@
           "windDirection": "S"
         }
       ],
-      "checked_at": "2026-08-17T21:10:25.476763Z",
+      "checked_at": "2026-08-17T21:41:04.862085Z",
       "next_check_minutes": 15
     },
     {
@@ -153,8 +153,8 @@
         "flight_category": "VFR"
       },
       "taf": {
-        "raw": "TAF KIAD 172059Z 1721/1824 29008KT P6SM VCTS SCT040CB BKN150 FM180000 30003KT P6SM SCT045 BKN100 FM181500 34007KT P6SM SCT100",
-        "issued": "2026-08-17T20:59:00.000Z",
+        "raw": "TAF KIAD 172125Z 1721/1824 29008KT P6SM VCTS SCT040CB BKN150 TEMPO 1722/1723 35010G20KT FM180000 30003KT P6SM SCT045 BKN100 FM181500 34007KT P6SM SCT100",
+        "issued": "2026-08-17T21:25:00.000Z",
         "valid_from": 1787000400,
         "valid_to": 1787097600,
         "thunder": true,
@@ -234,7 +234,7 @@
           "windDirection": "N"
         }
       ],
-      "checked_at": "2026-08-17T21:10:30.618447Z",
+      "checked_at": "2026-08-17T21:41:06.040374Z",
       "next_check_minutes": 15
     }
   ],
