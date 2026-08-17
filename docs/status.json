@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T10:54:28.305739Z",
+  "generated_at": "2026-08-17T11:47:18.623181Z",
   "facilities": [
     {
       "id": "den",
@@ -17,21 +17,21 @@
       },
       "reasons": [],
       "metar": {
-        "raw": "METAR KDEN 170953Z 26009KT 10SM CLR 17/13 A3029 RMK AO2 SLP179 T01720128",
-        "observed": "2026-08-17T10:00:00.000Z",
-        "wind_kt": 9.0,
-        "wind_mph": 10.4,
+        "raw": "METAR KDEN 171053Z 28007KT 10SM CLR 16/14 A3029 RMK AO2 SLP183 T01610139",
+        "observed": "2026-08-17T11:00:00.000Z",
+        "wind_kt": 7.0,
+        "wind_mph": 8.1,
         "gust_kt": null,
         "gust_mph": null,
-        "temperature_f": 63.0,
+        "temperature_f": 61.0,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
       "taf": {
-        "raw": "TAF KDEN 170851Z 1709/1812 23008KT P6SM FEW100 FM171700 VRB06KT P6SM FEW150 FM172000 07008KT P6SM SCT100 SCT150 FM172300 12008KT P6SM SCT100 SCT150 FM180200 16011KT P6SM SCT100 FM180600 21009KT P6SM FEW100",
-        "issued": "2026-08-17T08:51:00.000Z",
-        "valid_from": 1786957200,
-        "valid_to": 1787054400,
+        "raw": "TAF KDEN 171133Z 1712/1818 22007KT P6SM FEW150 FM171700 VRB06KT P6SM FEW150 FM172000 08008KT P6SM SCT100 SCT150 FM172300 12008KT P6SM SCT100 SCT150 FM180300 17011KT P6SM SCT100 FM180700 21009KT P6SM FEW100 FM181000 26008KT P6SM FEW140 FM181500 33008KT P6SM SCT140",
+        "issued": "2026-08-17T11:33:00.000Z",
+        "valid_from": 1786968000,
+        "valid_to": 1787076000,
         "thunder": false,
         "snow": false,
         "freezing_precip": false
@@ -109,7 +109,7 @@
           "windDirection": "NNW"
         }
       ],
-      "checked_at": "2026-08-17T10:54:30.824814Z",
+      "checked_at": "2026-08-17T11:47:20.233295Z",
       "next_check_minutes": 30
     },
     {
@@ -139,10 +139,10 @@
         "flight_category": "VFR"
       },
       "taf": {
-        "raw": "TAF KIAD 170840Z 1709/1812 21004KT P6SM BKN080 FM171200 30008KT P6SM SCT120 FM180000 33003KT P6SM BKN100",
-        "issued": "2026-08-17T08:40:00.000Z",
-        "valid_from": 1786957200,
-        "valid_to": 1787054400,
+        "raw": "TAF KIAD 171129Z 1712/1818 21004KT P6SM SCT040 SCT110 BKN250 FM171300 30008KT P6SM SCT120 FM180000 33003KT P6SM BKN100 FM180600 00000KT 6SM BR FEW010 FM181200 33005KT P6SM FEW250",
+        "issued": "2026-08-17T11:29:00.000Z",
+        "valid_from": 1786968000,
+        "valid_to": 1787076000,
         "thunder": false,
         "snow": false,
         "freezing_precip": false
@@ -151,7 +151,7 @@
       "metrics": {
         "peak_gust_24h_kt": 15.0,
         "peak_gust_24h_mph": 17.3,
-        "precip_7d_in": 0.12,
+        "precip_7d_in": 0.08,
         "snow_7d_in": 0.0
       },
       "forecast": [
@@ -160,7 +160,7 @@
           "temperature": 89,
           "temperatureUnit": "F",
           "shortForecast": "Mostly Sunny then Slight Chance Showers And Thunderstorms",
-          "windSpeed": "3 to 10 mph",
+          "windSpeed": "5 to 10 mph",
           "windDirection": "W"
         },
         {
@@ -220,7 +220,7 @@
           "windDirection": "N"
         }
       ],
-      "checked_at": "2026-08-17T10:54:32.388495Z",
+      "checked_at": "2026-08-17T11:47:21.840180Z",
       "next_check_minutes": 30
     }
   ],
