@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T22:00:30.277460Z",
+  "generated_at": "2026-08-17T22:34:00.854830Z",
   "facilities": [
     {
       "id": "den",
@@ -43,7 +43,16 @@
         "snow": false,
         "freezing_precip": false
       },
-      "alerts": [],
+      "alerts": [
+        {
+          "event": "Air Quality Alert",
+          "headline": "Air Quality Alert issued August 17 at 4:10PM MDT by NWS Denver CO",
+          "severity": "Unknown",
+          "urgency": "Unknown",
+          "expires": "2026-08-18T16:00:00-06:00",
+          "source": "Exact facility location"
+        }
+      ],
       "metrics": {
         "peak_gust_24h_kt": 16.0,
         "peak_gust_24h_mph": 18.4,
@@ -116,7 +125,7 @@
           "windDirection": "S"
         }
       ],
-      "checked_at": "2026-08-17T22:00:41.946439Z",
+      "checked_at": "2026-08-17T22:34:04.151046Z",
       "next_check_minutes": 15
     },
     {
@@ -153,9 +162,9 @@
         "flight_category": "VFR"
       },
       "taf": {
-        "raw": "TAF KIAD 172125Z 1721/1824 29008KT P6SM VCTS SCT040CB BKN150 TEMPO 1722/1723 35010G20KT FM180000 30003KT P6SM SCT045 BKN100 FM181500 34007KT P6SM SCT100",
-        "issued": "2026-08-17T21:25:00.000Z",
-        "valid_from": 1787000400,
+        "raw": "TAF KIAD 172223Z 1722/1824 29008KT P6SM VCTS SCT040CB BKN150 TEMPO 1722/1723 35010G20KT 5SM -SHRA BKN040 FM180000 30003KT P6SM SCT045 BKN100 FM181500 34007KT P6SM SCT100",
+        "issued": "2026-08-17T22:23:00.000Z",
+        "valid_from": 1787004000,
         "valid_to": 1787097600,
         "thunder": true,
         "snow": false,
@@ -234,7 +243,7 @@
           "windDirection": "NE"
         }
       ],
-      "checked_at": "2026-08-17T22:00:59.798822Z",
+      "checked_at": "2026-08-17T22:34:07.806696Z",
       "next_check_minutes": 15
     }
   ],
