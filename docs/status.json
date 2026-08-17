@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T05:07:35.365618Z",
+  "generated_at": "2026-08-17T05:48:27.088195Z",
   "facilities": [
     {
       "id": "den",
@@ -28,10 +28,10 @@
         "flight_category": "VFR"
       },
       "taf": {
-        "raw": "TAF KDEN 170359Z 1704/1806 13017KT P6SM SCT120 FM170500 17013KT P6SM FEW080 SCT150 FM170900 22008KT P6SM FEW080 FM171700 VRB06KT P6SM FEW150 FM171900 35006KT P6SM SCT100 SCT150 FM172100 05008KT P6SM SCT100 SCT150 FM180300 16008KT P6SM SCT100 SCT150",
-        "issued": "2026-08-17T03:59:00.000Z",
-        "valid_from": 1786939200,
-        "valid_to": 1787032800,
+        "raw": "TAF KDEN 170532Z 1706/1812 16013KT P6SM SCT120 FM170700 19013KT P6SM FEW080 SCT150 FM170900 24008KT P6SM FEW080 FM171700 VRB06KT P6SM FEW150 FM172000 07008KT P6SM SCT100 SCT150 FM172300 12008KT P6SM SCT100 SCT150 FM180200 16011KT P6SM SCT100 FM180600 21009KT P6SM FEW100",
+        "issued": "2026-08-17T05:32:00.000Z",
+        "valid_from": 1786946400,
+        "valid_to": 1787054400,
         "thunder": false,
         "snow": false,
         "freezing_precip": false
@@ -49,7 +49,7 @@
           "temperature": 59,
           "temperatureUnit": "F",
           "shortForecast": "Chance Showers And Thunderstorms then Partly Cloudy",
-          "windSpeed": "7 to 12 mph",
+          "windSpeed": "7 to 10 mph",
           "windDirection": "S"
         },
         {
@@ -109,7 +109,7 @@
           "windDirection": "NW"
         }
       ],
-      "checked_at": "2026-08-17T05:07:36.862068Z",
+      "checked_at": "2026-08-17T05:48:28.656098Z",
       "next_check_minutes": 30
     },
     {
@@ -120,20 +120,13 @@
       "latitude": 38.9531,
       "longitude": -77.4565,
       "forecast_zone_name": "VAZ506",
-      "status": "watch",
+      "status": "normal",
       "status_copy": {
-        "label": "WATCH",
-        "summary": "Weather could affect operations if conditions develop as forecast.",
-        "action": "Monitor conditions and prepare staff, equipment, or outdoor operations."
+        "label": "NORMAL",
+        "summary": "No configured weather condition currently suggests an operational change.",
+        "action": "Continue normal operations and routine monitoring."
       },
-      "reasons": [
-        {
-          "level": "watch",
-          "title": "Thunderstorms may affect the facility",
-          "detail": "A thunderstorm signal appears in the next 6 hours in the local or airport forecast.",
-          "action": "Monitor official warnings and your approved lightning procedure. This system does not measure lightning strike distance."
-        }
-      ],
+      "reasons": [],
       "metar": {
         "raw": "METAR KIAD 170452Z 19006KT 10SM BKN080 23/23 A2988 RMK AO2 SLP115 T02330228 402670222 $",
         "observed": "2026-08-17T05:00:00.000Z",
@@ -146,19 +139,19 @@
         "flight_category": "VFR"
       },
       "taf": {
-        "raw": "TAF KIAD 170258Z 1703/1806 19004KT P6SM OVC150 FM170600 21005KT P6SM OVC050 FM171200 28008KT P6SM BKN050 PROB30 1716/1722 4SM -TSRA BKN050CB",
-        "issued": "2026-08-17T02:58:00.000Z",
-        "valid_from": 1786935600,
-        "valid_to": 1787032800,
-        "thunder": true,
+        "raw": "TAF KIAD 170524Z 1706/1812 21004KT P6SM BKN080 FM171200 30008KT P6SM SCT120 FM180000 33003KT P6SM BKN100",
+        "issued": "2026-08-17T05:24:00.000Z",
+        "valid_from": 1786946400,
+        "valid_to": 1787054400,
+        "thunder": false,
         "snow": false,
         "freezing_precip": false
       },
       "alerts": [],
       "metrics": {
-        "peak_gust_24h_kt": 14.0,
-        "peak_gust_24h_mph": 16.1,
-        "precip_7d_in": 0.73,
+        "peak_gust_24h_kt": 15.0,
+        "peak_gust_24h_mph": 17.3,
+        "precip_7d_in": 0.24,
         "snow_7d_in": 0.0
       },
       "forecast": [
@@ -227,8 +220,8 @@
           "windDirection": "N"
         }
       ],
-      "checked_at": "2026-08-17T05:07:38.489637Z",
-      "next_check_minutes": 15
+      "checked_at": "2026-08-17T05:48:31.175416Z",
+      "next_check_minutes": 30
     }
   ],
   "settings": {
