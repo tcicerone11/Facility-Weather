@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T02:48:59.647957Z",
+  "generated_at": "2026-08-17T03:36:45.878276Z",
   "facilities": [
     {
       "id": "den",
@@ -24,22 +24,22 @@
         }
       ],
       "metar": {
-        "raw": "METAR KDEN 170153Z 12009KT 10SM FEW110 SCT150 BKN200 22/12 A3027 RMK AO2 SLP184 T02170122",
-        "observed": "2026-08-17T02:00:00.000Z",
-        "wind_kt": 9.0,
-        "wind_mph": 10.4,
+        "raw": "METAR KDEN 170253Z 14010KT 10SM FEW110 FEW150 SCT200 19/13 A3029 RMK AO2 SLP192 T01890128 53003",
+        "observed": "2026-08-17T03:00:00.000Z",
+        "wind_kt": 10.0,
+        "wind_mph": 11.5,
         "gust_kt": null,
         "gust_mph": null,
-        "temperature_f": 71.1,
+        "temperature_f": 66.0,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
       "taf": {
-        "raw": "TAF KDEN 162339Z 1700/1806 14015KT P6SM SCT100 BKN140 BKN220 PROB30 1700/1702 VRB20G30KT -TSRA BKN070CB FM170300 16009KT P6SM FEW080 SCT120 FM170900 22006KT P6SM FEW080 FM171700 VRB06KT P6SM FEW150 FM171900 35006KT P6SM SCT100 SCT150 FM172100 05008KT P6SM SCT100 SCT150 FM180300 16008KT P6SM SCT100 SCT150",
-        "issued": "2026-08-16T23:39:00.000Z",
-        "valid_from": 1786924800,
+        "raw": "TAF KDEN 170255Z 1703/1806 14015KT P6SM SCT120 FM170330 07014KT P6SM SCT120 FM170430 17010KT P6SM FEW080 SCT150 FM170900 22008KT P6SM FEW080 FM171700 VRB06KT P6SM FEW150 FM171900 35006KT P6SM SCT100 SCT150 FM172100 05008KT P6SM SCT100 SCT150 FM180300 16008KT P6SM SCT100 SCT150",
+        "issued": "2026-08-17T02:55:00.000Z",
+        "valid_from": 1786935600,
         "valid_to": 1787032800,
-        "thunder": true,
+        "thunder": false,
         "snow": false,
         "freezing_precip": false
       },
@@ -56,7 +56,7 @@
           "temperature": 59,
           "temperatureUnit": "F",
           "shortForecast": "Chance Showers And Thunderstorms then Partly Cloudy",
-          "windSpeed": "7 to 12 mph",
+          "windSpeed": "7 to 10 mph",
           "windDirection": "S"
         },
         {
@@ -116,7 +116,7 @@
           "windDirection": "NW"
         }
       ],
-      "checked_at": "2026-08-17T02:49:00.747001Z",
+      "checked_at": "2026-08-17T03:36:50.626099Z",
       "next_check_minutes": 15
     },
     {
@@ -136,22 +136,16 @@
       "reasons": [
         {
           "level": "watch",
-          "title": "Flood Watch",
-          "detail": "Flood Watch issued August 16 at 5:22PM EDT until August 17 at 3:00AM EDT by NWS Baltimore MD/Washington DC",
-          "action": "Monitor updates and prepare staff or equipment. Source: Exact facility location."
-        },
-        {
-          "level": "watch",
           "title": "Thunderstorms may affect the facility",
           "detail": "A thunderstorm signal appears in the next 6 hours in the local or airport forecast.",
           "action": "Monitor official warnings and your approved lightning procedure. This system does not measure lightning strike distance."
         }
       ],
       "metar": {
-        "raw": "METAR KIAD 170152Z 00000KT 10SM SCT080 SCT100 BKN170 23/23 A2991 RMK AO2 SLP125 FRQ LTGIC DSNT SE CB DSNT SE MOV E T02330228 $",
-        "observed": "2026-08-17T02:00:00.000Z",
-        "wind_kt": 0.0,
-        "wind_mph": 0.0,
+        "raw": "METAR KIAD 170252Z 17004KT 10SM OVC150 23/23 A2989 RMK AO2 SLP120 60000 T02330228 56010 $",
+        "observed": "2026-08-17T03:00:00.000Z",
+        "wind_kt": 4.0,
+        "wind_mph": 4.6,
         "gust_kt": null,
         "gust_mph": null,
         "temperature_f": 73.9,
@@ -159,28 +153,19 @@
         "flight_category": "VFR"
       },
       "taf": {
-        "raw": "TAF KIAD 170053Z 1701/1806 15007KT 5SM BR SCT015 BKN035 FM170200 20004KT 4SM -SHRA BKN035 FM170600 21005KT P6SM OVC050 FM171200 28008KT P6SM BKN050 PROB30 1716/1722 4SM -TSRA BKN050CB",
-        "issued": "2026-08-17T00:53:00.000Z",
-        "valid_from": 1786928400,
+        "raw": "TAF KIAD 170258Z 1703/1806 19004KT P6SM OVC150 FM170600 21005KT P6SM OVC050 FM171200 28008KT P6SM BKN050 PROB30 1716/1722 4SM -TSRA BKN050CB",
+        "issued": "2026-08-17T02:58:00.000Z",
+        "valid_from": 1786935600,
         "valid_to": 1787032800,
         "thunder": true,
         "snow": false,
         "freezing_precip": false
       },
-      "alerts": [
-        {
-          "event": "Flood Watch",
-          "headline": "Flood Watch issued August 16 at 5:22PM EDT until August 17 at 3:00AM EDT by NWS Baltimore MD/Washington DC",
-          "severity": "Severe",
-          "urgency": "Future",
-          "expires": "2026-08-17T01:30:00-04:00",
-          "source": "Exact facility location"
-        }
-      ],
+      "alerts": [],
       "metrics": {
-        "peak_gust_24h_kt": 17.0,
-        "peak_gust_24h_mph": 19.6,
-        "precip_7d_in": 0.94,
+        "peak_gust_24h_kt": 14.0,
+        "peak_gust_24h_mph": 16.1,
+        "precip_7d_in": 0.84,
         "snow_7d_in": 0.0
       },
       "forecast": [
@@ -189,8 +174,8 @@
           "temperature": 71,
           "temperatureUnit": "F",
           "shortForecast": "Widespread Showers And Thunderstorms",
-          "windSpeed": "6 mph",
-          "windDirection": "SW"
+          "windSpeed": "3 to 7 mph",
+          "windDirection": "S"
         },
         {
           "name": "Monday",
@@ -249,7 +234,7 @@
           "windDirection": "N"
         }
       ],
-      "checked_at": "2026-08-17T02:49:20.711515Z",
+      "checked_at": "2026-08-17T03:36:51.461727Z",
       "next_check_minutes": 15
     }
   ],
