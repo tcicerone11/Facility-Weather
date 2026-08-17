@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T17:01:41.967222Z",
+  "generated_at": "2026-08-17T17:37:27.292122Z",
   "facilities": [
     {
       "id": "den",
@@ -9,30 +9,37 @@
       "latitude": 39.8561,
       "longitude": -104.6737,
       "forecast_zone_name": "COZ040",
-      "status": "normal",
+      "status": "watch",
       "status_copy": {
-        "label": "NORMAL",
-        "summary": "No configured weather condition currently suggests an operational change.",
-        "action": "Continue normal operations and routine monitoring."
+        "label": "WATCH",
+        "summary": "Weather could affect operations if conditions develop as forecast.",
+        "action": "Monitor conditions and prepare staff, equipment, or outdoor operations."
       },
-      "reasons": [],
+      "reasons": [
+        {
+          "level": "watch",
+          "title": "Thunderstorms may affect the facility",
+          "detail": "A thunderstorm signal appears in the next 6 hours in the local or airport forecast.",
+          "action": "Monitor official warnings and your approved lightning procedure. This system does not measure lightning strike distance."
+        }
+      ],
       "metar": {
-        "raw": "METAR KDEN 171553Z VRB05KT 10SM FEW090 FEW150 FEW220 26/11 A3029 RMK AO2 SLP182 T02560106",
-        "observed": "2026-08-17T16:00:00.000Z",
-        "wind_kt": 5.0,
-        "wind_mph": 5.8,
+        "raw": "METAR KDEN 171653Z 24004KT 10SM FEW090 FEW150 FEW220 28/09 A3029 RMK AO2 SLP175 T02830094",
+        "observed": "2026-08-17T17:00:00.000Z",
+        "wind_kt": 4.0,
+        "wind_mph": 4.6,
         "gust_kt": null,
         "gust_mph": null,
-        "temperature_f": 78.1,
+        "temperature_f": 82.9,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
       "taf": {
-        "raw": "TAF KDEN 171443Z 1715/1818 22007KT P6SM FEW150 FM171700 VRB06KT P6SM FEW150 FM172000 08008KT P6SM SCT100 SCT150 FM172300 12008KT P6SM SCT100 SCT150 FM180300 17011KT P6SM SCT100 FM180700 21009KT P6SM FEW100 FM181000 26008KT P6SM FEW140 FM181500 33008KT P6SM SCT140",
-        "issued": "2026-08-17T14:43:00.000Z",
-        "valid_from": 1786978800,
-        "valid_to": 1787076000,
-        "thunder": false,
+        "raw": "TAF KDEN 171727Z 1718/1824 VRB06KT P6SM FEW150 FM172000 08008KT P6SM SCT100 SCT150 FM180300 17011KT P6SM SCT100 FM180700 21009KT P6SM FEW100 FM181000 26008KT P6SM FEW140 FM181500 33008KT P6SM SCT140 FM181900 05012KT P6SM FEW090 SCT150 PROB30 1820/1824 VRB20G35KT -TSRA BKN080CB",
+        "issued": "2026-08-17T17:27:00.000Z",
+        "valid_from": 1786989600,
+        "valid_to": 1787097600,
+        "thunder": true,
         "snow": false,
         "freezing_precip": false
       },
@@ -50,7 +57,7 @@
           "temperatureUnit": "F",
           "shortForecast": "Sunny",
           "windSpeed": "3 to 7 mph",
-          "windDirection": "SE"
+          "windDirection": "ESE"
         },
         {
           "name": "Tonight",
@@ -109,8 +116,8 @@
           "windDirection": "SSE"
         }
       ],
-      "checked_at": "2026-08-17T16:38:05.304856Z",
-      "next_check_minutes": 30
+      "checked_at": "2026-08-17T17:37:30.327044Z",
+      "next_check_minutes": 15
     },
     {
       "id": "iad",
@@ -146,10 +153,10 @@
         "flight_category": "VFR"
       },
       "taf": {
-        "raw": "TAF KIAD 171505Z 1715/1818 32009KT P6SM SCT027 SCT130 BKN250 FM171900 29008KT P6SM SCT050 BKN150 PROB30 1722/1801 4SM -TSRA BKN050CB FM180100 33003KT P6SM BKN100 FM180600 00000KT 6SM BR FEW010 FM181200 33005KT P6SM FEW250",
-        "issued": "2026-08-17T15:05:00.000Z",
-        "valid_from": 1786978800,
-        "valid_to": 1787076000,
+        "raw": "TAF KIAD 171735Z 1718/1824 33007KT P6SM SCT045 BKN250 FM172100 29008KT P6SM VCTS BKN050CB BKN150 FM180000 30003KT P6SM SCT045 BKN100 FM181500 34007KT P6SM SCT100",
+        "issued": "2026-08-17T17:35:00.000Z",
+        "valid_from": 1786989600,
+        "valid_to": 1787097600,
         "thunder": true,
         "snow": false,
         "freezing_precip": false
@@ -227,7 +234,7 @@
           "windDirection": "N"
         }
       ],
-      "checked_at": "2026-08-17T17:01:52.458351Z",
+      "checked_at": "2026-08-17T17:37:34.895146Z",
       "next_check_minutes": 15
     }
   ],
