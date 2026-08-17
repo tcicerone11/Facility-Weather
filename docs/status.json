@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T01:49:24.968741Z",
+  "generated_at": "2026-08-17T02:48:59.647957Z",
   "facilities": [
     {
       "id": "den",
@@ -18,25 +18,19 @@
       "reasons": [
         {
           "level": "watch",
-          "title": "Severe Thunderstorm Watch",
-          "detail": "Severe Thunderstorm Watch issued August 16 at 2:07PM MDT until August 16 at 9:00PM MDT by NWS Denver CO",
-          "action": "Monitor updates and prepare staff or equipment. Source: Exact facility location."
-        },
-        {
-          "level": "watch",
           "title": "Thunderstorms may affect the facility",
           "detail": "A thunderstorm signal appears in the next 6 hours in the local or airport forecast.",
           "action": "Monitor official warnings and your approved lightning procedure. This system does not measure lightning strike distance."
         }
       ],
       "metar": {
-        "raw": "METAR KDEN 170053Z 19013KT 10SM FEW100 BKN150 BKN220 25/12 A3026 RMK AO2 SLP175 T0250017",
-        "observed": "2026-08-17T01:00:00.000Z",
-        "wind_kt": 13.0,
-        "wind_mph": 15.0,
+        "raw": "METAR KDEN 170153Z 12009KT 10SM FEW110 SCT150 BKN200 22/12 A3027 RMK AO2 SLP184 T02170122",
+        "observed": "2026-08-17T02:00:00.000Z",
+        "wind_kt": 9.0,
+        "wind_mph": 10.4,
         "gust_kt": null,
         "gust_mph": null,
-        "temperature_f": 77.0,
+        "temperature_f": 71.1,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
@@ -49,16 +43,7 @@
         "snow": false,
         "freezing_precip": false
       },
-      "alerts": [
-        {
-          "event": "Severe Thunderstorm Watch",
-          "headline": "Severe Thunderstorm Watch issued August 16 at 2:07PM MDT until August 16 at 9:00PM MDT by NWS Denver CO",
-          "severity": "Severe",
-          "urgency": "Future",
-          "expires": "2026-08-16T21:00:00-06:00",
-          "source": "Exact facility location"
-        }
-      ],
+      "alerts": [],
       "metrics": {
         "peak_gust_24h_kt": 16.0,
         "peak_gust_24h_mph": 18.4,
@@ -131,7 +116,7 @@
           "windDirection": "NW"
         }
       ],
-      "checked_at": "2026-08-17T01:49:26.325654Z",
+      "checked_at": "2026-08-17T02:49:00.747001Z",
       "next_check_minutes": 15
     },
     {
@@ -163,13 +148,13 @@
         }
       ],
       "metar": {
-        "raw": "METAR KIAD 170052Z 16005KT 10SM FEW011 SCT035 SCT100 BKN200 BKN250 24/23 A2990 RMK AO2 RAE05 TSE2358B14E50 SLP123 CONS LTGICCCCG DSNT SE CB DSNT SE MOV E P0000 T02440233 $",
-        "observed": "2026-08-17T01:00:00.000Z",
-        "wind_kt": 5.0,
-        "wind_mph": 5.8,
+        "raw": "METAR KIAD 170152Z 00000KT 10SM SCT080 SCT100 BKN170 23/23 A2991 RMK AO2 SLP125 FRQ LTGIC DSNT SE CB DSNT SE MOV E T02330228 $",
+        "observed": "2026-08-17T02:00:00.000Z",
+        "wind_kt": 0.0,
+        "wind_mph": 0.0,
         "gust_kt": null,
         "gust_mph": null,
-        "temperature_f": 75.9,
+        "temperature_f": 73.9,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
@@ -204,8 +189,8 @@
           "temperature": 71,
           "temperatureUnit": "F",
           "shortForecast": "Widespread Showers And Thunderstorms",
-          "windSpeed": "3 to 7 mph",
-          "windDirection": "S"
+          "windSpeed": "6 mph",
+          "windDirection": "SW"
         },
         {
           "name": "Monday",
@@ -264,7 +249,7 @@
           "windDirection": "N"
         }
       ],
-      "checked_at": "2026-08-17T01:49:27.972092Z",
+      "checked_at": "2026-08-17T02:49:20.711515Z",
       "next_check_minutes": 15
     }
   ],
