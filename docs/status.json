@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T23:23:59.087172Z",
+  "generated_at": "2026-08-17T23:45:28.235750Z",
   "facilities": [
     {
       "id": "den",
@@ -126,7 +126,8 @@
         }
       ],
       "checked_at": "2026-08-17T23:23:59.724959Z",
-      "next_check_minutes": 15
+      "next_check_minutes": 15,
+      "data_error": "500 Server Error: Internal Server Error for url: https://api.weather.gov/alerts/active/zone/COZ040"
     },
     {
       "id": "iad",
@@ -244,7 +245,8 @@
         }
       ],
       "checked_at": "2026-08-17T23:24:04.458546Z",
-      "next_check_minutes": 15
+      "next_check_minutes": 15,
+      "data_error": "500 Server Error: Internal Server Error for url: https://api.weather.gov/alerts/active?point=38.9531%2C-77.4565"
     }
   ],
   "settings": {
