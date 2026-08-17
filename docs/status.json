@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T07:30:20.952851Z",
+  "generated_at": "2026-08-17T08:09:14.782274Z",
   "facilities": [
     {
       "id": "den",
@@ -17,13 +17,13 @@
       },
       "reasons": [],
       "metar": {
-        "raw": "METAR KDEN 170653Z 18010KT 10SM SCT220 18/13 A3030 RMK AO2 SLP184 T01780128 402780150",
-        "observed": "2026-08-17T07:00:00.000Z",
+        "raw": "METAR KDEN 170753Z 21010KT 10SM FEW220 19/13 A3028 RMK AO2 SLP174 T01890128",
+        "observed": "2026-08-17T08:00:00.000Z",
         "wind_kt": 10.0,
         "wind_mph": 11.5,
         "gust_kt": null,
         "gust_mph": null,
-        "temperature_f": 64.0,
+        "temperature_f": 66.0,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
@@ -109,7 +109,7 @@
           "windDirection": "NNW"
         }
       ],
-      "checked_at": "2026-08-17T07:30:25.018526Z",
+      "checked_at": "2026-08-17T08:09:15.350343Z",
       "next_check_minutes": 30
     },
     {
@@ -128,8 +128,8 @@
       },
       "reasons": [],
       "metar": {
-        "raw": "METAR KIAD 170652Z 20007KT 10SM SCT060 BKN080 BKN095 23/22 A2985 RMK AO2 SLP105 T02280222 $",
-        "observed": "2026-08-17T07:00:00.000Z",
+        "raw": "METAR KIAD 170752Z 20007KT 10SM OVC075 23/22 A2985 RMK AO2 SLP105 T02280217 $",
+        "observed": "2026-08-17T08:00:00.000Z",
         "wind_kt": 7.0,
         "wind_mph": 8.1,
         "gust_kt": null,
@@ -157,7 +157,7 @@
       "forecast": [
         {
           "name": "Overnight",
-          "temperature": 71,
+          "temperature": 70,
           "temperatureUnit": "F",
           "shortForecast": "Mostly Cloudy",
           "windSpeed": "3 to 8 mph",
@@ -220,7 +220,7 @@
           "windDirection": "N"
         }
       ],
-      "checked_at": "2026-08-17T07:30:26.320192Z",
+      "checked_at": "2026-08-17T08:09:32.465863Z",
       "next_check_minutes": 30
     }
   ],
