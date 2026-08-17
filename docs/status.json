@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T14:18:14.144125Z",
+  "generated_at": "2026-08-17T14:49:12.462311Z",
   "facilities": [
     {
       "id": "den",
@@ -17,20 +17,20 @@
       },
       "reasons": [],
       "metar": {
-        "raw": "METAR KDEN 171253Z 25006KT 10SM FEW150 FEW180 FEW220 16/12 A3030 RMK AO2 SLP190 T01610122",
-        "observed": "2026-08-17T13:00:00.000Z",
-        "wind_kt": 6.0,
-        "wind_mph": 6.9,
+        "raw": "METAR KDEN 171353Z 21008KT 10SM FEW140 FEW180 FEW220 20/12 A3030 RMK AO2 SLP188 T02000117",
+        "observed": "2026-08-17T14:00:00.000Z",
+        "wind_kt": 8.0,
+        "wind_mph": 9.2,
         "gust_kt": null,
         "gust_mph": null,
-        "temperature_f": 61.0,
+        "temperature_f": 68.0,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
       "taf": {
-        "raw": "TAF KDEN 171133Z 1712/1818 22007KT P6SM FEW150 FM171700 VRB06KT P6SM FEW150 FM172000 08008KT P6SM SCT100 SCT150 FM172300 12008KT P6SM SCT100 SCT150 FM180300 17011KT P6SM SCT100 FM180700 21009KT P6SM FEW100 FM181000 26008KT P6SM FEW140 FM181500 33008KT P6SM SCT140",
-        "issued": "2026-08-17T11:33:00.000Z",
-        "valid_from": 1786968000,
+        "raw": "TAF KDEN 171443Z 1715/1818 22007KT P6SM FEW150 FM171700 VRB06KT P6SM FEW150 FM172000 08008KT P6SM SCT100 SCT150 FM172300 12008KT P6SM SCT100 SCT150 FM180300 17011KT P6SM SCT100 FM180700 21009KT P6SM FEW100 FM181000 26008KT P6SM FEW140 FM181500 33008KT P6SM SCT140",
+        "issued": "2026-08-17T14:43:00.000Z",
+        "valid_from": 1786978800,
         "valid_to": 1787076000,
         "thunder": false,
         "snow": false,
@@ -109,7 +109,7 @@
           "windDirection": "SSE"
         }
       ],
-      "checked_at": "2026-08-17T13:52:00.501707Z",
+      "checked_at": "2026-08-17T14:49:13.526300Z",
       "next_check_minutes": 30
     },
     {
@@ -229,7 +229,7 @@
       ],
       "checked_at": "2026-08-17T13:52:01.863036Z",
       "next_check_minutes": 15,
-      "data_error": "504 Server Error: Gateway Time-out for url: https://aviationweather.gov/api/data/taf?ids=KIAD&format=json"
+      "data_error": "502 Server Error: Bad Gateway for url: https://aviationweather.gov/api/data/taf?ids=KIAD&format=json"
     }
   ],
   "settings": {
