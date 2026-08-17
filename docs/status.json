@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T08:09:14.782274Z",
+  "generated_at": "2026-08-17T09:00:11.412969Z",
   "facilities": [
     {
       "id": "den",
@@ -17,20 +17,20 @@
       },
       "reasons": [],
       "metar": {
-        "raw": "METAR KDEN 170753Z 21010KT 10SM FEW220 19/13 A3028 RMK AO2 SLP174 T01890128",
-        "observed": "2026-08-17T08:00:00.000Z",
-        "wind_kt": 10.0,
-        "wind_mph": 11.5,
+        "raw": "METAR KDEN 170853Z 23008KT 10SM FEW220 18/13 A3028 RMK AO2 SLP174 T01780128 56006",
+        "observed": "2026-08-17T09:00:00.000Z",
+        "wind_kt": 8.0,
+        "wind_mph": 9.2,
         "gust_kt": null,
         "gust_mph": null,
-        "temperature_f": 66.0,
+        "temperature_f": 64.0,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
       "taf": {
-        "raw": "TAF KDEN 170532Z 1706/1812 16013KT P6SM SCT120 FM170700 19013KT P6SM FEW080 SCT150 FM170900 24008KT P6SM FEW080 FM171700 VRB06KT P6SM FEW150 FM172000 07008KT P6SM SCT100 SCT150 FM172300 12008KT P6SM SCT100 SCT150 FM180200 16011KT P6SM SCT100 FM180600 21009KT P6SM FEW100",
-        "issued": "2026-08-17T05:32:00.000Z",
-        "valid_from": 1786946400,
+        "raw": "TAF KDEN 170851Z 1709/1812 23008KT P6SM FEW100 FM171700 VRB06KT P6SM FEW150 FM172000 07008KT P6SM SCT100 SCT150 FM172300 12008KT P6SM SCT100 SCT150 FM180200 16011KT P6SM SCT100 FM180600 21009KT P6SM FEW100",
+        "issued": "2026-08-17T08:51:00.000Z",
+        "valid_from": 1786957200,
         "valid_to": 1787054400,
         "thunder": false,
         "snow": false,
@@ -109,7 +109,7 @@
           "windDirection": "NNW"
         }
       ],
-      "checked_at": "2026-08-17T08:09:15.350343Z",
+      "checked_at": "2026-08-17T09:00:19.165143Z",
       "next_check_minutes": 30
     },
     {
@@ -221,7 +221,8 @@
         }
       ],
       "checked_at": "2026-08-17T08:09:32.465863Z",
-      "next_check_minutes": 30
+      "next_check_minutes": 30,
+      "data_error": "504 Server Error: Gateway Time-out for url: https://aviationweather.gov/api/data/taf?ids=KIAD&format=json"
     }
   ],
   "settings": {
