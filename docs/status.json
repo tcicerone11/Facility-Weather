@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T05:48:27.088195Z",
+  "generated_at": "2026-08-17T06:23:19.306829Z",
   "facilities": [
     {
       "id": "den",
@@ -17,13 +17,13 @@
       },
       "reasons": [],
       "metar": {
-        "raw": "METAR KDEN 170453Z 14013KT 10SM FEW150 BKN220 18/12 A3032 RMK AO2 SLP197 T01830122",
-        "observed": "2026-08-17T05:00:00.000Z",
-        "wind_kt": 13.0,
-        "wind_mph": 15.0,
+        "raw": "METAR KDEN 170553Z 17010KT 10SM FEW150 BKN220 18/12 A3030 RMK AO2 SLP188 T01780122 10261 20178 50003",
+        "observed": "2026-08-17T06:00:00.000Z",
+        "wind_kt": 10.0,
+        "wind_mph": 11.5,
         "gust_kt": null,
         "gust_mph": null,
-        "temperature_f": 64.9,
+        "temperature_f": 64.0,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
@@ -49,7 +49,7 @@
           "temperature": 59,
           "temperatureUnit": "F",
           "shortForecast": "Chance Showers And Thunderstorms then Partly Cloudy",
-          "windSpeed": "7 to 10 mph",
+          "windSpeed": "7 to 12 mph",
           "windDirection": "S"
         },
         {
@@ -109,7 +109,7 @@
           "windDirection": "NW"
         }
       ],
-      "checked_at": "2026-08-17T05:48:28.656098Z",
+      "checked_at": "2026-08-17T06:23:20.496555Z",
       "next_check_minutes": 30
     },
     {
@@ -128,13 +128,13 @@
       },
       "reasons": [],
       "metar": {
-        "raw": "METAR KIAD 170452Z 19006KT 10SM BKN080 23/23 A2988 RMK AO2 SLP115 T02330228 402670222 $",
-        "observed": "2026-08-17T05:00:00.000Z",
-        "wind_kt": 6.0,
-        "wind_mph": 6.9,
+        "raw": "METAR KIAD 170552Z 19009KT 10SM OVC050 24/23 A2986 RMK AO2 SLP110 60000 T02390228 10250 20228 58010 $",
+        "observed": "2026-08-17T06:00:00.000Z",
+        "wind_kt": 9.0,
+        "wind_mph": 10.4,
         "gust_kt": null,
         "gust_mph": null,
-        "temperature_f": 73.9,
+        "temperature_f": 75.0,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
@@ -160,7 +160,7 @@
           "temperature": 71,
           "temperatureUnit": "F",
           "shortForecast": "Mostly Cloudy",
-          "windSpeed": "6 mph",
+          "windSpeed": "3 to 10 mph",
           "windDirection": "SW"
         },
         {
@@ -220,7 +220,7 @@
           "windDirection": "N"
         }
       ],
-      "checked_at": "2026-08-17T05:48:31.175416Z",
+      "checked_at": "2026-08-17T06:23:23.111726Z",
       "next_check_minutes": 30
     }
   ],
