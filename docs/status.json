@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T20:11:09.918316Z",
+  "generated_at": "2026-08-17T20:44:35.636549Z",
   "facilities": [
     {
       "id": "den",
@@ -35,9 +35,9 @@
         "flight_category": "VFR"
       },
       "taf": {
-        "raw": "TAF KDEN 171727Z 1718/1824 VRB06KT P6SM FEW150 FM172000 08008KT P6SM SCT100 SCT150 FM180300 17011KT P6SM SCT100 FM180700 21009KT P6SM FEW100 FM181000 26008KT P6SM FEW140 FM181500 33008KT P6SM SCT140 FM181900 05012KT P6SM FEW090 SCT150 PROB30 1820/1824 VRB20G35KT -TSRA BKN080CB",
-        "issued": "2026-08-17T17:27:00.000Z",
-        "valid_from": 1786989600,
+        "raw": "TAF KDEN 172013Z 1720/1824 VRB06KT P6SM FEW150 FM172100 08007KT P6SM SCT100 SCT150 FM180300 17011KT P6SM SCT100 FM180700 21009KT P6SM FEW100 FM181000 26008KT P6SM FEW140 FM181500 33008KT P6SM SCT140 FM181900 05012KT P6SM FEW090 SCT150 PROB30 1820/1824 VRB20G35KT -TSRA BKN080CB",
+        "issued": "2026-08-17T20:13:00.000Z",
+        "valid_from": 1786996800,
         "valid_to": 1787097600,
         "thunder": true,
         "snow": false,
@@ -116,7 +116,7 @@
           "windDirection": "S"
         }
       ],
-      "checked_at": "2026-08-17T20:11:13.208676Z",
+      "checked_at": "2026-08-17T20:44:36.557497Z",
       "next_check_minutes": 15
     },
     {
@@ -234,7 +234,7 @@
           "windDirection": "N"
         }
       ],
-      "checked_at": "2026-08-17T20:11:32.697312Z",
+      "checked_at": "2026-08-17T20:44:40.447060Z",
       "next_check_minutes": 15
     }
   ],
