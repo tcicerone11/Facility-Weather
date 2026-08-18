@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T15:40:15.799705Z",
+  "generated_at": "2026-08-18T16:02:36.318779Z",
   "facilities": [
     {
       "id": "den",
@@ -24,13 +24,13 @@
         }
       ],
       "metar": {
-        "raw": "METAR KDEN 181453Z 34005KT 10SM FEW100 SCT160 BKN220 23/07 A3024 RMK AO2 SLP156 T02330072 50003",
-        "observed": "2026-08-18T15:00:00.000Z",
+        "raw": "METAR KDEN 181553Z 35005KT 10SM FEW100 SCT140 SCT220 25/08 A3022 RMK AO2 SLP151 T02500078",
+        "observed": "2026-08-18T16:00:00.000Z",
         "wind_kt": 5.0,
         "wind_mph": 5.8,
         "gust_kt": null,
         "gust_mph": null,
-        "temperature_f": 73.9,
+        "temperature_f": 77.0,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
@@ -66,7 +66,7 @@
           "temperatureUnit": "F",
           "shortForecast": "Mostly Sunny then Slight Chance Showers And Thunderstorms",
           "windSpeed": "5 to 13 mph",
-          "windDirection": "NNW"
+          "windDirection": "N"
         },
         {
           "name": "Tonight",
@@ -125,7 +125,7 @@
           "windDirection": "SSE"
         }
       ],
-      "checked_at": "2026-08-18T15:40:17.416790Z",
+      "checked_at": "2026-08-18T16:02:39.618669Z",
       "next_check_minutes": 15
     },
     {
