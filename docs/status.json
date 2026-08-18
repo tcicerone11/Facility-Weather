@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T22:45:15.341037Z",
+  "generated_at": "2026-08-18T23:03:14.221036Z",
   "facilities": [
     {
       "id": "den",
@@ -24,12 +24,12 @@
         }
       ],
       "metar": {
-        "raw": "METAR KDEN 182153Z 04008KT 10SM FEW120 SCT150 SCT220 30/07 A3017 RMK AO2 SLP129 T03000072",
-        "observed": "2026-08-18T22:00:00.000Z",
-        "wind_kt": 8.0,
-        "wind_mph": 9.2,
-        "gust_kt": null,
-        "gust_mph": null,
+        "raw": "METAR KDEN 182253Z 03006G16KT 10SM SCT120 SCT150 SCT220 30/08 A3015 RMK AO2 SLP125 T03000083",
+        "observed": "2026-08-18T23:00:00.000Z",
+        "wind_kt": 6.0,
+        "wind_mph": 6.9,
+        "gust_kt": 16.0,
+        "gust_mph": 18.4,
         "temperature_f": 86.0,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
@@ -65,7 +65,7 @@
           "temperature": 91,
           "temperatureUnit": "F",
           "shortForecast": "Slight Chance Showers And Thunderstorms",
-          "windSpeed": "8 to 12 mph",
+          "windSpeed": "7 to 12 mph",
           "windDirection": "NE"
         },
         {
@@ -125,7 +125,7 @@
           "windDirection": "S"
         }
       ],
-      "checked_at": "2026-08-18T22:45:18.564585Z",
+      "checked_at": "2026-08-18T23:03:15.002711Z",
       "next_check_minutes": 15
     },
     {
@@ -144,10 +144,10 @@
       },
       "reasons": [],
       "metar": {
-        "raw": "METAR KIAD 182152Z 31008KT 10SM FEW045 SCT080 29/18 A2990 RMK AO2 SLP121 T02940178 $",
-        "observed": "2026-08-18T22:00:00.000Z",
-        "wind_kt": 8.0,
-        "wind_mph": 9.2,
+        "raw": "METAR KIAD 182252Z 32007KT 10SM FEW050 SCT080 29/17 A2991 RMK AO2 SLP123 T02940172 $",
+        "observed": "2026-08-18T23:00:00.000Z",
+        "wind_kt": 7.0,
+        "wind_mph": 8.1,
         "gust_kt": null,
         "gust_mph": null,
         "temperature_f": 84.9,
@@ -176,7 +176,7 @@
           "temperature": 65,
           "temperatureUnit": "F",
           "shortForecast": "Mostly Clear",
-          "windSpeed": "2 to 6 mph",
+          "windSpeed": "5 mph",
           "windDirection": "NW"
         },
         {
@@ -236,7 +236,7 @@
           "windDirection": "E"
         }
       ],
-      "checked_at": "2026-08-18T22:19:05.151150Z",
+      "checked_at": "2026-08-18T23:03:17.712295Z",
       "next_check_minutes": 30
     }
   ],
