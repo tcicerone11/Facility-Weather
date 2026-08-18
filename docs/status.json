@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T23:32:04.066924Z",
+  "generated_at": "2026-08-18T23:53:16.734621Z",
   "facilities": [
     {
       "id": "den",
@@ -35,10 +35,10 @@
         "flight_category": "VFR"
       },
       "taf": {
-        "raw": "TAF KDEN 182058Z 1821/1924 04010KT P6SM FEW120 SCT150 SCT220 PROB30 1822/1902 VRB20G30KT -SHRA BKN090 FM190200 02015KT P6SM VCSH SCT080 BKN120 TEMPO 1902/1905 VRB15G35KT -TSRA BKN080CB FM190500 04009KT P6SM SCT080 BKN120 FM190800 17010KT P6SM FEW080 BKN120 FM191400 24010KT P6SM SCT120 FM191600 30008KT P6SM SCT110 FM191800 04009KT P6SM FEW080 SCT120",
-        "issued": "2026-08-18T20:58:00.000Z",
-        "valid_from": 1787086800,
-        "valid_to": 1787184000,
+        "raw": "TAF KDEN 182333Z 1900/2006 10012KT P6SM FEW120 SCT150 SCT220 PROB30 1900/1903 VRB20G30KT -SHRA BKN090 FM190300 02012KT P6SM VCSH SCT080 BKN120 TEMPO 1903/1906 VRB20G35KT -TSRA BKN080CB FM190600 04007KT P6SM SCT080 BKN120 FM191000 21007KT P6SM FEW080 BKN120 FM191600 29008KT P6SM SCT110 FM191800 04009KT P6SM FEW080 SCT120 FM192300 09012G20KT P6SM SCT080 SCT120 FM200100 18012G20KT P6SM FEW080 SCT120",
+        "issued": "2026-08-18T23:33:00.000Z",
+        "valid_from": 1787097600,
+        "valid_to": 1787205600,
         "thunder": true,
         "snow": false,
         "freezing_precip": false
@@ -65,7 +65,7 @@
           "temperature": 91,
           "temperatureUnit": "F",
           "shortForecast": "Slight Chance Showers And Thunderstorms",
-          "windSpeed": "8 to 12 mph",
+          "windSpeed": "7 to 12 mph",
           "windDirection": "NE"
         },
         {
@@ -125,7 +125,7 @@
           "windDirection": "S"
         }
       ],
-      "checked_at": "2026-08-18T23:32:05.860678Z",
+      "checked_at": "2026-08-18T23:53:17.757181Z",
       "next_check_minutes": 15
     },
     {
@@ -155,10 +155,10 @@
         "flight_category": "VFR"
       },
       "taf": {
-        "raw": "TAF KIAD 182100Z 1821/1924 30008KT P6SM FEW045 SCT080 FM190000 00000KT P6SM SKC FM191400 31005KT P6SM SKC",
-        "issued": "2026-08-18T21:00:00.000Z",
-        "valid_from": 1787086800,
-        "valid_to": 1787184000,
+        "raw": "TAF KIAD 182321Z 1900/2006 32007KT P6SM FEW050 SCT080 FM190400 00000KT P6SM FEW050 FEW250 FM191400 32005KT P6SM SKC FM192200 27004KT P6SM SKC FM200200 00000KT P6SM FEW050 SCT120",
+        "issued": "2026-08-18T23:21:00.000Z",
+        "valid_from": 1787097600,
+        "valid_to": 1787205600,
         "thunder": false,
         "snow": false,
         "freezing_precip": false
@@ -236,7 +236,7 @@
           "windDirection": "E"
         }
       ],
-      "checked_at": "2026-08-18T23:03:17.712295Z",
+      "checked_at": "2026-08-18T23:53:18.842098Z",
       "next_check_minutes": 30
     }
   ],
