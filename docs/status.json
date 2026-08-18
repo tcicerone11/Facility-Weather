@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T08:31:55.664437Z",
+  "generated_at": "2026-08-18T09:06:02.085685Z",
   "facilities": [
     {
       "id": "den",
@@ -24,20 +24,20 @@
         }
       ],
       "metar": {
-        "raw": "SPECI KDEN 180828Z 31012G20KT 10SM FEW220 22/10 A3018 RMK AO2 T02220100",
-        "observed": "2026-08-18T08:28:00.000Z",
-        "wind_kt": 12.0,
-        "wind_mph": 13.8,
-        "gust_kt": 20.0,
-        "gust_mph": 23.0,
-        "temperature_f": 72.0,
+        "raw": "METAR KDEN 180853Z 34014KT 10SM FEW220 19/11 A3018 RMK AO2 SLP125 T01940106 53003",
+        "observed": "2026-08-18T09:00:00.000Z",
+        "wind_kt": 14.0,
+        "wind_mph": 16.1,
+        "gust_kt": null,
+        "gust_mph": null,
+        "temperature_f": 66.9,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
       "taf": {
-        "raw": "TAF KDEN 180753Z 1808/1912 22011KT P6SM FEW100 FM180900 29011KT P6SM FEW140 FM181300 25008KT P6SM SCT140 FM181600 VRB06KT P6SM FEW100 SCT150 FM181900 05011KT P6SM FEW100 SCT150 PROB30 1820/1901 VRB20G35KT -TSRA BKN080CB FM190100 03013KT P6SM VCSH SCT080 BKN120 PROB30 1901/1905 VRB15G25KT -TSRA BKN080CB FM190500 33009KT P6SM SCT080 BKN120 FM190700 16010KT P6SM FEW080 BKN120",
-        "issued": "2026-08-18T07:53:00.000Z",
-        "valid_from": 1787040000,
+        "raw": "TAF KDEN 180843Z 1809/1912 33013KT P6SM FEW100 FM181100 29011KT P6SM FEW140 FM181300 25008KT P6SM SCT140 FM181600 VRB06KT P6SM FEW100 SCT150 FM181900 05011KT P6SM FEW100 SCT150 PROB30 1820/1901 VRB20G35KT -TSRA BKN080CB FM190100 03013KT P6SM VCSH SCT080 BKN120 PROB30 1901/1905 VRB15G25KT -TSRA BKN080CB FM190500 33009KT P6SM SCT080 BKN120 FM190700 16010KT P6SM FEW080 BKN120",
+        "issued": "2026-08-18T08:43:00.000Z",
+        "valid_from": 1787043600,
         "valid_to": 1787140800,
         "thunder": true,
         "snow": false,
@@ -54,8 +54,8 @@
         }
       ],
       "metrics": {
-        "peak_gust_24h_kt": 20.0,
-        "peak_gust_24h_mph": 23.0,
+        "peak_gust_24h_kt": 18.0,
+        "peak_gust_24h_mph": 20.7,
         "precip_7d_in": 0.12,
         "snow_7d_in": 0.0
       },
@@ -125,7 +125,7 @@
           "windDirection": "E"
         }
       ],
-      "checked_at": "2026-08-18T08:31:56.911430Z",
+      "checked_at": "2026-08-18T09:06:03.023662Z",
       "next_check_minutes": 15
     },
     {
@@ -144,10 +144,10 @@
       },
       "reasons": [],
       "metar": {
-        "raw": "METAR KIAD 180752Z 00000KT 10SM CLR 22/22 A2985 RMK AO2 SLP105 T02220217 $",
-        "observed": "2026-08-18T08:00:00.000Z",
-        "wind_kt": 0.0,
-        "wind_mph": 0.0,
+        "raw": "METAR KIAD 180852Z 29003KT 10SM CLR 22/21 A2986 RMK AO2 SLP107 T02220211 55003 $",
+        "observed": "2026-08-18T09:00:00.000Z",
+        "wind_kt": 3.0,
+        "wind_mph": 3.5,
         "gust_kt": null,
         "gust_mph": null,
         "temperature_f": 72.0,
@@ -155,9 +155,9 @@
         "flight_category": "VFR"
       },
       "taf": {
-        "raw": "TAF KIAD 180529Z 1806/1912 30003KT P6SM FEW250 FM180800 36004KT 6SM BR FEW030 FEW250 FM181300 33007KT P6SM FEW060 SCT250",
-        "issued": "2026-08-18T05:29:00.000Z",
-        "valid_from": 1787032800,
+        "raw": "TAF KIAD 180857Z 1809/1912 29003KT P6SM SCT250 FM181000 36004KT 6SM BR FEW030 FEW250 FM181300 33007KT P6SM FEW060 SCT250",
+        "issued": "2026-08-18T08:57:00.000Z",
+        "valid_from": 1787043600,
         "valid_to": 1787140800,
         "thunder": false,
         "snow": false,
@@ -175,9 +175,9 @@
           "name": "Overnight",
           "temperature": 71,
           "temperatureUnit": "F",
-          "shortForecast": "Patchy Fog",
-          "windSpeed": "5 mph",
-          "windDirection": "N"
+          "shortForecast": "Mostly Clear",
+          "windSpeed": "2 mph",
+          "windDirection": "NW"
         },
         {
           "name": "Tuesday",
@@ -236,7 +236,7 @@
           "windDirection": "N"
         }
       ],
-      "checked_at": "2026-08-18T08:31:58.904920Z",
+      "checked_at": "2026-08-18T09:06:04.796910Z",
       "next_check_minutes": 30
     }
   ],
