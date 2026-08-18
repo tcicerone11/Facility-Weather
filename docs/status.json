@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T13:52:24.044271Z",
+  "generated_at": "2026-08-18T14:23:49.064497Z",
   "facilities": [
     {
       "id": "den",
@@ -24,13 +24,13 @@
         }
       ],
       "metar": {
-        "raw": "METAR KDEN 181253Z 27006KT 10SM SCT160 BKN220 18/08 A3024 RMK AO2 SLP153 T01830083",
-        "observed": "2026-08-18T13:00:00.000Z",
-        "wind_kt": 6.0,
-        "wind_mph": 6.9,
+        "raw": "METAR KDEN 181353Z 28005KT 10SM FEW100 SCT160 BKN220 22/08 A3025 RMK AO2 SLP158 T02170078",
+        "observed": "2026-08-18T14:00:00.000Z",
+        "wind_kt": 5.0,
+        "wind_mph": 5.8,
         "gust_kt": null,
         "gust_mph": null,
-        "temperature_f": 64.9,
+        "temperature_f": 71.1,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
@@ -125,7 +125,7 @@
           "windDirection": "SSE"
         }
       ],
-      "checked_at": "2026-08-18T13:52:27.103012Z",
+      "checked_at": "2026-08-18T14:23:50.312851Z",
       "next_check_minutes": 15
     },
     {
@@ -144,10 +144,10 @@
       },
       "reasons": [],
       "metar": {
-        "raw": "SPECI KIAD 181302Z 31005KT 10SM BKN025 BKN095 26/21 A2991 RMK AO2 T02560211 $",
-        "observed": "2026-08-18T13:02:00.000Z",
-        "wind_kt": 5.0,
-        "wind_mph": 5.8,
+        "raw": "METAR KIAD 181352Z 33008KT 10SM BKN025 BKN095 26/21 A2992 RMK AO2 SLP130 T02560211 $",
+        "observed": "2026-08-18T14:00:00.000Z",
+        "wind_kt": 8.0,
+        "wind_mph": 9.2,
         "gust_kt": null,
         "gust_mph": null,
         "temperature_f": 78.1,
@@ -155,9 +155,9 @@
         "flight_category": "MVFR"
       },
       "taf": {
-        "raw": "TAF KIAD 181317Z 1813/1918 32007KT P6SM SCT025 BKN100 TEMPO 1813/1814 BKN025 FM181500 33007KT P6SM FEW060 BKN100 FM190100 33004KT P6SM FEW250",
-        "issued": "2026-08-18T13:17:00.000Z",
-        "valid_from": 1787058000,
+        "raw": "TAF KIAD 181403Z 1814/1918 33007KT P6SM BKN025 BKN100 FM181600 33007KT P6SM SCT030 BKN100 FM181700 33007KT P6SM FEW050 BKN100 FM190100 33004KT P6SM FEW250",
+        "issued": "2026-08-18T14:03:00.000Z",
+        "valid_from": 1787061600,
         "valid_to": 1787162400,
         "thunder": false,
         "snow": false,
@@ -236,7 +236,7 @@
           "windDirection": "NE"
         }
       ],
-      "checked_at": "2026-08-18T13:52:36.289196Z",
+      "checked_at": "2026-08-18T14:23:51.853163Z",
       "next_check_minutes": 30
     }
   ],
