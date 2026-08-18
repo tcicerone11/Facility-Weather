@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T04:10:07.813300Z",
+  "generated_at": "2026-08-18T04:51:27.712837Z",
   "facilities": [
     {
       "id": "den",
@@ -125,7 +125,7 @@
           "windDirection": "NNW"
         }
       ],
-      "checked_at": "2026-08-18T04:10:11.867074Z",
+      "checked_at": "2026-08-18T04:51:30.970964Z",
       "next_check_minutes": 15
     },
     {
@@ -165,17 +165,17 @@
       },
       "alerts": [],
       "metrics": {
-        "peak_gust_24h_kt": 13.0,
-        "peak_gust_24h_mph": 15.0,
-        "precip_7d_in": 0.37,
+        "peak_gust_24h_kt": 14.0,
+        "peak_gust_24h_mph": 16.1,
+        "precip_7d_in": 0.55,
         "snow_7d_in": 0.0
       },
       "forecast": [
         {
-          "name": "Tonight",
+          "name": "Overnight",
           "temperature": 71,
           "temperatureUnit": "F",
-          "shortForecast": "Mostly Cloudy",
+          "shortForecast": "Patchy Fog",
           "windSpeed": "5 mph",
           "windDirection": "NW"
         },
@@ -183,16 +183,16 @@
           "name": "Tuesday",
           "temperature": 86,
           "temperatureUnit": "F",
-          "shortForecast": "Sunny",
-          "windSpeed": "5 to 8 mph",
-          "windDirection": "N"
+          "shortForecast": "Patchy Fog then Mostly Sunny",
+          "windSpeed": "7 mph",
+          "windDirection": "NW"
         },
         {
           "name": "Tuesday Night",
-          "temperature": 66,
+          "temperature": 67,
           "temperatureUnit": "F",
-          "shortForecast": "Partly Cloudy",
-          "windSpeed": "1 to 6 mph",
+          "shortForecast": "Mostly Clear",
+          "windSpeed": "2 to 6 mph",
           "windDirection": "NW"
         },
         {
@@ -200,16 +200,16 @@
           "temperature": 88,
           "temperatureUnit": "F",
           "shortForecast": "Sunny",
-          "windSpeed": "1 to 6 mph",
-          "windDirection": "NW"
+          "windSpeed": "5 mph",
+          "windDirection": "W"
         },
         {
           "name": "Wednesday Night",
-          "temperature": 69,
+          "temperature": 70,
           "temperatureUnit": "F",
           "shortForecast": "Partly Cloudy",
           "windSpeed": "3 mph",
-          "windDirection": "NW"
+          "windDirection": "W"
         },
         {
           "name": "Thursday",
@@ -217,11 +217,11 @@
           "temperatureUnit": "F",
           "shortForecast": "Showers And Thunderstorms Likely",
           "windSpeed": "1 to 5 mph",
-          "windDirection": "N"
+          "windDirection": "NW"
         },
         {
           "name": "Thursday Night",
-          "temperature": 67,
+          "temperature": 66,
           "temperatureUnit": "F",
           "shortForecast": "Showers And Thunderstorms Likely",
           "windSpeed": "1 to 5 mph",
@@ -229,14 +229,14 @@
         },
         {
           "name": "Friday",
-          "temperature": 81,
+          "temperature": 83,
           "temperatureUnit": "F",
-          "shortForecast": "Chance Showers And Thunderstorms",
+          "shortForecast": "Partly Sunny then Chance Showers And Thunderstorms",
           "windSpeed": "5 mph",
-          "windDirection": "NE"
+          "windDirection": "N"
         }
       ],
-      "checked_at": "2026-08-18T04:10:13.329475Z",
+      "checked_at": "2026-08-18T04:51:32.561163Z",
       "next_check_minutes": 30
     }
   ],
