@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T23:53:16.734621Z",
+  "generated_at": "2026-08-19T00:52:08.548808Z",
   "facilities": [
     {
       "id": "den",
@@ -24,13 +24,13 @@
         }
       ],
       "metar": {
-        "raw": "METAR KDEN 182253Z 03006G16KT 10SM SCT120 SCT150 SCT220 30/08 A3015 RMK AO2 SLP125 T03000083",
-        "observed": "2026-08-18T23:00:00.000Z",
-        "wind_kt": 6.0,
-        "wind_mph": 6.9,
-        "gust_kt": 16.0,
-        "gust_mph": 18.4,
-        "temperature_f": 86.0,
+        "raw": "METAR KDEN 182353Z 12012KT 10SM SCT120 BKN150 BKN220 29/09 A3015 RMK AO2 SLP124 T02890094 10311 20278 56010",
+        "observed": "2026-08-19T00:00:00.000Z",
+        "wind_kt": 12.0,
+        "wind_mph": 13.8,
+        "gust_kt": null,
+        "gust_mph": null,
+        "temperature_f": 84.0,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
@@ -56,18 +56,10 @@
       "metrics": {
         "peak_gust_24h_kt": 16.0,
         "peak_gust_24h_mph": 18.4,
-        "precip_7d_in": 0.28,
+        "precip_7d_in": 0.29,
         "snow_7d_in": 0.0
       },
       "forecast": [
-        {
-          "name": "This Afternoon",
-          "temperature": 91,
-          "temperatureUnit": "F",
-          "shortForecast": "Slight Chance Showers And Thunderstorms",
-          "windSpeed": "7 to 12 mph",
-          "windDirection": "NE"
-        },
         {
           "name": "Tonight",
           "temperature": 61,
@@ -123,9 +115,17 @@
           "shortForecast": "Partly Cloudy",
           "windSpeed": "7 to 12 mph",
           "windDirection": "S"
+        },
+        {
+          "name": "Saturday",
+          "temperature": 93,
+          "temperatureUnit": "F",
+          "shortForecast": "Mostly Sunny then Chance Showers And Thunderstorms",
+          "windSpeed": "6 to 12 mph",
+          "windDirection": "S"
         }
       ],
-      "checked_at": "2026-08-18T23:53:17.757181Z",
+      "checked_at": "2026-08-19T00:52:14.213484Z",
       "next_check_minutes": 15
     },
     {
@@ -144,13 +144,13 @@
       },
       "reasons": [],
       "metar": {
-        "raw": "METAR KIAD 182252Z 32007KT 10SM FEW050 SCT080 29/17 A2991 RMK AO2 SLP123 T02940172 $",
-        "observed": "2026-08-18T23:00:00.000Z",
-        "wind_kt": 7.0,
-        "wind_mph": 8.1,
+        "raw": "METAR KIAD 182352Z 32004KT 10SM FEW050 FEW080 SCT250 28/18 A2991 RMK AO2 SLP124 T02780178 10306 20278 53000 $",
+        "observed": "2026-08-19T00:00:00.000Z",
+        "wind_kt": 4.0,
+        "wind_mph": 4.6,
         "gust_kt": null,
         "gust_mph": null,
-        "temperature_f": 84.9,
+        "temperature_f": 82.0,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
@@ -236,7 +236,7 @@
           "windDirection": "E"
         }
       ],
-      "checked_at": "2026-08-18T23:53:18.842098Z",
+      "checked_at": "2026-08-19T00:52:18.037912Z",
       "next_check_minutes": 30
     }
   ],
