@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T07:11:25.240485Z",
+  "generated_at": "2026-08-19T07:54:53.933462Z",
   "facilities": [
     {
       "id": "den",
@@ -61,19 +61,19 @@
       },
       "forecast": [
         {
-          "name": "Tonight",
-          "temperature": 61,
+          "name": "Overnight",
+          "temperature": 62,
           "temperatureUnit": "F",
-          "shortForecast": "Chance Showers And Thunderstorms",
-          "windSpeed": "6 to 12 mph",
-          "windDirection": "ESE"
+          "shortForecast": "Chance Rain Showers",
+          "windSpeed": "7 mph",
+          "windDirection": "S"
         },
         {
           "name": "Wednesday",
-          "temperature": 89,
+          "temperature": 88,
           "temperatureUnit": "F",
           "shortForecast": "Mostly Sunny",
-          "windSpeed": "3 to 8 mph",
+          "windSpeed": "5 to 8 mph",
           "windDirection": "NNE"
         },
         {
@@ -81,51 +81,51 @@
           "temperature": 63,
           "temperatureUnit": "F",
           "shortForecast": "Partly Cloudy",
-          "windSpeed": "6 to 9 mph",
-          "windDirection": "S"
+          "windSpeed": "7 to 12 mph",
+          "windDirection": "SSE"
         },
         {
           "name": "Thursday",
           "temperature": 93,
           "temperatureUnit": "F",
           "shortForecast": "Sunny",
-          "windSpeed": "5 to 8 mph",
+          "windSpeed": "5 to 9 mph",
           "windDirection": "NNW"
         },
         {
           "name": "Thursday Night",
-          "temperature": 64,
+          "temperature": 65,
           "temperatureUnit": "F",
           "shortForecast": "Partly Cloudy",
-          "windSpeed": "6 to 9 mph",
+          "windSpeed": "7 to 10 mph",
           "windDirection": "SSE"
         },
         {
           "name": "Friday",
-          "temperature": 95,
+          "temperature": 96,
           "temperatureUnit": "F",
           "shortForecast": "Sunny",
           "windSpeed": "3 to 8 mph",
-          "windDirection": "SE"
+          "windDirection": "N"
         },
         {
           "name": "Friday Night",
-          "temperature": 65,
+          "temperature": 66,
           "temperatureUnit": "F",
           "shortForecast": "Partly Cloudy",
-          "windSpeed": "7 to 12 mph",
+          "windSpeed": "6 to 10 mph",
           "windDirection": "S"
         },
         {
           "name": "Saturday",
-          "temperature": 93,
+          "temperature": 94,
           "temperatureUnit": "F",
           "shortForecast": "Mostly Sunny then Chance Showers And Thunderstorms",
-          "windSpeed": "6 to 12 mph",
-          "windDirection": "S"
+          "windSpeed": "5 to 10 mph",
+          "windDirection": "SE"
         }
       ],
-      "checked_at": "2026-08-19T07:11:26.606072Z",
+      "checked_at": "2026-08-19T07:54:55.942158Z",
       "next_check_minutes": 15
     },
     {
@@ -144,8 +144,8 @@
       },
       "reasons": [],
       "metar": {
-        "raw": "METAR KIAD 190652Z 00000KT 10SM FEW070 18/17 A2994 RMK AO2 SLP135 T01830172 $",
-        "observed": "2026-08-19T07:00:00.000Z",
+        "raw": "METAR KIAD 190752Z 00000KT 10SM CLR 18/17 A2993 RMK AO2 SLP134 T01830167 $",
+        "observed": "2026-08-19T08:00:00.000Z",
         "wind_kt": 0.0,
         "wind_mph": 0.0,
         "gust_kt": null,
@@ -236,7 +236,7 @@
           "windDirection": "E"
         }
       ],
-      "checked_at": "2026-08-19T07:11:49.951445Z",
+      "checked_at": "2026-08-19T07:54:57.309925Z",
       "next_check_minutes": 30
     }
   ],
