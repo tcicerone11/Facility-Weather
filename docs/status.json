@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T17:39:10.793252Z",
+  "generated_at": "2026-08-19T17:58:47.182839Z",
   "facilities": [
     {
       "id": "den",
@@ -129,38 +129,45 @@
       "latitude": 38.9531,
       "longitude": -77.4565,
       "forecast_zone_name": "VAZ506",
-      "status": "normal",
+      "status": "watch",
       "status_copy": {
-        "label": "NORMAL",
-        "summary": "No configured weather condition currently suggests an operational change.",
-        "action": "Continue normal operations and routine monitoring."
+        "label": "WATCH",
+        "summary": "Weather could affect operations if conditions develop as forecast.",
+        "action": "Monitor conditions and prepare staff, equipment, or outdoor operations."
       },
-      "reasons": [],
+      "reasons": [
+        {
+          "level": "watch",
+          "title": "Thunderstorms may affect the facility",
+          "detail": "A thunderstorm signal appears in the next 6 hours in the local or airport forecast.",
+          "action": "Monitor official warnings and your approved lightning procedure. This system does not measure lightning strike distance."
+        }
+      ],
       "metar": {
-        "raw": "METAR KIAD 191552Z VRB04KT 10SM FEW250 29/17 A2996 RMK AO2 SLP142 T02890167 $",
-        "observed": "2026-08-19T16:00:00.000Z",
-        "wind_kt": 4.0,
-        "wind_mph": 4.6,
+        "raw": "METAR KIAD 191752Z VRB05KT 10SM SCT055 SCT250 30/17 A2995 RMK AO2 SLP139 T03000172 10300 20217 58003 $",
+        "observed": "2026-08-19T18:00:00.000Z",
+        "wind_kt": 5.0,
+        "wind_mph": 5.8,
         "gust_kt": null,
         "gust_mph": null,
-        "temperature_f": 84.0,
+        "temperature_f": 86.0,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
       "taf": {
-        "raw": "TAF KIAD 191458Z 1915/2018 31004KT P6SM FEW060 SCT250 FM191800 26005KT P6SM SCT060 FM201200 12004KT P6SM BKN050 PROB30 2012/2015 6SM -SHRA BKN030 FM201500 19005KT P6SM BKN050",
-        "issued": "2026-08-19T14:58:00.000Z",
-        "valid_from": 1787151600,
-        "valid_to": 1787248800,
-        "thunder": false,
+        "raw": "TAF KIAD 191729Z 1918/2024 26005KT P6SM SCT060 PROB30 2008/2012 6SM -SHRA BKN030 FM201200 12004KT P6SM BKN050 FM201500 19005KT P6SM BKN050 PROB30 2018/2022 4SM -TSRA BKN030CB",
+        "issued": "2026-08-19T17:29:00.000Z",
+        "valid_from": 1787162400,
+        "valid_to": 1787270400,
+        "thunder": true,
         "snow": false,
         "freezing_precip": false
       },
       "alerts": [],
       "metrics": {
-        "peak_gust_24h_kt": 9.0,
-        "peak_gust_24h_mph": 10.4,
-        "precip_7d_in": 0.54,
+        "peak_gust_24h_kt": 11.0,
+        "peak_gust_24h_mph": 12.7,
+        "precip_7d_in": 0.58,
         "snow_7d_in": 0.0
       },
       "forecast": [
@@ -169,46 +176,46 @@
           "temperature": 89,
           "temperatureUnit": "F",
           "shortForecast": "Sunny",
-          "windSpeed": "5 mph",
+          "windSpeed": "3 to 7 mph",
           "windDirection": "W"
         },
         {
           "name": "Tonight",
           "temperature": 70,
           "temperatureUnit": "F",
-          "shortForecast": "Partly Cloudy",
-          "windSpeed": "3 mph",
+          "shortForecast": "Mostly Clear",
+          "windSpeed": "0 to 5 mph",
           "windDirection": "NW"
         },
         {
           "name": "Thursday",
           "temperature": 84,
           "temperatureUnit": "F",
-          "shortForecast": "Chance Rain Showers then Chance Showers And Thunderstorms",
+          "shortForecast": "Chance Showers And Thunderstorms",
           "windSpeed": "1 to 6 mph",
-          "windDirection": "SE"
+          "windDirection": "S"
         },
         {
           "name": "Thursday Night",
-          "temperature": 65,
+          "temperature": 66,
           "temperatureUnit": "F",
-          "shortForecast": "Showers And Thunderstorms Likely then Chance Showers And Thunderstorms",
-          "windSpeed": "2 to 6 mph",
+          "shortForecast": "Chance Showers And Thunderstorms",
+          "windSpeed": "5 mph",
           "windDirection": "N"
         },
         {
           "name": "Friday",
-          "temperature": 83,
+          "temperature": 82,
           "temperatureUnit": "F",
-          "shortForecast": "Chance Rain Showers",
+          "shortForecast": "Partly Sunny then Chance Showers And Thunderstorms",
           "windSpeed": "5 mph",
           "windDirection": "NE"
         },
         {
           "name": "Friday Night",
-          "temperature": 66,
+          "temperature": 67,
           "temperatureUnit": "F",
-          "shortForecast": "Chance Showers And Thunderstorms",
+          "shortForecast": "Showers And Thunderstorms Likely",
           "windSpeed": "1 to 5 mph",
           "windDirection": "E"
         },
@@ -216,7 +223,7 @@
           "name": "Saturday",
           "temperature": 84,
           "temperatureUnit": "F",
-          "shortForecast": "Chance Showers And Thunderstorms",
+          "shortForecast": "Rain Showers Likely",
           "windSpeed": "1 to 5 mph",
           "windDirection": "E"
         },
@@ -229,9 +236,8 @@
           "windDirection": "S"
         }
       ],
-      "checked_at": "2026-08-19T16:43:29.304309Z",
-      "next_check_minutes": 30,
-      "data_error": "504 Server Error: Gateway Time-out for url: https://aviationweather.gov/api/data/taf?ids=KIAD&format=json"
+      "checked_at": "2026-08-19T17:58:49.370502Z",
+      "next_check_minutes": 15
     }
   ],
   "settings": {
