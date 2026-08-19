@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T21:00:59.258683Z",
+  "generated_at": "2026-08-19T21:34:19.274139Z",
   "facilities": [
     {
       "id": "den",
@@ -125,7 +125,7 @@
           "windDirection": "SSW"
         }
       ],
-      "checked_at": "2026-08-19T21:01:02.640155Z",
+      "checked_at": "2026-08-19T21:34:19.989967Z",
       "next_check_minutes": 15
     },
     {
@@ -151,10 +151,10 @@
         }
       ],
       "metar": {
-        "raw": "METAR KIAD 191952Z 27005KT 10SM FEW060 BKN095 31/18 A2993 RMK AO2 SLP133 T03060178",
-        "observed": "2026-08-19T20:00:00.000Z",
-        "wind_kt": 5.0,
-        "wind_mph": 5.8,
+        "raw": "METAR KIAD 192052Z 27003KT 10SM OVC095 31/18 A2993 RMK AO2 SLP131 T03060183 56007",
+        "observed": "2026-08-19T21:00:00.000Z",
+        "wind_kt": 3.0,
+        "wind_mph": 3.5,
         "gust_kt": null,
         "gust_mph": null,
         "temperature_f": 87.1,
@@ -162,9 +162,9 @@
         "flight_category": "VFR"
       },
       "taf": {
-        "raw": "TAF KIAD 191729Z 1918/2024 26005KT P6SM SCT060 PROB30 2008/2012 6SM -SHRA BKN030 FM201200 12004KT P6SM BKN050 FM201500 19005KT P6SM BKN050 PROB30 2018/2022 4SM -TSRA BKN030CB",
-        "issued": "2026-08-19T17:29:00.000Z",
-        "valid_from": 1787162400,
+        "raw": "TAF KIAD 192101Z 1921/2024 26005KT P6SM FEW060 BKN100 PROB30 2008/2012 6SM -SHRA BKN030 FM201200 12004KT P6SM BKN050 FM201500 19005KT P6SM BKN050 PROB30 2018/2022 4SM -TSRA BKN030CB",
+        "issued": "2026-08-19T21:01:00.000Z",
+        "valid_from": 1787173200,
         "valid_to": 1787270400,
         "thunder": true,
         "snow": false,
@@ -180,10 +180,10 @@
       "forecast": [
         {
           "name": "This Afternoon",
-          "temperature": 89,
+          "temperature": 87,
           "temperatureUnit": "F",
           "shortForecast": "Partly Sunny",
-          "windSpeed": "7 mph",
+          "windSpeed": "6 mph",
           "windDirection": "W"
         },
         {
@@ -243,7 +243,7 @@
           "windDirection": "SW"
         }
       ],
-      "checked_at": "2026-08-19T21:01:26.995195Z",
+      "checked_at": "2026-08-19T21:34:23.857958Z",
       "next_check_minutes": 15
     }
   ],
