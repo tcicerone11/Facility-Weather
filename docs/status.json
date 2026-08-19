@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T19:41:50.375582Z",
+  "generated_at": "2026-08-19T20:00:07.957278Z",
   "facilities": [
     {
       "id": "den",
@@ -24,13 +24,13 @@
         }
       ],
       "metar": {
-        "raw": "METAR KDEN 191853Z VRB05KT 10SM FEW080 FEW120 SCT150 29/11 A3016 RMK AO2 SLP130 T02890106",
-        "observed": "2026-08-19T19:00:00.000Z",
-        "wind_kt": 5.0,
-        "wind_mph": 5.8,
+        "raw": "METAR KDEN 191953Z 06006KT 10SM FEW080 SCT120 SCT220 31/09 A3013 RMK AO2 SLP120 T03060089",
+        "observed": "2026-08-19T20:00:00.000Z",
+        "wind_kt": 6.0,
+        "wind_mph": 6.9,
         "gust_kt": null,
         "gust_mph": null,
-        "temperature_f": 84.0,
+        "temperature_f": 87.1,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
@@ -65,7 +65,7 @@
           "temperature": 88,
           "temperatureUnit": "F",
           "shortForecast": "Slight Chance Showers And Thunderstorms",
-          "windSpeed": "9 mph",
+          "windSpeed": "6 to 9 mph",
           "windDirection": "NE"
         },
         {
@@ -125,7 +125,7 @@
           "windDirection": "SSW"
         }
       ],
-      "checked_at": "2026-08-19T19:41:54.622486Z",
+      "checked_at": "2026-08-19T20:00:16.576799Z",
       "next_check_minutes": 15
     },
     {
@@ -151,13 +151,13 @@
         }
       ],
       "metar": {
-        "raw": "METAR KIAD 191852Z 26005KT 10SM FEW050 SCT250 31/17 A2994 RMK AO2 SLP135 T03110172 $",
-        "observed": "2026-08-19T19:00:00.000Z",
+        "raw": "METAR KIAD 191952Z 27005KT 10SM FEW060 BKN095 31/18 A2993 RMK AO2 SLP133 T03060178",
+        "observed": "2026-08-19T20:00:00.000Z",
         "wind_kt": 5.0,
         "wind_mph": 5.8,
         "gust_kt": null,
         "gust_mph": null,
-        "temperature_f": 88.0,
+        "temperature_f": 87.1,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
@@ -243,7 +243,7 @@
           "windDirection": "SW"
         }
       ],
-      "checked_at": "2026-08-19T19:41:56.638828Z",
+      "checked_at": "2026-08-19T20:00:45.696311Z",
       "next_check_minutes": 15
     }
   ],
