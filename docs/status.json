@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T16:43:27.424920Z",
+  "generated_at": "2026-08-19T17:39:10.793252Z",
   "facilities": [
     {
       "id": "den",
@@ -17,21 +17,21 @@
       },
       "reasons": [],
       "metar": {
-        "raw": "METAR KDEN 191553Z 25006KT 10SM FEW040 SCT120 BKN150 22/13 A3022 RMK AO2 SLP161 T02220133",
-        "observed": "2026-08-19T16:00:00.000Z",
-        "wind_kt": 6.0,
-        "wind_mph": 6.9,
+        "raw": "METAR KDEN 191653Z VRB04KT 10SM FEW040 SCT120 SCT150 24/14 A3022 RMK AO2 SLP157 T02390139",
+        "observed": "2026-08-19T17:00:00.000Z",
+        "wind_kt": 4.0,
+        "wind_mph": 4.6,
         "gust_kt": null,
         "gust_mph": null,
-        "temperature_f": 72.0,
+        "temperature_f": 75.0,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
       "taf": {
-        "raw": "TAF KDEN 191431Z 1915/2018 30005KT P6SM FEW080 SCT120 BKN150 FM191700 04008KT P6SM FEW080 SCT120 FM192000 07010KT P6SM SCT080 SCT120 FM200000 10011KT P6SM SCT080 SCT120 FM200300 17011G17KT P6SM FEW080 SCT120 FM200700 21011KT P6SM FEW120 FM201000 25007KT P6SM FEW120 FM201500 32009KT P6SM FEW120 SCT220",
-        "issued": "2026-08-19T14:31:00.000Z",
-        "valid_from": 1787151600,
-        "valid_to": 1787248800,
+        "raw": "TAF KDEN 191738Z 1918/2024 VRB06KT P6SM FEW120 FM192000 04008KT P6SM FEW080 SCT120 PROB30 1921/2001 VRB20G30KT -SHRA BKN080 FM200100 10011KT P6SM SCT080 SCT120 FM200300 17011G17KT P6SM FEW080 SCT120 FM200700 21011KT P6SM FEW120 FM201000 26007KT P6SM SKC FM201500 32009KT P6SM SKC FM201900 05010KT P6SM FEW120",
+        "issued": "2026-08-19T17:38:00.000Z",
+        "valid_from": 1787162400,
+        "valid_to": 1787270400,
         "thunder": false,
         "snow": false,
         "freezing_precip": false
@@ -118,7 +118,7 @@
           "windDirection": "SSW"
         }
       ],
-      "checked_at": "2026-08-19T16:43:28.120545Z",
+      "checked_at": "2026-08-19T17:39:14.146733Z",
       "next_check_minutes": 30
     },
     {
@@ -230,7 +230,8 @@
         }
       ],
       "checked_at": "2026-08-19T16:43:29.304309Z",
-      "next_check_minutes": 30
+      "next_check_minutes": 30,
+      "data_error": "504 Server Error: Gateway Time-out for url: https://aviationweather.gov/api/data/taf?ids=KIAD&format=json"
     }
   ],
   "settings": {
