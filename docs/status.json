@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T20:38:08.920159Z",
+  "generated_at": "2026-08-19T21:00:59.258683Z",
   "facilities": [
     {
       "id": "den",
@@ -24,20 +24,20 @@
         }
       ],
       "metar": {
-        "raw": "METAR KDEN 191953Z 06006KT 10SM FEW080 SCT120 SCT220 31/09 A3013 RMK AO2 SLP120 T03060089",
-        "observed": "2026-08-19T20:00:00.000Z",
-        "wind_kt": 6.0,
-        "wind_mph": 6.9,
+        "raw": "METAR KDEN 192053Z VRB05KT 10SM FEW080 SCT120 SCT220 32/08 A3011 RMK AO2 SLP110 T03220083 56023",
+        "observed": "2026-08-19T21:00:00.000Z",
+        "wind_kt": 5.0,
+        "wind_mph": 5.8,
         "gust_kt": null,
         "gust_mph": null,
-        "temperature_f": 87.1,
+        "temperature_f": 90.0,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
       "taf": {
-        "raw": "TAF KDEN 191738Z 1918/2024 VRB06KT P6SM FEW120 FM192000 04008KT P6SM FEW080 SCT120 PROB30 1921/2001 VRB20G30KT -SHRA BKN080 FM200100 10011KT P6SM SCT080 SCT120 FM200300 17011G17KT P6SM FEW080 SCT120 FM200700 21011KT P6SM FEW120 FM201000 26007KT P6SM SKC FM201500 32009KT P6SM SKC FM201900 05010KT P6SM FEW120",
-        "issued": "2026-08-19T17:38:00.000Z",
-        "valid_from": 1787162400,
+        "raw": "TAF KDEN 192056Z 1921/2024 04006KT P6SM FEW080 SCT120 PROB30 1921/2001 VRB20G30KT -SHRA BKN080 FM200100 10011KT P6SM SCT080 SCT120 FM200300 17011G17KT P6SM FEW080 SCT120 FM200700 21011KT P6SM FEW120 FM201000 26007KT P6SM SKC FM201500 32009KT P6SM SKC FM201900 05010KT P6SM FEW120",
+        "issued": "2026-08-19T20:56:00.000Z",
+        "valid_from": 1787173200,
         "valid_to": 1787270400,
         "thunder": false,
         "snow": false,
@@ -65,7 +65,7 @@
           "temperature": 88,
           "temperatureUnit": "F",
           "shortForecast": "Slight Chance Showers And Thunderstorms",
-          "windSpeed": "9 mph",
+          "windSpeed": "6 to 9 mph",
           "windDirection": "NE"
         },
         {
@@ -125,7 +125,7 @@
           "windDirection": "SSW"
         }
       ],
-      "checked_at": "2026-08-19T20:38:10.093092Z",
+      "checked_at": "2026-08-19T21:01:02.640155Z",
       "next_check_minutes": 15
     },
     {
@@ -243,7 +243,7 @@
           "windDirection": "SW"
         }
       ],
-      "checked_at": "2026-08-19T20:38:12.693617Z",
+      "checked_at": "2026-08-19T21:01:26.995195Z",
       "next_check_minutes": 15
     }
   ],
