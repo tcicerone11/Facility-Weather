@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T07:54:53.933462Z",
+  "generated_at": "2026-08-19T08:34:16.715256Z",
   "facilities": [
     {
       "id": "den",
@@ -24,13 +24,13 @@
         }
       ],
       "metar": {
-        "raw": "METAR KDEN 190653Z 00000KT 10SM SCT065 SCT110 BKN220 17/14 A2027 RMK AO2 OCNL LTGICCG DSNT SE-S CB DSNT SE-S MOV E SLP168 T01720139 403110167",
-        "observed": "2026-08-19T07:00:00.000Z",
-        "wind_kt": 0.0,
-        "wind_mph": 0.0,
+        "raw": "METAR KDEN 190753Z 16016KT 10SM SCT050 SCT110 BKN220 16/14 A3019 RMK AO2 RAB17E28 SLP140 P0000 T01610139",
+        "observed": "2026-08-19T08:00:00.000Z",
+        "wind_kt": 16.0,
+        "wind_mph": 18.4,
         "gust_kt": null,
         "gust_mph": null,
-        "temperature_f": 63.0,
+        "temperature_f": 61.0,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
@@ -125,7 +125,7 @@
           "windDirection": "SE"
         }
       ],
-      "checked_at": "2026-08-19T07:54:55.942158Z",
+      "checked_at": "2026-08-19T08:34:17.374016Z",
       "next_check_minutes": 15
     },
     {
@@ -165,8 +165,8 @@
       },
       "alerts": [],
       "metrics": {
-        "peak_gust_24h_kt": 8.0,
-        "peak_gust_24h_mph": 9.2,
+        "peak_gust_24h_kt": 9.0,
+        "peak_gust_24h_mph": 10.4,
         "precip_7d_in": 0.54,
         "snow_7d_in": 0.0
       },
@@ -236,7 +236,7 @@
           "windDirection": "E"
         }
       ],
-      "checked_at": "2026-08-19T07:54:57.309925Z",
+      "checked_at": "2026-08-19T08:34:18.255070Z",
       "next_check_minutes": 30
     }
   ],
