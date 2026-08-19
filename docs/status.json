@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T08:34:16.715256Z",
+  "generated_at": "2026-08-19T09:08:16.702650Z",
   "facilities": [
     {
       "id": "den",
@@ -9,37 +9,30 @@
       "latitude": 39.8561,
       "longitude": -104.6737,
       "forecast_zone_name": "COZ040",
-      "status": "watch",
+      "status": "normal",
       "status_copy": {
-        "label": "WATCH",
-        "summary": "Weather could affect operations if conditions develop as forecast.",
-        "action": "Monitor conditions and prepare staff, equipment, or outdoor operations."
+        "label": "NORMAL",
+        "summary": "No configured weather condition currently suggests an operational change.",
+        "action": "Continue normal operations and routine monitoring."
       },
-      "reasons": [
-        {
-          "level": "watch",
-          "title": "Thunderstorms may affect the facility",
-          "detail": "A thunderstorm signal appears in the next 6 hours in the local or airport forecast.",
-          "action": "Monitor official warnings and your approved lightning procedure. This system does not measure lightning strike distance."
-        }
-      ],
+      "reasons": [],
       "metar": {
-        "raw": "METAR KDEN 190753Z 16016KT 10SM SCT050 SCT110 BKN220 16/14 A3019 RMK AO2 RAB17E28 SLP140 P0000 T01610139",
-        "observed": "2026-08-19T08:00:00.000Z",
-        "wind_kt": 16.0,
-        "wind_mph": 18.4,
+        "raw": "METAR KDEN 190853Z 21012KT 10SM SCT080 SCT110 BKN220 17/13 A3018 RMK AO2 SLP136 60000 T01670133 56025",
+        "observed": "2026-08-19T09:00:00.000Z",
+        "wind_kt": 12.0,
+        "wind_mph": 13.8,
         "gust_kt": null,
         "gust_mph": null,
-        "temperature_f": 61.0,
+        "temperature_f": 62.1,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
       "taf": {
-        "raw": "TAF KDEN 190530Z 1906/2012 35010KT P6SM VCSH SCT060 BKN090 TEMPO 1906/1908 VRB20G35KT -TSRA BKN060CB FM190800 20010KT P6SM SCT080 BKN120 FM191400 32007KT P6SM FEW080 BKN120 FM191700 04009KT P6SM FEW080 SCT120 FM200000 09011KT P6SM SCT080 SCT120 FM200300 14012G20KT P6SM FEW080 SCT120 FM200600 17011KT P6SM FEW080 SCT120 FM200900 25007KT P6SM SCT120",
-        "issued": "2026-08-19T05:30:00.000Z",
-        "valid_from": 1787119200,
+        "raw": "TAF KDEN 190852Z 1909/2012 20011KT P6SM VCSH FEW080 BKN120 TEMPO 1909/1910 -SHRA BKN080 FM191000 20010KT P6SM FEW080 BKN120 FM191400 32007KT P6SM FEW080 BKN120 FM191700 04009KT P6SM FEW080 SCT120 FM200000 09011KT P6SM SCT080 SCT120 FM200300 14012G20KT P6SM FEW080 SCT120 FM200600 17011KT P6SM FEW080 SCT120 FM200900 25007KT P6SM SCT120",
+        "issued": "2026-08-19T08:52:00.000Z",
+        "valid_from": 1787130000,
         "valid_to": 1787227200,
-        "thunder": true,
+        "thunder": false,
         "snow": false,
         "freezing_precip": false
       },
@@ -125,8 +118,8 @@
           "windDirection": "SE"
         }
       ],
-      "checked_at": "2026-08-19T08:34:17.374016Z",
-      "next_check_minutes": 15
+      "checked_at": "2026-08-19T09:08:17.553363Z",
+      "next_check_minutes": 30
     },
     {
       "id": "iad",
@@ -144,20 +137,20 @@
       },
       "reasons": [],
       "metar": {
-        "raw": "METAR KIAD 190752Z 00000KT 10SM CLR 18/17 A2993 RMK AO2 SLP134 T01830167 $",
-        "observed": "2026-08-19T08:00:00.000Z",
+        "raw": "METAR KIAD 190852Z 00000KT 10SM CLR 17/16 A2994 RMK AO2 SLP135 T01720161 55002 $",
+        "observed": "2026-08-19T09:00:00.000Z",
         "wind_kt": 0.0,
         "wind_mph": 0.0,
         "gust_kt": null,
         "gust_mph": null,
-        "temperature_f": 64.9,
+        "temperature_f": 63.0,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
       "taf": {
-        "raw": "TAF KIAD 190520Z 1906/2012 28004KT P6SM SCT060",
-        "issued": "2026-08-19T05:20:00.000Z",
-        "valid_from": 1787119200,
+        "raw": "TAF KIAD 190840Z 1909/2012 28004KT P6SM SCT060",
+        "issued": "2026-08-19T08:40:00.000Z",
+        "valid_from": 1787130000,
         "valid_to": 1787227200,
         "thunder": false,
         "snow": false,
@@ -173,10 +166,10 @@
       "forecast": [
         {
           "name": "Overnight",
-          "temperature": 66,
+          "temperature": 65,
           "temperatureUnit": "F",
           "shortForecast": "Mostly Clear",
-          "windSpeed": "2 mph",
+          "windSpeed": "1 mph",
           "windDirection": "N"
         },
         {
@@ -236,7 +229,7 @@
           "windDirection": "E"
         }
       ],
-      "checked_at": "2026-08-19T08:34:18.255070Z",
+      "checked_at": "2026-08-19T09:08:19.128986Z",
       "next_check_minutes": 30
     }
   ],
