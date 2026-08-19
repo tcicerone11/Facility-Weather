@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T15:41:40.244852Z",
+  "generated_at": "2026-08-19T16:43:27.424920Z",
   "facilities": [
     {
       "id": "den",
@@ -17,13 +17,13 @@
       },
       "reasons": [],
       "metar": {
-        "raw": "METAR KDEN 191453Z 29006KT 10SM FEW080 SCT120 BKN150 21/13 A3023 RMK AO2 SLP154 T02110133 51013",
-        "observed": "2026-08-19T15:00:00.000Z",
+        "raw": "METAR KDEN 191553Z 25006KT 10SM FEW040 SCT120 BKN150 22/13 A3022 RMK AO2 SLP161 T02220133",
+        "observed": "2026-08-19T16:00:00.000Z",
         "wind_kt": 6.0,
         "wind_mph": 6.9,
         "gust_kt": null,
         "gust_mph": null,
-        "temperature_f": 70.0,
+        "temperature_f": 72.0,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
@@ -118,7 +118,7 @@
           "windDirection": "SSW"
         }
       ],
-      "checked_at": "2026-08-19T15:41:59.907392Z",
+      "checked_at": "2026-08-19T16:43:28.120545Z",
       "next_check_minutes": 30
     },
     {
@@ -137,13 +137,13 @@
       },
       "reasons": [],
       "metar": {
-        "raw": "METAR KIAD 191452Z 31004KT 10SM FEW250 28/16 A2996 RMK AO2 SLP142 T02830161 55005 $",
-        "observed": "2026-08-19T15:00:00.000Z",
+        "raw": "METAR KIAD 191552Z VRB04KT 10SM FEW250 29/17 A2996 RMK AO2 SLP142 T02890167 $",
+        "observed": "2026-08-19T16:00:00.000Z",
         "wind_kt": 4.0,
         "wind_mph": 4.6,
         "gust_kt": null,
         "gust_mph": null,
-        "temperature_f": 82.9,
+        "temperature_f": 84.0,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
@@ -165,7 +165,7 @@
       },
       "forecast": [
         {
-          "name": "Today",
+          "name": "This Afternoon",
           "temperature": 89,
           "temperatureUnit": "F",
           "shortForecast": "Sunny",
@@ -229,7 +229,7 @@
           "windDirection": "S"
         }
       ],
-      "checked_at": "2026-08-19T15:42:02.780523Z",
+      "checked_at": "2026-08-19T16:43:29.304309Z",
       "next_check_minutes": 30
     }
   ],
