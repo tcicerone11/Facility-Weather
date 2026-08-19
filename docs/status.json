@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T03:12:13.145704Z",
+  "generated_at": "2026-08-19T04:00:28.983135Z",
   "facilities": [
     {
       "id": "den",
@@ -24,20 +24,20 @@
         }
       ],
       "metar": {
-        "raw": "METAR KDEN 190253Z 08011KT 10SM FEW050 SCT070 BKN110 BKN220 25/12 A3018 RMK AO2 SLP133 T02500117 53008",
-        "observed": "2026-08-19T03:00:00.000Z",
-        "wind_kt": 11.0,
-        "wind_mph": 12.7,
+        "raw": "METAR KDEN 190353Z 35018KT 10SM SCT070 SCT110 BKN140 BKN220 19/12 A3025 RMK AO2 OCNL LTGICCG DSNT N CB DSNT N MOV E SLP164 T01890122",
+        "observed": "2026-08-19T04:00:00.000Z",
+        "wind_kt": 18.0,
+        "wind_mph": 20.7,
         "gust_kt": null,
         "gust_mph": null,
-        "temperature_f": 77.0,
+        "temperature_f": 66.0,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
       "taf": {
-        "raw": "TAF KDEN 190254Z 1903/2006 02012KT P6SM VCSH SCT080 BKN120 TEMPO 1903/1906 VRB20G35KT -TSRA BKN080CB FM190600 04007KT P6SM SCT080 BKN120 FM191000 21007KT P6SM FEW080 BKN120 FM191600 29008KT P6SM SCT110 FM191800 04009KT P6SM FEW080 SCT120 FM192300 09012G20KT P6SM SCT080 SCT120 FM200100 18012G20KT P6SM FEW080 SCT120",
-        "issued": "2026-08-19T02:54:00.000Z",
-        "valid_from": 1787108400,
+        "raw": "TAF KDEN 190346Z 1904/2006 36014KT P6SM FEW050 SCT080 BKN120 FM190500 35011KT P6SM SCT060 BKN110 TEMPO 1905/1907 VRB20G35KT -TSRA BKN080CB FM190700 17007KT P6SM SCT080 BKN120 FM191000 21007KT P6SM FEW080 BKN120 FM191600 29008KT P6SM SCT110 FM191800 04009KT P6SM FEW080 SCT120 FM192300 09012G20KT P6SM SCT080 SCT120 FM200100 18012G20KT P6SM FEW080 SCT120",
+        "issued": "2026-08-19T03:46:00.000Z",
+        "valid_from": 1787112000,
         "valid_to": 1787205600,
         "thunder": true,
         "snow": false,
@@ -125,7 +125,7 @@
           "windDirection": "S"
         }
       ],
-      "checked_at": "2026-08-19T03:12:14.458443Z",
+      "checked_at": "2026-08-19T04:00:30.507148Z",
       "next_check_minutes": 15
     },
     {
@@ -144,10 +144,10 @@
       },
       "reasons": [],
       "metar": {
-        "raw": "METAR KIAD 190252Z 00000KT 10SM CLR 22/19 A2994 RMK AO2 SLP135 T02220189 51009 $",
-        "observed": "2026-08-19T03:00:00.000Z",
-        "wind_kt": 0.0,
-        "wind_mph": 0.0,
+        "raw": "METAR KIAD 190352Z 28004KT 10SM CLR 22/18 A2994 RMK AO2 SLP135 T02220183 $",
+        "observed": "2026-08-19T04:00:00.000Z",
+        "wind_kt": 4.0,
+        "wind_mph": 4.6,
         "gust_kt": null,
         "gust_mph": null,
         "temperature_f": 72.0,
@@ -236,7 +236,7 @@
           "windDirection": "E"
         }
       ],
-      "checked_at": "2026-08-19T03:12:15.749595Z",
+      "checked_at": "2026-08-19T04:00:33.982900Z",
       "next_check_minutes": 30
     }
   ],
