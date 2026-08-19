@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T18:46:27.334666Z",
+  "generated_at": "2026-08-19T19:12:42.426036Z",
   "facilities": [
     {
       "id": "den",
@@ -144,13 +144,13 @@
         }
       ],
       "metar": {
-        "raw": "METAR KIAD 191752Z VRB05KT 10SM SCT055 SCT250 30/17 A2995 RMK AO2 SLP139 T03000172 10300 20217 58003 $",
-        "observed": "2026-08-19T18:00:00.000Z",
+        "raw": "METAR KIAD 191852Z 26005KT 10SM FEW050 SCT250 31/17 A2994 RMK AO2 SLP135 T03110172 $",
+        "observed": "2026-08-19T19:00:00.000Z",
         "wind_kt": 5.0,
         "wind_mph": 5.8,
         "gust_kt": null,
         "gust_mph": null,
-        "temperature_f": 86.0,
+        "temperature_f": 88.0,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
@@ -167,7 +167,7 @@
       "metrics": {
         "peak_gust_24h_kt": 11.0,
         "peak_gust_24h_mph": 12.7,
-        "precip_7d_in": 0.43,
+        "precip_7d_in": 0.58,
         "snow_7d_in": 0.0
       },
       "forecast": [
@@ -176,7 +176,7 @@
           "temperature": 89,
           "temperatureUnit": "F",
           "shortForecast": "Sunny",
-          "windSpeed": "3 to 7 mph",
+          "windSpeed": "7 mph",
           "windDirection": "W"
         },
         {
@@ -189,7 +189,7 @@
         },
         {
           "name": "Thursday",
-          "temperature": 84,
+          "temperature": 85,
           "temperatureUnit": "F",
           "shortForecast": "Chance Showers And Thunderstorms",
           "windSpeed": "1 to 6 mph",
@@ -221,22 +221,22 @@
         },
         {
           "name": "Saturday",
-          "temperature": 84,
+          "temperature": 83,
           "temperatureUnit": "F",
-          "shortForecast": "Rain Showers Likely",
-          "windSpeed": "1 to 5 mph",
+          "shortForecast": "Showers And Thunderstorms Likely",
+          "windSpeed": "3 mph",
           "windDirection": "E"
         },
         {
           "name": "Saturday Night",
-          "temperature": 66,
+          "temperature": 67,
           "temperatureUnit": "F",
-          "shortForecast": "Chance Showers And Thunderstorms",
-          "windSpeed": "1 to 5 mph",
-          "windDirection": "S"
+          "shortForecast": "Showers And Thunderstorms Likely then Chance Showers And Thunderstorms",
+          "windSpeed": "0 to 3 mph",
+          "windDirection": "SW"
         }
       ],
-      "checked_at": "2026-08-19T18:46:30.108358Z",
+      "checked_at": "2026-08-19T19:12:45.624416Z",
       "next_check_minutes": 15
     }
   ],
