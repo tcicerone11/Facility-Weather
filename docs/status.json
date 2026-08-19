@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T21:56:26.535662Z",
+  "generated_at": "2026-08-19T22:26:52.711149Z",
   "facilities": [
     {
       "id": "den",
@@ -24,10 +24,10 @@
         }
       ],
       "metar": {
-        "raw": "METAR KDEN 192053Z VRB05KT 10SM FEW080 SCT120 SCT220 32/08 A3011 RMK AO2 SLP110 T03220083 56023",
-        "observed": "2026-08-19T21:00:00.000Z",
-        "wind_kt": 5.0,
-        "wind_mph": 5.8,
+        "raw": "METAR KDEN 192153Z 00000KT 10SM FEW080 SCT120 SCT220 32/08 A3010 RMK AO2 SLP102 T03220078",
+        "observed": "2026-08-19T22:00:00.000Z",
+        "wind_kt": 0.0,
+        "wind_mph": 0.0,
         "gust_kt": null,
         "gust_mph": null,
         "temperature_f": 90.0,
@@ -46,10 +46,10 @@
       "alerts": [
         {
           "event": "Air Quality Alert",
-          "headline": "Air Quality Alert issued August 18 at 4:10PM MDT by NWS Denver CO",
+          "headline": "Air Quality Alert issued August 19 at 4:10PM MDT by NWS Denver CO",
           "severity": "Unknown",
           "urgency": "Unknown",
-          "expires": "2026-08-19T16:00:00-06:00",
+          "expires": "2026-08-20T16:00:00-06:00",
           "source": "Exact facility location"
         }
       ],
@@ -65,7 +65,7 @@
           "temperature": 88,
           "temperatureUnit": "F",
           "shortForecast": "Slight Chance Showers And Thunderstorms",
-          "windSpeed": "6 to 9 mph",
+          "windSpeed": "9 mph",
           "windDirection": "NE"
         },
         {
@@ -125,7 +125,7 @@
           "windDirection": "SSW"
         }
       ],
-      "checked_at": "2026-08-19T21:56:27.266567Z",
+      "checked_at": "2026-08-19T22:26:53.669031Z",
       "next_check_minutes": 15
     },
     {
@@ -243,7 +243,7 @@
           "windDirection": "SW"
         }
       ],
-      "checked_at": "2026-08-19T21:56:30.564336Z",
+      "checked_at": "2026-08-19T22:26:54.873644Z",
       "next_check_minutes": 15
     }
   ],
