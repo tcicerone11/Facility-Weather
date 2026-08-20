@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T05:36:33.853314Z",
+  "generated_at": "2026-08-20T06:01:23.986782Z",
   "facilities": [
     {
       "id": "den",
@@ -237,7 +237,8 @@
         }
       ],
       "checked_at": "2026-08-20T05:36:37.815139Z",
-      "next_check_minutes": 15
+      "next_check_minutes": 15,
+      "data_error": "504 Server Error: Gateway Time-out for url: https://aviationweather.gov/api/data/taf?ids=KIAD&format=json"
     }
   ],
   "settings": {
