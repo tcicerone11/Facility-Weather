@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T18:02:02.237053Z",
+  "generated_at": "2026-08-20T18:54:38.195611Z",
   "facilities": [
     {
       "id": "den",
@@ -17,13 +17,13 @@
       },
       "reasons": [],
       "metar": {
-        "raw": "METAR KDEN 201653Z 36006KT 10SM FEW100 FEW150 28/10 A3025 RMK AO2 SLP154 T02830100",
-        "observed": "2026-08-20T17:00:00.000Z",
-        "wind_kt": 6.0,
-        "wind_mph": 6.9,
+        "raw": "METAR KDEN 201753Z 02010KT 10SM FEW100 FEW150 FEW220 29/12 A3024 RMK AO2 SLP149 T02940117 10300 20172 50003",
+        "observed": "2026-08-20T18:00:00.000Z",
+        "wind_kt": 10.0,
+        "wind_mph": 11.5,
         "gust_kt": null,
         "gust_mph": null,
-        "temperature_f": 82.9,
+        "temperature_f": 84.9,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
@@ -118,7 +118,7 @@
           "windDirection": "WSW"
         }
       ],
-      "checked_at": "2026-08-20T17:39:52.136230Z",
+      "checked_at": "2026-08-20T18:54:39.609737Z",
       "next_check_minutes": 30
     },
     {
@@ -138,19 +138,25 @@
       "reasons": [
         {
           "level": "watch",
+          "title": "Severe Thunderstorm Watch",
+          "detail": "Severe Thunderstorm Watch issued August 20 at 2:32PM EDT until August 20 at 10:00PM EDT by NWS Baltimore MD/Washington DC",
+          "action": "Monitor updates and prepare staff or equipment. Source: Exact facility location."
+        },
+        {
+          "level": "watch",
           "title": "Thunderstorms may affect the facility",
           "detail": "A thunderstorm signal appears in the next 6 hours in the local or airport forecast.",
           "action": "Monitor official warnings and your approved lightning procedure. This system does not measure lightning strike distance."
         }
       ],
       "metar": {
-        "raw": "METAR KIAD 201752Z 21010KT 10SM FEW030 BKN140 BKN250 29/23 A2993 RMK AO2 SLP133 60000 T02890228 10306 20239 58011",
-        "observed": "2026-08-20T18:00:00.000Z",
+        "raw": "METAR KIAD 201852Z 21010G18KT 10SM FEW030 SCT075 BKN140 BKN250 31/23 A2989 RMK AO2 SLP117 CB DSNT NW MOV NE T03060233",
+        "observed": "2026-08-20T19:00:00.000Z",
         "wind_kt": 10.0,
         "wind_mph": 11.5,
-        "gust_kt": null,
-        "gust_mph": null,
-        "temperature_f": 84.0,
+        "gust_kt": 18.0,
+        "gust_mph": 20.7,
+        "temperature_f": 87.1,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
@@ -163,10 +169,19 @@
         "snow": false,
         "freezing_precip": false
       },
-      "alerts": [],
+      "alerts": [
+        {
+          "event": "Severe Thunderstorm Watch",
+          "headline": "Severe Thunderstorm Watch issued August 20 at 2:32PM EDT until August 20 at 10:00PM EDT by NWS Baltimore MD/Washington DC",
+          "severity": "Severe",
+          "urgency": "Future",
+          "expires": "2026-08-20T22:00:00-04:00",
+          "source": "Exact facility location"
+        }
+      ],
       "metrics": {
-        "peak_gust_24h_kt": 12.0,
-        "peak_gust_24h_mph": 13.8,
+        "peak_gust_24h_kt": 18.0,
+        "peak_gust_24h_mph": 20.7,
         "precip_7d_in": 1.44,
         "snow_7d_in": 0.0
       },
@@ -236,7 +251,7 @@
           "windDirection": "NW"
         }
       ],
-      "checked_at": "2026-08-20T18:02:05.035049Z",
+      "checked_at": "2026-08-20T18:54:41.596564Z",
       "next_check_minutes": 15
     }
   ],
