@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T23:00:12.720350Z",
+  "generated_at": "2026-08-20T23:34:06.669863Z",
   "facilities": [
     {
       "id": "den",
@@ -17,13 +17,13 @@
       },
       "reasons": [],
       "metar": {
-        "raw": "METAR KDEN 202153Z 07014G19KT 10SM FEW130 FEW220 33/08 A3019 RMK AO2 SLP132 T03330078",
-        "observed": "2026-08-20T22:00:00.000Z",
-        "wind_kt": 14.0,
-        "wind_mph": 16.1,
-        "gust_kt": 19.0,
-        "gust_mph": 21.9,
-        "temperature_f": 91.9,
+        "raw": "METAR KDEN 202253Z 06009G20KT 010V100 10SM FEW130 FEW220 33/08 A3019 RMK AO2 SLP134 T03280083",
+        "observed": "2026-08-20T23:00:00.000Z",
+        "wind_kt": 9.0,
+        "wind_mph": 10.4,
+        "gust_kt": 20.0,
+        "gust_mph": 23.0,
+        "temperature_f": 91.0,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
@@ -47,8 +47,8 @@
         }
       ],
       "metrics": {
-        "peak_gust_24h_kt": 19.0,
-        "peak_gust_24h_mph": 21.9,
+        "peak_gust_24h_kt": 20.0,
+        "peak_gust_24h_mph": 23.0,
         "precip_7d_in": 0.5,
         "snow_7d_in": 0.0
       },
@@ -58,7 +58,7 @@
           "temperature": 93,
           "temperatureUnit": "F",
           "shortForecast": "Sunny",
-          "windSpeed": "10 mph",
+          "windSpeed": "9 mph",
           "windDirection": "NE"
         },
         {
@@ -118,7 +118,7 @@
           "windDirection": "SW"
         }
       ],
-      "checked_at": "2026-08-20T22:36:19.786816Z",
+      "checked_at": "2026-08-20T23:34:07.334386Z",
       "next_check_minutes": 30
     },
     {
@@ -155,11 +155,11 @@
         "flight_category": "VFR"
       },
       "taf": {
-        "raw": "TAF KIAD 202122Z 2021/2124 12003G15KT P6SM VCTS FEW024 BKN045CB BKN100 FM202300 36009G16KT P6SM SCT060 BKN110 FM210500 36003KT P6SM SCT050 BKN090 FM211000 36004KT P6SM BKN015 BKN025",
-        "issued": "2026-08-20T21:22:00.000Z",
-        "valid_from": 1787259600,
-        "valid_to": 1787356800,
-        "thunder": true,
+        "raw": "TAF KIAD 202327Z 2100/2206 33012G20KT P6SM FEW090 BKN110 BKN250 FM210200 36007G16KT P6SM SCT025 OVC050 FM210800 36004KT P6SM BKN020 OVC035 FM211300 01006KT P6SM SCT030 BKN050 FM211900 34005KT P6SM SCT050 BKN250 FM220300 11003KT P6SM BKN040 BKN250",
+        "issued": "2026-08-20T23:27:00.000Z",
+        "valid_from": 1787270400,
+        "valid_to": 1787378400,
+        "thunder": false,
         "snow": false,
         "freezing_precip": false
       },
@@ -176,7 +176,7 @@
           "temperature": 64,
           "temperatureUnit": "F",
           "shortForecast": "Chance Showers And Thunderstorms then Mostly Cloudy",
-          "windSpeed": "5 to 9 mph",
+          "windSpeed": "5 to 8 mph",
           "windDirection": "N"
         },
         {
@@ -236,7 +236,7 @@
           "windDirection": "W"
         }
       ],
-      "checked_at": "2026-08-20T23:00:21.866778Z",
+      "checked_at": "2026-08-20T23:34:27.657179Z",
       "next_check_minutes": 15
     }
   ],
