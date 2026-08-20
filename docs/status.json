@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T23:59:04.402729Z",
+  "generated_at": "2026-08-20T01:44:52.509348Z",
   "facilities": [
     {
       "id": "den",
@@ -9,35 +9,28 @@
       "latitude": 39.8561,
       "longitude": -104.6737,
       "forecast_zone_name": "COZ040",
-      "status": "watch",
+      "status": "normal",
       "status_copy": {
-        "label": "WATCH",
-        "summary": "Weather could affect operations if conditions develop as forecast.",
-        "action": "Monitor conditions and prepare staff, equipment, or outdoor operations."
+        "label": "NORMAL",
+        "summary": "No configured weather condition currently suggests an operational change.",
+        "action": "Continue normal operations and routine monitoring."
       },
-      "reasons": [
-        {
-          "level": "watch",
-          "title": "Thunderstorms may affect the facility",
-          "detail": "A thunderstorm signal appears in the next 6 hours in the local or airport forecast.",
-          "action": "Monitor official warnings and your approved lightning procedure. This system does not measure lightning strike distance."
-        }
-      ],
+      "reasons": [],
       "metar": {
-        "raw": "METAR KDEN 192353Z 10010KT 10SM FEW035 FEW075 BKN100 BKN220 31/09 A3010 RMK AO2 VIRGA SLP108 T03060094 10328 20261 55004",
-        "observed": "2026-08-20T00:00:00.000Z",
-        "wind_kt": 10.0,
-        "wind_mph": 11.5,
+        "raw": "METAR KDEN 200053Z 09007KT 10SM -RA SCT100 BKN120 BKN220 30/10 A3010 RMK AO2 RAB52 SLP106 T03000100",
+        "observed": "2026-08-20T01:00:00.000Z",
+        "wind_kt": 7.0,
+        "wind_mph": 8.1,
         "gust_kt": null,
         "gust_mph": null,
-        "temperature_f": 87.1,
+        "temperature_f": 86.0,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
       "taf": {
-        "raw": "TAF KDEN 192338Z 2000/2106 09009KT P6SM FEW080 SCT120 PROB30 2000/2001 VRB20G30KT -SHRA BKN080 FM200200 17011G17KT P6SM FEW080 SCT120 FM200700 21011KT P6SM FEW120 FM201000 26007KT P6SM SKC FM201500 32009KT P6SM SKC FM201900 05010KT P6SM FEW120 FM210300 13008KT P6SM FEW120",
-        "issued": "2026-08-19T23:38:00.000Z",
-        "valid_from": 1787184000,
+        "raw": "TAF KDEN 200131Z 2002/2106 13009KT P6SM FEW080 SCT120 FM200300 17012KT P6SM FEW080 SCT120 FM200700 21011KT P6SM FEW120 FM201000 26007KT P6SM SKC FM201500 32009KT P6SM SKC FM201900 05010KT P6SM FEW120 FM210300 13008KT P6SM FEW120",
+        "issued": "2026-08-20T01:31:00.000Z",
+        "valid_from": 1787191200,
         "valid_to": 1787292000,
         "thunder": false,
         "snow": false,
@@ -60,14 +53,6 @@
         "snow_7d_in": 0.0
       },
       "forecast": [
-        {
-          "name": "This Afternoon",
-          "temperature": 88,
-          "temperatureUnit": "F",
-          "shortForecast": "Slight Chance Showers And Thunderstorms",
-          "windSpeed": "6 to 9 mph",
-          "windDirection": "NE"
-        },
         {
           "name": "Tonight",
           "temperature": 63,
@@ -123,10 +108,18 @@
           "shortForecast": "Chance Showers And Thunderstorms then Mostly Cloudy",
           "windSpeed": "9 to 14 mph",
           "windDirection": "SSW"
+        },
+        {
+          "name": "Sunday",
+          "temperature": 91,
+          "temperatureUnit": "F",
+          "shortForecast": "Partly Sunny then Chance Showers And Thunderstorms",
+          "windSpeed": "5 to 9 mph",
+          "windDirection": "NNW"
         }
       ],
-      "checked_at": "2026-08-19T23:59:05.250025Z",
-      "next_check_minutes": 15
+      "checked_at": "2026-08-20T01:44:55.807585Z",
+      "next_check_minutes": 30
     },
     {
       "id": "iad",
@@ -151,13 +144,13 @@
         }
       ],
       "metar": {
-        "raw": "METAR KIAD 192352Z 24003KT 10SM FEW090 FEW250 27/19 A2993 RMK AO2 SLP134 T02670189 10317 20267 51003",
-        "observed": "2026-08-20T00:00:00.000Z",
-        "wind_kt": 3.0,
-        "wind_mph": 3.5,
+        "raw": "METAR KIAD 200052Z 00000KT 10SM FEW100 SCT250 24/20 A2995 RMK AO2 SLP139 T02390200",
+        "observed": "2026-08-20T01:00:00.000Z",
+        "wind_kt": 0.0,
+        "wind_mph": 0.0,
         "gust_kt": null,
         "gust_mph": null,
-        "temperature_f": 80.1,
+        "temperature_f": 75.0,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
@@ -183,7 +176,7 @@
           "temperature": 70,
           "temperatureUnit": "F",
           "shortForecast": "Partly Cloudy",
-          "windSpeed": "0 to 5 mph",
+          "windSpeed": "1 mph",
           "windDirection": "NW"
         },
         {
@@ -243,7 +236,7 @@
           "windDirection": "W"
         }
       ],
-      "checked_at": "2026-08-19T23:59:06.615335Z",
+      "checked_at": "2026-08-20T01:44:57.342418Z",
       "next_check_minutes": 15
     }
   ],
