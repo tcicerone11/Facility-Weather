@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T07:50:12.631851Z",
+  "generated_at": "2026-08-20T08:20:15.924335Z",
   "facilities": [
     {
       "id": "den",
@@ -17,13 +17,13 @@
       },
       "reasons": [],
       "metar": {
-        "raw": "METAR KDEN 200653Z 24011KT 10SM FEW120 SCT220 22/13 A3014 RMK AO2 SLP115 T02170128 403280150",
-        "observed": "2026-08-20T07:00:00.000Z",
-        "wind_kt": 11.0,
-        "wind_mph": 12.7,
+        "raw": "METAR KDEN 200753Z 22008KT 10SM FEW120 SCT220 21/12 A3015 RMK AO2 SLP116 T02110117",
+        "observed": "2026-08-20T08:00:00.000Z",
+        "wind_kt": 8.0,
+        "wind_mph": 9.2,
         "gust_kt": null,
         "gust_mph": null,
-        "temperature_f": 71.1,
+        "temperature_f": 70.0,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
@@ -118,7 +118,7 @@
           "windDirection": "WNW"
         }
       ],
-      "checked_at": "2026-08-20T07:50:14.008052Z",
+      "checked_at": "2026-08-20T08:20:17.324836Z",
       "next_check_minutes": 30
     },
     {
@@ -144,20 +144,20 @@
         }
       ],
       "metar": {
-        "raw": "METAR KIAD 200652Z 00000KT 10SM BKN060 OVC080 22/21 A2997 RMK AO2 SLP145 T02220206",
-        "observed": "2026-08-20T07:00:00.000Z",
+        "raw": "METAR KIAD 200752Z 00000KT 10SM OVC055 23/21 A2997 RMK AO2 SLP144 T02280206",
+        "observed": "2026-08-20T08:00:00.000Z",
         "wind_kt": 0.0,
         "wind_mph": 0.0,
         "gust_kt": null,
         "gust_mph": null,
-        "temperature_f": 72.0,
+        "temperature_f": 73.0,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
       "taf": {
-        "raw": "TAF KIAD 200533Z 2006/2112 VRB03KT P6SM FEW050 SCT090 PROB30 2008/2012 6SM -SHRA BKN030 FM201200 12004KT P6SM FEW050 SCT070 FM201500 19005KT P6SM SCT050 BKN070 FM201800 24005KT P6SM SCT030 BKN050 PROB30 2018/2022 4SM -TSRA BKN030CB FM202200 32006KT P6SM BKN030 FM210300 36003KT P6SM FEW010 BKN025",
-        "issued": "2026-08-20T05:33:00.000Z",
-        "valid_from": 1787205600,
+        "raw": "TAF KIAD 200819Z 2008/2112 VRB03KT P6SM VCSH OVC060 TEMPO 2008/2012 6SM -SHRA OVC050 FM201200 12004KT P6SM FEW050 SCT070 FM201500 19005KT P6SM SCT050 BKN070 FM201800 24005KT P6SM SCT030 BKN050 PROB30 2018/2022 4SM -TSRA BKN030CB FM202200 32006KT P6SM BKN030 FM210300 36003KT P6SM FEW010 BKN025",
+        "issued": "2026-08-20T08:19:00.000Z",
+        "valid_from": 1787212800,
         "valid_to": 1787313600,
         "thunder": true,
         "snow": false,
@@ -236,7 +236,7 @@
           "windDirection": "W"
         }
       ],
-      "checked_at": "2026-08-20T07:50:18.938325Z",
+      "checked_at": "2026-08-20T08:20:19.111949Z",
       "next_check_minutes": 15
     }
   ],
