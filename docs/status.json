@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T22:36:19.081413Z",
+  "generated_at": "2026-08-20T23:00:12.720350Z",
   "facilities": [
     {
       "id": "den",
@@ -144,13 +144,13 @@
         }
       ],
       "metar": {
-        "raw": "METAR KIAD 202152Z 31008G21KT 10SM FEW040 BKN110 BKN250 28/21 A2993 RMK AO2 SLP130 RAE02 CB DSNT E-SE MOV E P0016 T02780211",
-        "observed": "2026-08-20T22:00:00.000Z",
-        "wind_kt": 8.0,
-        "wind_mph": 9.2,
-        "gust_kt": 21.0,
-        "gust_mph": 24.2,
-        "temperature_f": 82.0,
+        "raw": "METAR KIAD 202252Z 33012G20KT 10SM FEW090 BKN110 BKN250 26/20 A2994 RMK AO2 SLP137 T02610200",
+        "observed": "2026-08-20T23:00:00.000Z",
+        "wind_kt": 12.0,
+        "wind_mph": 13.8,
+        "gust_kt": 20.0,
+        "gust_mph": 23.0,
+        "temperature_f": 79.0,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
@@ -165,20 +165,12 @@
       },
       "alerts": [],
       "metrics": {
-        "peak_gust_24h_kt": 21.0,
-        "peak_gust_24h_mph": 24.2,
+        "peak_gust_24h_kt": 20.0,
+        "peak_gust_24h_mph": 23.0,
         "precip_7d_in": 1.1,
         "snow_7d_in": 0.0
       },
       "forecast": [
-        {
-          "name": "This Afternoon",
-          "temperature": 87,
-          "temperatureUnit": "F",
-          "shortForecast": "Chance Showers And Thunderstorms",
-          "windSpeed": "7 mph",
-          "windDirection": "NW"
-        },
         {
           "name": "Tonight",
           "temperature": 64,
@@ -234,9 +226,17 @@
           "shortForecast": "Slight Chance Showers And Thunderstorms then Mostly Clear",
           "windSpeed": "8 mph",
           "windDirection": "NW"
+        },
+        {
+          "name": "Monday",
+          "temperature": 82,
+          "temperatureUnit": "F",
+          "shortForecast": "Sunny",
+          "windSpeed": "5 to 9 mph",
+          "windDirection": "W"
         }
       ],
-      "checked_at": "2026-08-20T22:36:20.639546Z",
+      "checked_at": "2026-08-20T23:00:21.866778Z",
       "next_check_minutes": 15
     }
   ],
