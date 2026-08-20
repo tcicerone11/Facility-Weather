@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T18:54:38.195611Z",
+  "generated_at": "2026-08-20T19:28:24.609691Z",
   "facilities": [
     {
       "id": "den",
@@ -17,13 +17,13 @@
       },
       "reasons": [],
       "metar": {
-        "raw": "METAR KDEN 201753Z 02010KT 10SM FEW100 FEW150 FEW220 29/12 A3024 RMK AO2 SLP149 T02940117 10300 20172 50003",
-        "observed": "2026-08-20T18:00:00.000Z",
-        "wind_kt": 10.0,
-        "wind_mph": 11.5,
+        "raw": "METAR KDEN 201853Z 04014KT 10SM FEW100 FEW150 FEW220 31/10 A3024 RMK AO2 SLP146 T03110100",
+        "observed": "2026-08-20T19:00:00.000Z",
+        "wind_kt": 14.0,
+        "wind_mph": 16.1,
         "gust_kt": null,
         "gust_mph": null,
-        "temperature_f": 84.9,
+        "temperature_f": 88.0,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
@@ -59,7 +59,7 @@
           "temperatureUnit": "F",
           "shortForecast": "Sunny",
           "windSpeed": "5 to 9 mph",
-          "windDirection": "NNW"
+          "windDirection": "NNE"
         },
         {
           "name": "Tonight",
@@ -118,7 +118,7 @@
           "windDirection": "WSW"
         }
       ],
-      "checked_at": "2026-08-20T18:54:39.609737Z",
+      "checked_at": "2026-08-20T19:28:26.522087Z",
       "next_check_minutes": 30
     },
     {
@@ -139,7 +139,7 @@
         {
           "level": "watch",
           "title": "Severe Thunderstorm Watch",
-          "detail": "Severe Thunderstorm Watch issued August 20 at 2:32PM EDT until August 20 at 10:00PM EDT by NWS Baltimore MD/Washington DC",
+          "detail": "Severe Thunderstorm Watch issued August 20 at 3:01PM EDT until August 20 at 10:00PM EDT by NWS Baltimore MD/Washington DC",
           "action": "Monitor updates and prepare staff or equipment. Source: Exact facility location."
         },
         {
@@ -161,9 +161,9 @@
         "flight_category": "VFR"
       },
       "taf": {
-        "raw": "TAF KIAD 201727Z 2018/2124 19009KT P6SM BKN060 TEMPO 2020/2022 VRB30KT 4SM -TSRA OVC050CB FM202200 33006KT P6SM BKN060 PROB30 2100/2102 6SM -TSRA BKN070CB FM210200 36004KT P6SM SCT022 FM210500 36003KT P6SM BKN013",
-        "issued": "2026-08-20T17:27:00.000Z",
-        "valid_from": 1787248800,
+        "raw": "TAF KIAD 201909Z 2019/2124 19009KT P6SM BKN060 TEMPO 2019/2020 VRB31KT 5SM -TSRA OVC050CB FM202200 33006KT P6SM BKN060 PROB30 2100/2102 6SM -TSRA BKN070CB FM210200 36004KT P6SM SCT022 FM210500 36003KT P6SM BKN013",
+        "issued": "2026-08-20T19:09:00.000Z",
+        "valid_from": 1787252400,
         "valid_to": 1787356800,
         "thunder": true,
         "snow": false,
@@ -172,7 +172,7 @@
       "alerts": [
         {
           "event": "Severe Thunderstorm Watch",
-          "headline": "Severe Thunderstorm Watch issued August 20 at 2:32PM EDT until August 20 at 10:00PM EDT by NWS Baltimore MD/Washington DC",
+          "headline": "Severe Thunderstorm Watch issued August 20 at 3:01PM EDT until August 20 at 10:00PM EDT by NWS Baltimore MD/Washington DC",
           "severity": "Severe",
           "urgency": "Future",
           "expires": "2026-08-20T22:00:00-04:00",
@@ -182,7 +182,7 @@
       "metrics": {
         "peak_gust_24h_kt": 18.0,
         "peak_gust_24h_mph": 20.7,
-        "precip_7d_in": 1.44,
+        "precip_7d_in": 1.11,
         "snow_7d_in": 0.0
       },
       "forecast": [
@@ -190,13 +190,13 @@
           "name": "This Afternoon",
           "temperature": 86,
           "temperatureUnit": "F",
-          "shortForecast": "Scattered Showers And Thunderstorms",
+          "shortForecast": "Widespread Showers And Thunderstorms",
           "windSpeed": "7 mph",
-          "windDirection": "W"
+          "windDirection": "NW"
         },
         {
           "name": "Tonight",
-          "temperature": 66,
+          "temperature": 64,
           "temperatureUnit": "F",
           "shortForecast": "Chance Showers And Thunderstorms then Patchy Fog",
           "windSpeed": "3 to 8 mph",
@@ -204,31 +204,31 @@
         },
         {
           "name": "Friday",
-          "temperature": 81,
+          "temperature": 82,
           "temperatureUnit": "F",
-          "shortForecast": "Mostly Sunny then Slight Chance Showers And Thunderstorms",
+          "shortForecast": "Mostly Sunny",
           "windSpeed": "5 mph",
           "windDirection": "NE"
         },
         {
           "name": "Friday Night",
-          "temperature": 68,
+          "temperature": 67,
           "temperatureUnit": "F",
-          "shortForecast": "Showers And Thunderstorms Likely",
+          "shortForecast": "Slight Chance Showers And Thunderstorms then Chance Showers And Thunderstorms",
           "windSpeed": "3 mph",
           "windDirection": "E"
         },
         {
           "name": "Saturday",
-          "temperature": 83,
+          "temperature": 82,
           "temperatureUnit": "F",
-          "shortForecast": "Showers And Thunderstorms Likely",
+          "shortForecast": "Chance Showers And Thunderstorms",
           "windSpeed": "3 mph",
           "windDirection": "SE"
         },
         {
           "name": "Saturday Night",
-          "temperature": 67,
+          "temperature": 66,
           "temperatureUnit": "F",
           "shortForecast": "Showers And Thunderstorms Likely",
           "windSpeed": "0 to 3 mph",
@@ -238,20 +238,20 @@
           "name": "Sunday",
           "temperature": 83,
           "temperatureUnit": "F",
-          "shortForecast": "Partly Sunny then Chance Showers And Thunderstorms",
+          "shortForecast": "Partly Sunny then Slight Chance Showers And Thunderstorms",
           "windSpeed": "0 to 8 mph",
           "windDirection": "W"
         },
         {
           "name": "Sunday Night",
-          "temperature": 63,
+          "temperature": 62,
           "temperatureUnit": "F",
-          "shortForecast": "Chance Showers And Thunderstorms then Mostly Clear",
-          "windSpeed": "5 to 8 mph",
+          "shortForecast": "Slight Chance Showers And Thunderstorms then Mostly Clear",
+          "windSpeed": "8 mph",
           "windDirection": "NW"
         }
       ],
-      "checked_at": "2026-08-20T18:54:41.596564Z",
+      "checked_at": "2026-08-20T19:28:28.644038Z",
       "next_check_minutes": 15
     }
   ],
