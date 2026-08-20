@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T21:36:46.326086Z",
+  "generated_at": "2026-08-20T21:59:49.431972Z",
   "facilities": [
     {
       "id": "den",
@@ -138,25 +138,19 @@
       "reasons": [
         {
           "level": "watch",
-          "title": "Severe Thunderstorm Watch",
-          "detail": "Severe Thunderstorm Watch issued August 20 at 3:01PM EDT until August 20 at 10:00PM EDT by NWS Baltimore MD/Washington DC",
-          "action": "Monitor updates and prepare staff or equipment. Source: Exact facility location."
-        },
-        {
-          "level": "watch",
           "title": "Thunderstorms may affect the facility",
           "detail": "A thunderstorm signal appears in the next 6 hours in the local or airport forecast.",
           "action": "Monitor official warnings and your approved lightning procedure. This system does not measure lightning strike distance."
         }
       ],
       "metar": {
-        "raw": "SPECI KIAD 202102Z 12003KT 10SM R01R/2400VP6000FT FEW024 BKN045 BKN100 BKN200 24/23 A2989 RMK AO2 RAE02 P0016 T02440228",
-        "observed": "2026-08-20T21:02:00.000Z",
-        "wind_kt": 3.0,
-        "wind_mph": 3.5,
-        "gust_kt": null,
-        "gust_mph": null,
-        "temperature_f": 75.9,
+        "raw": "METAR KIAD 202152Z 31008G21KT 10SM FEW040 BKN110 BKN250 28/21 A2993 RMK AO2 SLP130 RAE02 CB DSNT E-SE MOV E P0016 T02780211",
+        "observed": "2026-08-20T22:00:00.000Z",
+        "wind_kt": 8.0,
+        "wind_mph": 9.2,
+        "gust_kt": 21.0,
+        "gust_mph": 24.2,
+        "temperature_f": 82.0,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
@@ -169,19 +163,10 @@
         "snow": false,
         "freezing_precip": false
       },
-      "alerts": [
-        {
-          "event": "Severe Thunderstorm Watch",
-          "headline": "Severe Thunderstorm Watch issued August 20 at 3:01PM EDT until August 20 at 10:00PM EDT by NWS Baltimore MD/Washington DC",
-          "severity": "Severe",
-          "urgency": "Future",
-          "expires": "2026-08-20T22:00:00-04:00",
-          "source": "Exact facility location"
-        }
-      ],
+      "alerts": [],
       "metrics": {
-        "peak_gust_24h_kt": 13.0,
-        "peak_gust_24h_mph": 15.0,
+        "peak_gust_24h_kt": 21.0,
+        "peak_gust_24h_mph": 24.2,
         "precip_7d_in": 1.1,
         "snow_7d_in": 0.0
       },
@@ -251,7 +236,7 @@
           "windDirection": "NW"
         }
       ],
-      "checked_at": "2026-08-20T21:36:48.927416Z",
+      "checked_at": "2026-08-20T21:59:50.446829Z",
       "next_check_minutes": 15
     }
   ],
