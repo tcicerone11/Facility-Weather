@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T09:44:52.221273Z",
+  "generated_at": "2026-08-20T10:14:05.724728Z",
   "facilities": [
     {
       "id": "den",
@@ -144,13 +144,13 @@
         }
       ],
       "metar": {
-        "raw": "METAR KIAD 200852Z 00000KT 10SM OVC048 23/21 A2996 RMK AO2 SLP141 T02280206 58006",
-        "observed": "2026-08-20T09:00:00.000Z",
-        "wind_kt": 0.0,
-        "wind_mph": 0.0,
+        "raw": "METAR KIAD 200952Z 05003KT 10SM BKN049 OVC120 24/19 A2996 RMK AO2 SLP140 T02390194",
+        "observed": "2026-08-20T10:00:00.000Z",
+        "wind_kt": 3.0,
+        "wind_mph": 3.5,
         "gust_kt": null,
         "gust_mph": null,
-        "temperature_f": 73.0,
+        "temperature_f": 75.0,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
@@ -172,15 +172,7 @@
       },
       "forecast": [
         {
-          "name": "Overnight",
-          "temperature": 70,
-          "temperatureUnit": "F",
-          "shortForecast": "Isolated Showers And Thunderstorms",
-          "windSpeed": "0 mph",
-          "windDirection": ""
-        },
-        {
-          "name": "Thursday",
+          "name": "Today",
           "temperature": 86,
           "temperatureUnit": "F",
           "shortForecast": "Scattered Showers And Thunderstorms",
@@ -188,7 +180,7 @@
           "windDirection": "S"
         },
         {
-          "name": "Thursday Night",
+          "name": "Tonight",
           "temperature": 66,
           "temperatureUnit": "F",
           "shortForecast": "Chance Showers And Thunderstorms then Patchy Fog",
@@ -234,9 +226,17 @@
           "shortForecast": "Mostly Sunny then Chance Showers And Thunderstorms",
           "windSpeed": "0 to 8 mph",
           "windDirection": "W"
+        },
+        {
+          "name": "Sunday Night",
+          "temperature": 63,
+          "temperatureUnit": "F",
+          "shortForecast": "Chance Showers And Thunderstorms then Partly Cloudy",
+          "windSpeed": "5 to 8 mph",
+          "windDirection": "NW"
         }
       ],
-      "checked_at": "2026-08-20T09:44:55.063121Z",
+      "checked_at": "2026-08-20T10:14:07.509374Z",
       "next_check_minutes": 15
     }
   ],
