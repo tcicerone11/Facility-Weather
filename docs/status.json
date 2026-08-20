@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T19:57:28.456638Z",
+  "generated_at": "2026-08-20T20:34:02.086807Z",
   "facilities": [
     {
       "id": "den",
@@ -17,13 +17,13 @@
       },
       "reasons": [],
       "metar": {
-        "raw": "METAR KDEN 201853Z 04014KT 10SM FEW100 FEW150 FEW220 31/10 A3024 RMK AO2 SLP146 T03110100",
-        "observed": "2026-08-20T19:00:00.000Z",
-        "wind_kt": 14.0,
-        "wind_mph": 16.1,
+        "raw": "METAR KDEN 201953Z 06008KT 10SM SCT100 SCT150 SCT220 32/07 A3023 RMK AO2 SLP143 T03220072",
+        "observed": "2026-08-20T20:00:00.000Z",
+        "wind_kt": 8.0,
+        "wind_mph": 9.2,
         "gust_kt": null,
         "gust_mph": null,
-        "temperature_f": 88.0,
+        "temperature_f": 90.0,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
@@ -47,34 +47,34 @@
         }
       ],
       "metrics": {
-        "peak_gust_24h_kt": 16.0,
-        "peak_gust_24h_mph": 18.4,
-        "precip_7d_in": 0.22,
+        "peak_gust_24h_kt": 15.0,
+        "peak_gust_24h_mph": 17.3,
+        "precip_7d_in": 0.5,
         "snow_7d_in": 0.0
       },
       "forecast": [
         {
-          "name": "Today",
+          "name": "This Afternoon",
           "temperature": 93,
           "temperatureUnit": "F",
           "shortForecast": "Sunny",
-          "windSpeed": "5 to 9 mph",
-          "windDirection": "NNE"
+          "windSpeed": "10 mph",
+          "windDirection": "NE"
         },
         {
           "name": "Tonight",
-          "temperature": 64,
+          "temperature": 65,
           "temperatureUnit": "F",
           "shortForecast": "Mostly Clear",
           "windSpeed": "9 mph",
-          "windDirection": "SE"
+          "windDirection": "SSE"
         },
         {
           "name": "Friday",
-          "temperature": 97,
+          "temperature": 98,
           "temperatureUnit": "F",
-          "shortForecast": "Sunny",
-          "windSpeed": "5 to 12 mph",
+          "shortForecast": "Sunny then Slight Chance Showers And Thunderstorms",
+          "windSpeed": "5 to 10 mph",
           "windDirection": "NW"
         },
         {
@@ -82,23 +82,23 @@
           "temperature": 64,
           "temperatureUnit": "F",
           "shortForecast": "Partly Cloudy",
-          "windSpeed": "5 to 10 mph",
-          "windDirection": "SW"
+          "windSpeed": "7 to 12 mph",
+          "windDirection": "SSW"
         },
         {
           "name": "Saturday",
           "temperature": 92,
           "temperatureUnit": "F",
           "shortForecast": "Mostly Sunny then Chance Showers And Thunderstorms",
-          "windSpeed": "3 to 10 mph",
-          "windDirection": "ESE"
+          "windSpeed": "3 to 12 mph",
+          "windDirection": "NE"
         },
         {
           "name": "Saturday Night",
           "temperature": 64,
           "temperatureUnit": "F",
-          "shortForecast": "Showers And Thunderstorms Likely then Partly Cloudy",
-          "windSpeed": "9 to 13 mph",
+          "shortForecast": "Chance Showers And Thunderstorms then Mostly Cloudy",
+          "windSpeed": "8 to 13 mph",
           "windDirection": "SSW"
         },
         {
@@ -106,7 +106,7 @@
           "temperature": 92,
           "temperatureUnit": "F",
           "shortForecast": "Mostly Sunny then Chance Showers And Thunderstorms",
-          "windSpeed": "3 to 8 mph",
+          "windSpeed": "3 to 7 mph",
           "windDirection": "WNW"
         },
         {
@@ -114,11 +114,11 @@
           "temperature": 64,
           "temperatureUnit": "F",
           "shortForecast": "Chance Showers And Thunderstorms then Mostly Cloudy",
-          "windSpeed": "9 mph",
-          "windDirection": "WSW"
+          "windSpeed": "10 mph",
+          "windDirection": "SW"
         }
       ],
-      "checked_at": "2026-08-20T19:28:26.522087Z",
+      "checked_at": "2026-08-20T20:34:03.614759Z",
       "next_check_minutes": 30
     },
     {
@@ -161,11 +161,11 @@
         "flight_category": "VFR"
       },
       "taf": {
-        "raw": "TAF KIAD 201956Z 2020/2124 31005KT P6SM SCT040 BKN050 BKN120 FM202030 33006KT P6SM BKN050 BKN120 PROB30 2023/2101 6SM -SHRA BKN050 FM210200 36004KT P6SM SCT022 FM210500 36003KT P6SM BKN013",
-        "issued": "2026-08-20T19:56:00.000Z",
+        "raw": "TAF KIAD 202025Z 2020/2124 31005KT P6SM SCT040 BKN050 BKN120 FM202030 33006KT P6SM VCTS BKN040CB BKN120 TEMPO 2021/2022 VRB30KT 5SM -TSRA OVC050CB FM202300 36012KT P6SM BKN050 FM210300 36004KT P6SM SCT025 FM210600 36003KT P6SM BKN013",
+        "issued": "2026-08-20T20:25:00.000Z",
         "valid_from": 1787256000,
         "valid_to": 1787356800,
-        "thunder": false,
+        "thunder": true,
         "snow": false,
         "freezing_precip": false
       },
@@ -251,7 +251,7 @@
           "windDirection": "NW"
         }
       ],
-      "checked_at": "2026-08-20T19:57:30.968803Z",
+      "checked_at": "2026-08-20T20:34:05.526152Z",
       "next_check_minutes": 15
     }
   ],
