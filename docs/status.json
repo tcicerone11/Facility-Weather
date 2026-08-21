@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T17:01:06.481068Z",
+  "generated_at": "2026-08-21T17:37:53.393413Z",
   "facilities": [
     {
       "id": "den",
@@ -125,7 +125,7 @@
           "windDirection": "WSW"
         }
       ],
-      "checked_at": "2026-08-21T17:01:13.550424Z",
+      "checked_at": "2026-08-21T17:38:00.585190Z",
       "next_check_minutes": 15
     },
     {
@@ -136,37 +136,30 @@
       "latitude": 38.9531,
       "longitude": -77.4565,
       "forecast_zone_name": "VAZ506",
-      "status": "watch",
+      "status": "normal",
       "status_copy": {
-        "label": "WATCH",
-        "summary": "Weather could affect operations if conditions develop as forecast.",
-        "action": "Monitor conditions and prepare staff, equipment, or outdoor operations."
+        "label": "NORMAL",
+        "summary": "No configured weather condition currently suggests an operational change.",
+        "action": "Continue normal operations and routine monitoring."
       },
-      "reasons": [
-        {
-          "level": "watch",
-          "title": "Thunderstorms may affect the facility",
-          "detail": "A thunderstorm signal appears in the next 6 hours in the local or airport forecast.",
-          "action": "Monitor official warnings and your approved lightning procedure. This system does not measure lightning strike distance."
-        }
-      ],
+      "reasons": [],
       "metar": {
-        "raw": "METAR KIAD 211552Z 29004KT 10SM FEW025 FEW120 BKN250 24/14 A3013 RMK AO2 SLP201 T02440144",
-        "observed": "2026-08-21T16:00:00.000Z",
-        "wind_kt": 4.0,
-        "wind_mph": 4.6,
+        "raw": "METAR KIAD 211652Z VRB05KT 10SM FEW030 FEW120 SCT250 25/13 A3011 RMK AO2 SLP194 T02500133",
+        "observed": "2026-08-21T17:00:00.000Z",
+        "wind_kt": 5.0,
+        "wind_mph": 5.8,
         "gust_kt": null,
         "gust_mph": null,
-        "temperature_f": 75.9,
+        "temperature_f": 77.0,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
       "taf": {
-        "raw": "TAF KIAD 211458Z 2115/2218 34006KT P6SM FEW025 FEW120 FM220100 00000KT P6SM BKN220 FM220500 00000KT P6SM SCT015 BKN050 FM220700 00000KT P6SM FEW005 SCT012 BKN025 PROB30 2207/2210 5SM -SHRA FM221000 00000KT 4SM SHRA SCT006 OVC020 PROB30 2217/2218 3SM -TSRA OVC020CB",
-        "issued": "2026-08-21T14:58:00.000Z",
-        "valid_from": 1787324400,
-        "valid_to": 1787421600,
-        "thunder": true,
+        "raw": "TAF KIAD 211723Z 2118/2224 03004KT P6SM FEW250 PROB30 2207/2209 -SHRA OVC030 FM220900 00000KT P6SM -SHRA OVC025 FM221200 00000KT 6SM -SHRA OVC014 FM221300 00000KT 5SM -SHRA BR OVC009 FM221500 12004KT 6SM -SHRA OVC009 FM221600 12004KT 5SM -SHRA BR OVC011 PROB30 2217/2223 4SM -SHRA BR OVC007",
+        "issued": "2026-08-21T17:23:00.000Z",
+        "valid_from": 1787335200,
+        "valid_to": 1787443200,
+        "thunder": false,
         "snow": false,
         "freezing_precip": false
       },
@@ -243,9 +236,8 @@
           "windDirection": "NW"
         }
       ],
-      "checked_at": "2026-08-21T16:25:07.122990Z",
-      "next_check_minutes": 15,
-      "data_error": "504 Server Error: Gateway Time-out for url: https://aviationweather.gov/api/data/taf?ids=KIAD&format=json"
+      "checked_at": "2026-08-21T17:38:02.039920Z",
+      "next_check_minutes": 30
     }
   ],
   "settings": {
