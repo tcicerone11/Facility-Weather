@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T20:33:59.810155Z",
+  "generated_at": "2026-08-21T20:56:20.461376Z",
   "facilities": [
     {
       "id": "den",
@@ -35,9 +35,9 @@
         "flight_category": "VFR"
       },
       "taf": {
-        "raw": "TAF KDEN 211739Z 2118/2224 33005KT P6SM FEW090 FEW160 SCT220 FM211900 02010KT P6SM SCT120 BKN150 TEMPO 2121/2201 VRB25G40KT -SHRA BKN120 FM220100 09010KT P6SM SCT120 BKN150 FM220300 17008KT P6SM SCT150 FM221200 23008KT P6SM FEW150 FM221500 35008KT P6SM FEW120 SCT150 FM221900 06006KT P6SM SCT120 BKN150 TEMPO 2222/2224 VRB15G30KT -TSRA BKN100CB",
-        "issued": "2026-08-21T17:39:00.000Z",
-        "valid_from": 1787335200,
+        "raw": "TAF KDEN 212056Z 2121/2224 03012KT P6SM SCT120 BKN150 TEMPO 2121/2201 VRB25G40KT -SHRA BKN120 FM220100 09010KT P6SM SCT120 BKN150 FM220300 17008KT P6SM SCT150 FM221200 23008KT P6SM FEW150 FM221500 35008KT P6SM FEW120 SCT150 FM221900 06006KT P6SM SCT120 BKN150 TEMPO 2222/2224 VRB15G30KT -TSRA BKN100CB",
+        "issued": "2026-08-21T20:56:00.000Z",
+        "valid_from": 1787346000,
         "valid_to": 1787443200,
         "thunder": true,
         "snow": false,
@@ -65,7 +65,7 @@
           "temperature": 98,
           "temperatureUnit": "F",
           "shortForecast": "Slight Chance Showers And Thunderstorms",
-          "windSpeed": "8 to 13 mph",
+          "windSpeed": "9 to 13 mph",
           "windDirection": "N"
         },
         {
@@ -125,7 +125,7 @@
           "windDirection": "SW"
         }
       ],
-      "checked_at": "2026-08-21T20:34:04.027009Z",
+      "checked_at": "2026-08-21T20:56:23.532596Z",
       "next_check_minutes": 15
     },
     {
