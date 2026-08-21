@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T05:00:04.956445Z",
+  "generated_at": "2026-08-21T05:40:07.749278Z",
   "facilities": [
     {
       "id": "den",
@@ -28,10 +28,10 @@
         "flight_category": "VFR"
       },
       "taf": {
-        "raw": "TAF KDEN 210402Z 2104/2206 19010KT P6SM FEW100 FEW220 FM211400 24007KT P6SM FEW220 FM211900 01010KT P6SM FEW080 SCT150 PROB30 2120/2124 VRB25G40KT -SHRA FM220000 09008KT P6SM FEW080 SCT150 FM220300 16008KT P6SM SCT150",
-        "issued": "2026-08-21T04:02:00.000Z",
-        "valid_from": 1787284800,
-        "valid_to": 1787378400,
+        "raw": "TAF KDEN 210534Z 2106/2212 18010KT P6SM FEW100 FEW220 FM211200 21010KT P6SM FEW160 FM211400 24007KT P6SM FEW220 FM211900 01010KT P6SM FEW080 SCT120 PROB30 2120/2124 VRB25G40KT -SHRA BKN110 FM220100 07010KT P6SM FEW080 SCT120 FM220300 16008KT P6SM SCT150 FM220600 21008KT P6SM FEW100 SCT150",
+        "issued": "2026-08-21T05:34:00.000Z",
+        "valid_from": 1787292000,
+        "valid_to": 1787400000,
         "thunder": false,
         "snow": false,
         "freezing_precip": false
@@ -118,7 +118,7 @@
           "windDirection": "NW"
         }
       ],
-      "checked_at": "2026-08-21T05:00:13.892734Z",
+      "checked_at": "2026-08-21T05:40:08.648598Z",
       "next_check_minutes": 30
     },
     {
@@ -148,10 +148,10 @@
         "flight_category": "VFR"
       },
       "taf": {
-        "raw": "TAF KIAD 210247Z 2103/2206 35012KT P6SM BKN150 FM210800 36005KT P6SM BKN020 OVC035 FM211300 01006KT P6SM SCT030 BKN050 FM211900 34005KT P6SM SCT050 BKN250 FM220300 11003KT P6SM BKN040 BKN250",
-        "issued": "2026-08-21T02:47:00.000Z",
-        "valid_from": 1787281200,
-        "valid_to": 1787378400,
+        "raw": "TAF KIAD 210525Z 2106/2212 36011KT P6SM OVC090 FM210800 35005KT P6SM SCT140 FM211700 02004KT P6SM FEW240 FM220100 00000KT P6SM BKN220 FM220600 00000KT P6SM SCT015 BKN050 FM220800 00000KT P6SM FEW005 SCT012 BKN025 PROB30 2209/2212 5SM -SHRA",
+        "issued": "2026-08-21T05:25:00.000Z",
+        "valid_from": 1787292000,
+        "valid_to": 1787400000,
         "thunder": false,
         "snow": false,
         "freezing_precip": false
@@ -229,7 +229,7 @@
           "windDirection": "W"
         }
       ],
-      "checked_at": "2026-08-21T05:00:18.541308Z",
+      "checked_at": "2026-08-21T05:40:26.143219Z",
       "next_check_minutes": 30
     }
   ],
