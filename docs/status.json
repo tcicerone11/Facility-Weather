@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T07:53:02.933752Z",
+  "generated_at": "2026-08-21T08:31:33.555733Z",
   "facilities": [
     {
       "id": "den",
@@ -17,13 +17,13 @@
       },
       "reasons": [],
       "metar": {
-        "raw": "METAR KDEN 210653Z 17008KT 10SM CLR 21/09 A3024 RMK AO2 SLP148 T02060089 403330172",
-        "observed": "2026-08-21T07:00:00.000Z",
-        "wind_kt": 8.0,
-        "wind_mph": 9.2,
+        "raw": "METAR KDEN 210753Z 16007KT 10SM CLR 18/09 A3023 RMK AO2 SLP150 T01780089",
+        "observed": "2026-08-21T08:00:00.000Z",
+        "wind_kt": 7.0,
+        "wind_mph": 8.1,
         "gust_kt": null,
         "gust_mph": null,
-        "temperature_f": 69.1,
+        "temperature_f": 64.0,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
@@ -118,7 +118,7 @@
           "windDirection": "W"
         }
       ],
-      "checked_at": "2026-08-21T07:53:03.562360Z",
+      "checked_at": "2026-08-21T08:31:34.474515Z",
       "next_check_minutes": 30
     },
     {
@@ -137,13 +137,13 @@
       },
       "reasons": [],
       "metar": {
-        "raw": "METAR KIAD 210652Z 36006KT 10SM FEW085 20/17 A3005 RMK AO2 SLP174 T02000167 $",
-        "observed": "2026-08-21T07:00:00.000Z",
-        "wind_kt": 6.0,
-        "wind_mph": 6.9,
+        "raw": "METAR KIAD 210752Z 36005KT 10SM CLR 19/16 A3007 RMK AO2 SLP178 T01940161 $",
+        "observed": "2026-08-21T08:00:00.000Z",
+        "wind_kt": 5.0,
+        "wind_mph": 5.8,
         "gust_kt": null,
         "gust_mph": null,
-        "temperature_f": 68.0,
+        "temperature_f": 66.9,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
@@ -174,7 +174,7 @@
         },
         {
           "name": "Friday",
-          "temperature": 82,
+          "temperature": 83,
           "temperatureUnit": "F",
           "shortForecast": "Mostly Sunny",
           "windSpeed": "6 mph",
@@ -182,7 +182,7 @@
         },
         {
           "name": "Friday Night",
-          "temperature": 67,
+          "temperature": 66,
           "temperatureUnit": "F",
           "shortForecast": "Mostly Cloudy then Patchy Fog",
           "windSpeed": "0 to 3 mph",
@@ -190,7 +190,7 @@
         },
         {
           "name": "Saturday",
-          "temperature": 82,
+          "temperature": 79,
           "temperatureUnit": "F",
           "shortForecast": "Patchy Fog then Showers And Thunderstorms Likely",
           "windSpeed": "1 to 6 mph",
@@ -206,7 +206,7 @@
         },
         {
           "name": "Sunday",
-          "temperature": 83,
+          "temperature": 84,
           "temperatureUnit": "F",
           "shortForecast": "Mostly Sunny",
           "windSpeed": "1 to 9 mph",
@@ -229,7 +229,7 @@
           "windDirection": "W"
         }
       ],
-      "checked_at": "2026-08-21T07:53:04.123048Z",
+      "checked_at": "2026-08-21T08:31:35.964058Z",
       "next_check_minutes": 30
     }
   ],
