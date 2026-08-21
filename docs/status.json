@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T05:40:07.749278Z",
+  "generated_at": "2026-08-21T07:03:47.895417Z",
   "facilities": [
     {
       "id": "den",
@@ -17,13 +17,13 @@
       },
       "reasons": [],
       "metar": {
-        "raw": "METAR KDEN 210453Z 17010KT 10SM FEW100 FEW220 21/09 A3024 RMK AO2 SLP153 T02110094",
-        "observed": "2026-08-21T05:00:00.000Z",
-        "wind_kt": 10.0,
-        "wind_mph": 11.5,
+        "raw": "METAR KDEN 210653Z 17008KT 10SM CLR 21/09 A3024 RMK AO2 SLP148 T02060089 403330172",
+        "observed": "2026-08-21T07:00:00.000Z",
+        "wind_kt": 8.0,
+        "wind_mph": 9.2,
         "gust_kt": null,
         "gust_mph": null,
-        "temperature_f": 70.0,
+        "temperature_f": 69.1,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
@@ -54,12 +54,12 @@
       },
       "forecast": [
         {
-          "name": "Tonight",
+          "name": "Overnight",
           "temperature": 65,
           "temperatureUnit": "F",
           "shortForecast": "Mostly Clear",
           "windSpeed": "9 mph",
-          "windDirection": "SSE"
+          "windDirection": "SSW"
         },
         {
           "name": "Friday",
@@ -74,39 +74,39 @@
           "temperature": 64,
           "temperatureUnit": "F",
           "shortForecast": "Partly Cloudy",
-          "windSpeed": "7 to 12 mph",
+          "windSpeed": "6 to 12 mph",
           "windDirection": "SSW"
         },
         {
           "name": "Saturday",
-          "temperature": 92,
+          "temperature": 93,
           "temperatureUnit": "F",
           "shortForecast": "Mostly Sunny then Chance Showers And Thunderstorms",
-          "windSpeed": "3 to 12 mph",
+          "windSpeed": "5 to 15 mph",
           "windDirection": "NE"
         },
         {
           "name": "Saturday Night",
           "temperature": 64,
           "temperatureUnit": "F",
-          "shortForecast": "Chance Showers And Thunderstorms then Mostly Cloudy",
-          "windSpeed": "8 to 13 mph",
-          "windDirection": "SSW"
+          "shortForecast": "Showers And Thunderstorms Likely then Mostly Cloudy",
+          "windSpeed": "8 to 15 mph",
+          "windDirection": "S"
         },
         {
           "name": "Sunday",
           "temperature": 92,
           "temperatureUnit": "F",
           "shortForecast": "Mostly Sunny then Chance Showers And Thunderstorms",
-          "windSpeed": "3 to 7 mph",
-          "windDirection": "WNW"
+          "windSpeed": "7 to 10 mph",
+          "windDirection": "W"
         },
         {
           "name": "Sunday Night",
           "temperature": 64,
           "temperatureUnit": "F",
-          "shortForecast": "Chance Showers And Thunderstorms then Mostly Cloudy",
-          "windSpeed": "10 mph",
+          "shortForecast": "Chance Showers And Thunderstorms then Partly Cloudy",
+          "windSpeed": "7 to 10 mph",
           "windDirection": "SW"
         },
         {
@@ -114,11 +114,11 @@
           "temperature": 92,
           "temperatureUnit": "F",
           "shortForecast": "Mostly Sunny then Chance Showers And Thunderstorms",
-          "windSpeed": "6 to 9 mph",
-          "windDirection": "NW"
+          "windSpeed": "5 to 8 mph",
+          "windDirection": "W"
         }
       ],
-      "checked_at": "2026-08-21T05:40:08.648598Z",
+      "checked_at": "2026-08-21T07:03:48.543828Z",
       "next_check_minutes": 30
     },
     {
@@ -137,13 +137,13 @@
       },
       "reasons": [],
       "metar": {
-        "raw": "METAR KIAD 210452Z 36011KT 10SM OVC090 21/16 A3006 RMK AO2 SLP176 T02060161 403170206 $",
-        "observed": "2026-08-21T05:00:00.000Z",
-        "wind_kt": 11.0,
-        "wind_mph": 12.7,
+        "raw": "METAR KIAD 210652Z 36006KT 10SM FEW085 20/17 A3005 RMK AO2 SLP174 T02000167 $",
+        "observed": "2026-08-21T07:00:00.000Z",
+        "wind_kt": 6.0,
+        "wind_mph": 6.9,
         "gust_kt": null,
         "gust_mph": null,
-        "temperature_f": 69.1,
+        "temperature_f": 68.0,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
@@ -169,7 +169,7 @@
           "temperature": 63,
           "temperatureUnit": "F",
           "shortForecast": "Mostly Cloudy",
-          "windSpeed": "6 mph",
+          "windSpeed": "7 mph",
           "windDirection": "N"
         },
         {
@@ -229,7 +229,7 @@
           "windDirection": "W"
         }
       ],
-      "checked_at": "2026-08-21T05:40:26.143219Z",
+      "checked_at": "2026-08-21T07:03:49.164651Z",
       "next_check_minutes": 30
     }
   ],
