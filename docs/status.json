@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T22:40:51.354927Z",
+  "generated_at": "2026-08-21T23:00:54.299895Z",
   "facilities": [
     {
       "id": "den",
@@ -24,13 +24,13 @@
         }
       ],
       "metar": {
-        "raw": "SPECI KDEN 212228Z COR 36017G26KT 10SM TS SCT090CB BKN150 BKN220 34/04 A3019 RMK AO2 PK WND 03028/2202 OCNL LTGICCC VC NW TSB26 TS VC NW MOV SE T03440039",
-        "observed": "2026-08-21T22:28:00.000Z",
-        "wind_kt": 17.0,
-        "wind_mph": 19.6,
-        "gust_kt": 26.0,
-        "gust_mph": 29.9,
-        "temperature_f": 93.9,
+        "raw": "METAR KDEN 212253Z 36014G29KT 10SM -TSRA BKN080CB BKN140 BKN220 33/03 A3020 RMK AO2 PK WND 34042/2242 OCNL LTGICCC VC NW RAB31E42B51 TSB26 TS VC NW MOV SE SLP141 P0000 T03280033",
+        "observed": "2026-08-21T23:00:00.000Z",
+        "wind_kt": 14.0,
+        "wind_mph": 16.1,
+        "gust_kt": 29.0,
+        "gust_mph": 33.4,
+        "temperature_f": 91.0,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
@@ -45,6 +45,14 @@
       },
       "alerts": [
         {
+          "event": "Special Weather Statement",
+          "headline": "Special Weather Statement issued August 21 at 4:40PM MDT by NWS Denver CO",
+          "severity": "Moderate",
+          "urgency": "Expected",
+          "expires": "2026-08-21T17:30:00-06:00",
+          "source": "Exact facility location"
+        },
+        {
           "event": "Air Quality Alert",
           "headline": "Air Quality Alert issued August 21 at 4:10PM MDT by NWS Denver CO",
           "severity": "Unknown",
@@ -54,8 +62,8 @@
         }
       ],
       "metrics": {
-        "peak_gust_24h_kt": 26.0,
-        "peak_gust_24h_mph": 29.9,
+        "peak_gust_24h_kt": 29.0,
+        "peak_gust_24h_mph": 33.4,
         "precip_7d_in": 0.2,
         "snow_7d_in": 0.0
       },
@@ -125,7 +133,7 @@
           "windDirection": "SW"
         }
       ],
-      "checked_at": "2026-08-21T22:40:53.086824Z",
+      "checked_at": "2026-08-21T23:00:58.983838Z",
       "next_check_minutes": 15
     },
     {
