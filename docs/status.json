@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T23:00:54.299895Z",
+  "generated_at": "2026-08-21T23:32:53.037155Z",
   "facilities": [
     {
       "id": "den",
@@ -9,13 +9,19 @@
       "latitude": 39.8561,
       "longitude": -104.6737,
       "forecast_zone_name": "COZ040",
-      "status": "watch",
+      "status": "close",
       "status_copy": {
-        "label": "WATCH",
-        "summary": "Weather could affect operations if conditions develop as forecast.",
-        "action": "Monitor conditions and prepare staff, equipment, or outdoor operations."
+        "label": "CLOSE CRITERIA MET",
+        "summary": "A configured closure threshold or critical weather warning has been reached.",
+        "action": "Follow your approved closure, restriction, or emergency procedure."
       },
       "reasons": [
+        {
+          "level": "close",
+          "title": "Strong wind threshold reached",
+          "detail": "Observed or forecast gusts may reach about 53 mph (46 kt).",
+          "action": "Follow your approved high-wind closure or restriction procedure."
+        },
         {
           "level": "watch",
           "title": "Thunderstorms may affect the facility",
@@ -24,13 +30,13 @@
         }
       ],
       "metar": {
-        "raw": "METAR KDEN 212253Z 36014G29KT 10SM -TSRA BKN080CB BKN140 BKN220 33/03 A3020 RMK AO2 PK WND 34042/2242 OCNL LTGICCC VC NW RAB31E42B51 TSB26 TS VC NW MOV SE SLP141 P0000 T03280033",
-        "observed": "2026-08-21T23:00:00.000Z",
-        "wind_kt": 14.0,
-        "wind_mph": 16.1,
-        "gust_kt": 29.0,
-        "gust_mph": 33.4,
-        "temperature_f": 91.0,
+        "raw": "SPECI KDEN 212315Z 26028G46KT 10SM -TSRA FEW060 BKN085CB BKN140 BKN220 28/09 A3022 RMK AO2 PK WND 28046/2314 WSHFT 2255 OCNL LTGICCCCG OHD TS OHD MOV SE P0000 T02830094",
+        "observed": "2026-08-21T23:15:00.000Z",
+        "wind_kt": 28.0,
+        "wind_mph": 32.2,
+        "gust_kt": 46.0,
+        "gust_mph": 52.9,
+        "temperature_f": 82.9,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
@@ -45,25 +51,33 @@
       },
       "alerts": [
         {
-          "event": "Special Weather Statement",
-          "headline": "Special Weather Statement issued August 21 at 4:40PM MDT by NWS Denver CO",
-          "severity": "Moderate",
-          "urgency": "Expected",
-          "expires": "2026-08-21T17:30:00-06:00",
-          "source": "Exact facility location"
-        },
-        {
           "event": "Air Quality Alert",
           "headline": "Air Quality Alert issued August 21 at 4:10PM MDT by NWS Denver CO",
           "severity": "Unknown",
           "urgency": "Unknown",
           "expires": "2026-08-22T16:00:00-06:00",
           "source": "Exact facility location"
+        },
+        {
+          "event": "Special Weather Statement",
+          "headline": "Special Weather Statement issued August 21 at 5:27PM MDT by NWS Denver CO",
+          "severity": "Moderate",
+          "urgency": "Expected",
+          "expires": "2026-08-21T18:15:00-06:00",
+          "source": "Broader NWS zone COZ040"
+        },
+        {
+          "event": "Special Weather Statement",
+          "headline": "Special Weather Statement issued August 21 at 5:08PM MDT by NWS Denver CO",
+          "severity": "Moderate",
+          "urgency": "Expected",
+          "expires": "2026-08-21T18:00:00-06:00",
+          "source": "Broader NWS zone COZ040"
         }
       ],
       "metrics": {
-        "peak_gust_24h_kt": 29.0,
-        "peak_gust_24h_mph": 33.4,
+        "peak_gust_24h_kt": 46.0,
+        "peak_gust_24h_mph": 52.9,
         "precip_7d_in": 0.2,
         "snow_7d_in": 0.0
       },
@@ -133,8 +147,8 @@
           "windDirection": "SW"
         }
       ],
-      "checked_at": "2026-08-21T23:00:58.983838Z",
-      "next_check_minutes": 15
+      "checked_at": "2026-08-21T23:32:53.702078Z",
+      "next_check_minutes": 5
     },
     {
       "id": "iad",
@@ -152,13 +166,13 @@
       },
       "reasons": [],
       "metar": {
-        "raw": "METAR KIAD 212152Z COR 03004KT 10SM SCT120 BKN250 25/11 A3004 RMK AO2 SLP170 T02500111",
-        "observed": "2026-08-21T22:00:00.000Z",
-        "wind_kt": 4.0,
-        "wind_mph": 4.6,
+        "raw": "METAR KIAD 212252Z 00000KT 10SM SCT120 BKN250 24/13 A3005 RMK AO2 SLP173 T02440133",
+        "observed": "2026-08-21T23:00:00.000Z",
+        "wind_kt": 0.0,
+        "wind_mph": 0.0,
         "gust_kt": null,
         "gust_mph": null,
-        "temperature_f": 77.0,
+        "temperature_f": 75.9,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
@@ -244,7 +258,7 @@
           "windDirection": "NW"
         }
       ],
-      "checked_at": "2026-08-21T22:40:53.793115Z",
+      "checked_at": "2026-08-21T23:32:55.329080Z",
       "next_check_minutes": 30
     }
   ],
