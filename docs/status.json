@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T22:09:32.647194Z",
+  "generated_at": "2026-08-21T22:40:51.354927Z",
   "facilities": [
     {
       "id": "den",
@@ -24,29 +24,38 @@
         }
       ],
       "metar": {
-        "raw": "METAR KDEN 212153Z 04011G21KT 10SM SCT090 BKN150 BKN220 37/03 A3018 RMK AO2 PK WND 03026/2135 VIRGA SW SLP122 T03670033",
-        "observed": "2026-08-21T22:00:00.000Z",
-        "wind_kt": 11.0,
-        "wind_mph": 12.7,
-        "gust_kt": 21.0,
-        "gust_mph": 24.2,
-        "temperature_f": 98.1,
+        "raw": "SPECI KDEN 212228Z COR 36017G26KT 10SM TS SCT090CB BKN150 BKN220 34/04 A3019 RMK AO2 PK WND 03028/2202 OCNL LTGICCC VC NW TSB26 TS VC NW MOV SE T03440039",
+        "observed": "2026-08-21T22:28:00.000Z",
+        "wind_kt": 17.0,
+        "wind_mph": 19.6,
+        "gust_kt": 26.0,
+        "gust_mph": 29.9,
+        "temperature_f": 93.9,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
       "taf": {
-        "raw": "TAF KDEN 212056Z 2121/2224 03012KT P6SM SCT120 BKN150 TEMPO 2121/2201 VRB25G40KT -SHRA BKN120 FM220100 09010KT P6SM SCT120 BKN150 FM220300 17008KT P6SM SCT150 FM221200 23008KT P6SM FEW150 FM221500 35008KT P6SM FEW120 SCT150 FM221900 06006KT P6SM SCT120 BKN150 TEMPO 2222/2224 VRB15G30KT -TSRA BKN100CB",
-        "issued": "2026-08-21T20:56:00.000Z",
-        "valid_from": 1787346000,
+        "raw": "TAF KDEN 212233Z 2123/2224 03012KT P6SM SCT120 BKN150 TEMPO 2123/2201 VRB25G40KT -TSRA BKN120CB FM220100 09010KT P6SM SCT120 BKN150 FM220300 17008KT P6SM SCT150 FM221200 23008KT P6SM FEW150 FM221500 35008KT P6SM FEW120 SCT150 FM221900 06006KT P6SM SCT120 BKN150 TEMPO 2222/2224 VRB15G30KT -TSRA BKN100CB",
+        "issued": "2026-08-21T22:33:00.000Z",
+        "valid_from": 1787353200,
         "valid_to": 1787443200,
         "thunder": true,
         "snow": false,
         "freezing_precip": false
       },
-      "alerts": [],
+      "alerts": [
+        {
+          "event": "Air Quality Alert",
+          "headline": "Air Quality Alert issued August 21 at 4:10PM MDT by NWS Denver CO",
+          "severity": "Unknown",
+          "urgency": "Unknown",
+          "expires": "2026-08-22T16:00:00-06:00",
+          "source": "Exact facility location"
+        }
+      ],
       "metrics": {
-        "peak_gust_24h_kt": 21.0,
-        "peak_gust_24h_mph": 24.2,
+        "peak_gust_24h_kt": 26.0,
+        "peak_gust_24h_mph": 29.9,
         "precip_7d_in": 0.2,
         "snow_7d_in": 0.0
       },
@@ -116,7 +125,7 @@
           "windDirection": "SW"
         }
       ],
-      "checked_at": "2026-08-21T22:09:33.172602Z",
+      "checked_at": "2026-08-21T22:40:53.086824Z",
       "next_check_minutes": 15
     },
     {
@@ -162,14 +171,6 @@
         "snow_7d_in": 0.0
       },
       "forecast": [
-        {
-          "name": "This Afternoon",
-          "temperature": 83,
-          "temperatureUnit": "F",
-          "shortForecast": "Partly Sunny",
-          "windSpeed": "3 mph",
-          "windDirection": "NE"
-        },
         {
           "name": "Tonight",
           "temperature": 64,
@@ -225,9 +226,17 @@
           "shortForecast": "Mostly Clear",
           "windSpeed": "2 to 7 mph",
           "windDirection": "NW"
+        },
+        {
+          "name": "Tuesday",
+          "temperature": 83,
+          "temperatureUnit": "F",
+          "shortForecast": "Sunny",
+          "windSpeed": "6 mph",
+          "windDirection": "NW"
         }
       ],
-      "checked_at": "2026-08-21T22:09:33.885952Z",
+      "checked_at": "2026-08-21T22:40:53.793115Z",
       "next_check_minutes": 30
     }
   ],
