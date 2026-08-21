@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T17:37:53.393413Z",
+  "generated_at": "2026-08-21T18:01:35.708046Z",
   "facilities": [
     {
       "id": "den",
@@ -24,22 +24,22 @@
         }
       ],
       "metar": {
-        "raw": "METAR KDEN 211653Z 25006KT 10SM FEW090 FEW160 SCT220 32/07 A3025 RMK AO2 SLP151 T03220072",
-        "observed": "2026-08-21T17:00:00.000Z",
+        "raw": "METAR KDEN 211753Z 03006KT 10SM FEW090 FEW160 SCT220 34/04 A3024 RMK AO2 SLP147 T03440039 10344 20206 58002",
+        "observed": "2026-08-21T18:00:00.000Z",
         "wind_kt": 6.0,
         "wind_mph": 6.9,
         "gust_kt": null,
         "gust_mph": null,
-        "temperature_f": 90.0,
+        "temperature_f": 93.9,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
       "taf": {
-        "raw": "TAF KDEN 211456Z 2115/2218 25007KT P6SM FEW220 FM211700 33005KT P6SM FEW120 FEW220 FM211900 02010KT P6SM SCT120 BKN150 TEMPO 2122/2201 VRB25G40KT -SHRA BKN120 FM220100 09010KT P6SM SCT120 BKN150 FM220300 16008KT P6SM SCT150 FM220600 20008KT P6SM SCT150 FM221200 23008KT P6SM FEW130",
-        "issued": "2026-08-21T14:56:00.000Z",
-        "valid_from": 1787324400,
-        "valid_to": 1787421600,
-        "thunder": false,
+        "raw": "TAF KDEN 211739Z 2118/2224 33005KT P6SM FEW090 FEW160 SCT220 FM211900 02010KT P6SM SCT120 BKN150 TEMPO 2121/2201 VRB25G40KT -SHRA BKN120 FM220100 09010KT P6SM SCT120 BKN150 FM220300 17008KT P6SM SCT150 FM221200 23008KT P6SM FEW150 FM221500 35008KT P6SM FEW120 SCT150 FM221900 06006KT P6SM SCT120 BKN150 TEMPO 2222/2224 VRB15G30KT -TSRA BKN100CB",
+        "issued": "2026-08-21T17:39:00.000Z",
+        "valid_from": 1787335200,
+        "valid_to": 1787443200,
+        "thunder": true,
         "snow": false,
         "freezing_precip": false
       },
@@ -125,7 +125,7 @@
           "windDirection": "WSW"
         }
       ],
-      "checked_at": "2026-08-21T17:38:00.585190Z",
+      "checked_at": "2026-08-21T18:01:48.494381Z",
       "next_check_minutes": 15
     },
     {
