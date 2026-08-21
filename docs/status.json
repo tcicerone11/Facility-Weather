@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T04:21:08.881630Z",
+  "generated_at": "2026-08-21T05:00:04.956445Z",
   "facilities": [
     {
       "id": "den",
@@ -17,13 +17,13 @@
       },
       "reasons": [],
       "metar": {
-        "raw": "METAR KDEN 210353Z 17011KT 10SM FEW110 FEW220 24/09 A3025 RMK AO2 SLP157 T02440089",
-        "observed": "2026-08-21T04:00:00.000Z",
-        "wind_kt": 11.0,
-        "wind_mph": 12.7,
+        "raw": "METAR KDEN 210453Z 17010KT 10SM FEW100 FEW220 21/09 A3024 RMK AO2 SLP153 T02110094",
+        "observed": "2026-08-21T05:00:00.000Z",
+        "wind_kt": 10.0,
+        "wind_mph": 11.5,
         "gust_kt": null,
         "gust_mph": null,
-        "temperature_f": 75.9,
+        "temperature_f": 70.0,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
@@ -118,7 +118,7 @@
           "windDirection": "NW"
         }
       ],
-      "checked_at": "2026-08-21T04:21:09.786949Z",
+      "checked_at": "2026-08-21T05:00:13.892734Z",
       "next_check_minutes": 30
     },
     {
@@ -137,13 +137,13 @@
       },
       "reasons": [],
       "metar": {
-        "raw": "METAR KIAD 210352Z 36013G22KT 10SM FEW070 OVC090 21/16 A3005 RMK AO2 SLP173 T02110161",
-        "observed": "2026-08-21T04:00:00.000Z",
-        "wind_kt": 13.0,
-        "wind_mph": 15.0,
-        "gust_kt": 22.0,
-        "gust_mph": 25.3,
-        "temperature_f": 70.0,
+        "raw": "METAR KIAD 210452Z 36011KT 10SM OVC090 21/16 A3006 RMK AO2 SLP176 T02060161 403170206 $",
+        "observed": "2026-08-21T05:00:00.000Z",
+        "wind_kt": 11.0,
+        "wind_mph": 12.7,
+        "gust_kt": null,
+        "gust_mph": null,
+        "temperature_f": 69.1,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
@@ -158,18 +158,18 @@
       },
       "alerts": [],
       "metrics": {
-        "peak_gust_24h_kt": 22.0,
-        "peak_gust_24h_mph": 25.3,
+        "peak_gust_24h_kt": 16.0,
+        "peak_gust_24h_mph": 18.4,
         "precip_7d_in": 0.65,
         "snow_7d_in": 0.0
       },
       "forecast": [
         {
-          "name": "Tonight",
+          "name": "Overnight",
           "temperature": 63,
           "temperatureUnit": "F",
-          "shortForecast": "Partly Cloudy",
-          "windSpeed": "5 to 9 mph",
+          "shortForecast": "Mostly Cloudy",
+          "windSpeed": "6 mph",
           "windDirection": "N"
         },
         {
@@ -229,7 +229,7 @@
           "windDirection": "W"
         }
       ],
-      "checked_at": "2026-08-21T04:21:10.866070Z",
+      "checked_at": "2026-08-21T05:00:18.541308Z",
       "next_check_minutes": 30
     }
   ],
