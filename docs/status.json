@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T10:53:54.093675Z",
+  "generated_at": "2026-08-21T11:48:22.167670Z",
   "facilities": [
     {
       "id": "den",
@@ -17,21 +17,21 @@
       },
       "reasons": [],
       "metar": {
-        "raw": "METAR KDEN 210953Z 22008KT 10SM FEW220 20/08 A3023 RMK AO2 SLP143 T02000083",
-        "observed": "2026-08-21T10:00:00.000Z",
-        "wind_kt": 8.0,
-        "wind_mph": 9.2,
+        "raw": "METAR KDEN 211053Z 14007KT 10SM FEW220 16/08 A3023 RMK AO2 SLP151 T01560083",
+        "observed": "2026-08-21T11:00:00.000Z",
+        "wind_kt": 7.0,
+        "wind_mph": 8.1,
         "gust_kt": null,
         "gust_mph": null,
-        "temperature_f": 68.0,
+        "temperature_f": 60.1,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
       "taf": {
-        "raw": "TAF KDEN 210854Z 2109/2212 22008KT P6SM FEW220 FM211500 25007KT P6SM FEW220 FM211900 01010KT P6SM FEW080 SCT120 PROB30 2120/2124 VRB25G40KT -SHRA BKN110 FM220100 07010KT P6SM FEW080 SCT120 FM220300 16008KT P6SM SCT150 FM220600 21008KT P6SM FEW100 SCT150",
-        "issued": "2026-08-21T08:54:00.000Z",
-        "valid_from": 1787302800,
-        "valid_to": 1787400000,
+        "raw": "TAF KDEN 211127Z 2112/2218 17012KT P6SM FEW220 FM211300 22007KT P6SM FEW220 FM211500 25007KT P6SM FEW220 FM211900 01010KT P6SM SCT120 BKN150 PROB30 2122/2201 VRB25G40KT -SHRA FM220100 09010KT P6SM FEW080 SCT120 FM220300 16008KT P6SM SCT150 FM220600 20008KT P6SM FEW100 SCT150 FM221200 23008KT P6SM FEW130",
+        "issued": "2026-08-21T11:27:00.000Z",
+        "valid_from": 1787313600,
+        "valid_to": 1787421600,
         "thunder": false,
         "snow": false,
         "freezing_precip": false
@@ -118,7 +118,7 @@
           "windDirection": "W"
         }
       ],
-      "checked_at": "2026-08-21T10:53:54.683606Z",
+      "checked_at": "2026-08-21T11:48:22.793810Z",
       "next_check_minutes": 30
     },
     {
@@ -129,30 +129,37 @@
       "latitude": 38.9531,
       "longitude": -77.4565,
       "forecast_zone_name": "VAZ506",
-      "status": "normal",
+      "status": "watch",
       "status_copy": {
-        "label": "NORMAL",
-        "summary": "No configured weather condition currently suggests an operational change.",
-        "action": "Continue normal operations and routine monitoring."
+        "label": "WATCH",
+        "summary": "Weather could affect operations if conditions develop as forecast.",
+        "action": "Monitor conditions and prepare staff, equipment, or outdoor operations."
       },
-      "reasons": [],
+      "reasons": [
+        {
+          "level": "watch",
+          "title": "Thunderstorms may affect the facility",
+          "detail": "A thunderstorm signal appears in the next 6 hours in the local or airport forecast.",
+          "action": "Monitor official warnings and your approved lightning procedure. This system does not measure lightning strike distance."
+        }
+      ],
       "metar": {
-        "raw": "METAR KIAD 210952Z 35008KT 10SM FEW120 19/15 A3009 RMK AO2 SLP185 T01890150 $",
-        "observed": "2026-08-21T10:00:00.000Z",
-        "wind_kt": 8.0,
-        "wind_mph": 9.2,
+        "raw": "METAR KIAD 211052Z 36009KT 10SM FEW120 FEW250 18/14 A3011 RMK AO2 SLP194 T01830144",
+        "observed": "2026-08-21T11:00:00.000Z",
+        "wind_kt": 9.0,
+        "wind_mph": 10.4,
         "gust_kt": null,
         "gust_mph": null,
-        "temperature_f": 66.0,
+        "temperature_f": 64.9,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
       "taf": {
-        "raw": "TAF KIAD 210900Z 2109/2212 35007KT P6SM SKC FM211700 02004KT P6SM FEW240 FM220100 00000KT P6SM BKN220 FM220600 00000KT P6SM SCT015 BKN050 FM220800 00000KT P6SM FEW005 SCT012 BKN025 PROB30 2209/2212 5SM -SHRA",
-        "issued": "2026-08-21T09:00:00.000Z",
-        "valid_from": 1787302800,
-        "valid_to": 1787400000,
-        "thunder": false,
+        "raw": "TAF KIAD 211127Z 2112/2218 36009KT P6SM FEW120 FM211700 VRB03KT P6SM FEW240 FM220100 00000KT P6SM BKN220 FM220500 00000KT P6SM SCT015 BKN050 FM220700 00000KT P6SM FEW005 SCT012 BKN025 PROB30 2207/2210 5SM -SHRA FM221000 00000KT 4SM SHRA SCT006 OVC020 PROB30 2217/2218 3SM -TSRA OVC020CB",
+        "issued": "2026-08-21T11:27:00.000Z",
+        "valid_from": 1787313600,
+        "valid_to": 1787421600,
+        "thunder": true,
         "snow": false,
         "freezing_precip": false
       },
@@ -229,8 +236,8 @@
           "windDirection": "NW"
         }
       ],
-      "checked_at": "2026-08-21T10:53:55.286544Z",
-      "next_check_minutes": 30
+      "checked_at": "2026-08-21T11:48:24.960993Z",
+      "next_check_minutes": 15
     }
   ],
   "settings": {
