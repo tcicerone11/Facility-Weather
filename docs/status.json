@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-22T20:26:37.419238Z",
+  "generated_at": "2026-08-22T20:50:09.112795Z",
   "facilities": [
     {
       "id": "den",
@@ -24,13 +24,13 @@
         }
       ],
       "metar": {
-        "raw": "METAR KDEN 221953Z 00000KT 10SM FEW090 SCT120 SCT150 BKN220 32/12 A3023 RMK AO2 OCNL LTGICCG DSNT S-SW CB DSNT S-SW MOV NE SLP143 T03170117",
-        "observed": "2026-08-22T20:00:00.000Z",
-        "wind_kt": 0.0,
-        "wind_mph": 0.0,
-        "gust_kt": null,
-        "gust_mph": null,
-        "temperature_f": 89.1,
+        "raw": "SPECI KDEN 222040Z COR 15016G23 KT 10SM FEW005 SCT085 BKN140 BKN200 33/12 A3021 RMK AO2 OCNL LTGICCG DSNT S CB DSNT S MOV NE T03330122",
+        "observed": "2026-08-22T20:40:00.000Z",
+        "wind_kt": 16.0,
+        "wind_mph": 18.4,
+        "gust_kt": 23.0,
+        "gust_mph": 26.5,
+        "temperature_f": 91.9,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
@@ -59,19 +59,11 @@
           "urgency": "Expected",
           "expires": "2026-08-22T15:15:00-06:00",
           "source": "Broader NWS zone COZ040"
-        },
-        {
-          "event": "Special Weather Statement",
-          "headline": "Special Weather Statement issued August 22 at 1:42PM MDT by NWS Denver CO",
-          "severity": "Moderate",
-          "urgency": "Expected",
-          "expires": "2026-08-22T14:30:00-06:00",
-          "source": "Broader NWS zone COZ040"
         }
       ],
       "metrics": {
-        "peak_gust_24h_kt": 20.0,
-        "peak_gust_24h_mph": 23.0,
+        "peak_gust_24h_kt": 23.0,
+        "peak_gust_24h_mph": 26.5,
         "precip_7d_in": 0.42,
         "snow_7d_in": 0.0
       },
@@ -141,7 +133,7 @@
           "windDirection": "WSW"
         }
       ],
-      "checked_at": "2026-08-22T20:26:38.200839Z",
+      "checked_at": "2026-08-22T20:50:10.536132Z",
       "next_check_minutes": 15
     },
     {
@@ -259,7 +251,7 @@
           "windDirection": "W"
         }
       ],
-      "checked_at": "2026-08-22T20:26:40.360873Z",
+      "checked_at": "2026-08-22T20:50:30.221208Z",
       "next_check_minutes": 15
     }
   ],
