@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-22T06:53:57.345379Z",
+  "generated_at": "2026-08-22T07:27:12.968575Z",
   "facilities": [
     {
       "id": "den",
@@ -24,20 +24,20 @@
         }
       ],
       "metar": {
-        "raw": "METAR KDEN 220553Z 00000KT 10SM FEW080 BKN130 BKN220 22/12 A3027 RMK AO2 VIRGA SLP152 T02170117 10278 20217 51009",
-        "observed": "2026-08-22T06:00:00.000Z",
-        "wind_kt": 0.0,
-        "wind_mph": 0.0,
+        "raw": "METAR KDEN 220653Z 16013KT 10SM FEW080 SCT220 21/12 A3028 RMK AO2 SHRA DSNT SW SLP156 T02060117 403780150",
+        "observed": "2026-08-22T07:00:00.000Z",
+        "wind_kt": 13.0,
+        "wind_mph": 15.0,
         "gust_kt": null,
         "gust_mph": null,
-        "temperature_f": 71.1,
+        "temperature_f": 69.1,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
       "taf": {
-        "raw": "TAF KDEN 220620Z 2206/2312 36006KT P6SM FEW080 BKN130 BKN220 PROB30 2207/2208 VRB15G25KT -SHRA BKN120 FM220900 20008KT P6SM FEW150 FM221600 25008KT P6SM FEW120 FM221800 06006KT P6SM FEW120 TEMPO 2222/2301 VRB20G40KT -TSRA BKN100CB FM230100 13010KT P6SM SCT080 BKN100 TEMPO 2301/2305 VRB15G25KT -TSRA BKN100CB FM230500 16012G20KT P6SM FEW080 SCT120 FM230900 19010KT P6SM FEW100 SCT200",
-        "issued": "2026-08-22T06:20:00.000Z",
-        "valid_from": 1787378400,
+        "raw": "TAF KDEN 220659Z 2207/2312 16012KT P6SM FEW080 SCT220 PROB30 2207/2208 VRB15G25KT -SHRA BKN120 FM220900 20008KT P6SM FEW150 FM221600 25008KT P6SM FEW120 FM221800 06006KT P6SM FEW120 TEMPO 2222/2301 VRB20G40KT -TSRA BKN100CB FM230100 13010KT P6SM SCT080 BKN100 TEMPO 2301/2305 VRB15G25KT -TSRA BKN100CB FM230500 16012G20KT P6SM FEW080 SCT120 FM230900 19010KT P6SM FEW100 SCT200",
+        "issued": "2026-08-22T06:59:00.000Z",
+        "valid_from": 1787382000,
         "valid_to": 1787486400,
         "thunder": true,
         "snow": false,
@@ -125,7 +125,7 @@
           "windDirection": "NW"
         }
       ],
-      "checked_at": "2026-08-22T06:53:59.499452Z",
+      "checked_at": "2026-08-22T07:27:14.082100Z",
       "next_check_minutes": 15
     },
     {
@@ -151,8 +151,8 @@
         }
       ],
       "metar": {
-        "raw": "METAR KIAD 220552Z COR 00000KT 10SM SCT050 BKN250 19/17 A3002 RMK AO2 SLP164 T01890167 10244 20189 56013 $",
-        "observed": "2026-08-22T06:00:00.000Z",
+        "raw": "METAR KIAD 220652Z 00000KT 10SM FEW048 BKN080 BKN250 19/17 A3001 RMK AO2 SLP159 T01890167 $",
+        "observed": "2026-08-22T07:00:00.000Z",
         "wind_kt": 0.0,
         "wind_mph": 0.0,
         "gust_kt": null,
@@ -243,7 +243,7 @@
           "windDirection": "NW"
         }
       ],
-      "checked_at": "2026-08-22T06:54:00.759288Z",
+      "checked_at": "2026-08-22T07:27:33.181530Z",
       "next_check_minutes": 15
     }
   ],
