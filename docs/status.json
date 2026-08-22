@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-22T23:00:14.804760Z",
+  "generated_at": "2026-08-22T23:28:52.319650Z",
   "facilities": [
     {
       "id": "den",
@@ -9,19 +9,13 @@
       "latitude": 39.8561,
       "longitude": -104.6737,
       "forecast_zone_name": "COZ040",
-      "status": "action",
+      "status": "watch",
       "status_copy": {
-        "label": "ACTION",
-        "summary": "A significant weather threshold has been reached or is expected.",
-        "action": "Take the protective action defined by your facility's operating plan."
+        "label": "WATCH",
+        "summary": "Weather could affect operations if conditions develop as forecast.",
+        "action": "Monitor conditions and prepare staff, equipment, or outdoor operations."
       },
       "reasons": [
-        {
-          "level": "action",
-          "title": "Strong winds expected",
-          "detail": "Observed or forecast gusts may reach about 40 mph (35 kt).",
-          "action": "Secure vulnerable outdoor items and take the protective action defined by the facility plan."
-        },
         {
           "level": "watch",
           "title": "Thunderstorms may affect the facility",
@@ -30,13 +24,13 @@
         }
       ],
       "metar": {
-        "raw": "METAR KDEN 222153Z 20024G35KT 10SM -TSRA SCT080CB BKN110 BKN150 BKN200 23/14 A3021 RMK AO2 PK WND 16042/2054 OCNL LTGICCG SE RAB01E35B53 GRB10E15 TSB03 TS SE MOV NE SLP157 P0013 T02330144",
-        "observed": "2026-08-22T22:00:00.000Z",
-        "wind_kt": 24.0,
-        "wind_mph": 27.6,
-        "gust_kt": 35.0,
-        "gust_mph": 40.3,
-        "temperature_f": 73.9,
+        "raw": "METAR KDEN 222253Z 15006KT 10SM -TSRA SCT080CB BKN110 BKN150 BKN200 23/14 A3021 RMK AO2 PK WND 20035/2202 OCNL LTGCG W-N RAE12B31 TS W-N MOV NE SLP155 P0000 T02280144",
+        "observed": "2026-08-22T23:00:00.000Z",
+        "wind_kt": 6.0,
+        "wind_mph": 6.9,
+        "gust_kt": null,
+        "gust_mph": null,
+        "temperature_f": 73.0,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
@@ -51,8 +45,8 @@
       },
       "alerts": [],
       "metrics": {
-        "peak_gust_24h_kt": 35.0,
-        "peak_gust_24h_mph": 40.3,
+        "peak_gust_24h_kt": 20.0,
+        "peak_gust_24h_mph": 23.0,
         "precip_7d_in": 0.42,
         "snow_7d_in": 0.0
       },
@@ -62,7 +56,7 @@
           "temperature": 93,
           "temperatureUnit": "F",
           "shortForecast": "Chance Showers And Thunderstorms",
-          "windSpeed": "9 to 14 mph",
+          "windSpeed": "7 to 14 mph",
           "windDirection": "ESE"
         },
         {
@@ -122,8 +116,8 @@
           "windDirection": "WSW"
         }
       ],
-      "checked_at": "2026-08-22T23:00:20.928223Z",
-      "next_check_minutes": 5
+      "checked_at": "2026-08-22T23:28:53.366697Z",
+      "next_check_minutes": 15
     },
     {
       "id": "iad",
@@ -240,7 +234,7 @@
           "windDirection": "SE"
         }
       ],
-      "checked_at": "2026-08-22T23:00:45.504869Z",
+      "checked_at": "2026-08-22T23:28:55.094207Z",
       "next_check_minutes": 15
     }
   ],
