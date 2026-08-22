@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-22T08:30:24.449546Z",
+  "generated_at": "2026-08-22T08:59:46.297925Z",
   "facilities": [
     {
       "id": "den",
@@ -24,10 +24,10 @@
         }
       ],
       "metar": {
-        "raw": "METAR KDEN 220753Z 22003KT 10SM FEW130 FEW220 22/09 A3027 RMK AO2 SLP151 T02170094",
-        "observed": "2026-08-22T08:00:00.000Z",
-        "wind_kt": 3.0,
-        "wind_mph": 3.5,
+        "raw": "METAR KDEN 220853Z 21004KT 10SM FEW120 22/10 A3028 RMK AO2 SLP152 T02170100 51003",
+        "observed": "2026-08-22T09:00:00.000Z",
+        "wind_kt": 4.0,
+        "wind_mph": 4.6,
         "gust_kt": null,
         "gust_mph": null,
         "temperature_f": 71.1,
@@ -56,7 +56,7 @@
       "metrics": {
         "peak_gust_24h_kt": 20.0,
         "peak_gust_24h_mph": 23.0,
-        "precip_7d_in": 0.31,
+        "precip_7d_in": 0.34,
         "snow_7d_in": 0.0
       },
       "forecast": [
@@ -125,7 +125,7 @@
           "windDirection": "NW"
         }
       ],
-      "checked_at": "2026-08-22T08:30:25.434860Z",
+      "checked_at": "2026-08-22T08:59:46.998710Z",
       "next_check_minutes": 15
     },
     {
@@ -151,13 +151,13 @@
         }
       ],
       "metar": {
-        "raw": "METAR KIAD 220752Z 00000KT 10SM OVC046 19/18 A3001 RMK AO2 SLP160 T01940178 $",
-        "observed": "2026-08-22T08:00:00.000Z",
-        "wind_kt": 0.0,
-        "wind_mph": 0.0,
+        "raw": "METAR KIAD 220852Z 15003KT 10SM FEW037 BKN044 OVC120 20/18 A3000 RMK AO2 SLP157 T02000178 56007 $",
+        "observed": "2026-08-22T09:00:00.000Z",
+        "wind_kt": 3.0,
+        "wind_mph": 3.5,
         "gust_kt": null,
         "gust_mph": null,
-        "temperature_f": 66.9,
+        "temperature_f": 68.0,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
@@ -183,8 +183,8 @@
           "temperature": 64,
           "temperatureUnit": "F",
           "shortForecast": "Scattered Rain Showers",
-          "windSpeed": "0 mph",
-          "windDirection": ""
+          "windSpeed": "1 mph",
+          "windDirection": "E"
         },
         {
           "name": "Saturday",
@@ -243,7 +243,7 @@
           "windDirection": "NW"
         }
       ],
-      "checked_at": "2026-08-22T08:30:26.999173Z",
+      "checked_at": "2026-08-22T08:59:47.971029Z",
       "next_check_minutes": 15
     }
   ],
