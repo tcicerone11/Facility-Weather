@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-22T03:56:53.482930Z",
+  "generated_at": "2026-08-22T04:36:24.517891Z",
   "facilities": [
     {
       "id": "den",
@@ -64,8 +64,8 @@
           "name": "Tonight",
           "temperature": 66,
           "temperatureUnit": "F",
-          "shortForecast": "Slight Chance Showers And Thunderstorms then Partly Cloudy",
-          "windSpeed": "6 to 9 mph",
+          "shortForecast": "Partly Cloudy",
+          "windSpeed": "8 mph",
           "windDirection": "SSW"
         },
         {
@@ -125,7 +125,7 @@
           "windDirection": "NW"
         }
       ],
-      "checked_at": "2026-08-22T03:56:54.432899Z",
+      "checked_at": "2026-08-22T04:36:25.550271Z",
       "next_check_minutes": 15
     },
     {
@@ -172,12 +172,12 @@
       },
       "forecast": [
         {
-          "name": "Tonight",
+          "name": "Overnight",
           "temperature": 64,
           "temperatureUnit": "F",
-          "shortForecast": "Mostly Cloudy then Chance Rain Showers",
+          "shortForecast": "Chance Rain Showers",
           "windSpeed": "1 mph",
-          "windDirection": "SE"
+          "windDirection": "E"
         },
         {
           "name": "Saturday",
@@ -236,7 +236,7 @@
           "windDirection": "NW"
         }
       ],
-      "checked_at": "2026-08-22T03:56:56.323841Z",
+      "checked_at": "2026-08-22T04:36:27.038924Z",
       "next_check_minutes": 30
     }
   ],
