@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-22T19:40:43.128799Z",
+  "generated_at": "2026-08-22T19:56:51.744281Z",
   "facilities": [
     {
       "id": "den",
@@ -51,12 +51,20 @@
           "urgency": "Unknown",
           "expires": "2026-08-22T16:00:00-06:00",
           "source": "Exact facility location"
+        },
+        {
+          "event": "Special Weather Statement",
+          "headline": "Special Weather Statement issued August 22 at 1:42PM MDT by NWS Denver CO",
+          "severity": "Moderate",
+          "urgency": "Expected",
+          "expires": "2026-08-22T14:30:00-06:00",
+          "source": "Broader NWS zone COZ040"
         }
       ],
       "metrics": {
         "peak_gust_24h_kt": 20.0,
         "peak_gust_24h_mph": 23.0,
-        "precip_7d_in": 0.34,
+        "precip_7d_in": 0.42,
         "snow_7d_in": 0.0
       },
       "forecast": [
@@ -125,7 +133,7 @@
           "windDirection": "WSW"
         }
       ],
-      "checked_at": "2026-08-22T19:40:43.953225Z",
+      "checked_at": "2026-08-22T19:56:52.542702Z",
       "next_check_minutes": 15
     },
     {
@@ -151,15 +159,15 @@
         }
       ],
       "metar": {
-        "raw": "METAR KIAD 221852Z VRB06KT 10SM SCT023 BKN030 BKN047 BKN250 26/20 A2995 RMK AO2 SLP139 T02560200 $",
-        "observed": "2026-08-22T19:00:00.000Z",
+        "raw": "METAR KIAD 221952Z 10006KT 10SM FEW028 BKN045 BKN055 26/21 A2992 RMK AO2 SLP130 T02610206 $",
+        "observed": "2026-08-22T20:00:00.000Z",
         "wind_kt": 6.0,
         "wind_mph": 6.9,
         "gust_kt": null,
         "gust_mph": null,
-        "temperature_f": 78.1,
+        "temperature_f": 79.0,
         "visibility_sm": 10.0,
-        "flight_category": "MVFR"
+        "flight_category": "VFR"
       },
       "taf": {
         "raw": "TAF KIAD 221738Z 2218/2324 11008KT P6SM VCSH OVC015 FM230000 13004KT P6SM -SHRA BKN060 TEMPO 2301/2305 2SM TSRA OVC040CB FM230600 00000KT P6SM BKN090 FM231000 23003KT P6SM BKN035 FM231400 30012KT P6SM SCT035",
@@ -182,7 +190,7 @@
           "name": "This Afternoon",
           "temperature": 79,
           "temperatureUnit": "F",
-          "shortForecast": "Scattered Showers And Thunderstorms",
+          "shortForecast": "Isolated Showers And Thunderstorms",
           "windSpeed": "6 mph",
           "windDirection": "E"
         },
@@ -243,7 +251,7 @@
           "windDirection": "W"
         }
       ],
-      "checked_at": "2026-08-22T19:40:47.422037Z",
+      "checked_at": "2026-08-22T19:56:54.082118Z",
       "next_check_minutes": 15
     }
   ],
