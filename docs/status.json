@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-22T03:11:28.120178Z",
+  "generated_at": "2026-08-22T03:56:53.482930Z",
   "facilities": [
     {
       "id": "den",
@@ -24,13 +24,13 @@
         }
       ],
       "metar": {
-        "raw": "METAR KDEN 220253Z 24008KT 10SM FEW080 FEW130 BKN220 24/11 A3023 RMK AO2 SLP148 T02440106 53005",
-        "observed": "2026-08-22T03:00:00.000Z",
+        "raw": "METAR KDEN 220353Z 23008KT 10SM FEW080 SCT130 BKN220 25/09 A3025 RMK AO2 SLP150 T02500094",
+        "observed": "2026-08-22T04:00:00.000Z",
         "wind_kt": 8.0,
         "wind_mph": 9.2,
         "gust_kt": null,
         "gust_mph": null,
-        "temperature_f": 75.9,
+        "temperature_f": 77.0,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
@@ -65,8 +65,8 @@
           "temperature": 66,
           "temperatureUnit": "F",
           "shortForecast": "Slight Chance Showers And Thunderstorms then Partly Cloudy",
-          "windSpeed": "8 mph",
-          "windDirection": "S"
+          "windSpeed": "6 to 9 mph",
+          "windDirection": "SSW"
         },
         {
           "name": "Saturday",
@@ -125,7 +125,7 @@
           "windDirection": "NW"
         }
       ],
-      "checked_at": "2026-08-22T03:11:29.068055Z",
+      "checked_at": "2026-08-22T03:56:54.432899Z",
       "next_check_minutes": 15
     },
     {
@@ -144,8 +144,8 @@
       },
       "reasons": [],
       "metar": {
-        "raw": "METAR KIAD 220252Z 00000KT 10SM FEW100 FEW150 BKN250 19/15 A3006 RMK AO2 SLP177 T01940150 51004 $",
-        "observed": "2026-08-22T03:00:00.000Z",
+        "raw": "METAR KIAD 220352Z 00000KT 10SM BKN065 BKN250 19/17 A3005 RMK AO2 SLP172 T01940167 $",
+        "observed": "2026-08-22T04:00:00.000Z",
         "wind_kt": 0.0,
         "wind_mph": 0.0,
         "gust_kt": null,
@@ -177,7 +177,7 @@
           "temperatureUnit": "F",
           "shortForecast": "Mostly Cloudy then Chance Rain Showers",
           "windSpeed": "1 mph",
-          "windDirection": "E"
+          "windDirection": "SE"
         },
         {
           "name": "Saturday",
@@ -236,7 +236,7 @@
           "windDirection": "NW"
         }
       ],
-      "checked_at": "2026-08-22T03:11:30.095500Z",
+      "checked_at": "2026-08-22T03:56:56.323841Z",
       "next_check_minutes": 30
     }
   ],
