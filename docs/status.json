@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-22T09:55:31.789909Z",
+  "generated_at": "2026-08-22T10:22:33.966096Z",
   "facilities": [
     {
       "id": "den",
@@ -24,13 +24,13 @@
         }
       ],
       "metar": {
-        "raw": "METAR KDEN 220853Z 21004KT 10SM FEW120 22/10 A3028 RMK AO2 SLP152 T02170100 51003",
-        "observed": "2026-08-22T09:00:00.000Z",
-        "wind_kt": 4.0,
-        "wind_mph": 4.6,
+        "raw": "METAR KDEN 220953Z 21005KT 10SM CLR 17/11 A3026 RMK AO2 SLP152 T01720111",
+        "observed": "2026-08-22T10:00:00.000Z",
+        "wind_kt": 5.0,
+        "wind_mph": 5.8,
         "gust_kt": null,
         "gust_mph": null,
-        "temperature_f": 71.1,
+        "temperature_f": 63.0,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
@@ -125,7 +125,7 @@
           "windDirection": "NW"
         }
       ],
-      "checked_at": "2026-08-22T09:55:32.771062Z",
+      "checked_at": "2026-08-22T10:22:36.481745Z",
       "next_check_minutes": 15
     },
     {
@@ -151,13 +151,13 @@
         }
       ],
       "metar": {
-        "raw": "METAR KIAD 220852Z 15003KT 10SM FEW037 BKN044 OVC120 20/18 A3000 RMK AO2 SLP157 T02000178 56007 $",
-        "observed": "2026-08-22T09:00:00.000Z",
-        "wind_kt": 3.0,
-        "wind_mph": 3.5,
+        "raw": "METAR KIAD 220952Z 19004KT 10SM FEW020 BKN042 OVC120 21/19 A3001 RMK AO2 SLP159 T02060189 $",
+        "observed": "2026-08-22T10:00:00.000Z",
+        "wind_kt": 4.0,
+        "wind_mph": 4.6,
         "gust_kt": null,
         "gust_mph": null,
-        "temperature_f": 68.0,
+        "temperature_f": 69.1,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
@@ -179,15 +179,7 @@
       },
       "forecast": [
         {
-          "name": "Overnight",
-          "temperature": 64,
-          "temperatureUnit": "F",
-          "shortForecast": "Scattered Rain Showers",
-          "windSpeed": "0 mph",
-          "windDirection": ""
-        },
-        {
-          "name": "Saturday",
+          "name": "Today",
           "temperature": 79,
           "temperatureUnit": "F",
           "shortForecast": "Scattered Showers And Thunderstorms",
@@ -195,7 +187,7 @@
           "windDirection": "E"
         },
         {
-          "name": "Saturday Night",
+          "name": "Tonight",
           "temperature": 66,
           "temperatureUnit": "F",
           "shortForecast": "Chance Showers And Thunderstorms",
@@ -241,9 +233,17 @@
           "shortForecast": "Sunny",
           "windSpeed": "3 to 7 mph",
           "windDirection": "NW"
+        },
+        {
+          "name": "Tuesday Night",
+          "temperature": 62,
+          "temperatureUnit": "F",
+          "shortForecast": "Mostly Clear",
+          "windSpeed": "0 to 3 mph",
+          "windDirection": "NW"
         }
       ],
-      "checked_at": "2026-08-22T09:55:34.162432Z",
+      "checked_at": "2026-08-22T10:22:40.180800Z",
       "next_check_minutes": 15
     }
   ],
