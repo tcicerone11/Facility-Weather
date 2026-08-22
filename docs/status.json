@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-22T15:53:52.627136Z",
+  "generated_at": "2026-08-22T16:18:05.544785Z",
   "facilities": [
     {
       "id": "den",
@@ -24,13 +24,13 @@
         }
       ],
       "metar": {
-        "raw": "METAR KDEN 221453Z VRB03KT 10SM FEW150 FEW220 23/16 A3027 RMK AO2 SLP167 T02280161 50005",
-        "observed": "2026-08-22T15:00:00.000Z",
-        "wind_kt": 3.0,
-        "wind_mph": 3.5,
+        "raw": "METAR KDEN 221553Z 01004KT 10SM FEW070 FEW150 FEW220 26/14 A3028 RMK AO2 SLP163 T02560139",
+        "observed": "2026-08-22T16:00:00.000Z",
+        "wind_kt": 4.0,
+        "wind_mph": 4.6,
         "gust_kt": null,
         "gust_mph": null,
-        "temperature_f": 73.0,
+        "temperature_f": 78.1,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
@@ -125,7 +125,7 @@
           "windDirection": "WSW"
         }
       ],
-      "checked_at": "2026-08-22T15:53:55.777608Z",
+      "checked_at": "2026-08-22T16:18:06.297758Z",
       "next_check_minutes": 15
     },
     {
@@ -151,8 +151,8 @@
         }
       ],
       "metar": {
-        "raw": "METAR KIAD 221452Z 08006KT 10SM BKN017 23/20 A3001 RMK AO2 SLP161 T02280200 56007 $",
-        "observed": "2026-08-22T15:00:00.000Z",
+        "raw": "METAR KIAD 221552Z 11006KT 10SM FEW015 BKN024 BKN033 23/20 A3001 RMK AO2 RAB25E41 SLP159 P0000 T02280200 $",
+        "observed": "2026-08-22T16:00:00.000Z",
         "wind_kt": 6.0,
         "wind_mph": 6.9,
         "gust_kt": null,
@@ -172,8 +172,8 @@
       },
       "alerts": [],
       "metrics": {
-        "peak_gust_24h_kt": 16.0,
-        "peak_gust_24h_mph": 18.4,
+        "peak_gust_24h_kt": 17.0,
+        "peak_gust_24h_mph": 19.6,
         "precip_7d_in": 0.73,
         "snow_7d_in": 0.0
       },
@@ -243,7 +243,7 @@
           "windDirection": "NW"
         }
       ],
-      "checked_at": "2026-08-22T15:53:56.419093Z",
+      "checked_at": "2026-08-22T16:18:08.244563Z",
       "next_check_minutes": 15
     }
   ],
