@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-22T21:53:58.278594Z",
+  "generated_at": "2026-08-22T22:42:35.300264Z",
   "facilities": [
     {
       "id": "den",
@@ -19,7 +19,7 @@
         {
           "level": "action",
           "title": "Strong winds expected",
-          "detail": "Observed or forecast gusts may reach about 43 mph (37 kt).",
+          "detail": "Observed or forecast gusts may reach about 40 mph (35 kt).",
           "action": "Secure vulnerable outdoor items and take the protective action defined by the facility plan."
         },
         {
@@ -30,13 +30,13 @@
         }
       ],
       "metar": {
-        "raw": "SPECI KDEN 222117Z COR 13023G37KT 10SM +TSRA BKN085CB BKN140 BKN200 21/13 A3023 RMK AO2 PK WND 16042/2054 VIS E 2 OCNL LTGICCG OHD RAB01 GRB10E15 TSB03 TS OHD MOV NE P0003 T02060128",
-        "observed": "2026-08-22T21:17:00.000Z",
-        "wind_kt": 23.0,
-        "wind_mph": 26.5,
-        "gust_kt": 37.0,
-        "gust_mph": 42.6,
-        "temperature_f": 69.1,
+        "raw": "METAR KDEN 222153Z 20024G35KT 10SM -TSRA SCT080CB BKN110 BKN150 BKN200 23/14 A3021 RMK AO2 PK WND 16042/2054 OCNL LTGICCG SE RAB01E35B53 GRB10E15 TSB03 TS SE MOV NE SLP157 P0013 T02330144",
+        "observed": "2026-08-22T22:00:00.000Z",
+        "wind_kt": 24.0,
+        "wind_mph": 27.6,
+        "gust_kt": 35.0,
+        "gust_mph": 40.3,
+        "temperature_f": 73.9,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
@@ -51,17 +51,17 @@
       },
       "alerts": [
         {
-          "event": "Air Quality Alert",
-          "headline": "Air Quality Alert issued August 21 at 4:10PM MDT by NWS Denver CO",
-          "severity": "Unknown",
-          "urgency": "Unknown",
-          "expires": "2026-08-22T16:00:00-06:00",
-          "source": "Exact facility location"
+          "event": "Special Weather Statement",
+          "headline": "Special Weather Statement issued August 22 at 4:22PM MDT by NWS Denver CO",
+          "severity": "Moderate",
+          "urgency": "Expected",
+          "expires": "2026-08-22T17:00:00-06:00",
+          "source": "Broader NWS zone COZ040"
         }
       ],
       "metrics": {
-        "peak_gust_24h_kt": 37.0,
-        "peak_gust_24h_mph": 42.6,
+        "peak_gust_24h_kt": 35.0,
+        "peak_gust_24h_mph": 40.3,
         "precip_7d_in": 0.42,
         "snow_7d_in": 0.0
       },
@@ -131,7 +131,7 @@
           "windDirection": "WSW"
         }
       ],
-      "checked_at": "2026-08-22T21:53:59.038906Z",
+      "checked_at": "2026-08-22T22:42:36.931743Z",
       "next_check_minutes": 5
     },
     {
@@ -157,10 +157,10 @@
         }
       ],
       "metar": {
-        "raw": "METAR KIAD 222052Z 11006KT 10SM FEW023 SCT028 BKN043 26/20 A2990 RMK AO2 SLP122 T02560200 56025 $",
-        "observed": "2026-08-22T21:00:00.000Z",
-        "wind_kt": 6.0,
-        "wind_mph": 6.9,
+        "raw": "METAR KIAD 222152Z 11008KT 10SM SCT026 BKN034 BKN043 BKN250 26/21 A2989 RMK AO2 SLP120 T02560206 $",
+        "observed": "2026-08-22T22:00:00.000Z",
+        "wind_kt": 8.0,
+        "wind_mph": 9.2,
         "gust_kt": null,
         "gust_mph": null,
         "temperature_f": 78.1,
@@ -184,14 +184,6 @@
         "snow_7d_in": 0.0
       },
       "forecast": [
-        {
-          "name": "This Afternoon",
-          "temperature": 79,
-          "temperatureUnit": "F",
-          "shortForecast": "Isolated Showers And Thunderstorms",
-          "windSpeed": "6 mph",
-          "windDirection": "E"
-        },
         {
           "name": "Tonight",
           "temperature": 66,
@@ -247,9 +239,17 @@
           "shortForecast": "Mostly Clear",
           "windSpeed": "0 to 3 mph",
           "windDirection": "W"
+        },
+        {
+          "name": "Wednesday",
+          "temperature": 87,
+          "temperatureUnit": "F",
+          "shortForecast": "Mostly Sunny",
+          "windSpeed": "1 to 5 mph",
+          "windDirection": "SE"
         }
       ],
-      "checked_at": "2026-08-22T21:53:59.953274Z",
+      "checked_at": "2026-08-22T22:42:37.649760Z",
       "next_check_minutes": 15
     }
   ],
