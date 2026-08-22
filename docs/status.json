@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-22T13:05:06.076809Z",
+  "generated_at": "2026-08-22T13:40:49.261654Z",
   "facilities": [
     {
       "id": "den",
@@ -125,7 +125,7 @@
           "windDirection": "WSW"
         }
       ],
-      "checked_at": "2026-08-22T13:05:08.258364Z",
+      "checked_at": "2026-08-22T13:40:55.037458Z",
       "next_check_minutes": 15
     },
     {
@@ -151,15 +151,15 @@
         }
       ],
       "metar": {
-        "raw": "METAR KIAD 221252Z 11007KT 10SM FEW015 SCT021 BKN040 BKN130 21/19 A3002 RMK AO2 SLP164 T02110189 $",
-        "observed": "2026-08-22T13:00:00.000Z",
-        "wind_kt": 7.0,
-        "wind_mph": 8.1,
+        "raw": "SPECI KIAD 221324Z 08005KT 10SM SCT015 BKN021 BKN080 BKN130 22/19 A3003 RMK AO2 T02220194 $",
+        "observed": "2026-08-22T13:24:00.000Z",
+        "wind_kt": 5.0,
+        "wind_mph": 5.8,
         "gust_kt": null,
         "gust_mph": null,
-        "temperature_f": 70.0,
+        "temperature_f": 72.0,
         "visibility_sm": 10.0,
-        "flight_category": "VFR"
+        "flight_category": "MVFR"
       },
       "taf": {
         "raw": "TAF KIAD 221139Z 2212/2318 03003KT P6SM VCSH FEW025 BKN040 FM221500 12004KT P6SM SCT018 BKN030 FM230000 VRB03KT 4SM SHRA SCT006 BKN015 FM230300 00000KT P6SM BKN014 FM231000 23003KT 4SM BR SKC FM231300 28006KT P6SM FEW110 FM231500 29010G17KT P6SM SKC",
@@ -243,7 +243,7 @@
           "windDirection": "NW"
         }
       ],
-      "checked_at": "2026-08-22T13:05:14.945362Z",
+      "checked_at": "2026-08-22T13:40:57.357052Z",
       "next_check_minutes": 15
     }
   ],
