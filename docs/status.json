@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T23:54:46.798465Z",
+  "generated_at": "2026-08-22T01:05:25.573650Z",
   "facilities": [
     {
       "id": "den",
@@ -148,7 +148,8 @@
         }
       ],
       "checked_at": "2026-08-21T23:54:47.898787Z",
-      "next_check_minutes": 5
+      "next_check_minutes": 5,
+      "data_error": "504 Server Error: Gateway Time-out for url: https://aviationweather.gov/api/data/taf?ids=KDEN&format=json"
     },
     {
       "id": "iad",
@@ -259,7 +260,8 @@
         }
       ],
       "checked_at": "2026-08-21T23:32:55.329080Z",
-      "next_check_minutes": 30
+      "next_check_minutes": 30,
+      "data_error": "500 Server Error: Internal Server Error for url: https://api.weather.gov/gridpoints/LWX/82,72/forecast"
     }
   ],
   "settings": {
