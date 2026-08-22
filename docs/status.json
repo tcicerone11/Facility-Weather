@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-22T21:34:18.217309Z",
+  "generated_at": "2026-08-22T21:53:58.278594Z",
   "facilities": [
     {
       "id": "den",
@@ -57,14 +57,6 @@
           "urgency": "Unknown",
           "expires": "2026-08-22T16:00:00-06:00",
           "source": "Exact facility location"
-        },
-        {
-          "event": "Special Weather Statement",
-          "headline": "Special Weather Statement issued August 22 at 3:17PM MDT by NWS Denver CO",
-          "severity": "Moderate",
-          "urgency": "Expected",
-          "expires": "2026-08-22T15:45:00-06:00",
-          "source": "Broader NWS zone COZ040"
         }
       ],
       "metrics": {
@@ -79,7 +71,7 @@
           "temperature": 93,
           "temperatureUnit": "F",
           "shortForecast": "Chance Showers And Thunderstorms",
-          "windSpeed": "7 to 14 mph",
+          "windSpeed": "9 to 14 mph",
           "windDirection": "ESE"
         },
         {
@@ -139,7 +131,7 @@
           "windDirection": "WSW"
         }
       ],
-      "checked_at": "2026-08-22T21:34:18.981000Z",
+      "checked_at": "2026-08-22T21:53:59.038906Z",
       "next_check_minutes": 5
     },
     {
@@ -257,7 +249,7 @@
           "windDirection": "W"
         }
       ],
-      "checked_at": "2026-08-22T21:34:26.061454Z",
+      "checked_at": "2026-08-22T21:53:59.953274Z",
       "next_check_minutes": 15
     }
   ],
