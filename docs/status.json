@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-22T15:09:42.169359Z",
+  "generated_at": "2026-08-22T15:34:41.430862Z",
   "facilities": [
     {
       "id": "den",
@@ -125,7 +125,7 @@
           "windDirection": "WSW"
         }
       ],
-      "checked_at": "2026-08-22T15:09:43.103936Z",
+      "checked_at": "2026-08-22T15:34:45.565936Z",
       "next_check_minutes": 15
     },
     {
@@ -162,9 +162,9 @@
         "flight_category": "MVFR"
       },
       "taf": {
-        "raw": "TAF KIAD 221139Z 2212/2318 03003KT P6SM VCSH FEW025 BKN040 FM221500 12004KT P6SM SCT018 BKN030 FM230000 VRB03KT 4SM SHRA SCT006 BKN015 FM230300 00000KT P6SM BKN014 FM231000 23003KT 4SM BR SKC FM231300 28006KT P6SM FEW110 FM231500 29010G17KT P6SM SKC",
-        "issued": "2026-08-22T11:39:00.000Z",
-        "valid_from": 1787400000,
+        "raw": "TAF KIAD 221514Z 2215/2318 08006KT P6SM BKN015 FM230000 VRB03KT 4SM -SHRA SCT006 BKN015 FM230300 00000KT P6SM BKN014 FM231000 23003KT 4SM BR SKC FM231300 28006KT P6SM FEW110 FM231500 29010G17KT P6SM SKC",
+        "issued": "2026-08-22T15:14:00.000Z",
+        "valid_from": 1787410800,
         "valid_to": 1787508000,
         "thunder": false,
         "snow": false,
@@ -174,7 +174,7 @@
       "metrics": {
         "peak_gust_24h_kt": 16.0,
         "peak_gust_24h_mph": 18.4,
-        "precip_7d_in": 0.73,
+        "precip_7d_in": 0.76,
         "snow_7d_in": 0.0
       },
       "forecast": [
@@ -243,7 +243,7 @@
           "windDirection": "NW"
         }
       ],
-      "checked_at": "2026-08-22T15:09:44.791417Z",
+      "checked_at": "2026-08-22T15:34:47.720900Z",
       "next_check_minutes": 15
     }
   ],
