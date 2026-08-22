@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-22T14:51:19.883500Z",
+  "generated_at": "2026-08-22T15:09:42.169359Z",
   "facilities": [
     {
       "id": "den",
@@ -24,13 +24,13 @@
         }
       ],
       "metar": {
-        "raw": "METAR KDEN 221353Z 30003KT 10SM FEW150 FEW220 21/16 A3028 RMK AO2 SLP172 T02110156",
-        "observed": "2026-08-22T14:00:00.000Z",
+        "raw": "METAR KDEN 221453Z VRB03KT 10SM FEW150 FEW220 23/16 A3027 RMK AO2 SLP167 T02280161 50005",
+        "observed": "2026-08-22T15:00:00.000Z",
         "wind_kt": 3.0,
         "wind_mph": 3.5,
         "gust_kt": null,
         "gust_mph": null,
-        "temperature_f": 70.0,
+        "temperature_f": 73.0,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
@@ -125,7 +125,7 @@
           "windDirection": "WSW"
         }
       ],
-      "checked_at": "2026-08-22T14:51:20.739270Z",
+      "checked_at": "2026-08-22T15:09:43.103936Z",
       "next_check_minutes": 15
     },
     {
@@ -151,10 +151,10 @@
         }
       ],
       "metar": {
-        "raw": "METAR KIAD 221352Z 10005KT 10SM SCT013 BKN020 BKN130 23/19 A3002 RMK AO2 SLP163 T02280194 $",
-        "observed": "2026-08-22T14:00:00.000Z",
-        "wind_kt": 5.0,
-        "wind_mph": 5.8,
+        "raw": "METAR KIAD 221452Z 08006KT 10SM BKN017 23/20 A3001 RMK AO2 SLP161 T02280200 56007 $",
+        "observed": "2026-08-22T15:00:00.000Z",
+        "wind_kt": 6.0,
+        "wind_mph": 6.9,
         "gust_kt": null,
         "gust_mph": null,
         "temperature_f": 73.0,
@@ -172,9 +172,9 @@
       },
       "alerts": [],
       "metrics": {
-        "peak_gust_24h_kt": 15.0,
-        "peak_gust_24h_mph": 17.3,
-        "precip_7d_in": 0.76,
+        "peak_gust_24h_kt": 16.0,
+        "peak_gust_24h_mph": 18.4,
+        "precip_7d_in": 0.73,
         "snow_7d_in": 0.0
       },
       "forecast": [
@@ -243,7 +243,7 @@
           "windDirection": "NW"
         }
       ],
-      "checked_at": "2026-08-22T14:51:23.544141Z",
+      "checked_at": "2026-08-22T15:09:44.791417Z",
       "next_check_minutes": 15
     }
   ],
