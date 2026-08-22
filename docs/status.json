@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-22T01:05:25.573650Z",
+  "generated_at": "2026-08-22T02:20:20.307258Z",
   "facilities": [
     {
       "id": "den",
@@ -9,19 +9,13 @@
       "latitude": 39.8561,
       "longitude": -104.6737,
       "forecast_zone_name": "COZ040",
-      "status": "close",
+      "status": "watch",
       "status_copy": {
-        "label": "CLOSE CRITERIA MET",
-        "summary": "A configured closure threshold or critical weather warning has been reached.",
-        "action": "Follow your approved closure, restriction, or emergency procedure."
+        "label": "WATCH",
+        "summary": "Weather could affect operations if conditions develop as forecast.",
+        "action": "Monitor conditions and prepare staff, equipment, or outdoor operations."
       },
       "reasons": [
-        {
-          "level": "close",
-          "title": "Strong wind threshold reached",
-          "detail": "Observed or forecast gusts may reach about 53 mph (46 kt).",
-          "action": "Follow your approved high-wind closure or restriction procedure."
-        },
         {
           "level": "watch",
           "title": "Thunderstorms may affect the facility",
@@ -30,20 +24,20 @@
         }
       ],
       "metar": {
-        "raw": "SPECI KDEN 212315Z 26028G46KT 10SM -TSRA FEW060 BKN085CB BKN140 BKN220 28/09 A3022 RMK AO2 PK WND 28046/2314 WSHFT 2255 OCNL LTGICCCCG OHD TS OHD MOV SE P0000 T02830094",
-        "observed": "2026-08-21T23:15:00.000Z",
-        "wind_kt": 28.0,
-        "wind_mph": 32.2,
-        "gust_kt": 46.0,
-        "gust_mph": 52.9,
-        "temperature_f": 82.9,
+        "raw": "METAR KDEN 220153Z 19008KT 10SM FEW080 SCT130 BKN220 24/11 A3022 RMK AO2 SLP148 T02440111",
+        "observed": "2026-08-22T02:00:00.000Z",
+        "wind_kt": 8.0,
+        "wind_mph": 9.2,
+        "gust_kt": null,
+        "gust_mph": null,
+        "temperature_f": 75.9,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
       "taf": {
-        "raw": "TAF KDEN 212337Z 2200/2306 03012KT P6SM SCT120 BKN150 TEMPO 2200/2201 VRB25G40KT -TSRA BKN080CB FM220200 16008KT P6SM SCT120 BKN150 FM220900 23008KT P6SM FEW150 FM221500 34008KT P6SM FEW120 FM221900 06006KT P6SM FEW120 TEMPO 2222/2301 VRB20G40KT -TSRA BKN100CB FM230100 13010KT P6SM SCT080 BKN100 TEMPO 2301/2305 VRB15G25KT -TSRA BKN100CB",
-        "issued": "2026-08-21T23:37:00.000Z",
-        "valid_from": 1787356800,
+        "raw": "TAF KDEN 220054Z 2201/2306 16008KT P6SM SCT120 BKN150 FM220900 23008KT P6SM FEW150 FM221500 34008KT P6SM FEW120 FM221900 06006KT P6SM FEW120 TEMPO 2222/2301 VRB20G40KT -TSRA BKN100CB FM230100 13010KT P6SM SCT080 BKN100 TEMPO 2301/2305 VRB15G25KT -TSRA BKN100CB",
+        "issued": "2026-08-22T00:54:00.000Z",
+        "valid_from": 1787360400,
         "valid_to": 1787464800,
         "thunder": true,
         "snow": false,
@@ -57,45 +51,21 @@
           "urgency": "Unknown",
           "expires": "2026-08-22T16:00:00-06:00",
           "source": "Exact facility location"
-        },
-        {
-          "event": "Special Weather Statement",
-          "headline": "Special Weather Statement issued August 21 at 5:27PM MDT by NWS Denver CO",
-          "severity": "Moderate",
-          "urgency": "Expected",
-          "expires": "2026-08-21T18:15:00-06:00",
-          "source": "Broader NWS zone COZ040"
-        },
-        {
-          "event": "Special Weather Statement",
-          "headline": "Special Weather Statement issued August 21 at 5:08PM MDT by NWS Denver CO",
-          "severity": "Moderate",
-          "urgency": "Expected",
-          "expires": "2026-08-21T18:00:00-06:00",
-          "source": "Broader NWS zone COZ040"
         }
       ],
       "metrics": {
-        "peak_gust_24h_kt": 46.0,
-        "peak_gust_24h_mph": 52.9,
+        "peak_gust_24h_kt": 20.0,
+        "peak_gust_24h_mph": 23.0,
         "precip_7d_in": 0.2,
         "snow_7d_in": 0.0
       },
       "forecast": [
         {
-          "name": "This Afternoon",
-          "temperature": 98,
-          "temperatureUnit": "F",
-          "shortForecast": "Slight Chance Showers And Thunderstorms",
-          "windSpeed": "8 to 13 mph",
-          "windDirection": "N"
-        },
-        {
           "name": "Tonight",
           "temperature": 66,
           "temperatureUnit": "F",
           "shortForecast": "Slight Chance Showers And Thunderstorms then Partly Cloudy",
-          "windSpeed": "6 to 12 mph",
+          "windSpeed": "6 to 9 mph",
           "windDirection": "SSW"
         },
         {
@@ -145,11 +115,18 @@
           "shortForecast": "Chance Showers And Thunderstorms then Mostly Cloudy",
           "windSpeed": "7 to 10 mph",
           "windDirection": "SW"
+        },
+        {
+          "name": "Tuesday",
+          "temperature": 90,
+          "temperatureUnit": "F",
+          "shortForecast": "Mostly Sunny then Slight Chance Showers And Thunderstorms",
+          "windSpeed": "5 to 9 mph",
+          "windDirection": "NW"
         }
       ],
-      "checked_at": "2026-08-21T23:54:47.898787Z",
-      "next_check_minutes": 5,
-      "data_error": "504 Server Error: Gateway Time-out for url: https://aviationweather.gov/api/data/taf?ids=KDEN&format=json"
+      "checked_at": "2026-08-22T02:20:39.229815Z",
+      "next_check_minutes": 15
     },
     {
       "id": "iad",
@@ -167,21 +144,21 @@
       },
       "reasons": [],
       "metar": {
-        "raw": "METAR KIAD 212252Z 00000KT 10SM SCT120 BKN250 24/13 A3005 RMK AO2 SLP173 T02440133",
-        "observed": "2026-08-21T23:00:00.000Z",
+        "raw": "METAR KIAD 220152Z 00000KT 10SM SCT150 BKN250 19/16 A3006 RMK AO2 SLP176 T01940156 $",
+        "observed": "2026-08-22T02:00:00.000Z",
         "wind_kt": 0.0,
         "wind_mph": 0.0,
         "gust_kt": null,
         "gust_mph": null,
-        "temperature_f": 75.9,
+        "temperature_f": 66.9,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
       "taf": {
-        "raw": "TAF KIAD 212100Z 2121/2224 05004KT P6SM BKN120 PROB30 2207/2209 -SHRA OVC030 FM220900 00000KT P6SM -SHRA OVC025 FM221200 00000KT 6SM -SHRA OVC014 FM221300 00000KT 5SM -SHRA BR OVC009 FM221500 12004KT 6SM -SHRA OVC009 FM221600 12004KT 5SM -SHRA BR OVC011 PROB30 2217/2223 4SM -SHRA BR OVC007",
-        "issued": "2026-08-21T21:00:00.000Z",
-        "valid_from": 1787346000,
-        "valid_to": 1787443200,
+        "raw": "TAF KIAD 212336Z 2200/2306 03003KT P6SM BKN120 PROB30 2207/2209 -SHRA OVC030 FM220900 00000KT P6SM -SHRA OVC025 FM221200 00000KT 6SM -SHRA OVC014 FM221600 12004KT 5SM -SHRA BR OVC010 FM230000 09003KT P6SM BKN020 PROB30 2300/2303 4SM -SHRA OVC015",
+        "issued": "2026-08-21T23:36:00.000Z",
+        "valid_from": 1787356800,
+        "valid_to": 1787464800,
         "thunder": false,
         "snow": false,
         "freezing_precip": false
@@ -190,7 +167,7 @@
       "metrics": {
         "peak_gust_24h_kt": 10.0,
         "peak_gust_24h_mph": 11.5,
-        "precip_7d_in": 0.31,
+        "precip_7d_in": 0.67,
         "snow_7d_in": 0.0
       },
       "forecast": [
@@ -198,15 +175,15 @@
           "name": "Tonight",
           "temperature": 64,
           "temperatureUnit": "F",
-          "shortForecast": "Widespread Showers And Thunderstorms",
-          "windSpeed": "0 to 3 mph",
-          "windDirection": "E"
+          "shortForecast": "Mostly Cloudy then Chance Rain Showers",
+          "windSpeed": "1 mph",
+          "windDirection": "SE"
         },
         {
           "name": "Saturday",
           "temperature": 79,
           "temperatureUnit": "F",
-          "shortForecast": "Areas Of Fog",
+          "shortForecast": "Showers And Thunderstorms Likely",
           "windSpeed": "0 to 6 mph",
           "windDirection": "E"
         },
@@ -214,7 +191,7 @@
           "name": "Saturday Night",
           "temperature": 66,
           "temperatureUnit": "F",
-          "shortForecast": "Scattered Showers And Thunderstorms",
+          "shortForecast": "Chance Showers And Thunderstorms",
           "windSpeed": "1 to 6 mph",
           "windDirection": "S"
         },
@@ -222,7 +199,7 @@
           "name": "Sunday",
           "temperature": 83,
           "temperatureUnit": "F",
-          "shortForecast": "Isolated Rain Showers then Mostly Sunny",
+          "shortForecast": "Slight Chance Rain Showers then Mostly Sunny",
           "windSpeed": "2 to 12 mph",
           "windDirection": "W"
         },
@@ -259,9 +236,8 @@
           "windDirection": "NW"
         }
       ],
-      "checked_at": "2026-08-21T23:32:55.329080Z",
-      "next_check_minutes": 30,
-      "data_error": "500 Server Error: Internal Server Error for url: https://api.weather.gov/gridpoints/LWX/82,72/forecast"
+      "checked_at": "2026-08-22T02:20:40.868283Z",
+      "next_check_minutes": 30
     }
   ],
   "settings": {
