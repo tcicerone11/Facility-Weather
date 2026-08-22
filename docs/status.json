@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-22T22:42:35.300264Z",
+  "generated_at": "2026-08-22T23:00:14.804760Z",
   "facilities": [
     {
       "id": "den",
@@ -49,16 +49,7 @@
         "snow": false,
         "freezing_precip": false
       },
-      "alerts": [
-        {
-          "event": "Special Weather Statement",
-          "headline": "Special Weather Statement issued August 22 at 4:22PM MDT by NWS Denver CO",
-          "severity": "Moderate",
-          "urgency": "Expected",
-          "expires": "2026-08-22T17:00:00-06:00",
-          "source": "Broader NWS zone COZ040"
-        }
-      ],
+      "alerts": [],
       "metrics": {
         "peak_gust_24h_kt": 35.0,
         "peak_gust_24h_mph": 40.3,
@@ -131,7 +122,7 @@
           "windDirection": "WSW"
         }
       ],
-      "checked_at": "2026-08-22T22:42:36.931743Z",
+      "checked_at": "2026-08-22T23:00:20.928223Z",
       "next_check_minutes": 5
     },
     {
@@ -157,13 +148,13 @@
         }
       ],
       "metar": {
-        "raw": "METAR KIAD 222152Z 11008KT 10SM SCT026 BKN034 BKN043 BKN250 26/21 A2989 RMK AO2 SLP120 T02560206 $",
-        "observed": "2026-08-22T22:00:00.000Z",
+        "raw": "METAR KIAD 222252Z 11008KT 10SM FEW024 FEW035 FEW050 SCT180 SCT250 24/20 A2988 RMK AO2 SLP115 T02440200 $",
+        "observed": "2026-08-22T23:00:00.000Z",
         "wind_kt": 8.0,
         "wind_mph": 9.2,
         "gust_kt": null,
         "gust_mph": null,
-        "temperature_f": 78.1,
+        "temperature_f": 75.9,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
@@ -249,7 +240,7 @@
           "windDirection": "SE"
         }
       ],
-      "checked_at": "2026-08-22T22:42:37.649760Z",
+      "checked_at": "2026-08-22T23:00:45.504869Z",
       "next_check_minutes": 15
     }
   ],
