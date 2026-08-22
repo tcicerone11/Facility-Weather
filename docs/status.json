@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-22T05:03:04.130064Z",
+  "generated_at": "2026-08-22T05:37:36.736957Z",
   "facilities": [
     {
       "id": "den",
@@ -35,10 +35,10 @@
         "flight_category": "VFR"
       },
       "taf": {
-        "raw": "TAF KDEN 220258Z 2203/2306 23008KT P6SM FEW080 SCT120 BKN200 FM220600 08008KT P6SM FEW100 SCT140 FM220900 17008KT P6SM FEW150 FM221500 34008KT P6SM FEW120 FM221900 06006KT P6SM FEW120 TEMPO 2222/2301 VRB20G40KT -TSRA BKN100CB FM230100 13010KT P6SM SCT080 BKN100 TEMPO 2301/2305 VRB15G25KT -TSRA BKN100CB",
-        "issued": "2026-08-22T02:58:00.000Z",
-        "valid_from": 1787367600,
-        "valid_to": 1787464800,
+        "raw": "TAF KDEN 220524Z 2206/2312 06012G20KT P6SM FEW080 BKN130 BKN220 PROB30 2207/2208 VRB15G25KT -SHRA BKN120 FM220900 20008KT P6SM FEW150 FM221600 25008KT P6SM FEW120 FM221800 06006KT P6SM FEW120 TEMPO 2222/2301 VRB20G40KT -TSRA BKN100CB FM230100 13010KT P6SM SCT080 BKN100 TEMPO 2301/2305 VRB15G25KT -TSRA BKN100CB FM230500 16012G20KT P6SM FEW080 SCT120 FM230900 19010KT P6SM FEW100 SCT200",
+        "issued": "2026-08-22T05:24:00.000Z",
+        "valid_from": 1787378400,
+        "valid_to": 1787486400,
         "thunder": true,
         "snow": false,
         "freezing_precip": false
@@ -65,7 +65,7 @@
           "temperature": 66,
           "temperatureUnit": "F",
           "shortForecast": "Slight Chance Showers And Thunderstorms then Partly Cloudy",
-          "windSpeed": "6 to 9 mph",
+          "windSpeed": "6 to 12 mph",
           "windDirection": "SSW"
         },
         {
@@ -125,7 +125,7 @@
           "windDirection": "NW"
         }
       ],
-      "checked_at": "2026-08-22T05:03:04.922463Z",
+      "checked_at": "2026-08-22T05:37:37.569410Z",
       "next_check_minutes": 15
     },
     {
@@ -144,13 +144,13 @@
       },
       "reasons": [],
       "metar": {
-        "raw": "METAR KIAD 220352Z 00000KT 10SM BKN065 BKN250 19/17 A3005 RMK AO2 SLP172 T01940167 $",
-        "observed": "2026-08-22T04:00:00.000Z",
+        "raw": "METAR KIAD 220452Z 00000KT 10SM FEW100 BKN250 21/17 A3003 RMK AO2 SLP167 T02060167 402780183 $",
+        "observed": "2026-08-22T05:00:00.000Z",
         "wind_kt": 0.0,
         "wind_mph": 0.0,
         "gust_kt": null,
         "gust_mph": null,
-        "temperature_f": 66.9,
+        "temperature_f": 69.1,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
@@ -236,7 +236,7 @@
           "windDirection": "NW"
         }
       ],
-      "checked_at": "2026-08-22T04:36:27.038924Z",
+      "checked_at": "2026-08-22T05:37:38.832838Z",
       "next_check_minutes": 30
     }
   ],
