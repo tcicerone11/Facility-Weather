@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-22T21:08:34.569561Z",
+  "generated_at": "2026-08-22T21:34:18.217309Z",
   "facilities": [
     {
       "id": "den",
@@ -9,18 +9,18 @@
       "latitude": 39.8561,
       "longitude": -104.6737,
       "forecast_zone_name": "COZ040",
-      "status": "close",
+      "status": "action",
       "status_copy": {
-        "label": "CLOSE CRITERIA MET",
-        "summary": "A configured closure threshold or critical weather warning has been reached.",
-        "action": "Follow your approved closure, restriction, or emergency procedure."
+        "label": "ACTION",
+        "summary": "A significant weather threshold has been reached or is expected.",
+        "action": "Take the protective action defined by your facility's operating plan."
       },
       "reasons": [
         {
-          "level": "close",
-          "title": "Strong wind threshold reached",
-          "detail": "Observed or forecast gusts may reach about 52 mph (45 kt).",
-          "action": "Follow your approved high-wind closure or restriction procedure."
+          "level": "action",
+          "title": "Strong winds expected",
+          "detail": "Observed or forecast gusts may reach about 43 mph (37 kt).",
+          "action": "Secure vulnerable outdoor items and take the protective action defined by the facility plan."
         },
         {
           "level": "watch",
@@ -30,14 +30,14 @@
         }
       ],
       "metar": {
-        "raw": "METAR KDEN 222053Z 17033G45KT 9SM FEW015 BKN085 BKN140 BKN200 29/13 A3022 RMK AO2 PK WND 16046/2052 OCNL LTGICCG DSNT S CB DSNT S MOV NE BLDU SE-S-SW SLP144 T02940128 56014",
-        "observed": "2026-08-22T21:00:00.000Z",
-        "wind_kt": 33.0,
-        "wind_mph": 38.0,
-        "gust_kt": 45.0,
-        "gust_mph": 51.8,
-        "temperature_f": 84.9,
-        "visibility_sm": 9.0,
+        "raw": "SPECI KDEN 222117Z COR 13023G37KT 10SM +TSRA BKN085CB BKN140 BKN200 21/13 A3023 RMK AO2 PK WND 16042/2054 VIS E 2 OCNL LTGICCG OHD RAB01 GRB10E15 TSB03 TS OHD MOV NE P0003 T02060128",
+        "observed": "2026-08-22T21:17:00.000Z",
+        "wind_kt": 23.0,
+        "wind_mph": 26.5,
+        "gust_kt": 37.0,
+        "gust_mph": 42.6,
+        "temperature_f": 69.1,
+        "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
       "taf": {
@@ -60,24 +60,16 @@
         },
         {
           "event": "Special Weather Statement",
-          "headline": "Special Weather Statement issued August 22 at 2:55PM MDT by NWS Denver CO",
+          "headline": "Special Weather Statement issued August 22 at 3:17PM MDT by NWS Denver CO",
           "severity": "Moderate",
           "urgency": "Expected",
-          "expires": "2026-08-22T15:30:00-06:00",
-          "source": "Broader NWS zone COZ040"
-        },
-        {
-          "event": "Special Weather Statement",
-          "headline": "Special Weather Statement issued August 22 at 2:23PM MDT by NWS Denver CO",
-          "severity": "Moderate",
-          "urgency": "Expected",
-          "expires": "2026-08-22T15:15:00-06:00",
+          "expires": "2026-08-22T15:45:00-06:00",
           "source": "Broader NWS zone COZ040"
         }
       ],
       "metrics": {
-        "peak_gust_24h_kt": 45.0,
-        "peak_gust_24h_mph": 51.8,
+        "peak_gust_24h_kt": 37.0,
+        "peak_gust_24h_mph": 42.6,
         "precip_7d_in": 0.42,
         "snow_7d_in": 0.0
       },
@@ -87,7 +79,7 @@
           "temperature": 93,
           "temperatureUnit": "F",
           "shortForecast": "Chance Showers And Thunderstorms",
-          "windSpeed": "9 to 14 mph",
+          "windSpeed": "7 to 14 mph",
           "windDirection": "ESE"
         },
         {
@@ -147,7 +139,7 @@
           "windDirection": "WSW"
         }
       ],
-      "checked_at": "2026-08-22T21:08:37.610056Z",
+      "checked_at": "2026-08-22T21:34:18.981000Z",
       "next_check_minutes": 5
     },
     {
@@ -265,7 +257,7 @@
           "windDirection": "W"
         }
       ],
-      "checked_at": "2026-08-22T21:08:39.144823Z",
+      "checked_at": "2026-08-22T21:34:26.061454Z",
       "next_check_minutes": 15
     }
   ],
