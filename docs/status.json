@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-23T08:03:46.280262Z",
+  "generated_at": "2026-08-23T08:44:34.080777Z",
   "facilities": [
     {
       "id": "den",
@@ -45,9 +45,9 @@
       },
       "alerts": [],
       "metrics": {
-        "peak_gust_24h_kt": 20.0,
-        "peak_gust_24h_mph": 23.0,
-        "precip_7d_in": 0.3,
+        "peak_gust_24h_kt": 16.0,
+        "peak_gust_24h_mph": 18.4,
+        "precip_7d_in": 0.27,
         "snow_7d_in": 0.0
       },
       "forecast": [
@@ -116,7 +116,7 @@
           "windDirection": "NNE"
         }
       ],
-      "checked_at": "2026-08-23T08:03:47.223915Z",
+      "checked_at": "2026-08-23T08:44:34.976404Z",
       "next_check_minutes": 15
     },
     {
@@ -135,13 +135,13 @@
       },
       "reasons": [],
       "metar": {
-        "raw": "METAR KIAD 230652Z 31004KT 10SM FEW006 SCT120 BKN250 19/19 A2983 RMK AO2 SLP098 T01940189 $",
-        "observed": "2026-08-23T07:00:00.000Z",
-        "wind_kt": 4.0,
-        "wind_mph": 4.6,
+        "raw": "METAR KIAD 230752Z 20003KT 10SM FEW012 BKN110 BKN250 19/18 A2983 RMK AO2 SLP098 T01890183 $",
+        "observed": "2026-08-23T08:00:00.000Z",
+        "wind_kt": 3.0,
+        "wind_mph": 3.5,
         "gust_kt": null,
         "gust_mph": null,
-        "temperature_f": 66.9,
+        "temperature_f": 66.0,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
@@ -227,7 +227,7 @@
           "windDirection": "SE"
         }
       ],
-      "checked_at": "2026-08-23T07:44:48.683884Z",
+      "checked_at": "2026-08-23T08:44:36.066299Z",
       "next_check_minutes": 30
     }
   ],
