@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-23T18:19:08.681554Z",
+  "generated_at": "2026-08-23T18:52:30.163026Z",
   "facilities": [
     {
       "id": "den",
@@ -35,9 +35,9 @@
         "flight_category": "VFR"
       },
       "taf": {
-        "raw": "TAF KDEN 231727Z 2318/2424 02008KT P6SM FEW080 FEW140 SCT200 FM232000 02007KT P6SM SCT080 BKN120 TEMPO 2321/2324 VRB20G35KT -TSRA BKN090CB FM240000 15012KT P6SM SCT080 BKN100 PROB30 2400/2403 VRB15G25KT -SHRA FM240500 18011KT P6SM SCT090 BKN120 FM240800 23008KT P6SM FEW090 SCT120 FM241500 30006KT P6SM FEW220 FM241800 01006KT P6SM FEW090 SCT150 TEMPO 2421/2424 VRB15G30KT -TSRA SCT090CB BKN120",
-        "issued": "2026-08-23T17:27:00.000Z",
-        "valid_from": 1787508000,
+        "raw": "TAF KDEN 231833Z 2319/2424 VRB05KT P6SM FEW080 FEW140 SCT200 FM232000 03007KT P6SM SCT080 BKN120 TEMPO 2321/2324 VRB20G35KT -TSRA BKN090CB FM240000 15012KT P6SM SCT080 BKN100 PROB30 2400/2403 VRB15G25KT -SHRA FM240500 18011KT P6SM SCT090 BKN120 FM240800 23008KT P6SM FEW090 SCT120 FM241500 30006KT P6SM FEW220 FM241800 01006KT P6SM FEW090 SCT150 TEMPO 2421/2424 VRB15G30KT -TSRA SCT090CB BKN120",
+        "issued": "2026-08-23T18:33:00.000Z",
+        "valid_from": 1787511600,
         "valid_to": 1787616000,
         "thunder": true,
         "snow": false,
@@ -52,12 +52,12 @@
       },
       "forecast": [
         {
-          "name": "Today",
+          "name": "This Afternoon",
           "temperature": 93,
           "temperatureUnit": "F",
-          "shortForecast": "Mostly Sunny then Chance Showers And Thunderstorms",
-          "windSpeed": "5 to 8 mph",
-          "windDirection": "W"
+          "shortForecast": "Chance Showers And Thunderstorms",
+          "windSpeed": "7 mph",
+          "windDirection": "NNW"
         },
         {
           "name": "Tonight",
@@ -116,7 +116,7 @@
           "windDirection": "SSE"
         }
       ],
-      "checked_at": "2026-08-23T18:19:09.614404Z",
+      "checked_at": "2026-08-23T18:52:35.245661Z",
       "next_check_minutes": 15
     },
     {
@@ -234,7 +234,7 @@
           "windDirection": "SE"
         }
       ],
-      "checked_at": "2026-08-23T18:19:10.944757Z",
+      "checked_at": "2026-08-23T18:52:35.960170Z",
       "next_check_minutes": 15
     }
   ],
