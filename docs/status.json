@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-23T05:47:08.980422Z",
+  "generated_at": "2026-08-23T06:16:22.356180Z",
   "facilities": [
     {
       "id": "den",
@@ -24,13 +24,13 @@
         }
       ],
       "metar": {
-        "raw": "METAR KDEN 230453Z 21014G24KT 10SM FEW080 SCT100 BKN220 24/11 A3024 RMK AO2 PK WND 23026/0423 SLP148 T02440111",
-        "observed": "2026-08-23T05:00:00.000Z",
-        "wind_kt": 14.0,
-        "wind_mph": 16.1,
-        "gust_kt": 24.0,
-        "gust_mph": 27.6,
-        "temperature_f": 75.9,
+        "raw": "METAR KDEN 230553Z 20016G22KT 10SM SCT130 BKN150 BKN220 23/12 A3023 RMK AO2 VIRGA SLP145 T02330122 10250 20217 56010",
+        "observed": "2026-08-23T06:00:00.000Z",
+        "wind_kt": 16.0,
+        "wind_mph": 18.4,
+        "gust_kt": 22.0,
+        "gust_mph": 25.3,
+        "temperature_f": 73.9,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
@@ -45,8 +45,8 @@
       },
       "alerts": [],
       "metrics": {
-        "peak_gust_24h_kt": 24.0,
-        "peak_gust_24h_mph": 27.6,
+        "peak_gust_24h_kt": 22.0,
+        "peak_gust_24h_mph": 25.3,
         "precip_7d_in": 0.42,
         "snow_7d_in": 0.0
       },
@@ -55,8 +55,8 @@
           "name": "Tonight",
           "temperature": 64,
           "temperatureUnit": "F",
-          "shortForecast": "Showers And Thunderstorms Likely then Slight Chance Showers And Thunderstorms",
-          "windSpeed": "8 to 15 mph",
+          "shortForecast": "Chance Showers And Thunderstorms then Slight Chance Showers And Thunderstorms",
+          "windSpeed": "10 mph",
           "windDirection": "S"
         },
         {
@@ -116,7 +116,7 @@
           "windDirection": "NNE"
         }
       ],
-      "checked_at": "2026-08-23T05:47:11.978725Z",
+      "checked_at": "2026-08-23T06:16:23.090168Z",
       "next_check_minutes": 15
     },
     {
@@ -127,28 +127,21 @@
       "latitude": 38.9531,
       "longitude": -77.4565,
       "forecast_zone_name": "VAZ506",
-      "status": "watch",
+      "status": "normal",
       "status_copy": {
-        "label": "WATCH",
-        "summary": "Weather could affect operations if conditions develop as forecast.",
-        "action": "Monitor conditions and prepare staff, equipment, or outdoor operations."
+        "label": "NORMAL",
+        "summary": "No configured weather condition currently suggests an operational change.",
+        "action": "Continue normal operations and routine monitoring."
       },
-      "reasons": [
-        {
-          "level": "watch",
-          "title": "Thunderstorms may affect the facility",
-          "detail": "A thunderstorm signal appears in the next 6 hours in the local or airport forecast.",
-          "action": "Monitor official warnings and your approved lightning procedure. This system does not measure lightning strike distance."
-        }
-      ],
+      "reasons": [],
       "metar": {
-        "raw": "METAR KIAD 230452Z 00000KT 10SM FEW015 SCT075 OVC200 20/19 A2988 RMK AO2 RAE49 SLP116 P0001 T02000189 402670189 $",
-        "observed": "2026-08-23T05:00:00.000Z",
-        "wind_kt": 0.0,
-        "wind_mph": 0.0,
+        "raw": "METAR KIAD 230552Z 16004KT 10SM SCT130 OVC250 19/19 A2984 RMK AO2 SLP102 60012 T01940189 10239 20194 58011 $",
+        "observed": "2026-08-23T06:00:00.000Z",
+        "wind_kt": 4.0,
+        "wind_mph": 4.6,
         "gust_kt": null,
         "gust_mph": null,
-        "temperature_f": 68.0,
+        "temperature_f": 66.9,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
@@ -170,12 +163,12 @@
       },
       "forecast": [
         {
-          "name": "Tonight",
+          "name": "Overnight",
           "temperature": 66,
           "temperatureUnit": "F",
-          "shortForecast": "Chance Showers And Thunderstorms",
-          "windSpeed": "3 mph",
-          "windDirection": "S"
+          "shortForecast": "Scattered Rain Showers",
+          "windSpeed": "2 mph",
+          "windDirection": "SW"
         },
         {
           "name": "Sunday",
@@ -234,8 +227,8 @@
           "windDirection": "SE"
         }
       ],
-      "checked_at": "2026-08-23T05:47:13.919498Z",
-      "next_check_minutes": 15
+      "checked_at": "2026-08-23T06:16:24.464067Z",
+      "next_check_minutes": 30
     }
   ],
   "settings": {
