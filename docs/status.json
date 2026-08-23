@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-23T11:58:50.462160Z",
+  "generated_at": "2026-08-23T12:55:23.425696Z",
   "facilities": [
     {
       "id": "den",
@@ -116,7 +116,7 @@
           "windDirection": "ENE"
         }
       ],
-      "checked_at": "2026-08-23T11:58:51.484670Z",
+      "checked_at": "2026-08-23T12:55:25.168096Z",
       "next_check_minutes": 15
     },
     {
@@ -135,19 +135,19 @@
       },
       "reasons": [],
       "metar": {
-        "raw": "METAR KIAD 231152Z 20005KT 3SM BR BKN002 19/19 A2988 RMK AO2 SLP115 VIS NE-S 2 70012 T01940189 10194 20178 53020 $",
-        "observed": "2026-08-23T12:00:00.000Z",
+        "raw": "SPECI KIAD 231219Z 19005KT 10SM FEW002 FEW250 20/19 A2989 RMK AO2 T02000194 $",
+        "observed": "2026-08-23T12:19:00.000Z",
         "wind_kt": 5.0,
         "wind_mph": 5.8,
         "gust_kt": null,
         "gust_mph": null,
-        "temperature_f": 66.9,
-        "visibility_sm": 3.0,
-        "flight_category": "LIFR"
+        "temperature_f": 68.0,
+        "visibility_sm": 10.0,
+        "flight_category": "VFR"
       },
       "taf": {
-        "raw": "TAF KIAD 231134Z 2312/2418 00000KT 2SM BR FEW002 FEW110 FM231215 29003KT P6SM FEW110 FM231500 30012G20KT P6SM FEW200 FM232200 27009KT P6SM FEW060 FM240500 00000KT P6SM SKC FM241500 28011KT P6SM SKC",
-        "issued": "2026-08-23T11:34:00.000Z",
+        "raw": "TAF KIAD 231202Z 2312/2418 00000KT 3SM BR BKN002 FM231215 29003KT P6SM FEW110 FM231500 30012G20KT P6SM FEW200 FM232200 27009KT P6SM FEW060 FM240500 00000KT P6SM SKC FM241500 28011KT P6SM SKC",
+        "issued": "2026-08-23T12:02:00.000Z",
         "valid_from": 1787486400,
         "valid_to": 1787594400,
         "thunder": false,
@@ -158,7 +158,7 @@
       "metrics": {
         "peak_gust_24h_kt": 18.0,
         "peak_gust_24h_mph": 20.7,
-        "precip_7d_in": 0.04,
+        "precip_7d_in": 0.02,
         "snow_7d_in": 0.0
       },
       "forecast": [
@@ -167,7 +167,7 @@
           "temperature": 83,
           "temperatureUnit": "F",
           "shortForecast": "Sunny",
-          "windSpeed": "3 to 12 mph",
+          "windSpeed": "5 to 12 mph",
           "windDirection": "W"
         },
         {
@@ -227,7 +227,7 @@
           "windDirection": "SE"
         }
       ],
-      "checked_at": "2026-08-23T11:58:52.321777Z",
+      "checked_at": "2026-08-23T12:55:26.367048Z",
       "next_check_minutes": 30
     }
   ],
