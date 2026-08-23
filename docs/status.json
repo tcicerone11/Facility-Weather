@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-23T14:50:39.974949Z",
+  "generated_at": "2026-08-23T15:08:55.776467Z",
   "facilities": [
     {
       "id": "den",
@@ -24,20 +24,20 @@
         }
       ],
       "metar": {
-        "raw": "METAR KDEN 231353Z 25007KT 10SM FEW120 FEW150 SCT220 23/13 A3017 RMK AO2 SLP135 T02330128",
-        "observed": "2026-08-23T14:00:00.000Z",
-        "wind_kt": 7.0,
-        "wind_mph": 8.1,
+        "raw": "METAR KDEN 231453Z 25006KT 10SM FEW090 SCT140 SCT220 26/12 A3018 RMK AO2 SLP134 T02560122 51009",
+        "observed": "2026-08-23T15:00:00.000Z",
+        "wind_kt": 6.0,
+        "wind_mph": 6.9,
         "gust_kt": null,
         "gust_mph": null,
-        "temperature_f": 73.9,
+        "temperature_f": 78.1,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
       "taf": {
-        "raw": "TAF KDEN 231120Z 2312/2418 21009KT P6SM FEW120 SCT150 FM231400 25008KT P6SM FEW100 SCT200 FM231700 33008KT P6SM FEW100 SCT200 FM232000 02007KT P6SM SCT080 BKN120 TEMPO 2321/2324 VRB20G35KT -TSRA BKN090CB FM240000 15012KT P6SM SCT080 BKN100 PROB30 2400/2402 VRB15G25KT -SHRA FM240500 18012KT P6SM SCT090 BKN120 FM240800 23009KT P6SM FEW090 SCT120 FM241500 30006KT P6SM FEW220",
-        "issued": "2026-08-23T11:20:00.000Z",
-        "valid_from": 1787486400,
+        "raw": "TAF KDEN 231451Z 2315/2418 25006KT P6SM FEW100 SCT200 FM231700 33008KT P6SM FEW100 SCT200 FM232000 02007KT P6SM SCT080 BKN120 TEMPO 2321/2324 VRB20G35KT -TSRA BKN090CB FM240000 15012KT P6SM SCT080 BKN100 PROB30 2400/2402 VRB15G25KT -SHRA FM240500 18012KT P6SM SCT090 BKN120 FM240800 23009KT P6SM FEW090 SCT120 FM241500 30006KT P6SM FEW220",
+        "issued": "2026-08-23T14:51:00.000Z",
+        "valid_from": 1787497200,
         "valid_to": 1787594400,
         "thunder": true,
         "snow": false,
@@ -116,7 +116,7 @@
           "windDirection": "SSE"
         }
       ],
-      "checked_at": "2026-08-23T14:50:40.839926Z",
+      "checked_at": "2026-08-23T15:08:58.197580Z",
       "next_check_minutes": 15
     },
     {
@@ -127,28 +127,35 @@
       "latitude": 38.9531,
       "longitude": -77.4565,
       "forecast_zone_name": "VAZ506",
-      "status": "normal",
+      "status": "watch",
       "status_copy": {
-        "label": "NORMAL",
-        "summary": "No configured weather condition currently suggests an operational change.",
-        "action": "Continue normal operations and routine monitoring."
+        "label": "WATCH",
+        "summary": "Weather could affect operations if conditions develop as forecast.",
+        "action": "Monitor conditions and prepare staff, equipment, or outdoor operations."
       },
-      "reasons": [],
+      "reasons": [
+        {
+          "level": "watch",
+          "title": "Thunderstorms may affect the facility",
+          "detail": "A thunderstorm signal appears in the next 6 hours in the local or airport forecast.",
+          "action": "Monitor official warnings and your approved lightning procedure. This system does not measure lightning strike distance."
+        }
+      ],
       "metar": {
-        "raw": "SPECI KIAD 231421Z 29009G18KT 10SM FEW030 24/18 A2989 RMK AO2 T02440178 $",
-        "observed": "2026-08-23T14:21:00.000Z",
-        "wind_kt": 9.0,
-        "wind_mph": 10.4,
-        "gust_kt": 18.0,
-        "gust_mph": 20.7,
-        "temperature_f": 75.9,
+        "raw": "METAR KIAD 231452Z 29012KT 10SM FEW035 26/17 A2990 RMK AO2 SLP121 T02560167 51005 $",
+        "observed": "2026-08-23T15:00:00.000Z",
+        "wind_kt": 12.0,
+        "wind_mph": 13.8,
+        "gust_kt": null,
+        "gust_mph": null,
+        "temperature_f": 78.1,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
       "taf": {
-        "raw": "TAF KIAD 231202Z 2312/2418 00000KT 3SM BR BKN002 FM231215 29003KT P6SM FEW110 FM231500 30012G20KT P6SM FEW200 FM232200 27009KT P6SM FEW060 FM240500 00000KT P6SM SKC FM241500 28011KT P6SM SKC",
-        "issued": "2026-08-23T12:02:00.000Z",
-        "valid_from": 1787486400,
+        "raw": "TAF KIAD 231458Z 2315/2418 30012G18KT P6SM FEW040 FM232200 27009KT P6SM FEW060 FM240500 00000KT P6SM SKC FM241500 28011KT P6SM SKC",
+        "issued": "2026-08-23T14:58:00.000Z",
+        "valid_from": 1787497200,
         "valid_to": 1787594400,
         "thunder": false,
         "snow": false,
@@ -227,8 +234,8 @@
           "windDirection": "SE"
         }
       ],
-      "checked_at": "2026-08-23T14:26:03.498455Z",
-      "next_check_minutes": 30
+      "checked_at": "2026-08-23T15:08:59.795377Z",
+      "next_check_minutes": 15
     }
   ],
   "settings": {
