@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-23T22:56:55.643507Z",
+  "generated_at": "2026-08-23T23:24:50.229593Z",
   "facilities": [
     {
       "id": "den",
@@ -24,13 +24,13 @@
         }
       ],
       "metar": {
-        "raw": "SPECI KDEN 232233Z COR 36009KT 10SM -TSRA BKN100CB BKN140 BKN220 29/09 A3011 RMK AO2 OCNL LTGIC N RAB20 TSB30 TS N MOV SE T02890094",
-        "observed": "2026-08-23T22:33:00.000Z",
-        "wind_kt": 9.0,
-        "wind_mph": 10.4,
+        "raw": "METAR KDEN 232253Z 35013KT 10SM -TSRA FEW046 BKN100CB BKN140 BKN220 22/16 A3015 RMK AO2 OCNL LTGICCG OHD RAB20 TSB30 TS OHD MOV E PRESRR SLP134 P0015 T02220161",
+        "observed": "2026-08-23T23:00:00.000Z",
+        "wind_kt": 13.0,
+        "wind_mph": 15.0,
         "gust_kt": null,
         "gust_mph": null,
-        "temperature_f": 84.0,
+        "temperature_f": 72.0,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
@@ -43,16 +43,7 @@
         "snow": false,
         "freezing_precip": false
       },
-      "alerts": [
-        {
-          "event": "Special Weather Statement",
-          "headline": "Special Weather Statement issued August 23 at 4:28PM MDT by NWS Denver CO",
-          "severity": "Moderate",
-          "urgency": "Expected",
-          "expires": "2026-08-23T17:15:00-06:00",
-          "source": "Exact facility location"
-        }
-      ],
+      "alerts": [],
       "metrics": {
         "peak_gust_24h_kt": 14.0,
         "peak_gust_24h_mph": 16.1,
@@ -125,7 +116,7 @@
           "windDirection": "S"
         }
       ],
-      "checked_at": "2026-08-23T22:56:56.220229Z",
+      "checked_at": "2026-08-23T23:24:51.785201Z",
       "next_check_minutes": 15
     },
     {
@@ -144,12 +135,12 @@
       },
       "reasons": [],
       "metar": {
-        "raw": "METAR KIAD 232152Z 27007KT 10SM FEW075 FEW100 27/11 A2988 RMK AO2 SLP115 T02720106 $",
-        "observed": "2026-08-23T22:00:00.000Z",
-        "wind_kt": 7.0,
-        "wind_mph": 8.1,
-        "gust_kt": null,
-        "gust_mph": null,
+        "raw": "METAR KIAD 232252Z 27008G16KT 10SM FEW075 FEW100 27/11 A2989 RMK AO2 SLP117 T02720111 $",
+        "observed": "2026-08-23T23:00:00.000Z",
+        "wind_kt": 8.0,
+        "wind_mph": 9.2,
+        "gust_kt": 16.0,
+        "gust_mph": 18.4,
         "temperature_f": 81.0,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
@@ -172,19 +163,11 @@
       },
       "forecast": [
         {
-          "name": "This Afternoon",
-          "temperature": 83,
-          "temperatureUnit": "F",
-          "shortForecast": "Slight Chance Showers And Thunderstorms",
-          "windSpeed": "10 mph",
-          "windDirection": "W"
-        },
-        {
           "name": "Tonight",
           "temperature": 59,
           "temperatureUnit": "F",
           "shortForecast": "Mostly Clear",
-          "windSpeed": "1 to 8 mph",
+          "windSpeed": "1 to 7 mph",
           "windDirection": "W"
         },
         {
@@ -234,9 +217,17 @@
           "shortForecast": "Chance Showers And Thunderstorms",
           "windSpeed": "7 mph",
           "windDirection": "S"
+        },
+        {
+          "name": "Thursday",
+          "temperature": 88,
+          "temperatureUnit": "F",
+          "shortForecast": "Slight Chance Showers And Thunderstorms",
+          "windSpeed": "6 to 10 mph",
+          "windDirection": "S"
         }
       ],
-      "checked_at": "2026-08-23T22:38:08.572660Z",
+      "checked_at": "2026-08-23T23:24:53.201309Z",
       "next_check_minutes": 30
     }
   ],
