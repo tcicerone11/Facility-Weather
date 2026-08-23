@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-23T05:13:09.882863Z",
+  "generated_at": "2026-08-23T05:47:08.980422Z",
   "facilities": [
     {
       "id": "den",
@@ -35,10 +35,10 @@
         "flight_category": "VFR"
       },
       "taf": {
-        "raw": "TAF KDEN 230255Z 2303/2406 18008KT P6SM FEW080 BKN110 PROB30 2303/2305 VRB15G25KT -SHRA FM230600 21013KT P6SM FEW100 SCT200 FM231400 24008KT P6SM FEW100 SCT200 FM231700 33008KT P6SM FEW100 SCT200 FM232000 03007KT P6SM SCT080 BKN140 TEMPO 2321/2324 VRB20G35KT -TSRA BKN090CB FM240000 16009KT P6SM SCT080 BKN140 FM240500 21010KT P6SM SCT080 BKN140",
-        "issued": "2026-08-23T02:55:00.000Z",
-        "valid_from": 1787454000,
-        "valid_to": 1787551200,
+        "raw": "TAF KDEN 230534Z 2306/2412 21012KT P6SM BKN100 BKN220 FM231100 24007KT P6SM FEW100 SCT200 FM231700 33008KT P6SM FEW100 SCT200 FM232000 03007KT P6SM SCT080 BKN140 TEMPO 2321/2324 VRB20G35KT -TSRA BKN090CB FM240000 16009KT P6SM SCT080 BKN100 PROB30 2400/2402 VRB15G25KT -SHRA FM240500 20012KT P6SM SCT090 BKN120 FM241100 23009KT P6SM FEW090 SCT120",
+        "issued": "2026-08-23T05:34:00.000Z",
+        "valid_from": 1787464800,
+        "valid_to": 1787572800,
         "thunder": true,
         "snow": false,
         "freezing_precip": false
@@ -55,8 +55,8 @@
           "name": "Tonight",
           "temperature": 64,
           "temperatureUnit": "F",
-          "shortForecast": "Chance Showers And Thunderstorms then Slight Chance Showers And Thunderstorms",
-          "windSpeed": "10 mph",
+          "shortForecast": "Showers And Thunderstorms Likely then Slight Chance Showers And Thunderstorms",
+          "windSpeed": "8 to 15 mph",
           "windDirection": "S"
         },
         {
@@ -116,7 +116,7 @@
           "windDirection": "NNE"
         }
       ],
-      "checked_at": "2026-08-23T05:13:10.547237Z",
+      "checked_at": "2026-08-23T05:47:11.978725Z",
       "next_check_minutes": 15
     },
     {
@@ -153,11 +153,11 @@
         "flight_category": "VFR"
       },
       "taf": {
-        "raw": "TAF KIAD 230247Z 2303/2406 11008KT 6SM -SHRA VCTS BKN015CB OVC035 FM230400 22004KT 6SM -SHRA SCT025 BKN060 FM230600 22004KT P6SM SCT025 BKN080 FM231400 30012G20KT P6SM FEW200 FM232300 27007KT P6SM FEW060",
-        "issued": "2026-08-23T02:47:00.000Z",
-        "valid_from": 1787454000,
-        "valid_to": 1787551200,
-        "thunder": true,
+        "raw": "TAF KIAD 230530Z 2306/2412 00000KT P6SM FEW015 SCT080 PROB30 2306/2307 6SM -SHRA OVC015 FM230800 00000KT P6SM BKN060 BKN250 FM231500 30012G20KT P6SM FEW200 FM232200 27009KT P6SM FEW060 FM240500 00000KT P6SM SKC",
+        "issued": "2026-08-23T05:30:00.000Z",
+        "valid_from": 1787464800,
+        "valid_to": 1787572800,
+        "thunder": false,
         "snow": false,
         "freezing_precip": false
       },
@@ -170,11 +170,11 @@
       },
       "forecast": [
         {
-          "name": "Overnight",
+          "name": "Tonight",
           "temperature": 66,
           "temperatureUnit": "F",
-          "shortForecast": "Scattered Showers And Thunderstorms",
-          "windSpeed": "2 mph",
+          "shortForecast": "Chance Showers And Thunderstorms",
+          "windSpeed": "3 mph",
           "windDirection": "S"
         },
         {
@@ -234,7 +234,7 @@
           "windDirection": "SE"
         }
       ],
-      "checked_at": "2026-08-23T05:13:23.050030Z",
+      "checked_at": "2026-08-23T05:47:13.919498Z",
       "next_check_minutes": 15
     }
   ],
