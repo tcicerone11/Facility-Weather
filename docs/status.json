@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-23T10:01:58.806688Z",
+  "generated_at": "2026-08-23T10:34:44.211581Z",
   "facilities": [
     {
       "id": "den",
@@ -116,7 +116,7 @@
           "windDirection": "ENE"
         }
       ],
-      "checked_at": "2026-08-23T10:01:59.772862Z",
+      "checked_at": "2026-08-23T10:34:46.697704Z",
       "next_check_minutes": 15
     },
     {
@@ -135,13 +135,13 @@
       },
       "reasons": [],
       "metar": {
-        "raw": "METAR KIAD 230852Z 00000KT 10SM FEW012 BKN130 BKN250 19/18 A2982 RMK AO2 SLP095 T01890183 56007 $",
-        "observed": "2026-08-23T09:00:00.000Z",
+        "raw": "METAR KIAD 230952Z 00000KT 10SM FEW012 SCT130 SCT250 18/18 A2983 RMK AO2 SLP099 T01830178 $",
+        "observed": "2026-08-23T10:00:00.000Z",
         "wind_kt": 0.0,
         "wind_mph": 0.0,
         "gust_kt": null,
         "gust_mph": null,
-        "temperature_f": 66.0,
+        "temperature_f": 64.9,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
@@ -163,15 +163,7 @@
       },
       "forecast": [
         {
-          "name": "Overnight",
-          "temperature": 66,
-          "temperatureUnit": "F",
-          "shortForecast": "Mostly Cloudy",
-          "windSpeed": "2 mph",
-          "windDirection": "SW"
-        },
-        {
-          "name": "Sunday",
+          "name": "Today",
           "temperature": 83,
           "temperatureUnit": "F",
           "shortForecast": "Sunny",
@@ -179,7 +171,7 @@
           "windDirection": "W"
         },
         {
-          "name": "Sunday Night",
+          "name": "Tonight",
           "temperature": 60,
           "temperatureUnit": "F",
           "shortForecast": "Clear",
@@ -225,9 +217,17 @@
           "shortForecast": "Mostly Sunny",
           "windSpeed": "0 to 6 mph",
           "windDirection": "SE"
+        },
+        {
+          "name": "Wednesday Night",
+          "temperature": 67,
+          "temperatureUnit": "F",
+          "shortForecast": "Partly Cloudy then Slight Chance Showers And Thunderstorms",
+          "windSpeed": "7 mph",
+          "windDirection": "SE"
         }
       ],
-      "checked_at": "2026-08-23T09:44:15.136070Z",
+      "checked_at": "2026-08-23T10:34:48.147073Z",
       "next_check_minutes": 30
     }
   ],
