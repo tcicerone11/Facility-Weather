@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-23T21:51:28.118840Z",
+  "generated_at": "2026-08-23T22:10:32.707689Z",
   "facilities": [
     {
       "id": "den",
@@ -24,13 +24,13 @@
         }
       ],
       "metar": {
-        "raw": "METAR KDEN 232153Z 08007KT 10SM SCT100 SCT140 BKN220 34/07 A3011 RMK AO2 SLP099 T03390067 58021",
+        "raw": "METAR KDEN 232153Z COR 00000KT 10SM BKN100 BKN140 BKN220 33/07 A3009 RMK AO2 VIRGA SLP097 T03280067",
         "observed": "2026-08-23T22:00:00.000Z",
-        "wind_kt": 7.0,
-        "wind_mph": 8.1,
+        "wind_kt": 0.0,
+        "wind_mph": 0.0,
         "gust_kt": null,
         "gust_mph": null,
-        "temperature_f": 93.0,
+        "temperature_f": 91.0,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
@@ -116,7 +116,7 @@
           "windDirection": "S"
         }
       ],
-      "checked_at": "2026-08-23T21:51:29.350800Z",
+      "checked_at": "2026-08-23T22:10:33.711219Z",
       "next_check_minutes": 15
     },
     {
@@ -142,13 +142,13 @@
         }
       ],
       "metar": {
-        "raw": "METAR KIAD 232052Z 27011G21KT 10SM FEW075 FEW095 29/11 A2987 RMK AO2 SLP111 T02890111 56006 $",
-        "observed": "2026-08-23T21:00:00.000Z",
-        "wind_kt": 11.0,
-        "wind_mph": 12.7,
-        "gust_kt": 21.0,
-        "gust_mph": 24.2,
-        "temperature_f": 84.0,
+        "raw": "METAR KIAD 232152Z 27007KT 10SM FEW075 FEW100 27/11 A2988 RMK AO2 SLP115 T02720106 $",
+        "observed": "2026-08-23T22:00:00.000Z",
+        "wind_kt": 7.0,
+        "wind_mph": 8.1,
+        "gust_kt": null,
+        "gust_mph": null,
+        "temperature_f": 81.0,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
@@ -163,20 +163,12 @@
       },
       "alerts": [],
       "metrics": {
-        "peak_gust_24h_kt": 21.0,
-        "peak_gust_24h_mph": 24.2,
+        "peak_gust_24h_kt": 18.0,
+        "peak_gust_24h_mph": 20.7,
         "precip_7d_in": 0.0,
         "snow_7d_in": 0.0
       },
       "forecast": [
-        {
-          "name": "This Afternoon",
-          "temperature": 83,
-          "temperatureUnit": "F",
-          "shortForecast": "Slight Chance Showers And Thunderstorms",
-          "windSpeed": "10 mph",
-          "windDirection": "W"
-        },
         {
           "name": "Tonight",
           "temperature": 59,
@@ -232,9 +224,17 @@
           "shortForecast": "Chance Showers And Thunderstorms",
           "windSpeed": "7 mph",
           "windDirection": "S"
+        },
+        {
+          "name": "Thursday",
+          "temperature": 88,
+          "temperatureUnit": "F",
+          "shortForecast": "Slight Chance Showers And Thunderstorms",
+          "windSpeed": "6 to 10 mph",
+          "windDirection": "S"
         }
       ],
-      "checked_at": "2026-08-23T21:51:31.564438Z",
+      "checked_at": "2026-08-23T22:10:37.513282Z",
       "next_check_minutes": 15
     }
   ],
