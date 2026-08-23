@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-23T22:10:32.707689Z",
+  "generated_at": "2026-08-23T22:38:06.079089Z",
   "facilities": [
     {
       "id": "den",
@@ -24,13 +24,13 @@
         }
       ],
       "metar": {
-        "raw": "METAR KDEN 232153Z COR 00000KT 10SM BKN100 BKN140 BKN220 33/07 A3009 RMK AO2 VIRGA SLP097 T03280067",
-        "observed": "2026-08-23T22:00:00.000Z",
-        "wind_kt": 0.0,
-        "wind_mph": 0.0,
+        "raw": "SPECI KDEN 232233Z 36009KT 10SM -TSRA BKN100CB BKN140 BKN220 29/09 A3011 RMK AO2 OCNL LTGIC N RAB20 TSB30 TS N MOVS E T02890094",
+        "observed": "2026-08-23T22:33:00.000Z",
+        "wind_kt": 9.0,
+        "wind_mph": 10.4,
         "gust_kt": null,
         "gust_mph": null,
-        "temperature_f": 91.0,
+        "temperature_f": 84.0,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
@@ -43,7 +43,16 @@
         "snow": false,
         "freezing_precip": false
       },
-      "alerts": [],
+      "alerts": [
+        {
+          "event": "Special Weather Statement",
+          "headline": "Special Weather Statement issued August 23 at 4:28PM MDT by NWS Denver CO",
+          "severity": "Moderate",
+          "urgency": "Expected",
+          "expires": "2026-08-23T17:15:00-06:00",
+          "source": "Exact facility location"
+        }
+      ],
       "metrics": {
         "peak_gust_24h_kt": 14.0,
         "peak_gust_24h_mph": 16.1,
@@ -116,7 +125,7 @@
           "windDirection": "S"
         }
       ],
-      "checked_at": "2026-08-23T22:10:33.711219Z",
+      "checked_at": "2026-08-23T22:38:07.487734Z",
       "next_check_minutes": 15
     },
     {
@@ -127,20 +136,13 @@
       "latitude": 38.9531,
       "longitude": -77.4565,
       "forecast_zone_name": "VAZ506",
-      "status": "watch",
+      "status": "normal",
       "status_copy": {
-        "label": "WATCH",
-        "summary": "Weather could affect operations if conditions develop as forecast.",
-        "action": "Monitor conditions and prepare staff, equipment, or outdoor operations."
+        "label": "NORMAL",
+        "summary": "No configured weather condition currently suggests an operational change.",
+        "action": "Continue normal operations and routine monitoring."
       },
-      "reasons": [
-        {
-          "level": "watch",
-          "title": "Thunderstorms may affect the facility",
-          "detail": "A thunderstorm signal appears in the next 6 hours in the local or airport forecast.",
-          "action": "Monitor official warnings and your approved lightning procedure. This system does not measure lightning strike distance."
-        }
-      ],
+      "reasons": [],
       "metar": {
         "raw": "METAR KIAD 232152Z 27007KT 10SM FEW075 FEW100 27/11 A2988 RMK AO2 SLP115 T02720106 $",
         "observed": "2026-08-23T22:00:00.000Z",
@@ -169,6 +171,14 @@
         "snow_7d_in": 0.0
       },
       "forecast": [
+        {
+          "name": "This Afternoon",
+          "temperature": 83,
+          "temperatureUnit": "F",
+          "shortForecast": "Slight Chance Showers And Thunderstorms",
+          "windSpeed": "10 mph",
+          "windDirection": "W"
+        },
         {
           "name": "Tonight",
           "temperature": 59,
@@ -224,18 +234,10 @@
           "shortForecast": "Chance Showers And Thunderstorms",
           "windSpeed": "7 mph",
           "windDirection": "S"
-        },
-        {
-          "name": "Thursday",
-          "temperature": 88,
-          "temperatureUnit": "F",
-          "shortForecast": "Slight Chance Showers And Thunderstorms",
-          "windSpeed": "6 to 10 mph",
-          "windDirection": "S"
         }
       ],
-      "checked_at": "2026-08-23T22:10:37.513282Z",
-      "next_check_minutes": 15
+      "checked_at": "2026-08-23T22:38:08.572660Z",
+      "next_check_minutes": 30
     }
   ],
   "settings": {
