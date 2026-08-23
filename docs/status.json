@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-23T18:52:30.163026Z",
+  "generated_at": "2026-08-23T19:15:57.821631Z",
   "facilities": [
     {
       "id": "den",
@@ -24,13 +24,13 @@
         }
       ],
       "metar": {
-        "raw": "METAR KDEN 231753Z 00000KT 10SM FEW080 SCT140 BKN220 30/08 A3018 RMK AO2 SLP127 T03000083 10306 20200 50000",
-        "observed": "2026-08-23T18:00:00.000Z",
-        "wind_kt": 0.0,
-        "wind_mph": 0.0,
+        "raw": "METAR KDEN 231853Z 15006KT 10SM FEW100 SCT140 BKN220 32/08 A3016 RMK AO2 SLP118 T03170083",
+        "observed": "2026-08-23T19:00:00.000Z",
+        "wind_kt": 6.0,
+        "wind_mph": 6.9,
         "gust_kt": null,
         "gust_mph": null,
-        "temperature_f": 86.0,
+        "temperature_f": 89.1,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
@@ -45,19 +45,19 @@
       },
       "alerts": [],
       "metrics": {
-        "peak_gust_24h_kt": 16.0,
-        "peak_gust_24h_mph": 18.4,
-        "precip_7d_in": 0.27,
+        "peak_gust_24h_kt": 14.0,
+        "peak_gust_24h_mph": 16.1,
+        "precip_7d_in": 0.14,
         "snow_7d_in": 0.0
       },
       "forecast": [
         {
-          "name": "This Afternoon",
+          "name": "Today",
           "temperature": 93,
           "temperatureUnit": "F",
-          "shortForecast": "Chance Showers And Thunderstorms",
+          "shortForecast": "Mostly Sunny then Chance Showers And Thunderstorms",
           "windSpeed": "7 mph",
-          "windDirection": "NNW"
+          "windDirection": "NW"
         },
         {
           "name": "Tonight",
@@ -116,7 +116,7 @@
           "windDirection": "SSE"
         }
       ],
-      "checked_at": "2026-08-23T18:52:35.245661Z",
+      "checked_at": "2026-08-23T19:15:58.730411Z",
       "next_check_minutes": 15
     },
     {
@@ -142,13 +142,13 @@
         }
       ],
       "metar": {
-        "raw": "METAR KIAD 231752Z 26009KT 10SM BKN055 BKN070 27/15 A2989 RMK AO2 SLP118 T02720150 10283 20194 58003 $",
-        "observed": "2026-08-23T18:00:00.000Z",
+        "raw": "METAR KIAD 231852Z 25009G17KT 10SM FEW060 FEW210 29/14 A2987 RMK AO2 SLP112 T02890139 $",
+        "observed": "2026-08-23T19:00:00.000Z",
         "wind_kt": 9.0,
         "wind_mph": 10.4,
-        "gust_kt": null,
-        "gust_mph": null,
-        "temperature_f": 81.0,
+        "gust_kt": 17.0,
+        "gust_mph": 19.6,
+        "temperature_f": 84.0,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
@@ -179,7 +179,7 @@
         },
         {
           "name": "Tonight",
-          "temperature": 60,
+          "temperature": 59,
           "temperatureUnit": "F",
           "shortForecast": "Mostly Clear",
           "windSpeed": "1 to 8 mph",
@@ -187,7 +187,7 @@
         },
         {
           "name": "Monday",
-          "temperature": 82,
+          "temperature": 83,
           "temperatureUnit": "F",
           "shortForecast": "Sunny",
           "windSpeed": "2 to 9 mph",
@@ -197,8 +197,8 @@
           "name": "Monday Night",
           "temperature": 58,
           "temperatureUnit": "F",
-          "shortForecast": "Clear",
-          "windSpeed": "2 to 9 mph",
+          "shortForecast": "Mostly Clear",
+          "windSpeed": "1 to 8 mph",
           "windDirection": "NW"
         },
         {
@@ -206,7 +206,7 @@
           "temperature": 84,
           "temperatureUnit": "F",
           "shortForecast": "Sunny",
-          "windSpeed": "3 to 7 mph",
+          "windSpeed": "2 to 8 mph",
           "windDirection": "NW"
         },
         {
@@ -214,27 +214,27 @@
           "temperature": 61,
           "temperatureUnit": "F",
           "shortForecast": "Mostly Clear",
-          "windSpeed": "0 to 5 mph",
+          "windSpeed": "0 to 3 mph",
           "windDirection": "NW"
         },
         {
           "name": "Wednesday",
-          "temperature": 87,
+          "temperature": 88,
           "temperatureUnit": "F",
           "shortForecast": "Mostly Sunny",
-          "windSpeed": "0 to 6 mph",
+          "windSpeed": "0 to 7 mph",
           "windDirection": "SE"
         },
         {
           "name": "Wednesday Night",
-          "temperature": 67,
+          "temperature": 68,
           "temperatureUnit": "F",
-          "shortForecast": "Partly Cloudy then Slight Chance Showers And Thunderstorms",
+          "shortForecast": "Chance Showers And Thunderstorms",
           "windSpeed": "7 mph",
-          "windDirection": "SE"
+          "windDirection": "S"
         }
       ],
-      "checked_at": "2026-08-23T18:52:35.960170Z",
+      "checked_at": "2026-08-23T19:16:01.018243Z",
       "next_check_minutes": 15
     }
   ],
