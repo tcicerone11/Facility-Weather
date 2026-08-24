@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24T23:28:46.998214Z",
+  "generated_at": "2026-08-24T23:50:00.284569Z",
   "facilities": [
     {
       "id": "den",
@@ -65,7 +65,7 @@
           "temperature": 93,
           "temperatureUnit": "F",
           "shortForecast": "Chance Showers And Thunderstorms",
-          "windSpeed": "6 to 10 mph",
+          "windSpeed": "7 to 10 mph",
           "windDirection": "NNE"
         },
         {
@@ -125,7 +125,7 @@
           "windDirection": "S"
         }
       ],
-      "checked_at": "2026-08-24T23:28:48.815313Z",
+      "checked_at": "2026-08-24T23:50:01.866991Z",
       "next_check_minutes": 15
     },
     {
