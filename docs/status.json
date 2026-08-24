@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24T02:54:21.020690Z",
+  "generated_at": "2026-08-24T03:51:33.776632Z",
   "facilities": [
     {
       "id": "den",
@@ -24,10 +24,10 @@
         }
       ],
       "metar": {
-        "raw": "METAR KDEN 240153Z COR 15011KT 10SM FEW070 BKN110 BKN150 BKN220 21/13 A3017 RMK AO2 SLP136 T02060133",
-        "observed": "2026-08-24T02:00:00.000Z",
-        "wind_kt": 11.0,
-        "wind_mph": 12.7,
+        "raw": "METAR KDEN 240253Z 15014KT 10SM BKN110 BKN150 BKN220 21/13 A3020 RMK AO2 SLP143 60000 T02060128 53024",
+        "observed": "2026-08-24T03:00:00.000Z",
+        "wind_kt": 14.0,
+        "wind_mph": 16.1,
         "gust_kt": null,
         "gust_mph": null,
         "temperature_f": 69.1,
@@ -116,7 +116,7 @@
           "windDirection": "NW"
         }
       ],
-      "checked_at": "2026-08-24T02:54:21.633852Z",
+      "checked_at": "2026-08-24T03:51:35.412321Z",
       "next_check_minutes": 15
     },
     {
@@ -135,20 +135,20 @@
       },
       "reasons": [],
       "metar": {
-        "raw": "METAR KIAD 240152Z 00000KT 10SM FEW100 18/14 A2994 RMK AO2 SLP137 T01830144 $",
-        "observed": "2026-08-24T02:00:00.000Z",
-        "wind_kt": 0.0,
-        "wind_mph": 0.0,
+        "raw": "METAR KIAD 240252Z 27004KT 10SM FEW100 21/13 A2994 RMK AO2 SLP136 T02110128 51013 $",
+        "observed": "2026-08-24T03:00:00.000Z",
+        "wind_kt": 4.0,
+        "wind_mph": 4.6,
         "gust_kt": null,
         "gust_mph": null,
-        "temperature_f": 64.9,
+        "temperature_f": 70.0,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
       "taf": {
-        "raw": "TAF KIAD 232338Z 2400/2506 27008G16KT P6SM FEW080 FEW100 FM240300 25003KT P6SM SKC FM241500 28011KT P6SM FEW060",
-        "issued": "2026-08-23T23:38:00.000Z",
-        "valid_from": 1787529600,
+        "raw": "TAF KIAD 240256Z 2403/2506 27003KT P6SM FEW100 FM240500 24003KT P6SM SKC FM241500 28011KT P6SM FEW060",
+        "issued": "2026-08-24T02:56:00.000Z",
+        "valid_from": 1787540400,
         "valid_to": 1787637600,
         "thunder": false,
         "snow": false,
@@ -156,8 +156,8 @@
       },
       "alerts": [],
       "metrics": {
-        "peak_gust_24h_kt": 17.0,
-        "peak_gust_24h_mph": 19.6,
+        "peak_gust_24h_kt": 16.0,
+        "peak_gust_24h_mph": 18.4,
         "precip_7d_in": 0.0,
         "snow_7d_in": 0.0
       },
@@ -227,7 +227,7 @@
           "windDirection": "S"
         }
       ],
-      "checked_at": "2026-08-24T02:54:22.314773Z",
+      "checked_at": "2026-08-24T03:51:37.239085Z",
       "next_check_minutes": 30
     }
   ],
