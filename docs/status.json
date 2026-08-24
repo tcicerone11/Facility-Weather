@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24T11:45:10.809074Z",
+  "generated_at": "2026-08-24T12:15:53.216175Z",
   "facilities": [
     {
       "id": "den",
@@ -24,13 +24,13 @@
         }
       ],
       "metar": {
-        "raw": "METAR KDEN 241053Z 25009KT 10SM SCT220 18/11 A3016 RMK AO2 SLP140 T01780106",
-        "observed": "2026-08-24T11:00:00.000Z",
-        "wind_kt": 9.0,
-        "wind_mph": 10.4,
+        "raw": "METAR KDEN 241153Z 24005KT 10SM FEW150 SCT220 17/11 A3016 RMK AO2 SLP143 70024 T01720106 10206 20172 53005",
+        "observed": "2026-08-24T12:00:00.000Z",
+        "wind_kt": 5.0,
+        "wind_mph": 5.8,
         "gust_kt": null,
         "gust_mph": null,
-        "temperature_f": 64.0,
+        "temperature_f": 63.0,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
@@ -116,7 +116,7 @@
           "windDirection": "ESE"
         }
       ],
-      "checked_at": "2026-08-24T11:45:13.683531Z",
+      "checked_at": "2026-08-24T12:15:54.241678Z",
       "next_check_minutes": 15
     },
     {
@@ -135,13 +135,13 @@
       },
       "reasons": [],
       "metar": {
-        "raw": "METAR KIAD 241052Z 00000KT 10SM BKN120 18/13 A2998 RMK AO2 SLP149 T01780133 $",
-        "observed": "2026-08-24T11:00:00.000Z",
+        "raw": "METAR KIAD 241152Z 00000KT 10SM BKN100 20/13 A2998 RMK AO2 SLP149 T02000133 10200 20150 51016",
+        "observed": "2026-08-24T12:00:00.000Z",
         "wind_kt": 0.0,
         "wind_mph": 0.0,
         "gust_kt": null,
         "gust_mph": null,
-        "temperature_f": 64.0,
+        "temperature_f": 68.0,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
@@ -227,7 +227,7 @@
           "windDirection": "S"
         }
       ],
-      "checked_at": "2026-08-24T11:45:16.141333Z",
+      "checked_at": "2026-08-24T12:15:55.321196Z",
       "next_check_minutes": 30
     }
   ],
