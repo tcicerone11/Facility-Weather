@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24T18:03:20.724694Z",
+  "generated_at": "2026-08-24T18:54:59.840335Z",
   "facilities": [
     {
       "id": "den",
@@ -116,7 +116,7 @@
           "windDirection": "SSW"
         }
       ],
-      "checked_at": "2026-08-24T18:03:39.845395Z",
+      "checked_at": "2026-08-24T18:55:01.131788Z",
       "next_check_minutes": 15
     },
     {
@@ -135,13 +135,13 @@
       },
       "reasons": [],
       "metar": {
-        "raw": "METAR KIAD 241652Z VRB05KT 10SM SCT055 26/14 A2997 RMK AO2 SLP146 T02560139",
-        "observed": "2026-08-24T17:00:00.000Z",
+        "raw": "METAR KIAD 241752Z VRB05KT 10SM SCT055 27/14 A2996 RMK AO2 SLP142 T02720144 10272 20189 58007",
+        "observed": "2026-08-24T18:00:00.000Z",
         "wind_kt": 5.0,
         "wind_mph": 5.8,
         "gust_kt": null,
         "gust_mph": null,
-        "temperature_f": 78.1,
+        "temperature_f": 81.0,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
@@ -158,21 +158,21 @@
       "metrics": {
         "peak_gust_24h_kt": 14.0,
         "peak_gust_24h_mph": 16.1,
-        "precip_7d_in": 0.07,
+        "precip_7d_in": 0.2,
         "snow_7d_in": 0.0
       },
       "forecast": [
         {
           "name": "This Afternoon",
-          "temperature": 83,
+          "temperature": 81,
           "temperatureUnit": "F",
-          "shortForecast": "Sunny",
+          "shortForecast": "Partly Sunny",
           "windSpeed": "9 mph",
           "windDirection": "W"
         },
         {
           "name": "Tonight",
-          "temperature": 58,
+          "temperature": 59,
           "temperatureUnit": "F",
           "shortForecast": "Mostly Clear",
           "windSpeed": "1 to 8 mph",
@@ -180,54 +180,54 @@
         },
         {
           "name": "Tuesday",
-          "temperature": 84,
+          "temperature": 85,
           "temperatureUnit": "F",
           "shortForecast": "Sunny",
-          "windSpeed": "2 to 7 mph",
-          "windDirection": "W"
+          "windSpeed": "2 to 8 mph",
+          "windDirection": "NW"
         },
         {
           "name": "Tuesday Night",
           "temperature": 61,
           "temperatureUnit": "F",
-          "shortForecast": "Mostly Clear",
-          "windSpeed": "0 to 5 mph",
+          "shortForecast": "Partly Cloudy",
+          "windSpeed": "0 to 6 mph",
           "windDirection": "NW"
         },
         {
           "name": "Wednesday",
-          "temperature": 87,
+          "temperature": 88,
           "temperatureUnit": "F",
           "shortForecast": "Mostly Sunny",
-          "windSpeed": "0 to 8 mph",
-          "windDirection": "SE"
+          "windSpeed": "0 to 9 mph",
+          "windDirection": "S"
         },
         {
           "name": "Wednesday Night",
-          "temperature": 68,
+          "temperature": 69,
           "temperatureUnit": "F",
-          "shortForecast": "Mostly Cloudy then Chance Showers And Thunderstorms",
-          "windSpeed": "8 mph",
+          "shortForecast": "Chance Showers And Thunderstorms",
+          "windSpeed": "9 mph",
           "windDirection": "S"
         },
         {
           "name": "Thursday",
           "temperature": 87,
           "temperatureUnit": "F",
-          "shortForecast": "Showers And Thunderstorms Likely",
-          "windSpeed": "9 mph",
+          "shortForecast": "Showers And Thunderstorms",
+          "windSpeed": "8 mph",
           "windDirection": "S"
         },
         {
           "name": "Thursday Night",
           "temperature": 68,
           "temperatureUnit": "F",
-          "shortForecast": "Showers And Thunderstorms Likely",
-          "windSpeed": "1 to 7 mph",
-          "windDirection": "S"
+          "shortForecast": "Showers And Thunderstorms then Chance Showers And Thunderstorms",
+          "windSpeed": "1 to 6 mph",
+          "windDirection": "SW"
         }
       ],
-      "checked_at": "2026-08-24T17:38:25.527600Z",
+      "checked_at": "2026-08-24T18:55:04.219459Z",
       "next_check_minutes": 30
     }
   ],
