@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24T13:17:29.116170Z",
+  "generated_at": "2026-08-24T14:06:56.633881Z",
   "facilities": [
     {
       "id": "den",
@@ -24,13 +24,13 @@
         }
       ],
       "metar": {
-        "raw": "METAR KDEN 241253Z 23009KT 10SM FEW100 FEW150 SCT220 18/10 A3019 RMK AO2 SLP154 T01780100",
-        "observed": "2026-08-24T13:00:00.000Z",
-        "wind_kt": 9.0,
-        "wind_mph": 10.4,
+        "raw": "METAR KDEN 241353Z 24007KT 10SM FEW120 FEW150 SCT220 21/10 A3020 RMK AO2 SLP152 T02110100",
+        "observed": "2026-08-24T14:00:00.000Z",
+        "wind_kt": 7.0,
+        "wind_mph": 8.1,
         "gust_kt": null,
         "gust_mph": null,
-        "temperature_f": 64.0,
+        "temperature_f": 70.0,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
@@ -116,7 +116,7 @@
           "windDirection": "SSW"
         }
       ],
-      "checked_at": "2026-08-24T13:17:29.871468Z",
+      "checked_at": "2026-08-24T14:06:58.128732Z",
       "next_check_minutes": 15
     },
     {
@@ -135,13 +135,13 @@
       },
       "reasons": [],
       "metar": {
-        "raw": "METAR KIAD 241252Z 00000KT 10SM FEW110 22/14 A2998 RMK AO2 SLP150 T02170139",
-        "observed": "2026-08-24T13:00:00.000Z",
+        "raw": "METAR KIAD 241352Z 00000KT 10SM FEW250 23/14 A2998 RMK AO2 SLP150 T02330144",
+        "observed": "2026-08-24T14:00:00.000Z",
         "wind_kt": 0.0,
         "wind_mph": 0.0,
         "gust_kt": null,
         "gust_mph": null,
-        "temperature_f": 71.1,
+        "temperature_f": 73.9,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
@@ -167,7 +167,7 @@
           "temperature": 83,
           "temperatureUnit": "F",
           "shortForecast": "Sunny",
-          "windSpeed": "1 to 9 mph",
+          "windSpeed": "2 to 9 mph",
           "windDirection": "W"
         },
         {
@@ -227,7 +227,7 @@
           "windDirection": "S"
         }
       ],
-      "checked_at": "2026-08-24T13:17:31.036561Z",
+      "checked_at": "2026-08-24T14:06:59.015068Z",
       "next_check_minutes": 30
     }
   ],
