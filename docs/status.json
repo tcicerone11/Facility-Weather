@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24T20:33:11.718737Z",
+  "generated_at": "2026-08-24T21:02:22.414474Z",
   "facilities": [
     {
       "id": "den",
@@ -24,20 +24,20 @@
         }
       ],
       "metar": {
-        "raw": "METAR KDEN 241953Z VRB04KT 10SM FEW090 SCT150 SCT220 32/06 A3020 RMK AO2 SLP133 T03220061",
-        "observed": "2026-08-24T20:00:00.000Z",
-        "wind_kt": 4.0,
-        "wind_mph": 4.6,
+        "raw": "METAR KDEN 242053Z 33008KT 10SM SCT090 BKN140 BKN220 32/06 A3019 RMK AO2 SLP133 T03170061 56006",
+        "observed": "2026-08-24T21:00:00.000Z",
+        "wind_kt": 8.0,
+        "wind_mph": 9.2,
         "gust_kt": null,
         "gust_mph": null,
-        "temperature_f": 90.0,
+        "temperature_f": 89.1,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
       "taf": {
-        "raw": "TAF KDEN 241724Z 2418/2524 04008KT P6SM FEW090 SCT150 FM242100 05009KT P6SM FEW090 BKN140 TEMPO 2422/2501 VRB20G35KT -TSRA BKN090CB BKN120 FM250100 13009KT P6SM SCT090 BKN120 PROB30 2501/2503 VRB15G25KT -SHRA BKN090 FM250300 22009KT P6SM FEW090 SCT120 BKN150 FM250900 25007KT P6SM FEW100 FEW200 FM251600 32007KT P6SM FEW110 SCT200 FM252100 03007KT P6SM SCT100 SCT150 TEMPO 2522/2524 VRB15G30KT -TSRA BKN090CB BKN120",
-        "issued": "2026-08-24T17:24:00.000Z",
-        "valid_from": 1787594400,
+        "raw": "TAF KDEN 242055Z 2421/2524 05009KT P6SM FEW090 BKN140 TEMPO 2422/2501 VRB20G35KT -TSRA BKN090CB BKN120 FM250100 13009KT P6SM SCT090 BKN120 PROB30 2501/2503 VRB15G25KT -SHRA BKN090 FM250300 22009KT P6SM FEW090 SCT120 BKN150 FM250900 25007KT P6SM FEW100 FEW200 FM251600 32007KT P6SM FEW110 SCT200 FM252100 03007KT P6SM SCT100 SCT150 TEMPO 2522/2524 VRB15G30KT -TSRA BKN090CB BKN120",
+        "issued": "2026-08-24T20:55:00.000Z",
+        "valid_from": 1787605200,
         "valid_to": 1787702400,
         "thunder": true,
         "snow": false,
@@ -116,7 +116,7 @@
           "windDirection": "S"
         }
       ],
-      "checked_at": "2026-08-24T20:33:12.745270Z",
+      "checked_at": "2026-08-24T21:02:24.054155Z",
       "next_check_minutes": 15
     },
     {
