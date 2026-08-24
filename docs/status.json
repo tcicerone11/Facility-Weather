@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24T16:17:31.140668Z",
+  "generated_at": "2026-08-24T17:00:13.926769Z",
   "facilities": [
     {
       "id": "den",
@@ -116,7 +116,7 @@
           "windDirection": "SSW"
         }
       ],
-      "checked_at": "2026-08-24T16:17:32.136412Z",
+      "checked_at": "2026-08-24T17:00:18.081611Z",
       "next_check_minutes": 15
     },
     {
@@ -135,13 +135,13 @@
       },
       "reasons": [],
       "metar": {
-        "raw": "METAR KIAD 241552Z VRB04KT 10SM FEW030 FEW055 26/14 A2997 RMK AO2 SLP146 T02610139",
-        "observed": "2026-08-24T16:00:00.000Z",
-        "wind_kt": 4.0,
-        "wind_mph": 4.6,
+        "raw": "METAR KIAD 241652Z VRB05KT 10SM SCT055 26/14 A2997 RMK AO2 SLP146 T02560139",
+        "observed": "2026-08-24T17:00:00.000Z",
+        "wind_kt": 5.0,
+        "wind_mph": 5.8,
         "gust_kt": null,
         "gust_mph": null,
-        "temperature_f": 79.0,
+        "temperature_f": 78.1,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
@@ -163,11 +163,11 @@
       },
       "forecast": [
         {
-          "name": "Today",
+          "name": "This Afternoon",
           "temperature": 83,
           "temperatureUnit": "F",
           "shortForecast": "Sunny",
-          "windSpeed": "5 to 9 mph",
+          "windSpeed": "9 mph",
           "windDirection": "W"
         },
         {
@@ -227,7 +227,7 @@
           "windDirection": "S"
         }
       ],
-      "checked_at": "2026-08-24T16:17:33.343230Z",
+      "checked_at": "2026-08-24T17:00:24.359259Z",
       "next_check_minutes": 30
     }
   ],
