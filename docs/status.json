@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24T06:01:38.918302Z",
+  "generated_at": "2026-08-24T07:14:33.272690Z",
   "facilities": [
     {
       "id": "den",
@@ -24,13 +24,13 @@
         }
       ],
       "metar": {
-        "raw": "METAR KDEN 240553Z 22010KT 10SM FEW120 FEW220 20/12 A3017 RMK AO2 SLP127 60000 T02000117 10228 20194 58008",
-        "observed": "2026-08-24T06:00:00.000Z",
-        "wind_kt": 10.0,
-        "wind_mph": 11.5,
+        "raw": "METAR KDEN 240653Z 21013KT 10SM FEW220 21/11 A3017 RMK AO2 SLP124 T02060111 403390189",
+        "observed": "2026-08-24T07:00:00.000Z",
+        "wind_kt": 13.0,
+        "wind_mph": 15.0,
         "gust_kt": null,
         "gust_mph": null,
-        "temperature_f": 68.0,
+        "temperature_f": 69.1,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
@@ -45,9 +45,9 @@
       },
       "alerts": [],
       "metrics": {
-        "peak_gust_24h_kt": 15.0,
-        "peak_gust_24h_mph": 17.3,
-        "precip_7d_in": 0.14,
+        "peak_gust_24h_kt": 16.0,
+        "peak_gust_24h_mph": 18.4,
+        "precip_7d_in": 0.17,
         "snow_7d_in": 0.0
       },
       "forecast": [
@@ -56,7 +56,7 @@
           "temperature": 64,
           "temperatureUnit": "F",
           "shortForecast": "Chance Showers And Thunderstorms then Partly Cloudy",
-          "windSpeed": "7 to 10 mph",
+          "windSpeed": "9 mph",
           "windDirection": "SSW"
         },
         {
@@ -116,7 +116,7 @@
           "windDirection": "NW"
         }
       ],
-      "checked_at": "2026-08-24T06:01:39.802889Z",
+      "checked_at": "2026-08-24T07:14:34.336225Z",
       "next_check_minutes": 15
     },
     {
@@ -135,13 +135,13 @@
       },
       "reasons": [],
       "metar": {
-        "raw": "METAR KIAD 240552Z 00000KT 10SM CLR 17/13 A2994 RMK AO2 SLP137 T01670133 10250 20161 50001 $",
-        "observed": "2026-08-24T06:00:00.000Z",
-        "wind_kt": 0.0,
-        "wind_mph": 0.0,
+        "raw": "METAR KIAD 240652Z 16003KT 10SM CLR 16/13 A2994 RMK AO2 SLP135 T01610133 $",
+        "observed": "2026-08-24T07:00:00.000Z",
+        "wind_kt": 3.0,
+        "wind_mph": 3.5,
         "gust_kt": null,
         "gust_mph": null,
-        "temperature_f": 62.1,
+        "temperature_f": 61.0,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
@@ -175,7 +175,7 @@
           "temperature": 83,
           "temperatureUnit": "F",
           "shortForecast": "Sunny",
-          "windSpeed": "2 to 9 mph",
+          "windSpeed": "1 to 9 mph",
           "windDirection": "W"
         },
         {
@@ -191,43 +191,43 @@
           "temperature": 84,
           "temperatureUnit": "F",
           "shortForecast": "Sunny",
-          "windSpeed": "2 to 8 mph",
-          "windDirection": "NW"
+          "windSpeed": "2 to 7 mph",
+          "windDirection": "W"
         },
         {
           "name": "Tuesday Night",
           "temperature": 61,
           "temperatureUnit": "F",
           "shortForecast": "Mostly Clear",
-          "windSpeed": "0 to 3 mph",
+          "windSpeed": "0 to 5 mph",
           "windDirection": "NW"
         },
         {
           "name": "Wednesday",
-          "temperature": 88,
+          "temperature": 87,
           "temperatureUnit": "F",
           "shortForecast": "Mostly Sunny",
-          "windSpeed": "0 to 7 mph",
+          "windSpeed": "0 to 8 mph",
           "windDirection": "SE"
         },
         {
           "name": "Wednesday Night",
           "temperature": 68,
           "temperatureUnit": "F",
-          "shortForecast": "Chance Showers And Thunderstorms",
-          "windSpeed": "7 mph",
+          "shortForecast": "Mostly Cloudy then Chance Showers And Thunderstorms",
+          "windSpeed": "8 mph",
           "windDirection": "S"
         },
         {
           "name": "Thursday",
-          "temperature": 88,
+          "temperature": 87,
           "temperatureUnit": "F",
-          "shortForecast": "Slight Chance Showers And Thunderstorms",
-          "windSpeed": "6 to 10 mph",
+          "shortForecast": "Showers And Thunderstorms Likely",
+          "windSpeed": "9 mph",
           "windDirection": "S"
         }
       ],
-      "checked_at": "2026-08-24T06:01:41.223721Z",
+      "checked_at": "2026-08-24T07:14:36.061427Z",
       "next_check_minutes": 30
     }
   ],
