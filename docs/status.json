@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24T19:56:43.266522Z",
+  "generated_at": "2026-08-24T20:33:11.718737Z",
   "facilities": [
     {
       "id": "den",
@@ -24,13 +24,13 @@
         }
       ],
       "metar": {
-        "raw": "METAR KDEN 241853Z 05009KT 10SM FEW090 SCT150 SCT220 31/07 A3020 RMK AO2 SLP136 T03110067",
-        "observed": "2026-08-24T19:00:00.000Z",
-        "wind_kt": 9.0,
-        "wind_mph": 10.4,
+        "raw": "METAR KDEN 241953Z VRB04KT 10SM FEW090 SCT150 SCT220 32/06 A3020 RMK AO2 SLP133 T03220061",
+        "observed": "2026-08-24T20:00:00.000Z",
+        "wind_kt": 4.0,
+        "wind_mph": 4.6,
         "gust_kt": null,
         "gust_mph": null,
-        "temperature_f": 88.0,
+        "temperature_f": 90.0,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
@@ -116,7 +116,7 @@
           "windDirection": "S"
         }
       ],
-      "checked_at": "2026-08-24T19:56:45.443328Z",
+      "checked_at": "2026-08-24T20:33:12.745270Z",
       "next_check_minutes": 15
     },
     {
@@ -135,8 +135,8 @@
       },
       "reasons": [],
       "metar": {
-        "raw": "METAR KIAD 241852Z 30004KT 10SM SCT055 28/14 A2995 RMK AO2 SLP140 T02780139",
-        "observed": "2026-08-24T19:00:00.000Z",
+        "raw": "METAR KIAD 241952Z 36004KT 10SM SCT055 28/14 A2995 RMK AO2 SLP138 T02780139",
+        "observed": "2026-08-24T20:00:00.000Z",
         "wind_kt": 4.0,
         "wind_mph": 4.6,
         "gust_kt": null,
@@ -227,7 +227,7 @@
           "windDirection": "SW"
         }
       ],
-      "checked_at": "2026-08-24T19:27:49.229904Z",
+      "checked_at": "2026-08-24T20:33:31.049914Z",
       "next_check_minutes": 30
     }
   ],
