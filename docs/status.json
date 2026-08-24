@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24T00:00:13.460455Z",
+  "generated_at": "2026-08-24T01:51:34.825982Z",
   "facilities": [
     {
       "id": "den",
@@ -9,19 +9,13 @@
       "latitude": 39.8561,
       "longitude": -104.6737,
       "forecast_zone_name": "COZ040",
-      "status": "close",
+      "status": "watch",
       "status_copy": {
-        "label": "CLOSE CRITERIA MET",
-        "summary": "A configured closure threshold or critical weather warning has been reached.",
-        "action": "Follow your approved closure, restriction, or emergency procedure."
+        "label": "WATCH",
+        "summary": "Weather could affect operations if conditions develop as forecast.",
+        "action": "Monitor conditions and prepare staff, equipment, or outdoor operations."
       },
       "reasons": [
-        {
-          "level": "close",
-          "title": "Strong wind threshold reached",
-          "detail": "Observed or forecast gusts may reach about 50 mph (43 kt).",
-          "action": "Follow your approved high-wind closure or restriction procedure."
-        },
         {
           "level": "watch",
           "title": "Thunderstorms may affect the facility",
@@ -30,13 +24,13 @@
         }
       ],
       "metar": {
-        "raw": "METAR KDEN 232353Z 16028G43KT 10SM -RA FEW046 SCT080 BKN100 BKN220 23/11 A3012 RMK AO2 PK WND 17043/2348 RAE34B38 TSE33 SLP118 P0009 60024 T02280111 10339 20211 50002",
-        "observed": "2026-08-24T00:00:00.000Z",
-        "wind_kt": 28.0,
-        "wind_mph": 32.2,
-        "gust_kt": 43.0,
-        "gust_mph": 49.5,
-        "temperature_f": 73.0,
+        "raw": "METAR KDEN 240053Z 17013KT 10SM BKN110 BKN150 BKN220 21/13 A3013 RMK AO2 PK WND 15040/2355 WSHFT 2343 RAE02 SLP129 P0000 T02110133",
+        "observed": "2026-08-24T01:00:00.000Z",
+        "wind_kt": 13.0,
+        "wind_mph": 15.0,
+        "gust_kt": null,
+        "gust_mph": null,
+        "temperature_f": 70.0,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
@@ -51,20 +45,12 @@
       },
       "alerts": [],
       "metrics": {
-        "peak_gust_24h_kt": 43.0,
-        "peak_gust_24h_mph": 49.5,
+        "peak_gust_24h_kt": 15.0,
+        "peak_gust_24h_mph": 17.3,
         "precip_7d_in": 0.14,
         "snow_7d_in": 0.0
       },
       "forecast": [
-        {
-          "name": "This Afternoon",
-          "temperature": 93,
-          "temperatureUnit": "F",
-          "shortForecast": "Chance Showers And Thunderstorms",
-          "windSpeed": "7 mph",
-          "windDirection": "NNW"
-        },
         {
           "name": "Tonight",
           "temperature": 64,
@@ -120,10 +106,18 @@
           "shortForecast": "Chance Showers And Thunderstorms then Partly Cloudy",
           "windSpeed": "6 to 10 mph",
           "windDirection": "S"
+        },
+        {
+          "name": "Thursday",
+          "temperature": 90,
+          "temperatureUnit": "F",
+          "shortForecast": "Mostly Sunny then Slight Chance Showers And Thunderstorms",
+          "windSpeed": "3 to 7 mph",
+          "windDirection": "NW"
         }
       ],
-      "checked_at": "2026-08-24T00:00:24.960086Z",
-      "next_check_minutes": 5
+      "checked_at": "2026-08-24T01:51:36.028272Z",
+      "next_check_minutes": 15
     },
     {
       "id": "iad",
@@ -141,13 +135,13 @@
       },
       "reasons": [],
       "metar": {
-        "raw": "METAR KIAD 232352Z 27004KT 10SM FEW075 FEW110 25/11 A2990 RMK AO2 SLP123 T02500111 10289 20244 53012 $",
-        "observed": "2026-08-24T00:00:00.000Z",
-        "wind_kt": 4.0,
-        "wind_mph": 4.6,
+        "raw": "METAR KIAD 240052Z 00000KT 10SM FEW100 22/13 A2993 RMK AO2 SLP131 T02220128 $",
+        "observed": "2026-08-24T01:00:00.000Z",
+        "wind_kt": 0.0,
+        "wind_mph": 0.0,
         "gust_kt": null,
         "gust_mph": null,
-        "temperature_f": 77.0,
+        "temperature_f": 72.0,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
@@ -162,8 +156,8 @@
       },
       "alerts": [],
       "metrics": {
-        "peak_gust_24h_kt": 18.0,
-        "peak_gust_24h_mph": 20.7,
+        "peak_gust_24h_kt": 17.0,
+        "peak_gust_24h_mph": 19.6,
         "precip_7d_in": 0.0,
         "snow_7d_in": 0.0
       },
@@ -233,7 +227,7 @@
           "windDirection": "S"
         }
       ],
-      "checked_at": "2026-08-24T00:00:29.571555Z",
+      "checked_at": "2026-08-24T01:51:37.436751Z",
       "next_check_minutes": 30
     }
   ],
