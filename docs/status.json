@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24T22:00:13.053912Z",
+  "generated_at": "2026-08-24T22:36:09.532429Z",
   "facilities": [
     {
       "id": "den",
@@ -35,15 +35,24 @@
         "flight_category": "VFR"
       },
       "taf": {
-        "raw": "TAF KDEN 242055Z 2421/2524 05009KT P6SM FEW090 BKN140 TEMPO 2422/2501 VRB20G35KT -TSRA BKN090CB BKN120 FM250100 13009KT P6SM SCT090 BKN120 PROB30 2501/2503 VRB15G25KT -SHRA BKN090 FM250300 22009KT P6SM FEW090 SCT120 BKN150 FM250900 25007KT P6SM FEW100 FEW200 FM251600 32007KT P6SM FEW110 SCT200 FM252100 03007KT P6SM SCT100 SCT150 TEMPO 2522/2524 VRB15G30KT -TSRA BKN090CB BKN120",
-        "issued": "2026-08-24T20:55:00.000Z",
-        "valid_from": 1787605200,
+        "raw": "TAF KDEN 242201Z 2422/2524 11009KT P6SM SCT110 BKN140 BKN220 TEMPO 2423/2501 VRB20G35KT -TSRA BKN090CB BKN120 FM250100 13009KT P6SM SCT090 BKN120 PROB30 2501/2503 VRB15G25KT -SHRA BKN090 FM250300 22009KT P6SM FEW090 SCT120 BKN150 FM250900 25007KT P6SM FEW100 FEW200 FM251600 32007KT P6SM FEW110 SCT200 FM252100 03007KT P6SM SCT100 SCT150 TEMPO 2522/2524 VRB15G30KT -TSRA BKN090CB BKN120",
+        "issued": "2026-08-24T22:01:00.000Z",
+        "valid_from": 1787608800,
         "valid_to": 1787702400,
         "thunder": true,
         "snow": false,
         "freezing_precip": false
       },
-      "alerts": [],
+      "alerts": [
+        {
+          "event": "Air Quality Alert",
+          "headline": "Air Quality Alert issued August 24 at 4:10PM MDT by NWS Denver CO",
+          "severity": "Unknown",
+          "urgency": "Unknown",
+          "expires": "2026-08-25T00:00:00-06:00",
+          "source": "Exact facility location"
+        }
+      ],
       "metrics": {
         "peak_gust_24h_kt": 18.0,
         "peak_gust_24h_mph": 20.7,
@@ -116,7 +125,7 @@
           "windDirection": "S"
         }
       ],
-      "checked_at": "2026-08-24T22:00:21.517676Z",
+      "checked_at": "2026-08-24T22:36:10.117794Z",
       "next_check_minutes": 15
     },
     {
@@ -135,13 +144,13 @@
       },
       "reasons": [],
       "metar": {
-        "raw": "METAR KIAD 242052Z 30006KT 10SM FEW065 28/13 A2995 RMK AO2 SLP140 T02780133 55001",
-        "observed": "2026-08-24T21:00:00.000Z",
-        "wind_kt": 6.0,
-        "wind_mph": 6.9,
+        "raw": "METAR KIAD 242152Z 31007KT 10SM FEW075 27/13 A2996 RMK AO2 SLP143 T02720128",
+        "observed": "2026-08-24T22:00:00.000Z",
+        "wind_kt": 7.0,
+        "wind_mph": 8.1,
         "gust_kt": null,
         "gust_mph": null,
-        "temperature_f": 82.0,
+        "temperature_f": 81.0,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
@@ -162,14 +171,6 @@
         "snow_7d_in": 0.0
       },
       "forecast": [
-        {
-          "name": "This Afternoon",
-          "temperature": 81,
-          "temperatureUnit": "F",
-          "shortForecast": "Mostly Sunny",
-          "windSpeed": "9 mph",
-          "windDirection": "W"
-        },
         {
           "name": "Tonight",
           "temperature": 59,
@@ -225,9 +226,17 @@
           "shortForecast": "Showers And Thunderstorms then Chance Showers And Thunderstorms",
           "windSpeed": "1 to 6 mph",
           "windDirection": "SW"
+        },
+        {
+          "name": "Friday",
+          "temperature": 87,
+          "temperatureUnit": "F",
+          "shortForecast": "Mostly Sunny",
+          "windSpeed": "1 to 5 mph",
+          "windDirection": "NW"
         }
       ],
-      "checked_at": "2026-08-24T21:38:38.258740Z",
+      "checked_at": "2026-08-24T22:36:11.420152Z",
       "next_check_minutes": 30
     }
   ],
