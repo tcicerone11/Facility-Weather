@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24T21:38:35.484451Z",
+  "generated_at": "2026-08-24T22:00:13.053912Z",
   "facilities": [
     {
       "id": "den",
@@ -24,13 +24,13 @@
         }
       ],
       "metar": {
-        "raw": "METAR KDEN 242053Z 33008KT 10SM SCT090 BKN140 BKN220 32/06 A3019 RMK AO2 SLP133 T03170061 56006",
-        "observed": "2026-08-24T21:00:00.000Z",
-        "wind_kt": 8.0,
-        "wind_mph": 9.2,
-        "gust_kt": null,
-        "gust_mph": null,
-        "temperature_f": 89.1,
+        "raw": "METAR KDEN 242153Z 10009G18KT 10SM SCT110 BKN140 BKN220 32/07 A3017 RMK AO2 SLP129 T03220072",
+        "observed": "2026-08-24T22:00:00.000Z",
+        "wind_kt": 9.0,
+        "wind_mph": 10.4,
+        "gust_kt": 18.0,
+        "gust_mph": 20.7,
+        "temperature_f": 90.0,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
@@ -45,8 +45,8 @@
       },
       "alerts": [],
       "metrics": {
-        "peak_gust_24h_kt": 17.0,
-        "peak_gust_24h_mph": 19.6,
+        "peak_gust_24h_kt": 18.0,
+        "peak_gust_24h_mph": 20.7,
         "precip_7d_in": 0.13,
         "snow_7d_in": 0.0
       },
@@ -56,7 +56,7 @@
           "temperature": 93,
           "temperatureUnit": "F",
           "shortForecast": "Chance Showers And Thunderstorms",
-          "windSpeed": "6 to 10 mph",
+          "windSpeed": "7 to 10 mph",
           "windDirection": "NNE"
         },
         {
@@ -116,7 +116,7 @@
           "windDirection": "S"
         }
       ],
-      "checked_at": "2026-08-24T21:38:36.767742Z",
+      "checked_at": "2026-08-24T22:00:21.517676Z",
       "next_check_minutes": 15
     },
     {
