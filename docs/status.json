@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24T22:59:11.429199Z",
+  "generated_at": "2026-08-24T23:28:46.998214Z",
   "facilities": [
     {
       "id": "den",
@@ -24,21 +24,21 @@
         }
       ],
       "metar": {
-        "raw": "METAR KDEN 242253Z 10006G15KT 10SM BKN110 BKN140 BKN220 31/08 A3017 RMK AO2 VIRGA SLP130 T03060078",
-        "observed": "2026-08-24T23:00:00.000Z",
-        "wind_kt": 6.0,
-        "wind_mph": 6.9,
-        "gust_kt": 15.0,
-        "gust_mph": 17.3,
-        "temperature_f": 87.1,
+        "raw": "SPECI KDEN 242323Z COR 20012G16KT 10SM -TSRA BKN100CB BKN140 BKN220 29/09 A3017 RMK AO2 OCNL LTGIC VC W RAB22 TSB22 TS VC W MOV T02940089",
+        "observed": "2026-08-24T23:23:00.000Z",
+        "wind_kt": 12.0,
+        "wind_mph": 13.8,
+        "gust_kt": 16.0,
+        "gust_mph": 18.4,
+        "temperature_f": 84.9,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
       "taf": {
-        "raw": "TAF KDEN 242201Z 2422/2524 11009KT P6SM SCT110 BKN140 BKN220 TEMPO 2423/2501 VRB20G35KT -TSRA BKN090CB BKN120 FM250100 13009KT P6SM SCT090 BKN120 PROB30 2501/2503 VRB15G25KT -SHRA BKN090 FM250300 22009KT P6SM FEW090 SCT120 BKN150 FM250900 25007KT P6SM FEW100 FEW200 FM251600 32007KT P6SM FEW110 SCT200 FM252100 03007KT P6SM SCT100 SCT150 TEMPO 2522/2524 VRB15G30KT -TSRA BKN090CB BKN120",
-        "issued": "2026-08-24T22:01:00.000Z",
-        "valid_from": 1787608800,
-        "valid_to": 1787702400,
+        "raw": "TAF KDEN 242324Z 2500/2606 11009KT P6SM BKN110 BKN140 BKN220 TEMPO 2500/2501 VRB20G30KT -TSRA BKN090CB BKN120 FM250100 25009KT P6SM VCSH SCT090 BKN120 PROB30 2501/2503 VRB15G25KT -SHRA BKN090 FM250300 22009KT P6SM FEW090 SCT120 BKN150 FM250900 25007KT P6SM FEW100 FEW200 FM251600 32007KT P6SM FEW110 SCT200 FM252100 03007KT P6SM SCT100 SCT150 TEMPO 2522/2524 VRB15G30KT -TSRA BKN090CB BKN120 FM260100 07008KT P6SM FEW100 SCT150",
+        "issued": "2026-08-24T23:24:00.000Z",
+        "valid_from": 1787616000,
+        "valid_to": 1787724000,
         "thunder": true,
         "snow": false,
         "freezing_precip": false
@@ -65,7 +65,7 @@
           "temperature": 93,
           "temperatureUnit": "F",
           "shortForecast": "Chance Showers And Thunderstorms",
-          "windSpeed": "7 to 10 mph",
+          "windSpeed": "6 to 10 mph",
           "windDirection": "NNE"
         },
         {
@@ -125,7 +125,7 @@
           "windDirection": "S"
         }
       ],
-      "checked_at": "2026-08-24T22:59:12.739084Z",
+      "checked_at": "2026-08-24T23:28:48.815313Z",
       "next_check_minutes": 15
     },
     {
@@ -144,21 +144,21 @@
       },
       "reasons": [],
       "metar": {
-        "raw": "METAR KIAD 242152Z 31007KT 10SM FEW075 27/13 A2996 RMK AO2 SLP143 T02720128",
-        "observed": "2026-08-24T22:00:00.000Z",
-        "wind_kt": 7.0,
-        "wind_mph": 8.1,
+        "raw": "METAR KIAD 242252Z 32010KT 10SM FEW075 27/10 A2998 RMK AO2 SLP148 T02670100",
+        "observed": "2026-08-24T23:00:00.000Z",
+        "wind_kt": 10.0,
+        "wind_mph": 11.5,
         "gust_kt": null,
         "gust_mph": null,
-        "temperature_f": 81.0,
+        "temperature_f": 80.1,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
       "taf": {
-        "raw": "TAF KIAD 241733Z 2418/2524 28008G15KT P6SM SCT060 FM242300 31006KT P6SM FEW250 FM250300 00000KT P6SM SKC FM251300 31003KT P6SM FEW250 FM251700 31008KT P6SM FEW050 SCT140",
-        "issued": "2026-08-24T17:33:00.000Z",
-        "valid_from": 1787594400,
-        "valid_to": 1787702400,
+        "raw": "TAF KIAD 242322Z 2500/2606 32010KT P6SM FEW080 FM250100 00000KT P6SM SKC FM251400 31010KT P6SM SCT060 FM260000 VRB03KT P6SM SKC",
+        "issued": "2026-08-24T23:22:00.000Z",
+        "valid_from": 1787616000,
+        "valid_to": 1787724000,
         "thunder": false,
         "snow": false,
         "freezing_precip": false
@@ -236,7 +236,7 @@
           "windDirection": "NW"
         }
       ],
-      "checked_at": "2026-08-24T22:36:11.420152Z",
+      "checked_at": "2026-08-24T23:28:49.689663Z",
       "next_check_minutes": 30
     }
   ],
