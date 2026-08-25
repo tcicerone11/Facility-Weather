@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25T21:58:54.542063Z",
+  "generated_at": "2026-08-25T22:35:37.997469Z",
   "facilities": [
     {
       "id": "den",
@@ -116,7 +116,7 @@
           "windDirection": "SSW"
         }
       ],
-      "checked_at": "2026-08-25T21:58:55.465650Z",
+      "checked_at": "2026-08-25T22:35:38.548082Z",
       "next_check_minutes": 15
     },
     {
@@ -135,10 +135,10 @@
       },
       "reasons": [],
       "metar": {
-        "raw": "METAR KIAD 252052Z 32006KT 10SM BKN080 BKN150 27/14 A3003 RMK AO2 SLP166 T02670144 56011",
-        "observed": "2026-08-25T21:00:00.000Z",
-        "wind_kt": 6.0,
-        "wind_mph": 6.9,
+        "raw": "METAR KIAD 252152Z VRB04KT 10SM OVC080 27/14 A3004 RMK AO2 SLP169 T02670139",
+        "observed": "2026-08-25T22:00:00.000Z",
+        "wind_kt": 4.0,
+        "wind_mph": 4.6,
         "gust_kt": null,
         "gust_mph": null,
         "temperature_f": 80.1,
@@ -162,14 +162,6 @@
         "snow_7d_in": 0.0
       },
       "forecast": [
-        {
-          "name": "This Afternoon",
-          "temperature": 84,
-          "temperatureUnit": "F",
-          "shortForecast": "Partly Sunny",
-          "windSpeed": "8 mph",
-          "windDirection": "NW"
-        },
         {
           "name": "Tonight",
           "temperature": 62,
@@ -225,9 +217,17 @@
           "shortForecast": "Chance Showers And Thunderstorms",
           "windSpeed": "1 to 5 mph",
           "windDirection": "NE"
+        },
+        {
+          "name": "Saturday",
+          "temperature": 85,
+          "temperatureUnit": "F",
+          "shortForecast": "Partly Sunny then Slight Chance Rain Showers",
+          "windSpeed": "6 mph",
+          "windDirection": "N"
         }
       ],
-      "checked_at": "2026-08-25T21:38:07.221398Z",
+      "checked_at": "2026-08-25T22:35:39.664415Z",
       "next_check_minutes": 30
     }
   ],
