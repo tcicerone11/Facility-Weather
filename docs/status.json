@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25T21:02:29.667378Z",
+  "generated_at": "2026-08-25T21:38:03.185457Z",
   "facilities": [
     {
       "id": "den",
@@ -116,7 +116,7 @@
           "windDirection": "SSW"
         }
       ],
-      "checked_at": "2026-08-25T21:02:30.880883Z",
+      "checked_at": "2026-08-25T21:38:05.718904Z",
       "next_check_minutes": 15
     },
     {
@@ -135,20 +135,20 @@
       },
       "reasons": [],
       "metar": {
-        "raw": "METAR KIAD 251952Z 35007KT 10SM BKN055 BKN150 27/14 A3004 RMK AO2 SLP169 T02720144",
-        "observed": "2026-08-25T20:00:00.000Z",
-        "wind_kt": 7.0,
-        "wind_mph": 8.1,
+        "raw": "METAR KIAD 252052Z 32006KT 10SM BKN080 BKN150 27/14 A3003 RMK AO2 SLP166 T02670144 56011",
+        "observed": "2026-08-25T21:00:00.000Z",
+        "wind_kt": 6.0,
+        "wind_mph": 6.9,
         "gust_kt": null,
         "gust_mph": null,
-        "temperature_f": 81.0,
+        "temperature_f": 80.1,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
       "taf": {
-        "raw": "TAF KIAD 251735Z 2518/2624 29008KT P6SM SCT045 SCT250 FM260100 00000KT P6SM SCT250 FM261500 18007KT P6SM FEW050 SCT250",
-        "issued": "2026-08-25T17:35:00.000Z",
-        "valid_from": 1787680800,
+        "raw": "TAF KIAD 252100Z 2521/2624 32007KT P6SM BKN080 BKN150 FM260100 00000KT P6SM SCT250 FM261500 18007KT P6SM FEW050 SCT250",
+        "issued": "2026-08-25T21:00:00.000Z",
+        "valid_from": 1787691600,
         "valid_to": 1787788800,
         "thunder": false,
         "snow": false,
@@ -227,7 +227,7 @@
           "windDirection": "NE"
         }
       ],
-      "checked_at": "2026-08-25T20:39:47.142339Z",
+      "checked_at": "2026-08-25T21:38:07.221398Z",
       "next_check_minutes": 30
     }
   ],
