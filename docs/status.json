@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25T11:20:37.366354Z",
+  "generated_at": "2026-08-25T11:49:50.788724Z",
   "facilities": [
     {
       "id": "den",
@@ -56,7 +56,7 @@
           "temperature": 63,
           "temperatureUnit": "F",
           "shortForecast": "Partly Cloudy",
-          "windSpeed": "8 mph",
+          "windSpeed": "7 mph",
           "windDirection": "SW"
         },
         {
@@ -116,7 +116,7 @@
           "windDirection": "SSW"
         }
       ],
-      "checked_at": "2026-08-25T11:20:38.513726Z",
+      "checked_at": "2026-08-25T11:49:51.832264Z",
       "next_check_minutes": 15
     },
     {
@@ -135,8 +135,8 @@
       },
       "reasons": [],
       "metar": {
-        "raw": "METAR KIAD 250952Z 00000KT 10SM FEW070 14/12 A3005 RMK AO2 SLP174 T01390117 $",
-        "observed": "2026-08-25T10:00:00.000Z",
+        "raw": "METAR KIAD 251052Z 00000KT 10SM FEW060 FEW250 14/12 A3006 RMK AO2 SLP177 T01390122 $",
+        "observed": "2026-08-25T11:00:00.000Z",
         "wind_kt": 0.0,
         "wind_mph": 0.0,
         "gust_kt": null,
@@ -146,10 +146,10 @@
         "flight_category": "VFR"
       },
       "taf": {
-        "raw": "TAF KIAD 250858Z 2509/2612 00000KT P6SM SKC FM251400 31010KT P6SM SCT060 FM252200 32005KT P6SM FEW230 FM260100 VRB03KT P6SM SKC",
-        "issued": "2026-08-25T08:58:00.000Z",
-        "valid_from": 1787648400,
-        "valid_to": 1787745600,
+        "raw": "TAF KIAD 251122Z 2512/2618 00000KT P6SM FEW060 FEW250 FM251400 31008KT P6SM SCT060 FM260100 00000KT P6SM SKC FM261500 18007KT P6SM SCT170",
+        "issued": "2026-08-25T11:22:00.000Z",
+        "valid_from": 1787659200,
+        "valid_to": 1787767200,
         "thunder": false,
         "snow": false,
         "freezing_precip": false
@@ -227,7 +227,7 @@
           "windDirection": "N"
         }
       ],
-      "checked_at": "2026-08-25T10:53:01.219013Z",
+      "checked_at": "2026-08-25T11:49:52.880014Z",
       "next_check_minutes": 30
     }
   ],
