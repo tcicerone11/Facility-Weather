@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25T22:59:48.602545Z",
+  "generated_at": "2026-08-25T23:32:10.004232Z",
   "facilities": [
     {
       "id": "den",
@@ -116,7 +116,7 @@
           "windDirection": "SSW"
         }
       ],
-      "checked_at": "2026-08-25T22:59:49.388549Z",
+      "checked_at": "2026-08-25T23:32:11.033295Z",
       "next_check_minutes": 15
     },
     {
@@ -135,13 +135,13 @@
       },
       "reasons": [],
       "metar": {
-        "raw": "METAR KIAD 252152Z VRB04KT 10SM OVC080 27/14 A3004 RMK AO2 SLP169 T02670139",
-        "observed": "2026-08-25T22:00:00.000Z",
+        "raw": "METAR KIAD 252252Z 29004KT 10SM FEW080 SCT140 BKN250 26/14 A3004 RMK AO2 SLP171 T02610144",
+        "observed": "2026-08-25T23:00:00.000Z",
         "wind_kt": 4.0,
         "wind_mph": 4.6,
         "gust_kt": null,
         "gust_mph": null,
-        "temperature_f": 80.1,
+        "temperature_f": 79.0,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
@@ -167,7 +167,7 @@
           "temperature": 62,
           "temperatureUnit": "F",
           "shortForecast": "Partly Cloudy",
-          "windSpeed": "0 to 7 mph",
+          "windSpeed": "0 to 5 mph",
           "windDirection": "N"
         },
         {
@@ -227,7 +227,7 @@
           "windDirection": "N"
         }
       ],
-      "checked_at": "2026-08-25T22:35:39.664415Z",
+      "checked_at": "2026-08-25T23:32:29.043985Z",
       "next_check_minutes": 30
     }
   ],
