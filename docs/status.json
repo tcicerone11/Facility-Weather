@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24T23:50:00.284569Z",
+  "generated_at": "2026-08-25T00:25:20.323404Z",
   "facilities": [
     {
       "id": "den",
@@ -18,19 +18,25 @@
       "reasons": [
         {
           "level": "watch",
+          "title": "Wind may affect operations",
+          "detail": "Observed or forecast gusts may reach about 39 mph (34 kt).",
+          "action": "Monitor wind conditions and prepare for outdoor restrictions if winds increase."
+        },
+        {
+          "level": "watch",
           "title": "Thunderstorms may affect the facility",
           "detail": "A thunderstorm signal appears in the next 6 hours in the local or airport forecast.",
           "action": "Monitor official warnings and your approved lightning procedure. This system does not measure lightning strike distance."
         }
       ],
       "metar": {
-        "raw": "SPECI KDEN 242323Z COR 20012G16KT 10SM -TSRA BKN100CB BKN140 BKN220 29/09 A3017 RMK AO2 OCNL LTGIC VC W RAB22 TSB22 TS VC W MOV T02940089",
-        "observed": "2026-08-24T23:23:00.000Z",
-        "wind_kt": 12.0,
-        "wind_mph": 13.8,
-        "gust_kt": 16.0,
-        "gust_mph": 18.4,
-        "temperature_f": 84.9,
+        "raw": "SPECI KDEN 250017Z COR 16026G34KT 10SM -RA FEW055 BKN090 BKN140 BKN220 21/12 A3021 RMK AO2 PK WND 15034/0012 WSHFT 0002 TSE16 P0006 T02110122",
+        "observed": "2026-08-25T00:17:00.000Z",
+        "wind_kt": 26.0,
+        "wind_mph": 29.9,
+        "gust_kt": 34.0,
+        "gust_mph": 39.1,
+        "temperature_f": 70.0,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
@@ -54,8 +60,8 @@
         }
       ],
       "metrics": {
-        "peak_gust_24h_kt": 17.0,
-        "peak_gust_24h_mph": 19.6,
+        "peak_gust_24h_kt": 34.0,
+        "peak_gust_24h_mph": 39.1,
         "precip_7d_in": 0.13,
         "snow_7d_in": 0.0
       },
@@ -125,7 +131,7 @@
           "windDirection": "S"
         }
       ],
-      "checked_at": "2026-08-24T23:50:01.866991Z",
+      "checked_at": "2026-08-25T00:25:21.406017Z",
       "next_check_minutes": 15
     },
     {
@@ -144,13 +150,13 @@
       },
       "reasons": [],
       "metar": {
-        "raw": "METAR KIAD 242252Z 32010KT 10SM FEW075 27/10 A2998 RMK AO2 SLP148 T02670100",
-        "observed": "2026-08-24T23:00:00.000Z",
-        "wind_kt": 10.0,
-        "wind_mph": 11.5,
+        "raw": "METAR KIAD 242352Z 31006KT 10SM FEW075 24/11 A3000 RMK AO2 SLP155 T02440106 10283 20244 53015",
+        "observed": "2026-08-25T00:00:00.000Z",
+        "wind_kt": 6.0,
+        "wind_mph": 6.9,
         "gust_kt": null,
         "gust_mph": null,
-        "temperature_f": 80.1,
+        "temperature_f": 75.9,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
@@ -175,15 +181,15 @@
           "name": "Tonight",
           "temperature": 59,
           "temperatureUnit": "F",
-          "shortForecast": "Mostly Clear",
-          "windSpeed": "1 to 8 mph",
+          "shortForecast": "Partly Cloudy",
+          "windSpeed": "1 to 7 mph",
           "windDirection": "NW"
         },
         {
           "name": "Tuesday",
           "temperature": 85,
           "temperatureUnit": "F",
-          "shortForecast": "Sunny",
+          "shortForecast": "Mostly Sunny",
           "windSpeed": "2 to 8 mph",
           "windDirection": "NW"
         },
@@ -236,7 +242,7 @@
           "windDirection": "NW"
         }
       ],
-      "checked_at": "2026-08-24T23:28:49.689663Z",
+      "checked_at": "2026-08-25T00:25:24.080566Z",
       "next_check_minutes": 30
     }
   ],
