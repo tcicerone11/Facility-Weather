@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25T22:35:37.997469Z",
+  "generated_at": "2026-08-25T22:59:48.602545Z",
   "facilities": [
     {
       "id": "den",
@@ -24,13 +24,13 @@
         }
       ],
       "metar": {
-        "raw": "METAR KDEN 252153Z 03009KT 10SM SCT110 BKN140 BKN220 28/08 A3028 RMK AO2 VIRGA SLP174 T02830083",
-        "observed": "2026-08-25T22:00:00.000Z",
-        "wind_kt": 9.0,
-        "wind_mph": 10.4,
+        "raw": "METAR KDEN 252253Z VRB03KT 10SM FEW110 SCT140 BKN220 29/07 A3027 RMK AO2 SLP172 T02890072",
+        "observed": "2026-08-25T23:00:00.000Z",
+        "wind_kt": 3.0,
+        "wind_mph": 3.5,
         "gust_kt": null,
         "gust_mph": null,
-        "temperature_f": 82.9,
+        "temperature_f": 84.0,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
@@ -116,7 +116,7 @@
           "windDirection": "SSW"
         }
       ],
-      "checked_at": "2026-08-25T22:35:38.548082Z",
+      "checked_at": "2026-08-25T22:59:49.388549Z",
       "next_check_minutes": 15
     },
     {
