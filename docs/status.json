@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25T05:18:06.416532Z",
+  "generated_at": "2026-08-25T05:52:39.372624Z",
   "facilities": [
     {
       "id": "den",
@@ -35,10 +35,10 @@
         "flight_category": "VFR"
       },
       "taf": {
-        "raw": "TAF KDEN 250300Z 2503/2606 34007KT P6SM BKN110 BKN140 BKN220 FM250400 22009KT P6SM FEW090 SCT120 BKN150 FM250900 25007KT P6SM FEW100 FEW200 FM251600 32007KT P6SM FEW110 SCT200 FM252100 03007KT P6SM SCT100 SCT150 TEMPO 2522/2524 VRB15G30KT -TSRA BKN090CB BKN120 FM260100 07008KT P6SM FEW100 SCT150",
-        "issued": "2026-08-25T03:00:00.000Z",
-        "valid_from": 1787626800,
-        "valid_to": 1787724000,
+        "raw": "TAF KDEN 250533Z 2506/2612 18009KT P6SM SCT120 BKN150 FM250900 25007KT P6SM FEW120 FEW200 FM251600 33007KT P6SM FEW100 SCT200 FM251900 03007KT P6SM SCT100 SCT150 TEMPO 2522/2601 VRB15G30KT -TSRA BKN090CB BKN120 FM260100 07008KT P6SM FEW080 FEW100 BKN150 FM260500 20007KT P6SM FEW060 FEW100 SCT150",
+        "issued": "2026-08-25T05:33:00.000Z",
+        "valid_from": 1787637600,
+        "valid_to": 1787745600,
         "thunder": true,
         "snow": false,
         "freezing_precip": false
@@ -64,9 +64,9 @@
           "name": "Tonight",
           "temperature": 62,
           "temperatureUnit": "F",
-          "shortForecast": "Chance Showers And Thunderstorms then Mostly Cloudy",
-          "windSpeed": "6 to 13 mph",
-          "windDirection": "WSW"
+          "shortForecast": "Partly Cloudy",
+          "windSpeed": "8 mph",
+          "windDirection": "SW"
         },
         {
           "name": "Tuesday",
@@ -125,7 +125,7 @@
           "windDirection": "WNW"
         }
       ],
-      "checked_at": "2026-08-25T05:18:07.012331Z",
+      "checked_at": "2026-08-25T05:52:40.197140Z",
       "next_check_minutes": 15
     },
     {
@@ -155,10 +155,10 @@
         "flight_category": "VFR"
       },
       "taf": {
-        "raw": "TAF KIAD 250255Z 2503/2606 32005KT P6SM SKC FM250500 00000KT P6SM SKC FM251400 31010KT P6SM SCT060 FM260000 VRB03KT P6SM SKC",
-        "issued": "2026-08-25T02:55:00.000Z",
-        "valid_from": 1787626800,
-        "valid_to": 1787724000,
+        "raw": "TAF KIAD 250530Z 2506/2612 00000KT P6SM SKC FM251400 31010KT P6SM SCT060 FM252200 32005KT P6SM FEW230 FM260100 VRB03KT P6SM SKC",
+        "issued": "2026-08-25T05:30:00.000Z",
+        "valid_from": 1787637600,
+        "valid_to": 1787745600,
         "thunder": false,
         "snow": false,
         "freezing_precip": false
@@ -236,7 +236,7 @@
           "windDirection": "NW"
         }
       ],
-      "checked_at": "2026-08-25T05:18:07.607205Z",
+      "checked_at": "2026-08-25T05:52:42.013997Z",
       "next_check_minutes": 30
     }
   ],
