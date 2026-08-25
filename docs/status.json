@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25T17:47:31.584736Z",
+  "generated_at": "2026-08-25T18:17:40.088362Z",
   "facilities": [
     {
       "id": "den",
@@ -24,13 +24,13 @@
         }
       ],
       "metar": {
-        "raw": "METAR KDEN 251653Z 35005KT 10SM SCT120 SCT150 BKN220 21/13 A3035 RMK AO2 SLP208 T02110128",
-        "observed": "2026-08-25T17:00:00.000Z",
+        "raw": "METAR KDEN 251753Z 35005KT 10SM SCT120 SCT150 BKN220 23/12 A3034 RMK AO2 SLP203 T02280122 10228 20172 50001",
+        "observed": "2026-08-25T18:00:00.000Z",
         "wind_kt": 5.0,
         "wind_mph": 5.8,
         "gust_kt": null,
         "gust_mph": null,
-        "temperature_f": 70.0,
+        "temperature_f": 73.0,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
@@ -116,7 +116,7 @@
           "windDirection": "S"
         }
       ],
-      "checked_at": "2026-08-25T17:47:32.063687Z",
+      "checked_at": "2026-08-25T18:17:41.153108Z",
       "next_check_minutes": 15
     },
     {
@@ -135,14 +135,14 @@
       },
       "reasons": [],
       "metar": {
-        "raw": "METAR KIAD 251652Z 29007KT 10SM FEW040 SCT250 26/14 A3007 RMK AO2 SLP181 T02610144",
-        "observed": "2026-08-25T17:00:00.000Z",
-        "wind_kt": 7.0,
-        "wind_mph": 8.1,
-        "gust_kt": null,
-        "gust_mph": null,
-        "temperature_f": 79.0,
-        "visibility_sm": 10.0,
+        "raw": "METAR KIAD 251752Z 31010G16KT 8SM SCT048 BKN055 BKN250 27/15 A3006 RMK AO2 SLP177 T02670150 10272 20178 58014",
+        "observed": "2026-08-25T18:00:00.000Z",
+        "wind_kt": 10.0,
+        "wind_mph": 11.5,
+        "gust_kt": 16.0,
+        "gust_mph": 18.4,
+        "temperature_f": 80.1,
+        "visibility_sm": 8.0,
         "flight_category": "VFR"
       },
       "taf": {
@@ -156,8 +156,8 @@
       },
       "alerts": [],
       "metrics": {
-        "peak_gust_24h_kt": 13.0,
-        "peak_gust_24h_mph": 15.0,
+        "peak_gust_24h_kt": 16.0,
+        "peak_gust_24h_mph": 18.4,
         "precip_7d_in": 0.27,
         "snow_7d_in": 0.0
       },
@@ -227,7 +227,7 @@
           "windDirection": "N"
         }
       ],
-      "checked_at": "2026-08-25T17:47:32.811694Z",
+      "checked_at": "2026-08-25T18:17:42.926437Z",
       "next_check_minutes": 30
     }
   ],
