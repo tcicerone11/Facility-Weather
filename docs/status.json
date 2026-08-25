@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25T17:14:23.472388Z",
+  "generated_at": "2026-08-25T17:47:31.584736Z",
   "facilities": [
     {
       "id": "den",
@@ -35,10 +35,10 @@
         "flight_category": "VFR"
       },
       "taf": {
-        "raw": "TAF KDEN 251455Z 2515/2618 05006KT P6SM SCT180 BKN220 FM251800 03007KT P6SM SCT100 SCT150 TEMPO 2522/2601 VRB15G30KT -TSRA BKN090CB BKN120 FM260100 10008KT P6SM SCT090 BKN140 FM260500 20007KT P6SM FEW060 FEW100 SCT150 FM261400 VRB06KT P6SM FEW090 FEW180 FM261700 08006KT P6SM SCT090 SCT120",
-        "issued": "2026-08-25T14:55:00.000Z",
-        "valid_from": 1787670000,
-        "valid_to": 1787767200,
+        "raw": "TAF KDEN 251740Z 2518/2624 03007KT P6SM SCT100 SCT150 TEMPO 2522/2601 VRB15G30KT -TSRA BKN090CB BKN120 FM260100 10008KT P6SM SCT090 BKN140 PROB30 2601/2602 VRB15G25KT -SHRA BKN090 FM260300 17009KT P6SM FEW060 FEW100 SCT150 FM260600 20006KT P6SM FEW060 SCT150 FM261100 VRB06KT P6SM FEW008 SCT150 FM261400 30006KT P6SM FEW090 FEW180 FM261800 08006KT P6SM SCT090 SCT120 TEMPO 2620/2624 VRB15G30KT -TSRA BKN080CB",
+        "issued": "2026-08-25T17:40:00.000Z",
+        "valid_from": 1787680800,
+        "valid_to": 1787788800,
         "thunder": true,
         "snow": false,
         "freezing_precip": false
@@ -116,7 +116,7 @@
           "windDirection": "S"
         }
       ],
-      "checked_at": "2026-08-25T17:14:28.794178Z",
+      "checked_at": "2026-08-25T17:47:32.063687Z",
       "next_check_minutes": 15
     },
     {
@@ -146,10 +146,10 @@
         "flight_category": "VFR"
       },
       "taf": {
-        "raw": "TAF KIAD 251458Z 2515/2618 31008KT P6SM SCT070 SCT250 FM260100 00000KT P6SM SKC FM261500 18007KT P6SM SCT170",
-        "issued": "2026-08-25T14:58:00.000Z",
-        "valid_from": 1787670000,
-        "valid_to": 1787767200,
+        "raw": "TAF KIAD 251735Z 2518/2624 29008KT P6SM SCT045 SCT250 FM260100 00000KT P6SM SCT250 FM261500 18007KT P6SM FEW050 SCT250",
+        "issued": "2026-08-25T17:35:00.000Z",
+        "valid_from": 1787680800,
+        "valid_to": 1787788800,
         "thunder": false,
         "snow": false,
         "freezing_precip": false
@@ -163,11 +163,11 @@
       },
       "forecast": [
         {
-          "name": "Today",
+          "name": "This Afternoon",
           "temperature": 84,
           "temperatureUnit": "F",
           "shortForecast": "Mostly Sunny",
-          "windSpeed": "9 mph",
+          "windSpeed": "8 mph",
           "windDirection": "NW"
         },
         {
@@ -227,7 +227,7 @@
           "windDirection": "N"
         }
       ],
-      "checked_at": "2026-08-25T17:14:29.721539Z",
+      "checked_at": "2026-08-25T17:47:32.811694Z",
       "next_check_minutes": 30
     }
   ],
