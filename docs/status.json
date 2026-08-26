@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T05:03:10.711793Z",
+  "generated_at": "2026-08-26T05:45:39.608142Z",
   "facilities": [
     {
       "id": "den",
@@ -35,10 +35,10 @@
         "flight_category": "VFR"
       },
       "taf": {
-        "raw": "TAF KDEN 260259Z 2603/2706 13008KT P6SM SCT100 FM260400 16009KT P6SM FEW060 FEW100 SCT150 FM260600 20006KT P6SM FEW060 SCT150 FM261100 VRB06KT P6SM FEW008 FM261400 30006KT P6SM FEW180 FM261800 08007KT P6SM SCT090 SCT120 TEMPO 2621/2701 VRB22G40KT -TSRA BKN080CB FM270100 10008KT P6SM VCTS SCT080CB BKN120 FM270300 17012KT P6SM SCT080 SCT120",
-        "issued": "2026-08-26T02:59:00.000Z",
-        "valid_from": 1787713200,
-        "valid_to": 1787810400,
+        "raw": "TAF KDEN 260528Z 2606/2712 20007KT P6SM FEW060 SCT150 FM261100 VRB06KT P6SM FEW008 FM261400 33006KT P6SM FEW080 FEW150 FM261800 08007KT P6SM SCT090 SCT120 TEMPO 2621/2701 VRB22G40KT -TSRA BKN080CB FM270100 10008KT P6SM VCTS SCT080CB BKN120 FM270300 17012KT P6SM SCT080 SCT120 FM270800 21008KT P6SM FEW120 SCT200",
+        "issued": "2026-08-26T05:28:00.000Z",
+        "valid_from": 1787724000,
+        "valid_to": 1787832000,
         "thunder": true,
         "snow": false,
         "freezing_precip": false
@@ -116,7 +116,7 @@
           "windDirection": "WSW"
         }
       ],
-      "checked_at": "2026-08-26T05:03:11.370424Z",
+      "checked_at": "2026-08-26T05:45:40.655545Z",
       "next_check_minutes": 15
     },
     {
@@ -146,10 +146,10 @@
         "flight_category": "VFR"
       },
       "taf": {
-        "raw": "TAF KIAD 260259Z 2603/2706 00000KT P6SM BKN080 FM260500 00000KT P6SM FEW080 SCT250 FM261500 19008G16KT P6SM FEW050 SCT250 FM270000 16007KT P6SM FEW050 SCT150",
-        "issued": "2026-08-26T02:59:00.000Z",
-        "valid_from": 1787713200,
-        "valid_to": 1787810400,
+        "raw": "TAF KIAD 260530Z 2606/2712 00000KT P6SM FEW100 FM261500 19008G16KT P6SM FEW050 SCT250 FM270000 16007KT P6SM FEW050 SCT150 FM270800 18007KT P6SM SCT030 BKN060 FM271000 18006KT P6SM FEW009 SCT035",
+        "issued": "2026-08-26T05:30:00.000Z",
+        "valid_from": 1787724000,
+        "valid_to": 1787832000,
         "thunder": false,
         "snow": false,
         "freezing_precip": false
@@ -227,7 +227,7 @@
           "windDirection": "N"
         }
       ],
-      "checked_at": "2026-08-26T05:03:25.872249Z",
+      "checked_at": "2026-08-26T05:45:41.805374Z",
       "next_check_minutes": 30
     }
   ],
