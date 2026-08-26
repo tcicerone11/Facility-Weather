@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T07:15:23.731560Z",
+  "generated_at": "2026-08-26T08:03:16.030178Z",
   "facilities": [
     {
       "id": "den",
@@ -24,13 +24,13 @@
         }
       ],
       "metar": {
-        "raw": "METAR KDEN 260653Z 17008KT 10SM FEW120 17/12 A3031 RMK AO2 SLP192 T01720122 402940150",
-        "observed": "2026-08-26T07:00:00.000Z",
-        "wind_kt": 8.0,
-        "wind_mph": 9.2,
+        "raw": "METAR KDEN 260753Z 23007KT 10SM FEW120 18/12 A3030 RMK AO2 SLP1183 T01830117",
+        "observed": "2026-08-26T08:00:00.000Z",
+        "wind_kt": 7.0,
+        "wind_mph": 8.1,
         "gust_kt": null,
         "gust_mph": null,
-        "temperature_f": 63.0,
+        "temperature_f": 64.9,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
@@ -45,78 +45,78 @@
       },
       "alerts": [],
       "metrics": {
-        "peak_gust_24h_kt": 15.0,
-        "peak_gust_24h_mph": 17.3,
-        "precip_7d_in": 0.19,
+        "peak_gust_24h_kt": 14.0,
+        "peak_gust_24h_mph": 16.1,
+        "precip_7d_in": 0.21,
         "snow_7d_in": 0.0
       },
       "forecast": [
         {
-          "name": "Tonight",
+          "name": "Overnight",
           "temperature": 60,
           "temperatureUnit": "F",
           "shortForecast": "Partly Cloudy",
           "windSpeed": "7 mph",
-          "windDirection": "S"
+          "windDirection": "SSW"
         },
         {
           "name": "Wednesday",
           "temperature": 86,
           "temperatureUnit": "F",
           "shortForecast": "Mostly Sunny then Chance Showers And Thunderstorms",
-          "windSpeed": "3 to 9 mph",
-          "windDirection": "SE"
+          "windSpeed": "3 to 10 mph",
+          "windDirection": "SSE"
         },
         {
           "name": "Wednesday Night",
           "temperature": 59,
           "temperatureUnit": "F",
           "shortForecast": "Chance Showers And Thunderstorms then Partly Cloudy",
-          "windSpeed": "6 to 9 mph",
-          "windDirection": "S"
+          "windSpeed": "6 to 10 mph",
+          "windDirection": "SSE"
         },
         {
           "name": "Thursday",
-          "temperature": 89,
+          "temperature": 90,
           "temperatureUnit": "F",
-          "shortForecast": "Mostly Sunny then Slight Chance Showers And Thunderstorms",
-          "windSpeed": "3 to 7 mph",
-          "windDirection": "NE"
+          "shortForecast": "Sunny",
+          "windSpeed": "2 to 8 mph",
+          "windDirection": "E"
         },
         {
           "name": "Thursday Night",
           "temperature": 63,
           "temperatureUnit": "F",
-          "shortForecast": "Partly Cloudy",
-          "windSpeed": "7 to 12 mph",
+          "shortForecast": "Mostly Clear",
+          "windSpeed": "8 to 13 mph",
           "windDirection": "S"
         },
         {
           "name": "Friday",
-          "temperature": 95,
+          "temperature": 94,
           "temperatureUnit": "F",
           "shortForecast": "Mostly Sunny",
           "windSpeed": "2 to 8 mph",
-          "windDirection": "SW"
+          "windDirection": "WNW"
         },
         {
           "name": "Friday Night",
-          "temperature": 64,
+          "temperature": 65,
           "temperatureUnit": "F",
           "shortForecast": "Partly Cloudy",
-          "windSpeed": "10 mph",
-          "windDirection": "SSW"
+          "windSpeed": "7 to 10 mph",
+          "windDirection": "SW"
         },
         {
           "name": "Saturday",
           "temperature": 95,
           "temperatureUnit": "F",
-          "shortForecast": "Mostly Sunny",
-          "windSpeed": "6 to 12 mph",
-          "windDirection": "WSW"
+          "shortForecast": "Mostly Sunny then Slight Chance Showers And Thunderstorms",
+          "windSpeed": "6 to 10 mph",
+          "windDirection": "SW"
         }
       ],
-      "checked_at": "2026-08-26T07:15:24.366634Z",
+      "checked_at": "2026-08-26T08:03:16.817904Z",
       "next_check_minutes": 15
     },
     {
@@ -228,7 +228,8 @@
         }
       ],
       "checked_at": "2026-08-26T07:15:25.381985Z",
-      "next_check_minutes": 30
+      "next_check_minutes": 30,
+      "data_error": "504 Server Error: Gateway Time-out for url: https://aviationweather.gov/api/data/taf?ids=KIAD&format=json"
     }
   ],
   "settings": {
