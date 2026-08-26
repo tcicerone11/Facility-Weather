@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T14:03:08.192228Z",
+  "generated_at": "2026-08-26T14:57:11.044582Z",
   "facilities": [
     {
       "id": "den",
@@ -35,9 +35,9 @@
         "flight_category": "VFR"
       },
       "taf": {
-        "raw": "TAF KDEN 261123Z 2612/2718 13006KT P6SM FEW120 FM261400 24006KT P6SM FEW080 FEW150 FM261800 07007KT P6SM SCT090 SCT120 TEMPO 2621/2701 VRB22G40KT -TSRA BKN080CB FM270100 12009KT P6SM VCTS SCT080CB BKN120 FM270300 17012KT P6SM SCT080 SCT120 FM270700 21008KT P6SM FEW120 SCT200 FM271400 25007KT P6SM FEW120 SCT200 FM271700 06007KT P6SM FEW200",
-        "issued": "2026-08-26T11:23:00.000Z",
-        "valid_from": 1787745600,
+        "raw": "TAF KDEN 261451Z 2615/2718 17006KT P6SM FEW110 FM261800 07007KT P6SM SCT090 SCT120 TEMPO 2622/2701 VRB22G40KT -TSRA BKN080CB FM270100 12009KT P6SM VCTS SCT080CB BKN120 FM270300 17012KT P6SM SCT080 SCT120 FM270700 21008KT P6SM FEW120 SCT200 FM271400 25007KT P6SM FEW120 SCT200 FM271700 06007KT P6SM FEW200",
+        "issued": "2026-08-26T14:51:00.000Z",
+        "valid_from": 1787756400,
         "valid_to": 1787853600,
         "thunder": true,
         "snow": false,
@@ -116,7 +116,7 @@
           "windDirection": "WSW"
         }
       ],
-      "checked_at": "2026-08-26T14:03:11.580211Z",
+      "checked_at": "2026-08-26T14:57:13.236319Z",
       "next_check_minutes": 15
     },
     {
@@ -142,13 +142,13 @@
         }
       ],
       "metar": {
-        "raw": "METAR KIAD 261352Z 20004KT 10SM FEW075 SCT250 24/17 A3011 RMK AO2 SLP192 T02440172 $",
-        "observed": "2026-08-26T14:00:00.000Z",
-        "wind_kt": 4.0,
-        "wind_mph": 4.6,
+        "raw": "METAR KIAD 261452Z 21007KT 10SM FEW075 SCT250 26/17 A3011 RMK AO2 SLP193 T02560167 53001 $",
+        "observed": "2026-08-26T15:00:00.000Z",
+        "wind_kt": 7.0,
+        "wind_mph": 8.1,
         "gust_kt": null,
         "gust_mph": null,
-        "temperature_f": 75.9,
+        "temperature_f": 78.1,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
@@ -234,7 +234,7 @@
           "windDirection": "SE"
         }
       ],
-      "checked_at": "2026-08-26T14:03:30.191351Z",
+      "checked_at": "2026-08-26T14:57:15.991350Z",
       "next_check_minutes": 15
     }
   ],
