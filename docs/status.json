@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T08:03:16.030178Z",
+  "generated_at": "2026-08-26T08:57:34.393493Z",
   "facilities": [
     {
       "id": "den",
@@ -35,9 +35,9 @@
         "flight_category": "VFR"
       },
       "taf": {
-        "raw": "TAF KDEN 260625Z 2606/2712 16009KT P6SM FEW150 FM260800 20007KT P6SM FEW060 SCT150 FM261100 VRB06KT P6SM FEW008 FM261400 33006KT P6SM FEW080 FEW150 FM261800 08007KT P6SM SCT090 SCT120 TEMPO 2621/2701 VRB22G40KT -TSRA BKN080CB FM270100 10008KT P6SM VCTS SCT080CB BKN120 FM270300 17012KT P6SM SCT080 SCT120 FM270800 21008KT P6SM FEW120 SCT200",
-        "issued": "2026-08-26T06:25:00.000Z",
-        "valid_from": 1787724000,
+        "raw": "TAF KDEN 260842Z 2609/2712 23007KT P6SM FEW060 SCT150 FM260930 03007KT P6SM FEW060 FEW150 FM261100 VRB06KT P6SM FEW008 FM261400 33006KT P6SM FEW080 FEW150 FM261800 08007KT P6SM SCT090 SCT120 TEMPO 2621/2701 VRB22G40KT -TSRA BKN080CB FM270100 10008KT P6SM VCTS SCT080CB BKN120 FM270300 17012KT P6SM SCT080 SCT120 FM270800 21008KT P6SM FEW120 SCT200",
+        "issued": "2026-08-26T08:42:00.000Z",
+        "valid_from": 1787734800,
         "valid_to": 1787832000,
         "thunder": true,
         "snow": false,
@@ -57,7 +57,7 @@
           "temperatureUnit": "F",
           "shortForecast": "Partly Cloudy",
           "windSpeed": "7 mph",
-          "windDirection": "SSW"
+          "windDirection": "S"
         },
         {
           "name": "Wednesday",
@@ -116,7 +116,7 @@
           "windDirection": "SW"
         }
       ],
-      "checked_at": "2026-08-26T08:03:16.817904Z",
+      "checked_at": "2026-08-26T08:57:36.048816Z",
       "next_check_minutes": 15
     },
     {
@@ -135,13 +135,13 @@
       },
       "reasons": [],
       "metar": {
-        "raw": "METAR KIAD 260652Z 00000KT 10SM FEW100 17/16 A3008 RMK AO2 SLP184 T01670156",
-        "observed": "2026-08-26T07:00:00.000Z",
+        "raw": "METAR KIAD 260852Z 00000KT 10SM FEW100 16/15 A3008 RMK AO2 SLP185 T01560150 56004",
+        "observed": "2026-08-26T09:00:00.000Z",
         "wind_kt": 0.0,
         "wind_mph": 0.0,
         "gust_kt": null,
         "gust_mph": null,
-        "temperature_f": 62.1,
+        "temperature_f": 60.1,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
@@ -227,9 +227,8 @@
           "windDirection": "NE"
         }
       ],
-      "checked_at": "2026-08-26T07:15:25.381985Z",
-      "next_check_minutes": 30,
-      "data_error": "504 Server Error: Gateway Time-out for url: https://aviationweather.gov/api/data/taf?ids=KIAD&format=json"
+      "checked_at": "2026-08-26T08:57:37.748208Z",
+      "next_check_minutes": 30
     }
   ],
   "settings": {
