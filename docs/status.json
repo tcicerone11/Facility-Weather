@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-02T19:48:12.951470Z",
+  "generated_at": "2026-09-02T22:01:31.066271Z",
   "facilities": [
     {
       "id": "den",
@@ -24,22 +24,22 @@
         }
       ],
       "metar": {
-        "raw": "METAR KDEN 021853Z 00000KT 10SM SCT100 SCT140 29/04 A3008 RMK AO2 SLP102 T02940044",
-        "observed": "2026-09-02T19:00:00.000Z",
-        "wind_kt": 0.0,
-        "wind_mph": 0.0,
-        "gust_kt": null,
-        "gust_mph": null,
-        "temperature_f": 84.9,
+        "raw": "METAR KDEN 022053Z 07011G15KT 10SM FEW100 FEW140 31/07 A3003 RMK AO2 SLP080 T03060067 56024",
+        "observed": "2026-09-02T21:00:00.000Z",
+        "wind_kt": 11.0,
+        "wind_mph": 12.7,
+        "gust_kt": 15.0,
+        "gust_mph": 17.3,
+        "temperature_f": 87.1,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
       "taf": {
-        "raw": "TAF KDEN 021736Z 0218/0324 09010KT P6SM SKC FM022100 11010KT P6SM VCSH SCT090 BKN120 PROB30 0222/0301 VRB15G30KT -TSRA BKN090CB FM030100 02010KT P6SM SCT090 BKN120 PROB30 0301/0304 VRB15G25KT -SHRA BKN090 FM030400 12008KT P6SM SCT120 FM030700 16010KT P6SM FEW150 FM030900 19010KT P6SM SKC FM031800 11010KT P6SM SCT150",
-        "issued": "2026-09-02T17:36:00.000Z",
-        "valid_from": 1788372000,
+        "raw": "TAF KDEN 022154Z 0222/0324 09010G18KT P6SM VCSH SCT090 BKN120 TEMPO 0222/0224 14012KT FM030000 02010KT P6SM SCT090 BKN120 PROB30 0300/0304 VRB15G25KT -SHRA BKN090 FM030400 12008KT P6SM SCT120 FM030700 16010KT P6SM FEW150 FM030900 19010KT P6SM SKC FM031800 11010KT P6SM SCT150",
+        "issued": "2026-09-02T21:54:00.000Z",
+        "valid_from": 1788386400,
         "valid_to": 1788480000,
-        "thunder": true,
+        "thunder": false,
         "snow": false,
         "freezing_precip": false
       },
@@ -116,7 +116,7 @@
           "windDirection": "SSE"
         }
       ],
-      "checked_at": "2026-09-02T19:48:14.388897Z",
+      "checked_at": "2026-09-02T22:01:33.243144Z",
       "next_check_minutes": 15
     },
     {
@@ -142,20 +142,20 @@
         }
       ],
       "metar": {
-        "raw": "SPECI KIAD 021931Z 16004KT 7SM SCT045 BKN070 BKN120 24/22 A3006 RMK AO2 TSE25 TS MOV SE T02390217",
-        "observed": "2026-09-02T19:31:00.000Z",
-        "wind_kt": 4.0,
-        "wind_mph": 4.6,
+        "raw": "METAR KIAD 022152Z 00000KT 10SM FEW050 BKN120 BKN250 27/21 A3006 RMK AO2 SLP175 T02670211",
+        "observed": "2026-09-02T22:00:00.000Z",
+        "wind_kt": 0.0,
+        "wind_mph": 0.0,
         "gust_kt": null,
         "gust_mph": null,
-        "temperature_f": 75.0,
-        "visibility_sm": 7.0,
+        "temperature_f": 80.1,
+        "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
       "taf": {
-        "raw": "TAF KIAD 021915Z 0219/0324 06005KT P6SM TS FEW040CB BKN060 BKN080 FM022100 15007KT P6SM SCT060 BKN120 PROB30 0303/0306 VRB25KT 5SM -TSRA OVC040CB FM030600 13003KT P6SM BKN040 OVC090 FM031300 25004KT P6SM FEW015 BKN250 FM031700 31008KT P6SM SCT040 BKN250 PROB30 0319/0322 VRB30KT 4SM TSRA BKN035CB",
-        "issued": "2026-09-02T19:15:00.000Z",
-        "valid_from": 1788375600,
+        "raw": "TAF KIAD 022100Z 0221/0324 00000KT P6SM VCTS BKN050CB BKN110 PROB30 0302/0305 VRB25KT 5SM -TSRA OVC040CB FM030600 13003KT P6SM BKN040 OVC090 FM031300 25004KT P6SM FEW015 BKN250 FM031700 31008KT P6SM SCT040 BKN250 PROB30 0319/0322 VRB30KT 4SM TSRA BKN035CB",
+        "issued": "2026-09-02T21:00:00.000Z",
+        "valid_from": 1788382800,
         "valid_to": 1788480000,
         "thunder": true,
         "snow": false,
@@ -165,7 +165,7 @@
       "metrics": {
         "peak_gust_24h_kt": 12.0,
         "peak_gust_24h_mph": 13.8,
-        "precip_7d_in": 0.51,
+        "precip_7d_in": 0.49,
         "snow_7d_in": 0.0
       },
       "forecast": [
@@ -173,7 +173,7 @@
           "name": "This Afternoon",
           "temperature": 90,
           "temperatureUnit": "F",
-          "shortForecast": "Widespread Showers And Thunderstorms",
+          "shortForecast": "Scattered Showers And Thunderstorms",
           "windSpeed": "8 mph",
           "windDirection": "SE"
         },
@@ -234,7 +234,7 @@
           "windDirection": "NE"
         }
       ],
-      "checked_at": "2026-09-02T19:48:34.023564Z",
+      "checked_at": "2026-09-02T22:01:38.923194Z",
       "next_check_minutes": 15
     }
   ],
