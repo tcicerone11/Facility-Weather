@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T21:56:02.560558Z",
+  "generated_at": "2026-09-03T23:49:21.572416Z",
   "facilities": [
     {
       "id": "den",
@@ -17,29 +17,29 @@
       },
       "reasons": [],
       "metar": {
-        "raw": "METAR KDEN 032153Z 10012G22KT 10SM FEW100 FEW140 SCT220 33/02 A2997 RMK AO2 SLP057 T03330017",
-        "observed": "2026-09-03T22:00:00.000Z",
-        "wind_kt": 12.0,
-        "wind_mph": 13.8,
-        "gust_kt": 22.0,
-        "gust_mph": 25.3,
-        "temperature_f": 91.9,
+        "raw": "METAR KDEN 032253Z 08014G24KT 050V110 10SM FEW110 FEW140 32/03 A2996 RMK AO2 PK WND 10027/2220 SLP059 T03220033",
+        "observed": "2026-09-03T23:00:00.000Z",
+        "wind_kt": 14.0,
+        "wind_mph": 16.1,
+        "gust_kt": 24.0,
+        "gust_mph": 27.6,
+        "temperature_f": 90.0,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
       "taf": {
-        "raw": "TAF KDEN 032054Z 0321/0424 VRB06KT P6SM FEW150 FM032200 13010G15KT P6SM SCT150 FM040300 15008KT P6SM BKN140 FM040700 21009KT P6SM SCT140 FM041500 25008KT P6SM FEW140 FM041800 04006KT P6SM SCT120 FM042100 11009KT P6SM SCT120 PROB30 0422/0424 VRB15G28KT -SHRA BKN120",
-        "issued": "2026-09-03T20:54:00.000Z",
-        "valid_from": 1788469200,
-        "valid_to": 1788566400,
+        "raw": "TAF KDEN 032332Z 0400/0506 11012G20KT P6SM SCT120 FM040400 15008KT P6SM SCT140 FM040700 22009KT P6SM SCT140 FM041600 35006KT P6SM FEW140 FM041800 11009KT P6SM SCT120 PROB30 0423/0503 VRB15G25KT -SHRA BKN120 FM050400 21008KT P6SM SCT120 BKN150",
+        "issued": "2026-09-03T23:32:00.000Z",
+        "valid_from": 1788480000,
+        "valid_to": 1788588000,
         "thunder": false,
         "snow": false,
         "freezing_precip": false
       },
       "alerts": [],
       "metrics": {
-        "peak_gust_24h_kt": 22.0,
-        "peak_gust_24h_mph": 25.3,
+        "peak_gust_24h_kt": 24.0,
+        "peak_gust_24h_mph": 27.6,
         "precip_7d_in": 0.19,
         "snow_7d_in": 0.0
       },
@@ -109,7 +109,7 @@
           "windDirection": "S"
         }
       ],
-      "checked_at": "2026-09-03T21:56:03.863641Z",
+      "checked_at": "2026-09-03T23:49:22.630151Z",
       "next_check_minutes": 30
     },
     {
@@ -135,21 +135,21 @@
         }
       ],
       "metar": {
-        "raw": "METAR KIAD 032152Z 19009KT 10SM CLR 33/24 A2993 RMK AO2 SLP132 T03280239 $",
-        "observed": "2026-09-03T22:00:00.000Z",
-        "wind_kt": 9.0,
-        "wind_mph": 10.4,
+        "raw": "METAR KIAD 032252Z 21006KT 10SM SCT120 OVC200 31/24 A2994 RMK AO2 SLP134 T03060239 $",
+        "observed": "2026-09-03T23:00:00.000Z",
+        "wind_kt": 6.0,
+        "wind_mph": 6.9,
         "gust_kt": null,
         "gust_mph": null,
-        "temperature_f": 91.0,
+        "temperature_f": 87.1,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
       "taf": {
-        "raw": "TAF KIAD 032056Z 0321/0424 23008G16KT P6SM FEW080 SCT150 BKN250 FM032300 23005KT P6SM BKN050 PROB30 0401/0405 4SM -TSRA OVC025CB FM041400 30008KT P6SM SCT045",
-        "issued": "2026-09-03T20:56:00.000Z",
-        "valid_from": 1788469200,
-        "valid_to": 1788566400,
+        "raw": "TAF KIAD 032320Z 0400/0506 21006KT P6SM SCT120 OVC200 FM040030 23005KT P6SM BKN050 PROB30 0401/0406 4SM -TSRA OVC025CB FM041200 30008KT P6SM SCT045 FM041800 29009G17KT P6SM BKN050 BKN250 PROB30 0420/0424 4SM -TSRA OVC030CB FM050200 31002KT P6SM FEW040 BKN150",
+        "issued": "2026-09-03T23:20:00.000Z",
+        "valid_from": 1788480000,
+        "valid_to": 1788588000,
         "thunder": true,
         "snow": false,
         "freezing_precip": false
@@ -162,14 +162,6 @@
         "snow_7d_in": 0.0
       },
       "forecast": [
-        {
-          "name": "This Afternoon",
-          "temperature": 93,
-          "temperatureUnit": "F",
-          "shortForecast": "Isolated Showers And Thunderstorms",
-          "windSpeed": "6 mph",
-          "windDirection": "W"
-        },
         {
           "name": "Tonight",
           "temperature": 73,
@@ -225,9 +217,17 @@
           "shortForecast": "Mostly Clear",
           "windSpeed": "1 to 8 mph",
           "windDirection": "E"
+        },
+        {
+          "name": "Labor Day",
+          "temperature": 81,
+          "temperatureUnit": "F",
+          "shortForecast": "Sunny",
+          "windSpeed": "1 to 5 mph",
+          "windDirection": "E"
         }
       ],
-      "checked_at": "2026-09-03T21:56:06.021702Z",
+      "checked_at": "2026-09-03T23:49:23.775904Z",
       "next_check_minutes": 15
     }
   ],
