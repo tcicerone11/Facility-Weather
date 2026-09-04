@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T18:20:19.661474Z",
+  "generated_at": "2026-09-04T20:52:02.275956Z",
   "facilities": [
     {
       "id": "den",
@@ -24,13 +24,13 @@
         }
       ],
       "metar": {
-        "raw": "METAR KDEN 041753Z 19003KT 10SM FEW100 FEW150 30/04 A3007 RMK AO2 SLP089 T03000039 10306 20161 50001",
-        "observed": "2026-09-04T18:00:00.000Z",
-        "wind_kt": 3.0,
-        "wind_mph": 3.5,
+        "raw": "METAR KDEN 041953Z 10010KT 10SM FEW110 33/01 A3005 RMK AO2 SLP079 T03280006",
+        "observed": "2026-09-04T20:00:00.000Z",
+        "wind_kt": 10.0,
+        "wind_mph": 11.5,
         "gust_kt": null,
         "gust_mph": null,
-        "temperature_f": 86.0,
+        "temperature_f": 91.0,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
@@ -47,7 +47,7 @@
       "metrics": {
         "peak_gust_24h_kt": 19.0,
         "peak_gust_24h_mph": 21.9,
-        "precip_7d_in": 0.14,
+        "precip_7d_in": 0.12,
         "snow_7d_in": 0.0
       },
       "forecast": [
@@ -93,30 +93,30 @@
         },
         {
           "name": "Sunday Night",
-          "temperature": 64,
+          "temperature": 65,
           "temperatureUnit": "F",
           "shortForecast": "Chance Showers And Thunderstorms then Partly Cloudy",
-          "windSpeed": "5 to 9 mph",
-          "windDirection": "SSE"
+          "windSpeed": "6 to 9 mph",
+          "windDirection": "S"
         },
         {
           "name": "Labor Day",
-          "temperature": 91,
+          "temperature": 92,
           "temperatureUnit": "F",
           "shortForecast": "Partly Sunny then Chance Showers And Thunderstorms",
           "windSpeed": "5 to 8 mph",
-          "windDirection": "N"
+          "windDirection": "NNW"
         },
         {
           "name": "Monday Night",
-          "temperature": 62,
+          "temperature": 63,
           "temperatureUnit": "F",
           "shortForecast": "Chance Showers And Thunderstorms then Mostly Cloudy",
-          "windSpeed": "5 to 8 mph",
-          "windDirection": "SSW"
+          "windSpeed": "5 to 9 mph",
+          "windDirection": "ESE"
         }
       ],
-      "checked_at": "2026-09-04T18:20:20.414711Z",
+      "checked_at": "2026-09-04T20:52:04.374337Z",
       "next_check_minutes": 15
     },
     {
@@ -136,50 +136,35 @@
       "reasons": [
         {
           "level": "watch",
-          "title": "Severe Thunderstorm Watch",
-          "detail": "Severe Thunderstorm Watch issued September 4 at 2:04PM EDT until September 4 at 9:00PM EDT by NWS Baltimore MD/Washington DC",
-          "action": "Monitor updates and prepare staff or equipment. Source: Exact facility location."
-        },
-        {
-          "level": "watch",
           "title": "Thunderstorms may affect the facility",
           "detail": "A thunderstorm signal appears in the next 6 hours in the local or airport forecast.",
           "action": "Monitor official warnings and your approved lightning procedure. This system does not measure lightning strike distance."
         }
       ],
       "metar": {
-        "raw": "METAR KIAD 041752Z VRB05KT 10SM FEW040 FEW120 BKN250 31/21 A2994 RMK AO2 SLP135 TCU DSNT W T03110211 10311 20233 58012",
-        "observed": "2026-09-04T18:00:00.000Z",
-        "wind_kt": 5.0,
-        "wind_mph": 5.8,
-        "gust_kt": null,
-        "gust_mph": null,
-        "temperature_f": 88.0,
-        "visibility_sm": 10.0,
-        "flight_category": "VFR"
+        "raw": "SPECI KIAD 042033Z COR 27012G28KT 3SM R01R/3500VP6000FT -TSRA BR FEW012 BKN040CB BKN080 BKN130 OVC160 24/22 A2994 RMK AO2 PK WND 25028/2029 RAB21 TSB02 PRESRR CONS LTGICCG ALQDS TS ALQDS MOV SE P0012 T02440217 $",
+        "observed": "2026-09-04T20:33:00.000Z",
+        "wind_kt": 12.0,
+        "wind_mph": 13.8,
+        "gust_kt": 28.0,
+        "gust_mph": 32.2,
+        "temperature_f": 75.9,
+        "visibility_sm": 3.0,
+        "flight_category": "MVFR"
       },
       "taf": {
-        "raw": "TAF KIAD 041736Z 0418/0524 29007KT P6SM SCT045 BKN250 TEMPO 0419/0422 3SM -TSRA OVC030CB FM050300 31002KT P6SM SCT040 BKN120 FM050600 34002KT P6SM BKN040 OVC090 PROB30 0506/0509 5SM -SHRA FM051500 36004KT P6SM BKN040",
-        "issued": "2026-09-04T17:36:00.000Z",
-        "valid_from": 1788544800,
+        "raw": "TAF KIAD 042031Z 0421/0524 24011KT 1SM -TSRA FEW020 SCT035CB BKN060 TEMPO 0421/0422 33016G30KT 1SM -TSRA OVC030CB FM050300 31002KT P6SM SCT040 BKN120 FM050600 34002KT P6SM BKN040 OVC090 PROB30 0506/0509 5SM -SHRA FM051500 36004KT P6SM BKN040",
+        "issued": "2026-09-04T20:31:00.000Z",
+        "valid_from": 1788555600,
         "valid_to": 1788652800,
         "thunder": true,
         "snow": false,
         "freezing_precip": false
       },
-      "alerts": [
-        {
-          "event": "Severe Thunderstorm Watch",
-          "headline": "Severe Thunderstorm Watch issued September 4 at 2:04PM EDT until September 4 at 9:00PM EDT by NWS Baltimore MD/Washington DC",
-          "severity": "Severe",
-          "urgency": "Future",
-          "expires": "2026-09-04T21:00:00-04:00",
-          "source": "Exact facility location"
-        }
-      ],
+      "alerts": [],
       "metrics": {
-        "peak_gust_24h_kt": 16.0,
-        "peak_gust_24h_mph": 18.4,
+        "peak_gust_24h_kt": 28.0,
+        "peak_gust_24h_mph": 32.2,
         "precip_7d_in": 0.45,
         "snow_7d_in": 0.0
       },
@@ -188,7 +173,7 @@
           "name": "This Afternoon",
           "temperature": 92,
           "temperatureUnit": "F",
-          "shortForecast": "Scattered Showers And Thunderstorms",
+          "shortForecast": "Chance Showers And Thunderstorms",
           "windSpeed": "10 mph",
           "windDirection": "NW"
         },
@@ -242,14 +227,14 @@
         },
         {
           "name": "Monday Night",
-          "temperature": 61,
+          "temperature": 60,
           "temperatureUnit": "F",
           "shortForecast": "Mostly Clear",
-          "windSpeed": "5 mph",
+          "windSpeed": "3 mph",
           "windDirection": "S"
         }
       ],
-      "checked_at": "2026-09-04T18:20:21.682964Z",
+      "checked_at": "2026-09-04T20:52:06.441143Z",
       "next_check_minutes": 15
     }
   ],
