@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T11:29:00.477073Z",
+  "generated_at": "2026-09-04T15:04:12.673656Z",
   "facilities": [
     {
       "id": "den",
@@ -110,7 +110,8 @@
         }
       ],
       "checked_at": "2026-09-04T11:29:01.263093Z",
-      "next_check_minutes": 30
+      "next_check_minutes": 30,
+      "data_error": "504 Server Error: Gateway Time-out for url: https://aviationweather.gov/api/data/metar?ids=KDEN&format=json"
     },
     {
       "id": "iad",
@@ -135,20 +136,20 @@
         }
       ],
       "metar": {
-        "raw": "METAR KIAD 041052Z 05005KT 10SM FEW085 SCT140 SCT180 BKN250 22/21 A2996 RMK AO2 SLP143 T02170211 $",
-        "observed": "2026-09-04T11:00:00.000Z",
-        "wind_kt": 5.0,
-        "wind_mph": 5.8,
+        "raw": "METAR KIAD 041452Z 32010KT 10SM FEW015 FEW110 SCT250 28/21 A2998 RMK AO2 SLP147 T02830206 50002",
+        "observed": "2026-09-04T15:00:00.000Z",
+        "wind_kt": 10.0,
+        "wind_mph": 11.5,
         "gust_kt": null,
         "gust_mph": null,
-        "temperature_f": 71.1,
+        "temperature_f": 82.9,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
       "taf": {
-        "raw": "TAF KIAD 041120Z 0412/0518 17003KT P6SM SCT015 FM041300 30008KT P6SM SCT045 FM041800 29009G17KT P6SM SCT060 BKN250 PROB30 0419/0423 3SM -TSRA OVC040CB FM050300 31002KT P6SM SCT040 BKN120 FM050700 34002KT P6SM BKN040 OVC090 FM051500 36004KT P6SM BKN040",
-        "issued": "2026-09-04T11:20:00.000Z",
-        "valid_from": 1788523200,
+        "raw": "TAF KIAD 041503Z 0415/0518 32010KT P6SM FEW015 SCT100 FM041800 29009G17KT P6SM SCT060 BKN250 PROB30 0419/0423 3SM -TSRA OVC040CB FM050300 31002KT P6SM SCT040 BKN120 FM050700 34002KT P6SM BKN040 OVC090 FM051500 36004KT P6SM BKN040",
+        "issued": "2026-09-04T15:03:00.000Z",
+        "valid_from": 1788534000,
         "valid_to": 1788631200,
         "thunder": true,
         "snow": false,
@@ -158,16 +159,16 @@
       "metrics": {
         "peak_gust_24h_kt": 16.0,
         "peak_gust_24h_mph": 18.4,
-        "precip_7d_in": 0.3,
+        "precip_7d_in": 0.24,
         "snow_7d_in": 0.0
       },
       "forecast": [
         {
           "name": "Today",
-          "temperature": 91,
+          "temperature": 92,
           "temperatureUnit": "F",
-          "shortForecast": "Showers And Thunderstorms Likely",
-          "windSpeed": "2 to 10 mph",
+          "shortForecast": "Partly Sunny then Showers And Thunderstorms Likely",
+          "windSpeed": "7 to 10 mph",
           "windDirection": "NW"
         },
         {
@@ -227,7 +228,7 @@
           "windDirection": "S"
         }
       ],
-      "checked_at": "2026-09-04T11:29:05.419890Z",
+      "checked_at": "2026-09-04T15:04:35.692823Z",
       "next_check_minutes": 15
     }
   ],
