@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T23:59:28.058782Z",
+  "generated_at": "2026-09-12T04:22:57.493589Z",
   "facilities": [
     {
       "id": "den",
@@ -110,7 +110,8 @@
         }
       ],
       "checked_at": "2026-09-11T23:59:28.873056Z",
-      "next_check_minutes": 30
+      "next_check_minutes": 30,
+      "data_error": "504 Server Error: Gateway Time-out for url: https://aviationweather.gov/api/data/taf?ids=KDEN&format=json"
     },
     {
       "id": "iad",
@@ -221,7 +222,8 @@
         }
       ],
       "checked_at": "2026-09-11T23:59:30.738799Z",
-      "next_check_minutes": 30
+      "next_check_minutes": 30,
+      "data_error": "504 Server Error: Gateway Time-out for url: https://aviationweather.gov/api/data/taf?ids=KIAD&format=json"
     }
   ],
   "settings": {
