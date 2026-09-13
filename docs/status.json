@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T21:09:24.971387Z",
+  "generated_at": "2026-09-13T23:09:12.693260Z",
   "facilities": [
     {
       "id": "den",
@@ -24,13 +24,13 @@
         }
       ],
       "metar": {
-        "raw": "METAR KDEN 132053Z 11014G25KT 10SM FEW110 FEW150 FEW200 34/04 A2997 RMK AO2 PK WND 08026/2038 SLP061 T03390044 58026",
-        "observed": "2026-09-13T21:00:00.000Z",
-        "wind_kt": 14.0,
-        "wind_mph": 16.1,
-        "gust_kt": 25.0,
-        "gust_mph": 28.8,
-        "temperature_f": 93.0,
+        "raw": "METAR KDEN 132253Z 12018G27KT 10SM FEW110 FEW150 SCT200 33/06 A2991 RMK AO2 PK WND 13029/2211 SLP044 T03280056",
+        "observed": "2026-09-13T23:00:00.000Z",
+        "wind_kt": 18.0,
+        "wind_mph": 20.7,
+        "gust_kt": 27.0,
+        "gust_mph": 31.1,
+        "temperature_f": 91.0,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
@@ -45,8 +45,8 @@
       },
       "alerts": [],
       "metrics": {
-        "peak_gust_24h_kt": 25.0,
-        "peak_gust_24h_mph": 28.8,
+        "peak_gust_24h_kt": 27.0,
+        "peak_gust_24h_mph": 31.1,
         "precip_7d_in": 0.52,
         "snow_7d_in": 0.0
       },
@@ -116,7 +116,7 @@
           "windDirection": "S"
         }
       ],
-      "checked_at": "2026-09-13T21:09:26.063547Z",
+      "checked_at": "2026-09-13T23:09:27.076489Z",
       "next_check_minutes": 15
     },
     {
@@ -135,13 +135,13 @@
       },
       "reasons": [],
       "metar": {
-        "raw": "METAR KIAD 132052Z 08004KT 10SM SCT043TCU SCT055 29/23 A2987 RMK AO2 SLP109 TCU E-SE CB DSNT NW MOV SE VCSH SE T02890228 56012 $",
-        "observed": "2026-09-13T21:00:00.000Z",
-        "wind_kt": 4.0,
-        "wind_mph": 4.6,
+        "raw": "METAR KIAD 132252Z 13005KT 10SM SCT044TCU SCT055 BKN150 28/22 A2988 RMK AO2 SLP116 CB DSNT SE MOV SE TCU N-S T02830222 $",
+        "observed": "2026-09-13T23:00:00.000Z",
+        "wind_kt": 5.0,
+        "wind_mph": 5.8,
         "gust_kt": null,
         "gust_mph": null,
-        "temperature_f": 84.0,
+        "temperature_f": 82.9,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
@@ -158,18 +158,10 @@
       "metrics": {
         "peak_gust_24h_kt": 21.0,
         "peak_gust_24h_mph": 24.2,
-        "precip_7d_in": 0.01,
+        "precip_7d_in": 0.0,
         "snow_7d_in": 0.0
       },
       "forecast": [
-        {
-          "name": "This Afternoon",
-          "temperature": 87,
-          "temperatureUnit": "F",
-          "shortForecast": "Isolated Rain Showers",
-          "windSpeed": "6 mph",
-          "windDirection": "NW"
-        },
         {
           "name": "Tonight",
           "temperature": 69,
@@ -225,9 +217,17 @@
           "shortForecast": "Mostly Clear",
           "windSpeed": "5 mph",
           "windDirection": "S"
+        },
+        {
+          "name": "Thursday",
+          "temperature": 87,
+          "temperatureUnit": "F",
+          "shortForecast": "Sunny",
+          "windSpeed": "3 to 7 mph",
+          "windDirection": "S"
         }
       ],
-      "checked_at": "2026-09-13T21:09:27.252076Z",
+      "checked_at": "2026-09-13T23:09:30.021725Z",
       "next_check_minutes": 30
     }
   ],
