@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T10:59:10.884032Z",
+  "generated_at": "2026-09-17T15:30:19.885893Z",
   "facilities": [
     {
       "id": "den",
@@ -24,43 +24,35 @@
         }
       ],
       "metar": {
-        "raw": "METAR KDEN 171053Z 15005KT 10SM BKN100 BKN120 BKN220 17/13 A3027 RMK AO2 RAB25E38 SLP174 P0000 T01720133",
-        "observed": "2026-09-17T11:00:00.000Z",
-        "wind_kt": 5.0,
-        "wind_mph": 5.8,
+        "raw": "METAR KDEN 171453Z 16007KT 10SM FEW065 SCT110 BKN160 21/12 A3029 RMK AO2 SLP182 T02110122 51005",
+        "observed": "2026-09-17T15:00:00.000Z",
+        "wind_kt": 7.0,
+        "wind_mph": 8.1,
         "gust_kt": null,
         "gust_mph": null,
-        "temperature_f": 63.0,
+        "temperature_f": 70.0,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
       "taf": {
-        "raw": "TAF KDEN 170853Z 1709/1812 21011KT P6SM SCT070 BKN120 FM171100 17008KT P6SM SCT070 BKN120 FM171500 VRB05KT P6SM SCT070 BKN100 PROB30 1718/1721 VRB12G20KT -SHRA FM172100 18008KT P6SM SCT070 BKN100 TEMPO 1721/1801 VRB15G30KT -TSRA BKN060CB FM180100 02007KT P6SM SCT070 BKN100 PROB30 1801/1803 VRB15G25KT -SHRA BKN070 FM180300 VRB06KT P6SM FEW070 SCT100 BKN200 FM180900 21009KT P6SM FEW100 SCT200",
-        "issued": "2026-09-17T08:53:00.000Z",
-        "valid_from": 1789635600,
-        "valid_to": 1789732800,
+        "raw": "TAF KDEN 171459Z 1715/1818 15008KT P6SM SCT070 BKN100 FM171700 VRB05KT P6SM SCT070 BKN100 PROB30 1718/1721 VRB12G22KT -SHRA FM172100 18008KT P6SM SCT070 BKN100 TEMPO 1721/1801 VRB15G30KT 5SM -TSRA BKN060CB FM180100 02007KT P6SM SCT070 BKN100 PROB30 1801/1803 VRB15G25KT -SHRA BKN070 FM180300 VRB06KT P6SM FEW070 SCT100 BKN200 FM180600 20009KT P6SM FEW100 SCT200 FM181500 VRB05KT P6SM FEW100 SCT200",
+        "issued": "2026-09-17T14:59:00.000Z",
+        "valid_from": 1789657200,
+        "valid_to": 1789754400,
         "thunder": true,
         "snow": false,
         "freezing_precip": false
       },
       "alerts": [],
       "metrics": {
-        "peak_gust_24h_kt": 16.0,
-        "peak_gust_24h_mph": 18.4,
+        "peak_gust_24h_kt": 14.0,
+        "peak_gust_24h_mph": 16.1,
         "precip_7d_in": 0.75,
         "snow_7d_in": 0.0
       },
       "forecast": [
         {
-          "name": "Overnight",
-          "temperature": 60,
-          "temperatureUnit": "F",
-          "shortForecast": "Chance Rain Showers",
-          "windSpeed": "6 mph",
-          "windDirection": "SSW"
-        },
-        {
-          "name": "Thursday",
+          "name": "Today",
           "temperature": 81,
           "temperatureUnit": "F",
           "shortForecast": "Chance Showers And Thunderstorms",
@@ -68,7 +60,7 @@
           "windDirection": "SSW"
         },
         {
-          "name": "Thursday Night",
+          "name": "Tonight",
           "temperature": 59,
           "temperatureUnit": "F",
           "shortForecast": "Chance Showers And Thunderstorms then Mostly Cloudy",
@@ -114,9 +106,17 @@
           "shortForecast": "Chance Rain Showers then Chance Showers And Thunderstorms",
           "windSpeed": "3 to 8 mph",
           "windDirection": "ESE"
+        },
+        {
+          "name": "Sunday Night",
+          "temperature": 49,
+          "temperatureUnit": "F",
+          "shortForecast": "Chance Showers And Thunderstorms",
+          "windSpeed": "3 to 9 mph",
+          "windDirection": "SE"
         }
       ],
-      "checked_at": "2026-09-17T10:59:11.706742Z",
+      "checked_at": "2026-09-17T15:30:24.036464Z",
       "next_check_minutes": 15
     },
     {
@@ -127,38 +127,45 @@
       "latitude": 38.9531,
       "longitude": -77.4565,
       "forecast_zone_name": "VAZ506",
-      "status": "normal",
+      "status": "watch",
       "status_copy": {
-        "label": "NORMAL",
-        "summary": "No configured weather condition currently suggests an operational change.",
-        "action": "Continue normal operations and routine monitoring."
+        "label": "WATCH",
+        "summary": "Weather could affect operations if conditions develop as forecast.",
+        "action": "Monitor conditions and prepare staff, equipment, or outdoor operations."
       },
-      "reasons": [],
+      "reasons": [
+        {
+          "level": "watch",
+          "title": "Thunderstorms may affect the facility",
+          "detail": "A thunderstorm signal appears in the next 6 hours in the local or airport forecast.",
+          "action": "Monitor official warnings and your approved lightning procedure. This system does not measure lightning strike distance."
+        }
+      ],
       "metar": {
-        "raw": "METAR KIAD 171052Z 00000KT 10SM FEW060 FEW120 BKN250 19/18 A3024 RMK AO2 SLP238 T01890183",
-        "observed": "2026-09-17T11:00:00.000Z",
-        "wind_kt": 0.0,
-        "wind_mph": 0.0,
+        "raw": "METAR KIAD 171452Z 21005KT 10SM FEW080 FEW150 SCT250 27/20 A3024 RMK AO2 SLP239 T02670200 56001",
+        "observed": "2026-09-17T15:00:00.000Z",
+        "wind_kt": 5.0,
+        "wind_mph": 5.8,
         "gust_kt": null,
         "gust_mph": null,
-        "temperature_f": 66.0,
+        "temperature_f": 80.1,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
       "taf": {
-        "raw": "TAF KIAD 170859Z 1709/1812 16004KT P6SM SCT060 FM171600 20007KT P6SM FEW050 BKN150 PROB30 1720/1724 4SM SHRA FM180100 23005KT P6SM SCT040 BKN080 FM180600 28004KT P6SM FEW040 SCT080 FM180900 34006KT P6SM FEW040 FEW060",
-        "issued": "2026-09-17T08:59:00.000Z",
-        "valid_from": 1789635600,
-        "valid_to": 1789732800,
-        "thunder": false,
+        "raw": "TAF KIAD 171523Z 1715/1818 21007KT P6SM FEW080 SCT250 TEMPO 1718/1720 4SM -TSRA BKN050CB FM172000 23005KT P6SM SCT050 BKN250 PROB30 1722/1801 4SM -SHRA BKN045 FM180600 28004KT P6SM FEW040 SCT080 FM180900 34006KT P6SM FEW040 FEW080 FM181600 01008G16KT P6SM FEW040 SCT080",
+        "issued": "2026-09-17T15:23:00.000Z",
+        "valid_from": 1789657200,
+        "valid_to": 1789754400,
+        "thunder": true,
         "snow": false,
         "freezing_precip": false
       },
       "alerts": [],
       "metrics": {
-        "peak_gust_24h_kt": 10.0,
-        "peak_gust_24h_mph": 11.5,
-        "precip_7d_in": 0.02,
+        "peak_gust_24h_kt": 13.0,
+        "peak_gust_24h_mph": 15.0,
+        "precip_7d_in": 0.07,
         "snow_7d_in": 0.0
       },
       "forecast": [
@@ -166,7 +173,7 @@
           "name": "Today",
           "temperature": 89,
           "temperatureUnit": "F",
-          "shortForecast": "Isolated Rain Showers then Scattered Showers And Thunderstorms",
+          "shortForecast": "Partly Sunny then Isolated Showers And Thunderstorms",
           "windSpeed": "6 mph",
           "windDirection": "S"
         },
@@ -174,7 +181,7 @@
           "name": "Tonight",
           "temperature": 70,
           "temperatureUnit": "F",
-          "shortForecast": "Scattered Showers And Thunderstorms then Partly Cloudy",
+          "shortForecast": "Scattered Showers And Thunderstorms then Mostly Cloudy",
           "windSpeed": "5 mph",
           "windDirection": "W"
         },
@@ -227,8 +234,8 @@
           "windDirection": "NW"
         }
       ],
-      "checked_at": "2026-09-17T10:59:13.111465Z",
-      "next_check_minutes": 30
+      "checked_at": "2026-09-17T15:30:26.035331Z",
+      "next_check_minutes": 15
     }
   ],
   "settings": {
