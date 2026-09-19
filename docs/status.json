@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19T11:34:05.746129Z",
+  "generated_at": "2026-09-19T14:45:19.887225Z",
   "facilities": [
     {
       "id": "den",
@@ -24,13 +24,13 @@
         }
       ],
       "metar": {
-        "raw": "METAR KDEN 191053Z 20006KT 10SM FEW080 FEW180 BKN220 13/12 A3014 RMK AO2 SLP153 T01330122 $",
-        "observed": "2026-09-19T11:00:00.000Z",
-        "wind_kt": 6.0,
-        "wind_mph": 6.9,
+        "raw": "METAR KDEN 191353Z 20009KT 10SM FEW080 FEW150 SCT250 14/12 A3016 RMK AO2 SLP156 T01440122 $",
+        "observed": "2026-09-19T14:00:00.000Z",
+        "wind_kt": 9.0,
+        "wind_mph": 10.4,
         "gust_kt": null,
         "gust_mph": null,
-        "temperature_f": 55.9,
+        "temperature_f": 57.9,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
@@ -52,15 +52,7 @@
       },
       "forecast": [
         {
-          "name": "Overnight",
-          "temperature": 55,
-          "temperatureUnit": "F",
-          "shortForecast": "Mostly Cloudy",
-          "windSpeed": "5 mph",
-          "windDirection": "WSW"
-        },
-        {
-          "name": "Saturday",
+          "name": "Today",
           "temperature": 76,
           "temperatureUnit": "F",
           "shortForecast": "Mostly Sunny then Chance Showers And Thunderstorms",
@@ -68,7 +60,7 @@
           "windDirection": "NE"
         },
         {
-          "name": "Saturday Night",
+          "name": "Tonight",
           "temperature": 51,
           "temperatureUnit": "F",
           "shortForecast": "Chance Showers And Thunderstorms then Partly Cloudy",
@@ -114,9 +106,17 @@
           "shortForecast": "Sunny",
           "windSpeed": "2 to 9 mph",
           "windDirection": "SSE"
+        },
+        {
+          "name": "Tuesday Night",
+          "temperature": 54,
+          "temperatureUnit": "F",
+          "shortForecast": "Partly Cloudy",
+          "windSpeed": "7 to 15 mph",
+          "windDirection": "S"
         }
       ],
-      "checked_at": "2026-09-19T11:34:07.141745Z",
+      "checked_at": "2026-09-19T14:45:20.471590Z",
       "next_check_minutes": 15
     },
     {
@@ -135,13 +135,13 @@
       },
       "reasons": [],
       "metar": {
-        "raw": "METAR KIAD 191052Z 02008KT 10SM FEW040 BKN080 BKN250 19/13 A3013 RMK AO2 SLP201 T01890133",
-        "observed": "2026-09-19T11:00:00.000Z",
-        "wind_kt": 8.0,
-        "wind_mph": 9.2,
+        "raw": "METAR KIAD 191352Z 04005KT 10SM BKN032 BKN060 BKN250 21/14 A3015 RMK AO2 SLP208 T02110144",
+        "observed": "2026-09-19T14:00:00.000Z",
+        "wind_kt": 5.0,
+        "wind_mph": 5.8,
         "gust_kt": null,
         "gust_mph": null,
-        "temperature_f": 66.0,
+        "temperature_f": 70.0,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
@@ -156,8 +156,8 @@
       },
       "alerts": [],
       "metrics": {
-        "peak_gust_24h_kt": 13.0,
-        "peak_gust_24h_mph": 15.0,
+        "peak_gust_24h_kt": 17.0,
+        "peak_gust_24h_mph": 19.6,
         "precip_7d_in": 0.35,
         "snow_7d_in": 0.0
       },
@@ -227,7 +227,7 @@
           "windDirection": "NE"
         }
       ],
-      "checked_at": "2026-09-19T11:34:10.077387Z",
+      "checked_at": "2026-09-19T14:45:21.281074Z",
       "next_check_minutes": 30
     }
   ],
