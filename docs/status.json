@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19T23:36:10.264854Z",
+  "generated_at": "2026-09-20T01:36:43.223094Z",
   "facilities": [
     {
       "id": "den",
@@ -117,7 +117,8 @@
         }
       ],
       "checked_at": "2026-09-19T23:36:13.946890Z",
-      "next_check_minutes": 15
+      "next_check_minutes": 15,
+      "data_error": "HTTPSConnectionPool(host='aviationweather.gov', port=443): Max retries exceeded with url: /api/data/metar?ids=KDEN&format=json (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1010)')))"
     },
     {
       "id": "iad",
@@ -228,7 +229,8 @@
         }
       ],
       "checked_at": "2026-09-19T23:36:15.301587Z",
-      "next_check_minutes": 30
+      "next_check_minutes": 30,
+      "data_error": "HTTPSConnectionPool(host='aviationweather.gov', port=443): Max retries exceeded with url: /api/data/metar?ids=KIAD&format=json (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1010)')))"
     }
   ],
   "settings": {
