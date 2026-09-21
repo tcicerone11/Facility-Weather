@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21T01:08:24.594879Z",
+  "generated_at": "2026-09-21T06:18:31.744532Z",
   "facilities": [
     {
       "id": "den",
@@ -9,36 +9,29 @@
       "latitude": 39.8561,
       "longitude": -104.6737,
       "forecast_zone_name": "COZ040",
-      "status": "watch",
+      "status": "normal",
       "status_copy": {
-        "label": "WATCH",
-        "summary": "Weather could affect operations if conditions develop as forecast.",
-        "action": "Monitor conditions and prepare staff, equipment, or outdoor operations."
+        "label": "NORMAL",
+        "summary": "No configured weather condition currently suggests an operational change.",
+        "action": "Continue normal operations and routine monitoring."
       },
-      "reasons": [
-        {
-          "level": "watch",
-          "title": "Thunderstorms may affect the facility",
-          "detail": "A thunderstorm signal appears in the next 6 hours in the local or airport forecast.",
-          "action": "Monitor official warnings and your approved lightning procedure. This system does not measure lightning strike distance."
-        }
-      ],
+      "reasons": [],
       "metar": {
-        "raw": "METAR KDEN 210053Z 06013KT 10SM SCT110 18/10 A3015 RMK AO2 SLP160 T01830100 $",
-        "observed": "2026-09-21T01:00:00.000Z",
-        "wind_kt": 13.0,
-        "wind_mph": 15.0,
+        "raw": "METAR KDEN 210553Z 03010KT 10SM FEW013 SCT041 BKN075 13/12 A3025 RMK AO2 SLP186 60012 T01330117 10211 20133 51017 $",
+        "observed": "2026-09-21T06:00:00.000Z",
+        "wind_kt": 10.0,
+        "wind_mph": 11.5,
         "gust_kt": null,
         "gust_mph": null,
-        "temperature_f": 64.9,
+        "temperature_f": 55.9,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
       "taf": {
-        "raw": "TAF KDEN 202324Z 2100/2206 06010KT P6SM FEW080 SCT140 FM210200 09010KT P6SM FEW080 SCT140 FM210600 12007KT P6SM SCT120 FM210900 VRB06KT P6SM FEW120 FM211800 08009KT P6SM FEW090 SCT200 FM220200 14010KT P6SM SCT200",
-        "issued": "2026-09-20T23:24:00.000Z",
-        "valid_from": 1789948800,
-        "valid_to": 1790056800,
+        "raw": "TAF KDEN 210520Z 2106/2212 03009KT P6SM FEW035 BKN070 FM210700 VRB06KT P6SM SCT070 SCT200 FM211800 09009KT P6SM FEW090 SCT200 FM220300 14011KT P6SM SCT200 FM220700 18013KT P6SM SCT200",
+        "issued": "2026-09-21T05:20:00.000Z",
+        "valid_from": 1789970400,
+        "valid_to": 1790078400,
         "thunder": false,
         "snow": false,
         "freezing_precip": false
@@ -116,8 +109,8 @@
           "windDirection": "NNW"
         }
       ],
-      "checked_at": "2026-09-21T01:08:26.749518Z",
-      "next_check_minutes": 15
+      "checked_at": "2026-09-21T06:18:33.132967Z",
+      "next_check_minutes": 30
     },
     {
       "id": "iad",
@@ -127,36 +120,29 @@
       "latitude": 38.9531,
       "longitude": -77.4565,
       "forecast_zone_name": "VAZ506",
-      "status": "watch",
+      "status": "normal",
       "status_copy": {
-        "label": "WATCH",
-        "summary": "Weather could affect operations if conditions develop as forecast.",
-        "action": "Monitor conditions and prepare staff, equipment, or outdoor operations."
+        "label": "NORMAL",
+        "summary": "No configured weather condition currently suggests an operational change.",
+        "action": "Continue normal operations and routine monitoring."
       },
-      "reasons": [
-        {
-          "level": "watch",
-          "title": "Thunderstorms may affect the facility",
-          "detail": "A thunderstorm signal appears in the next 6 hours in the local or airport forecast.",
-          "action": "Monitor official warnings and your approved lightning procedure. This system does not measure lightning strike distance."
-        }
-      ],
+      "reasons": [],
       "metar": {
-        "raw": "METAR KIAD 210052Z 25003KT 10SM -RA FEW050 SCT110 SCT160 BKN200 25/21 A2992 RMK AO2 RAB36 SLP127 P0000 T02500211 $",
-        "observed": "2026-09-21T01:00:00.000Z",
-        "wind_kt": 3.0,
-        "wind_mph": 3.5,
+        "raw": "METAR KIAD 210552Z 04008KT 10SM FEW034 SCT075 22/19 A2996 RMK AO2 SLP141 60000 T02170189 10256 20217 50005 $",
+        "observed": "2026-09-21T06:00:00.000Z",
+        "wind_kt": 8.0,
+        "wind_mph": 9.2,
         "gust_kt": null,
         "gust_mph": null,
-        "temperature_f": 77.0,
+        "temperature_f": 71.1,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
       "taf": {
-        "raw": "TAF KIAD 202337Z 2100/2206 23004KT P6SM BKN045 BKN150 FM210200 30004KT P6SM OVC100 PROB30 2102/2105 5SM -SHRA FM210600 36004KT P6SM BKN025 FM210800 01005KT P6SM BKN015 FM211500 03006KT P6SM BKN035 PROB30 2117/2123 5SM -SHRA OVC025 FM220200 05005KT 5SM -SHRA BKN015 OVC035",
-        "issued": "2026-09-20T23:37:00.000Z",
-        "valid_from": 1789948800,
-        "valid_to": 1790056800,
+        "raw": "TAF KIAD 210540Z 2106/2212 02007KT P6SM FEW035 SCT070 FM211200 03007KT P6SM BKN025 PROB30 2116/2122 5SM -SHRA OVC025 FM220200 05005KT 6SM -SHRA OVC015 FM220500 06006KT 6SM -SHRA OVC008",
+        "issued": "2026-09-21T05:40:00.000Z",
+        "valid_from": 1789970400,
+        "valid_to": 1790078400,
         "thunder": false,
         "snow": false,
         "freezing_precip": false
@@ -165,7 +151,7 @@
       "metrics": {
         "peak_gust_24h_kt": 12.0,
         "peak_gust_24h_mph": 13.8,
-        "precip_7d_in": 1.87,
+        "precip_7d_in": 1.84,
         "snow_7d_in": 0.0
       },
       "forecast": [
@@ -173,7 +159,7 @@
           "name": "Tonight",
           "temperature": 64,
           "temperatureUnit": "F",
-          "shortForecast": "Isolated Showers And Thunderstorms then Scattered Showers And Thunderstorms",
+          "shortForecast": "Scattered Rain Showers",
           "windSpeed": "3 to 7 mph",
           "windDirection": "N"
         },
@@ -234,8 +220,8 @@
           "windDirection": "NE"
         }
       ],
-      "checked_at": "2026-09-21T01:08:28.475150Z",
-      "next_check_minutes": 15
+      "checked_at": "2026-09-21T06:18:34.544937Z",
+      "next_check_minutes": 30
     }
   ],
   "settings": {
