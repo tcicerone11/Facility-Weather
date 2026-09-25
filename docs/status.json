@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T20:31:44.443835Z",
+  "generated_at": "2026-09-25T23:29:00.063926Z",
   "facilities": [
     {
       "id": "den",
@@ -24,26 +24,43 @@
         }
       ],
       "metar": {
-        "raw": "METAR KDEN 251953Z 09003KT 10SM SCT040 SCT080 SCT220 22/11 A3006 RMK AO2 SLP112 T02220106",
-        "observed": "2026-09-25T20:00:00.000Z",
-        "wind_kt": 3.0,
-        "wind_mph": 3.5,
+        "raw": "SPECI KDEN 252325Z 26014KT 3SM +TSRA BR FEW030 BKN050CB BKN080 BKN180 14/13 A3006 RMK AO2 PK WND 22032/2254 WSHFT 2245 GRB06E12 FRQ LTGICCCCG SE-SW TS SE-SW MOV NE P0040 T01440128",
+        "observed": "2026-09-25T23:25:00.000Z",
+        "wind_kt": 14.0,
+        "wind_mph": 16.1,
         "gust_kt": null,
         "gust_mph": null,
-        "temperature_f": 72.0,
-        "visibility_sm": 10.0,
-        "flight_category": "VFR"
+        "temperature_f": 57.9,
+        "visibility_sm": 3.0,
+        "flight_category": "MVFR"
       },
       "taf": {
-        "raw": "TAF KDEN 251727Z 2518/2624 07005KT P6SM SCT024 SCT080 BKN200 FM252000 10007KT P6SM SCT050 BKN090 TEMPO 2521/2524 VRB25G35KT 4SM TSRA BKN040CB FM260100 15008KT P6SM SCT060 BKN100 FM260400 21011KT P6SM FEW100 SCT200 FM261400 24008KT P6SM FEW220 FM261800 VRB06KT P6SM FEW110",
-        "issued": "2026-09-25T17:27:00.000Z",
-        "valid_from": 1790359200,
+        "raw": "TAF KDEN 252059Z 2521/2624 08007KT P6SM SCT050 BKN090 TEMPO 2521/2524 VRB25G35KT 4SM TSRA BKN040CB FM260100 15008KT P6SM SCT060 BKN100 FM260400 21011KT P6SM FEW100 SCT200 FM261400 24008KT P6SM FEW220 FM261800 VRB06KT P6SM FEW110",
+        "issued": "2026-09-25T20:59:00.000Z",
+        "valid_from": 1790370000,
         "valid_to": 1790467200,
         "thunder": true,
         "snow": false,
         "freezing_precip": false
       },
-      "alerts": [],
+      "alerts": [
+        {
+          "event": "Flood Advisory",
+          "headline": "Flood Advisory issued September 25 at 5:07PM MDT until September 25 at 7:00PM MDT by NWS Denver CO",
+          "severity": "Minor",
+          "urgency": "Expected",
+          "expires": "2026-09-25T19:00:00-06:00",
+          "source": "Exact facility location"
+        },
+        {
+          "event": "Special Weather Statement",
+          "headline": "Special Weather Statement issued September 25 at 5:17PM MDT by NWS Denver CO",
+          "severity": "Moderate",
+          "urgency": "Expected",
+          "expires": "2026-09-25T17:45:00-06:00",
+          "source": "Broader NWS zone COZ040"
+        }
+      ],
       "metrics": {
         "peak_gust_24h_kt": 18.0,
         "peak_gust_24h_mph": 20.7,
@@ -116,7 +133,7 @@
           "windDirection": "S"
         }
       ],
-      "checked_at": "2026-09-25T20:31:45.160963Z",
+      "checked_at": "2026-09-25T23:29:01.002672Z",
       "next_check_minutes": 15
     },
     {
@@ -135,20 +152,20 @@
       },
       "reasons": [],
       "metar": {
-        "raw": "METAR KIAD 251952Z 36010G18KT 10SM BKN250 23/05 A3004 RMK AO2 SLP170 T02330050 $",
-        "observed": "2026-09-25T20:00:00.000Z",
-        "wind_kt": 10.0,
-        "wind_mph": 11.5,
-        "gust_kt": 18.0,
-        "gust_mph": 20.7,
-        "temperature_f": 73.9,
+        "raw": "METAR KIAD 252252Z 34009KT 10SM BKN250 21/06 A3001 RMK AO2 SLP163 T02060056 $",
+        "observed": "2026-09-25T23:00:00.000Z",
+        "wind_kt": 9.0,
+        "wind_mph": 10.4,
+        "gust_kt": null,
+        "gust_mph": null,
+        "temperature_f": 69.1,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
       "taf": {
-        "raw": "TAF KIAD 251721Z 2518/2624 36012G22KT P6SM SKC FM252300 35009KT P6SM SKC WS020/02035KT FM261300 35015G26KT P6SM SCT080 PROB30 2618/2623 4SM -RA OVC040 FM262300 35012KT P6SM BKN045 PROB30 2623/2624 4SM -RA OVC025",
-        "issued": "2026-09-25T17:21:00.000Z",
-        "valid_from": 1790359200,
+        "raw": "TAF KIAD 252100Z 2521/2624 36012G22KT P6SM BKN250 FM252300 35009KT P6SM SCT250 WS020/02035KT FM261300 35015G26KT P6SM SCT080 PROB30 2618/2623 4SM -RA OVC040 FM262300 35012KT P6SM BKN045 PROB30 2623/2624 4SM -RA OVC025",
+        "issued": "2026-09-25T21:00:00.000Z",
+        "valid_from": 1790370000,
         "valid_to": 1790467200,
         "thunder": false,
         "snow": false,
@@ -156,66 +173,58 @@
       },
       "alerts": [],
       "metrics": {
-        "peak_gust_24h_kt": 24.0,
-        "peak_gust_24h_mph": 27.6,
-        "precip_7d_in": 0.1,
+        "peak_gust_24h_kt": 26.0,
+        "peak_gust_24h_mph": 29.9,
+        "precip_7d_in": 0.49,
         "snow_7d_in": 0.0
       },
       "forecast": [
-        {
-          "name": "This Afternoon",
-          "temperature": 72,
-          "temperatureUnit": "F",
-          "shortForecast": "Sunny",
-          "windSpeed": "18 mph",
-          "windDirection": "N"
-        },
         {
           "name": "Tonight",
           "temperature": 54,
           "temperatureUnit": "F",
           "shortForecast": "Mostly Clear",
-          "windSpeed": "10 to 16 mph",
+          "windSpeed": "13 mph",
           "windDirection": "N"
         },
         {
           "name": "Saturday",
           "temperature": 69,
           "temperatureUnit": "F",
-          "shortForecast": "Partly Sunny then Chance Light Rain",
-          "windSpeed": "13 to 20 mph",
+          "shortForecast": "Chance Rain Showers",
+          "windSpeed": "13 to 18 mph",
           "windDirection": "N"
         },
         {
           "name": "Saturday Night",
           "temperature": 57,
           "temperatureUnit": "F",
-          "shortForecast": "Chance Light Rain",
-          "windSpeed": "10 to 16 mph",
+          "shortForecast": "Chance Rain Showers",
+          "windSpeed": "12 to 15 mph",
           "windDirection": "N"
         },
         {
           "name": "Sunday",
           "temperature": 65,
           "temperatureUnit": "F",
-          "shortForecast": "Chance Light Rain",
-          "windSpeed": "10 to 21 mph",
+          "shortForecast": "Rain Showers Likely",
+          "windSpeed": "14 to 18 mph",
           "windDirection": "NW"
         },
         {
           "name": "Sunday Night",
           "temperature": 60,
           "temperatureUnit": "F",
-          "shortForecast": "Chance Light Rain",
-          "windSpeed": "8 to 16 mph",
+          "shortForecast": "Rain Showers Likely",
+          "windSpeed": "10 to 15 mph",
           "windDirection": "NW"
         },
         {
           "name": "Monday",
           "temperature": 69,
           "temperatureUnit": "F",
-          "shortForecast": "Slight Chance Light Rain",
-          "windSpeed": "8 to 13 mph",
+          "shortForecast": "Slight Chance Rain Showers then Mostly Cloudy",
+          "windSpeed": "7 to 10 mph",
           "windDirection": "NW"
         },
         {
@@ -223,11 +232,19 @@
           "temperature": 60,
           "temperatureUnit": "F",
           "shortForecast": "Mostly Cloudy",
-          "windSpeed": "2 to 7 mph",
+          "windSpeed": "2 to 6 mph",
           "windDirection": "NW"
+        },
+        {
+          "name": "Tuesday",
+          "temperature": 74,
+          "temperatureUnit": "F",
+          "shortForecast": "Partly Sunny",
+          "windSpeed": "2 to 6 mph",
+          "windDirection": "W"
         }
       ],
-      "checked_at": "2026-09-25T20:31:46.666629Z",
+      "checked_at": "2026-09-25T23:29:02.820075Z",
       "next_check_minutes": 30
     }
   ],
