@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T07:14:08.803700Z",
+  "generated_at": "2026-10-01T14:32:18.381596Z",
   "facilities": [
     {
       "id": "den",
@@ -17,10 +17,10 @@
       },
       "reasons": [],
       "metar": {
-        "raw": "METAR KDEN 010653Z 26006KT 10SM BKN090 BKN150 BKN200 13/09 A3005 RMK AO2 SLP120 T01280094 401780117",
-        "observed": "2026-10-01T07:00:00.000Z",
-        "wind_kt": 6.0,
-        "wind_mph": 6.9,
+        "raw": "METAR KDEN 011353Z 32007KT 10SM SCT070 BKN090 BKN200 13/06 A3019 RMK AO2 SLP175 T01280061",
+        "observed": "2026-10-01T14:00:00.000Z",
+        "wind_kt": 7.0,
+        "wind_mph": 8.1,
         "gust_kt": null,
         "gust_mph": null,
         "temperature_f": 55.0,
@@ -28,32 +28,24 @@
         "flight_category": "VFR"
       },
       "taf": {
-        "raw": "TAF KDEN 010635Z 0107/0212 23006KT P6SM FEW090 SCT150 BKN200 FM010800 26006KT P6SM FEW050 SCT080 FM011000 29006KT P6SM FEW040 SCT060 BKN090 FM011400 36010KT P6SM FEW030 SCT050 BKN070 FM011700 03007KT P6SM FEW020 SCT040 BKN070 FM012100 09007KT P6SM SCT050 BKN090 FM020100 12008KT P6SM SCT070 FM020500 18009KT P6SM FEW100 TEMPO 0207/0210 18012G20KT",
-        "issued": "2026-10-01T06:35:00.000Z",
-        "valid_from": 1790838000,
-        "valid_to": 1790942400,
+        "raw": "TAF KDEN 011404Z 0114/0218 33007KT P6SM BKN080 FM011600 01009KT P6SM FEW050 BKN080 FM011800 03009KT P6SM SCT050 BKN080 FM012100 09008KT P6SM SCT050 FM020100 12008KT P6SM SCT070 FM020500 18009KT P6SM FEW100 TEMPO 0207/0210 18012G20KT FM021200 21010KT P6SM FEW250",
+        "issued": "2026-10-01T14:04:00.000Z",
+        "valid_from": 1790863200,
+        "valid_to": 1790964000,
         "thunder": false,
         "snow": false,
         "freezing_precip": false
       },
       "alerts": [],
       "metrics": {
-        "peak_gust_24h_kt": 21.0,
-        "peak_gust_24h_mph": 24.2,
-        "precip_7d_in": 0.12,
+        "peak_gust_24h_kt": 20.0,
+        "peak_gust_24h_mph": 23.0,
+        "precip_7d_in": 0.01,
         "snow_7d_in": 0.0
       },
       "forecast": [
         {
-          "name": "Overnight",
-          "temperature": 51,
-          "temperatureUnit": "F",
-          "shortForecast": "Slight Chance Rain Showers",
-          "windSpeed": "6 mph",
-          "windDirection": "WSW"
-        },
-        {
-          "name": "Thursday",
+          "name": "Today",
           "temperature": 71,
           "temperatureUnit": "F",
           "shortForecast": "Partly Sunny",
@@ -61,7 +53,7 @@
           "windDirection": "NNE"
         },
         {
-          "name": "Thursday Night",
+          "name": "Tonight",
           "temperature": 48,
           "temperatureUnit": "F",
           "shortForecast": "Mostly Clear",
@@ -107,9 +99,17 @@
           "shortForecast": "Sunny",
           "windSpeed": "5 to 14 mph",
           "windDirection": "SSE"
+        },
+        {
+          "name": "Sunday Night",
+          "temperature": 53,
+          "temperatureUnit": "F",
+          "shortForecast": "Mostly Clear",
+          "windSpeed": "7 to 17 mph",
+          "windDirection": "SSW"
         }
       ],
-      "checked_at": "2026-10-01T07:14:09.321621Z",
+      "checked_at": "2026-10-01T14:32:19.362799Z",
       "next_check_minutes": 30
     },
     {
@@ -128,21 +128,21 @@
       },
       "reasons": [],
       "metar": {
-        "raw": "METAR KIAD 010652Z 18006KT 10SM BKN250 19/17 A3008 RMK AO2 SLP184 T01890172",
-        "observed": "2026-10-01T07:00:00.000Z",
-        "wind_kt": 6.0,
-        "wind_mph": 6.9,
+        "raw": "METAR KIAD 011352Z 22005KT 10SM SCT150 BKN250 21/17 A3011 RMK AO2 SLP195 T02110172",
+        "observed": "2026-10-01T14:00:00.000Z",
+        "wind_kt": 5.0,
+        "wind_mph": 5.8,
         "gust_kt": null,
         "gust_mph": null,
-        "temperature_f": 66.0,
+        "temperature_f": 70.0,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
       "taf": {
-        "raw": "TAF KIAD 010538Z 0106/0212 18006KT P6SM BKN250",
-        "issued": "2026-10-01T05:38:00.000Z",
-        "valid_from": 1790834400,
-        "valid_to": 1790942400,
+        "raw": "TAF KIAD 011127Z 0112/0218 19006KT P6SM SCT250",
+        "issued": "2026-10-01T11:27:00.000Z",
+        "valid_from": 1790856000,
+        "valid_to": 1790964000,
         "thunder": false,
         "snow": false,
         "freezing_precip": false
@@ -156,15 +156,7 @@
       },
       "forecast": [
         {
-          "name": "Overnight",
-          "temperature": 61,
-          "temperatureUnit": "F",
-          "shortForecast": "Mostly Cloudy",
-          "windSpeed": "3 mph",
-          "windDirection": "S"
-        },
-        {
-          "name": "Thursday",
+          "name": "Today",
           "temperature": 85,
           "temperatureUnit": "F",
           "shortForecast": "Mostly Sunny",
@@ -172,7 +164,7 @@
           "windDirection": "SW"
         },
         {
-          "name": "Thursday Night",
+          "name": "Tonight",
           "temperature": 62,
           "temperatureUnit": "F",
           "shortForecast": "Partly Cloudy",
@@ -218,9 +210,17 @@
           "shortForecast": "Rain Showers Likely",
           "windSpeed": "5 mph",
           "windDirection": "E"
+        },
+        {
+          "name": "Sunday Night",
+          "temperature": 54,
+          "temperatureUnit": "F",
+          "shortForecast": "Rain Showers Likely",
+          "windSpeed": "3 mph",
+          "windDirection": "N"
         }
       ],
-      "checked_at": "2026-10-01T07:14:09.886136Z",
+      "checked_at": "2026-10-01T14:32:22.425583Z",
       "next_check_minutes": 30
     }
   ],
