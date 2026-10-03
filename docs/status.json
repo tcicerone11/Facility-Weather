@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T23:41:53.304388Z",
+  "generated_at": "2026-10-03T02:20:22.068899Z",
   "facilities": [
     {
       "id": "den",
@@ -17,13 +17,13 @@
       },
       "reasons": [],
       "metar": {
-        "raw": "METAR KDEN 022253Z 18016KT 10SM FEW100 25/03 A3013 RMK AO2 SLP138 T02500033",
-        "observed": "2026-10-02T23:00:00.000Z",
-        "wind_kt": 16.0,
-        "wind_mph": 18.4,
+        "raw": "METAR KDEN 030153Z 18013KT 10SM FEW220 17/06 A3015 RMK AO2 SLP160 T01720061",
+        "observed": "2026-10-03T02:00:00.000Z",
+        "wind_kt": 13.0,
+        "wind_mph": 15.0,
         "gust_kt": null,
         "gust_mph": null,
-        "temperature_f": 77.0,
+        "temperature_f": 63.0,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
@@ -44,14 +44,6 @@
         "snow_7d_in": 0.0
       },
       "forecast": [
-        {
-          "name": "This Afternoon",
-          "temperature": 81,
-          "temperatureUnit": "F",
-          "shortForecast": "Sunny",
-          "windSpeed": "7 to 15 mph",
-          "windDirection": "SSE"
-        },
         {
           "name": "Tonight",
           "temperature": 53,
@@ -107,9 +99,17 @@
           "shortForecast": "Partly Cloudy",
           "windSpeed": "5 to 13 mph",
           "windDirection": "S"
+        },
+        {
+          "name": "Tuesday",
+          "temperature": 84,
+          "temperatureUnit": "F",
+          "shortForecast": "Mostly Sunny",
+          "windSpeed": "6 to 9 mph",
+          "windDirection": "NW"
         }
       ],
-      "checked_at": "2026-10-02T23:41:54.608613Z",
+      "checked_at": "2026-10-03T02:20:22.815626Z",
       "next_check_minutes": 30
     },
     {
@@ -120,30 +120,23 @@
       "latitude": 38.9531,
       "longitude": -77.4565,
       "forecast_zone_name": "VAZ506",
-      "status": "watch",
+      "status": "normal",
       "status_copy": {
-        "label": "WATCH",
-        "summary": "Weather could affect operations if conditions develop as forecast.",
-        "action": "Monitor conditions and prepare staff, equipment, or outdoor operations."
+        "label": "NORMAL",
+        "summary": "No configured weather condition currently suggests an operational change.",
+        "action": "Continue normal operations and routine monitoring."
       },
-      "reasons": [
-        {
-          "level": "watch",
-          "title": "Thunderstorms may affect the facility",
-          "detail": "A thunderstorm signal appears in the next 6 hours in the local or airport forecast.",
-          "action": "Monitor official warnings and your approved lightning procedure. This system does not measure lightning strike distance."
-        }
-      ],
+      "reasons": [],
       "metar": {
-        "raw": "SPECI KIAD 022320Z VRB03KT 4SM BR SCT024 BKN045 OVC060 23/22 A2998 RMK AO2 RAEMM P0013 T02330217 $",
-        "observed": "2026-10-02T23:20:00.000Z",
-        "wind_kt": 3.0,
-        "wind_mph": 3.5,
+        "raw": "METAR KIAD 030152Z 32006KT 10SM BKN038 OVC075 22/19 A3005 RMK AO2 SLP171 T02220189 $",
+        "observed": "2026-10-03T02:00:00.000Z",
+        "wind_kt": 6.0,
+        "wind_mph": 6.9,
         "gust_kt": null,
         "gust_mph": null,
-        "temperature_f": 73.9,
-        "visibility_sm": 4.0,
-        "flight_category": "MVFR"
+        "temperature_f": 72.0,
+        "visibility_sm": 10.0,
+        "flight_category": "VFR"
       },
       "taf": {
         "raw": "TAF KIAD 022337Z 0300/0406 VRB03KT P6SM SCT024 BKN045 OVC060 FM030100 33007KT P6SM -SHRA BKN040 BKN060 FM030600 36008KT P6SM OVC040 FM031900 05006KT P6SM BKN060",
@@ -166,8 +159,8 @@
           "name": "Tonight",
           "temperature": 58,
           "temperatureUnit": "F",
-          "shortForecast": "Showers And Thunderstorms Likely",
-          "windSpeed": "7 to 10 mph",
+          "shortForecast": "Rain Showers Likely",
+          "windSpeed": "10 mph",
           "windDirection": "N"
         },
         {
@@ -227,8 +220,8 @@
           "windDirection": "N"
         }
       ],
-      "checked_at": "2026-10-02T23:41:56.475503Z",
-      "next_check_minutes": 15
+      "checked_at": "2026-10-03T02:20:23.947967Z",
+      "next_check_minutes": 30
     }
   ],
   "settings": {
