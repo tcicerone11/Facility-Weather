@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T00:09:17.365317Z",
+  "generated_at": "2026-10-05T05:37:44.918046Z",
   "facilities": [
     {
       "id": "den",
@@ -17,21 +17,21 @@
       },
       "reasons": [],
       "metar": {
-        "raw": "METAR KDEN 042353Z 07012KT 10SM FEW120 FEW220 25/07 A3026 RMK AO2 SLP189 T02500067 10272 20222 56008",
-        "observed": "2026-10-05T00:00:00.000Z",
-        "wind_kt": 12.0,
-        "wind_mph": 13.8,
+        "raw": "METAR KDEN 050453Z 20016KT 10SM CLR 18/09 A3030 RMK AO2 SLP192 T01780094",
+        "observed": "2026-10-05T05:00:00.000Z",
+        "wind_kt": 16.0,
+        "wind_mph": 18.4,
         "gust_kt": null,
         "gust_mph": null,
-        "temperature_f": 77.0,
+        "temperature_f": 64.0,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
       "taf": {
-        "raw": "TAF KDEN 042329Z 0500/0606 10012KT P6SM SKC FM050100 16014KT P6SM SKC FM050200 18014G21KT P6SM SKC FM050600 21012KT P6SM SKC FM050900 23009KT P6SM SKC FM051700 VRB06KT P6SM FEW220 FM052000 06007KT P6SM FEW220 FM060000 16007KT P6SM SKC FM060400 20007KT P6SM SKC",
-        "issued": "2026-10-04T23:29:00.000Z",
-        "valid_from": 1791158400,
-        "valid_to": 1791266400,
+        "raw": "TAF KDEN 050532Z 0506/0612 20011KT P6SM SKC FM050900 23009KT P6SM SKC FM051800 VRB06KT P6SM FEW220 FM052000 08007KT P6SM FEW220 FM060000 15007KT P6SM FEW100 SCT120 FM060200 22007KT P6SM SCT120",
+        "issued": "2026-10-05T05:32:00.000Z",
+        "valid_from": 1791180000,
+        "valid_to": 1791288000,
         "thunder": false,
         "snow": false,
         "freezing_precip": false
@@ -45,20 +45,12 @@
       },
       "forecast": [
         {
-          "name": "This Afternoon",
-          "temperature": 81,
-          "temperatureUnit": "F",
-          "shortForecast": "Sunny",
-          "windSpeed": "6 mph",
-          "windDirection": "SE"
-        },
-        {
           "name": "Tonight",
           "temperature": 55,
           "temperatureUnit": "F",
           "shortForecast": "Clear",
-          "windSpeed": "7 to 14 mph",
-          "windDirection": "S"
+          "windSpeed": "8 to 14 mph",
+          "windDirection": "SSW"
         },
         {
           "name": "Monday",
@@ -107,9 +99,17 @@
           "shortForecast": "Mostly Clear",
           "windSpeed": "7 to 12 mph",
           "windDirection": "S"
+        },
+        {
+          "name": "Thursday",
+          "temperature": 81,
+          "temperatureUnit": "F",
+          "shortForecast": "Sunny",
+          "windSpeed": "5 to 8 mph",
+          "windDirection": "ENE"
         }
       ],
-      "checked_at": "2026-10-05T00:09:18.416525Z",
+      "checked_at": "2026-10-05T05:37:45.421806Z",
       "next_check_minutes": 30
     },
     {
@@ -128,21 +128,21 @@
       },
       "reasons": [],
       "metar": {
-        "raw": "METAR KIAD 042352Z 09003KT 4SM -DZ BR FEW005 BKN009 OVC018 17/16 A3009 RMK AO2 SLP190 P0000 60001 T01720161 10178 20167 56001 $",
-        "observed": "2026-10-05T00:00:00.000Z",
-        "wind_kt": 3.0,
-        "wind_mph": 3.5,
+        "raw": "METAR KIAD 050452Z 00000KT 7SM FEW005 FEW010 OVC030 16/16 A3008 RMK AO2 SLP186 T01560156 401780156 $",
+        "observed": "2026-10-05T05:00:00.000Z",
+        "wind_kt": 0.0,
+        "wind_mph": 0.0,
         "gust_kt": null,
         "gust_mph": null,
-        "temperature_f": 63.0,
-        "visibility_sm": 4.0,
-        "flight_category": "IFR"
+        "temperature_f": 60.1,
+        "visibility_sm": 7.0,
+        "flight_category": "MVFR"
       },
       "taf": {
-        "raw": "TAF KIAD 042335Z 0500/0606 04004KT 5SM -DZ BR FEW005 BKN009 OVC015 FM050500 00000KT 4SM BR SCT004 BKN011 OVC016 FM050700 00000KT 2SM BR SCT002 OVC015 FM051200 29006KT P6SM SCT020 BKN250 FM051500 33014G22KT P6SM FEW250 FM052200 34008KT P6SM SKC",
-        "issued": "2026-10-04T23:35:00.000Z",
-        "valid_from": 1791158400,
-        "valid_to": 1791266400,
+        "raw": "TAF KIAD 050521Z 0506/0612 00000KT 4SM BR SCT004 BKN011 OVC016 FM050700 00000KT 2SM BR SCT002 OVC015 FM051200 29006KT P6SM SCT020 BKN250 FM051500 33014G22KT P6SM FEW250 FM052200 34008KT P6SM SKC FM060800 34004KT P6SM SKC",
+        "issued": "2026-10-05T05:21:00.000Z",
+        "valid_from": 1791180000,
+        "valid_to": 1791288000,
         "thunder": false,
         "snow": false,
         "freezing_precip": false
@@ -156,10 +156,10 @@
       },
       "forecast": [
         {
-          "name": "Tonight",
+          "name": "Overnight",
           "temperature": 55,
           "temperatureUnit": "F",
-          "shortForecast": "Patchy Fog",
+          "shortForecast": "Areas Of Fog",
           "windSpeed": "2 mph",
           "windDirection": "NW"
         },
@@ -220,7 +220,7 @@
           "windDirection": "W"
         }
       ],
-      "checked_at": "2026-10-05T00:09:25.802600Z",
+      "checked_at": "2026-10-05T05:37:46.332762Z",
       "next_check_minutes": 30
     }
   ],
