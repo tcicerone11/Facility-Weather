@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T20:12:17.629776Z",
+  "generated_at": "2026-10-06T23:50:06.089917Z",
   "facilities": [
     {
       "id": "den",
@@ -17,21 +17,21 @@
       },
       "reasons": [],
       "metar": {
-        "raw": "METAR KDEN 061953Z 16005KT 10SM FEW090 FEW140 BKN220 30/M02 A3013 RMK AO2 SLP118 T03001022",
-        "observed": "2026-10-06T20:00:00.000Z",
-        "wind_kt": 5.0,
-        "wind_mph": 5.8,
+        "raw": "METAR KDEN 062253Z 02006KT 10SM FEW110 FEW140 BKN220 28/M02 A3010 RMK AO2 SLP115 T02781017",
+        "observed": "2026-10-06T23:00:00.000Z",
+        "wind_kt": 6.0,
+        "wind_mph": 6.9,
         "gust_kt": null,
         "gust_mph": null,
-        "temperature_f": 86.0,
+        "temperature_f": 82.0,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
       "taf": {
-        "raw": "TAF KDEN 062003Z 0620/0724 VRB06KT P6SM FEW100 FEW140 BKN220 FM062200 02006KT P6SM FEW120 SCT220 FM070200 15006KT P6SM FEW120 SCT220 FM070500 25005KT P6SM FEW120 SCT220 FM071400 VRB05KT P6SM FEW220 FM071600 01006KT P6SM FEW220 FM072000 11007KT P6SM SCT220",
-        "issued": "2026-10-06T20:03:00.000Z",
-        "valid_from": 1791316800,
-        "valid_to": 1791417600,
+        "raw": "TAF KDEN 062329Z 0700/0806 VRB06KT P6SM FEW110 FEW140 BKN220 FM070200 15006KT P6SM FEW120 SCT220 FM070500 25006KT P6SM FEW120 SCT220 FM071400 VRB06KT P6SM FEW120 SCT180 FM071700 03006KT P6SM FEW120 FEW220 FM072000 11007KT P6SM FEW120 FEW220 FM080200 18007KT P6SM SCT120 SCT220",
+        "issued": "2026-10-06T23:29:00.000Z",
+        "valid_from": 1791331200,
+        "valid_to": 1791439200,
         "thunder": false,
         "snow": false,
         "freezing_precip": false
@@ -109,7 +109,7 @@
           "windDirection": "SW"
         }
       ],
-      "checked_at": "2026-10-06T20:12:18.712291Z",
+      "checked_at": "2026-10-06T23:50:09.811434Z",
       "next_check_minutes": 30
     },
     {
@@ -128,21 +128,21 @@
       },
       "reasons": [],
       "metar": {
-        "raw": "METAR KIAD 061952Z 29006KT 10SM CLR 18/03 A3013 RMK AO2 SLP201 T01780028",
-        "observed": "2026-10-06T20:00:00.000Z",
-        "wind_kt": 6.0,
-        "wind_mph": 6.9,
+        "raw": "METAR KIAD 062252Z 00000KT 10SM CLR 14/06 A3010 RMK AO2 SLP192 T01390061",
+        "observed": "2026-10-06T23:00:00.000Z",
+        "wind_kt": 0.0,
+        "wind_mph": 0.0,
         "gust_kt": null,
         "gust_mph": null,
-        "temperature_f": 64.0,
+        "temperature_f": 57.0,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
       "taf": {
-        "raw": "TAF KIAD 061723Z 0618/0724 35005KT P6SM SKC FM062300 00000KT P6SM SKC FM071400 19007KT P6SM SKC",
-        "issued": "2026-10-06T17:23:00.000Z",
-        "valid_from": 1791309600,
-        "valid_to": 1791417600,
+        "raw": "TAF KIAD 062321Z 0700/0806 00000KT P6SM SKC FM071400 19007KT P6SM SKC FM080200 20003KT P6SM SKC",
+        "issued": "2026-10-06T23:21:00.000Z",
+        "valid_from": 1791331200,
+        "valid_to": 1791439200,
         "thunder": false,
         "snow": false,
         "freezing_precip": false
@@ -155,14 +155,6 @@
         "snow_7d_in": 0.0
       },
       "forecast": [
-        {
-          "name": "This Afternoon",
-          "temperature": 66,
-          "temperatureUnit": "F",
-          "shortForecast": "Sunny",
-          "windSpeed": "2 mph",
-          "windDirection": "NW"
-        },
         {
           "name": "Tonight",
           "temperature": 45,
@@ -218,9 +210,17 @@
           "shortForecast": "Mostly Clear",
           "windSpeed": "0 to 5 mph",
           "windDirection": "N"
+        },
+        {
+          "name": "Saturday",
+          "temperature": 72,
+          "temperatureUnit": "F",
+          "shortForecast": "Mostly Sunny",
+          "windSpeed": "0 to 7 mph",
+          "windDirection": "SE"
         }
       ],
-      "checked_at": "2026-10-06T20:12:20.211671Z",
+      "checked_at": "2026-10-06T23:50:11.721630Z",
       "next_check_minutes": 30
     }
   ],
