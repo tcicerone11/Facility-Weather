@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T08:00:08.667283Z",
+  "generated_at": "2026-10-12T17:44:45.093612Z",
   "facilities": [
     {
       "id": "den",
@@ -17,21 +17,21 @@
       },
       "reasons": [],
       "metar": {
-        "raw": "METAR KDEN 120753Z 20020KT 10SM CLR 20/04 A2978 RMK AO2 PK WND 21030/0702 SLP995 T02000044",
-        "observed": "2026-10-12T08:00:00.000Z",
-        "wind_kt": 20.0,
-        "wind_mph": 23.0,
+        "raw": "METAR KDEN 121653Z 23011KT 10SM FEW090 FEW130 23/M01 A2988 RMK AO2 SLP036 T02331011",
+        "observed": "2026-10-12T17:00:00.000Z",
+        "wind_kt": 11.0,
+        "wind_mph": 12.7,
         "gust_kt": null,
         "gust_mph": null,
-        "temperature_f": 68.0,
+        "temperature_f": 73.9,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
       "taf": {
-        "raw": "TAF KDEN 120537Z 1206/1312 20015G25KT P6SM FEW140 FM120900 18011KT P6SM FEW220 FM121600 23014G21KT P6SM SKC FM122200 17009KT P6SM SKC FM130100 05008KT P6SM FEW150 FM130500 36010KT P6SM FEW030",
-        "issued": "2026-10-12T05:37:00.000Z",
-        "valid_from": 1791784800,
-        "valid_to": 1791892800,
+        "raw": "TAF KDEN 121731Z 1218/1324 20014G22KT P6SM FEW090 FEW130 FM130100 22012G20KT P6SM FEW120 FM130500 33010KT P6SM FEW020 SCT040 FM131000 34008KT P6SM BKN015 BKN030 FM131400 05007KT P6SM BKN010 BKN030 FM131700 07007KT P6SM SCT020 BKN040 FM132000 07010KT P6SM SCT090 SCT120",
+        "issued": "2026-10-12T17:31:00.000Z",
+        "valid_from": 1791828000,
+        "valid_to": 1791936000,
         "thunder": false,
         "snow": false,
         "freezing_precip": false
@@ -45,14 +45,6 @@
       },
       "forecast": [
         {
-          "name": "Overnight",
-          "temperature": 56,
-          "temperatureUnit": "F",
-          "shortForecast": "Mostly Clear",
-          "windSpeed": "12 to 15 mph",
-          "windDirection": "SSW"
-        },
-        {
           "name": "Columbus Day",
           "temperature": 80,
           "temperatureUnit": "F",
@@ -61,7 +53,7 @@
           "windDirection": "SSW"
         },
         {
-          "name": "Monday Night",
+          "name": "Tonight",
           "temperature": 47,
           "temperatureUnit": "F",
           "shortForecast": "Mostly Clear",
@@ -107,9 +99,17 @@
           "shortForecast": "Chance Rain Showers",
           "windSpeed": "7 to 23 mph",
           "windDirection": "NNW"
+        },
+        {
+          "name": "Thursday Night",
+          "temperature": 36,
+          "temperatureUnit": "F",
+          "shortForecast": "Slight Chance Rain Showers then Partly Cloudy",
+          "windSpeed": "5 to 15 mph",
+          "windDirection": "NNE"
         }
       ],
-      "checked_at": "2026-10-12T08:00:14.459362Z",
+      "checked_at": "2026-10-12T17:44:47.993285Z",
       "next_check_minutes": 30
     },
     {
@@ -128,21 +128,21 @@
       },
       "reasons": [],
       "metar": {
-        "raw": "METAR KIAD 120752Z 32011G20KT 4SM -RA BR SCT010 BKN015 OVC030 16/14 A2976 RMK AO2 SLP076 P0018 T01560144 $",
-        "observed": "2026-10-12T08:00:00.000Z",
-        "wind_kt": 11.0,
-        "wind_mph": 12.7,
-        "gust_kt": 20.0,
-        "gust_mph": 23.0,
-        "temperature_f": 60.1,
-        "visibility_sm": 4.0,
+        "raw": "SPECI KIAD 121654Z 33013G19KT 10SM BKN030 21/14 A2995 RMK AO2 T02110144 $",
+        "observed": "2026-10-12T16:54:00.000Z",
+        "wind_kt": 13.0,
+        "wind_mph": 15.0,
+        "gust_kt": 19.0,
+        "gust_mph": 21.9,
+        "temperature_f": 70.0,
+        "visibility_sm": 10.0,
         "flight_category": "MVFR"
       },
       "taf": {
-        "raw": "TAF KIAD 120529Z 1206/1312 34012KT 5SM -RA BR OVC006 FM121200 33010G18KT P6SM OVC010 FM121600 34013G21KT P6SM SCT015 OVC025 FM121800 33011G18KT P6SM SCT025 OVC035 FM122100 31007KT P6SM BKN035 FM130000 30003KT P6SM SCT040",
-        "issued": "2026-10-12T05:29:00.000Z",
-        "valid_from": 1791784800,
-        "valid_to": 1791892800,
+        "raw": "TAF KIAD 121740Z 1218/1324 33013G19KT P6SM BKN030 FM122100 31007KT P6SM SCT050 FM130000 30003KT P6SM FEW050 FM131400 19005KT P6SM SCT250",
+        "issued": "2026-10-12T17:40:00.000Z",
+        "valid_from": 1791828000,
+        "valid_to": 1791936000,
         "thunder": false,
         "snow": false,
         "freezing_precip": false
@@ -151,28 +151,20 @@
       "metrics": {
         "peak_gust_24h_kt": 22.0,
         "peak_gust_24h_mph": 25.3,
-        "precip_7d_in": 0.64,
+        "precip_7d_in": 0.11,
         "snow_7d_in": 0.0
       },
       "forecast": [
         {
-          "name": "Overnight",
-          "temperature": 61,
-          "temperatureUnit": "F",
-          "shortForecast": "Rain Showers",
-          "windSpeed": "9 to 14 mph",
-          "windDirection": "NW"
-        },
-        {
           "name": "Columbus Day",
           "temperature": 74,
           "temperatureUnit": "F",
-          "shortForecast": "Chance Rain Showers then Mostly Cloudy",
+          "shortForecast": "Partly Sunny",
           "windSpeed": "8 to 15 mph",
           "windDirection": "NW"
         },
         {
-          "name": "Monday Night",
+          "name": "Tonight",
           "temperature": 55,
           "temperatureUnit": "F",
           "shortForecast": "Mostly Clear",
@@ -218,9 +210,17 @@
           "shortForecast": "Chance Rain Showers",
           "windSpeed": "6 mph",
           "windDirection": "NE"
+        },
+        {
+          "name": "Thursday Night",
+          "temperature": 60,
+          "temperatureUnit": "F",
+          "shortForecast": "Chance Rain Showers",
+          "windSpeed": "3 to 10 mph",
+          "windDirection": "SE"
         }
       ],
-      "checked_at": "2026-10-12T08:00:21.693661Z",
+      "checked_at": "2026-10-12T17:44:49.040428Z",
       "next_check_minutes": 30
     }
   ],
