@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T23:43:59.180559Z",
+  "generated_at": "2026-10-15T01:52:42.399619Z",
   "facilities": [
     {
       "id": "den",
@@ -24,14 +24,14 @@
         }
       ],
       "metar": {
-        "raw": "SPECI KDEN 142326Z 08013KT 2 1/2SM -DZ SCT008 OVC016 08/07 A3000 RMK AO2 SFC VIS 3 DZB25 P0000 T00780067",
-        "observed": "2026-10-14T23:26:00.000Z",
+        "raw": "METAR KDEN 150053Z 09013KT 10SM BKN006 OVC022 07/06 A3001 RMK AO2 SLP140 T00720061",
+        "observed": "2026-10-15T01:00:00.000Z",
         "wind_kt": 13.0,
         "wind_mph": 15.0,
         "gust_kt": null,
         "gust_mph": null,
-        "temperature_f": 46.0,
-        "visibility_sm": 2.5,
+        "temperature_f": 45.0,
+        "visibility_sm": 10.0,
         "flight_category": "IFR"
       },
       "taf": {
@@ -60,14 +60,6 @@
         "snow_7d_in": 0.0
       },
       "forecast": [
-        {
-          "name": "This Afternoon",
-          "temperature": 46,
-          "temperatureUnit": "F",
-          "shortForecast": "Light Rain",
-          "windSpeed": "14 mph",
-          "windDirection": "E"
-        },
         {
           "name": "Tonight",
           "temperature": 39,
@@ -123,9 +115,17 @@
           "shortForecast": "Mostly Clear",
           "windSpeed": "7 mph",
           "windDirection": "S"
+        },
+        {
+          "name": "Sunday",
+          "temperature": 71,
+          "temperatureUnit": "F",
+          "shortForecast": "Mostly Sunny",
+          "windSpeed": "5 to 9 mph",
+          "windDirection": "N"
         }
       ],
-      "checked_at": "2026-10-14T23:44:00.653743Z",
+      "checked_at": "2026-10-15T01:52:43.268806Z",
       "next_check_minutes": 15
     },
     {
@@ -151,13 +151,13 @@
         }
       ],
       "metar": {
-        "raw": "METAR KIAD 142252Z 20005KT 10SM FEW060 SCT150 26/19 A2993 RMK AO2 SLP134 T02610194",
-        "observed": "2026-10-14T23:00:00.000Z",
-        "wind_kt": 5.0,
-        "wind_mph": 5.8,
+        "raw": "METAR KIAD 150052Z 22006KT 10SM SCT060 BKN150 24/19 A2995 RMK AO2 SLP140 T02440194 $",
+        "observed": "2026-10-15T01:00:00.000Z",
+        "wind_kt": 6.0,
+        "wind_mph": 6.9,
         "gust_kt": null,
         "gust_mph": null,
-        "temperature_f": 79.0,
+        "temperature_f": 75.9,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
@@ -243,7 +243,7 @@
           "windDirection": "NE"
         }
       ],
-      "checked_at": "2026-10-14T23:44:02.080807Z",
+      "checked_at": "2026-10-15T01:52:49.148661Z",
       "next_check_minutes": 15
     }
   ],
