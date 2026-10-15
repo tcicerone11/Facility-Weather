@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T12:10:25.738636Z",
+  "generated_at": "2026-10-15T17:00:57.557836Z",
   "facilities": [
     {
       "id": "den",
@@ -24,20 +24,20 @@
         }
       ],
       "metar": {
-        "raw": "METAR KDEN 151153Z 33008KT 10SM BKN006 OVC010 05/04 A3024 RMK AO2 SLP221 70002 T00500044 10056 20039 53030",
-        "observed": "2026-10-15T12:00:00.000Z",
-        "wind_kt": 8.0,
-        "wind_mph": 9.2,
-        "gust_kt": null,
-        "gust_mph": null,
-        "temperature_f": 41.0,
+        "raw": "METAR KDEN 151653Z 35022G30KT 10SM SCT046 OVC060 08/03 A3045 RMK AO2 PK WND 34038/1614 SLP294 T00780033",
+        "observed": "2026-10-15T17:00:00.000Z",
+        "wind_kt": 22.0,
+        "wind_mph": 25.3,
+        "gust_kt": 30.0,
+        "gust_mph": 34.5,
+        "temperature_f": 46.0,
         "visibility_sm": 10.0,
-        "flight_category": "IFR"
+        "flight_category": "VFR"
       },
       "taf": {
-        "raw": "TAF KDEN 151136Z 1512/1618 33010KT P6SM VCSH SCT006 BKN010 TEMPO 1512/1514 -SHRA BKN006 FM151400 35015G25KT P6SM VCSH BKN025 BKN040 TEMPO 1514/1517 6SM -SHRA BKN008 FM151900 36016G26KT P6SM SCT050 FM160000 02011KT P6SM FEW050 FM160200 VRB06KT P6SM FEW050 FM160600 02014KT P6SM SKC FM161000 VRB06KT P6SM SKC FM161600 01007KT P6SM SKC",
-        "issued": "2026-10-15T11:36:00.000Z",
-        "valid_from": 1792065600,
+        "raw": "TAF KDEN 151554Z 1516/1618 35018G28KT P6SM VCSH FEW030 BKN040 OVC050 FM151900 36017G26KT P6SM SCT050 FM160000 02011KT P6SM FEW050 FM160200 VRB06KT P6SM FEW050 FM160600 02014KT P6SM SKC FM161000 VRB06KT P6SM SKC FM161600 01007KT P6SM SKC",
+        "issued": "2026-10-15T15:54:00.000Z",
+        "valid_from": 1792080000,
         "valid_to": 1792173600,
         "thunder": false,
         "snow": false,
@@ -45,44 +45,36 @@
       },
       "alerts": [
         {
-          "event": "Freeze Watch",
-          "headline": "Freeze Watch issued October 14 at 10:44PM MDT until October 16 at 9:00AM MDT by NWS Denver CO",
+          "event": "Freeze Warning",
+          "headline": "Freeze Warning issued October 15 at 9:50AM MDT until October 16 at 9:00AM MDT by NWS Denver CO",
           "severity": "Severe",
-          "urgency": "Future",
-          "expires": "2026-10-15T15:00:00-06:00",
+          "urgency": "Expected",
+          "expires": "2026-10-16T09:00:00-06:00",
           "source": "Exact facility location"
         }
       ],
       "metrics": {
         "peak_gust_24h_kt": 32.0,
         "peak_gust_24h_mph": 36.8,
-        "precip_7d_in": 0.19,
+        "precip_7d_in": 0.05,
         "snow_7d_in": 0.0
       },
       "forecast": [
         {
-          "name": "Overnight",
-          "temperature": 39,
-          "temperatureUnit": "F",
-          "shortForecast": "Chance Rain Showers",
-          "windSpeed": "6 to 10 mph",
-          "windDirection": "NNW"
-        },
-        {
-          "name": "Thursday",
+          "name": "Today",
           "temperature": 53,
           "temperatureUnit": "F",
-          "shortForecast": "Rain Showers Likely",
-          "windSpeed": "13 to 24 mph",
-          "windDirection": "NNW"
+          "shortForecast": "Chance Rain Showers then Partly Sunny",
+          "windSpeed": "15 to 23 mph",
+          "windDirection": "N"
         },
         {
-          "name": "Thursday Night",
-          "temperature": 30,
+          "name": "Tonight",
+          "temperature": 31,
           "temperatureUnit": "F",
           "shortForecast": "Mostly Clear",
           "windSpeed": "5 to 10 mph",
-          "windDirection": "NNE"
+          "windDirection": "N"
         },
         {
           "name": "Friday",
@@ -97,7 +89,7 @@
           "temperature": 34,
           "temperatureUnit": "F",
           "shortForecast": "Clear",
-          "windSpeed": "7 mph",
+          "windSpeed": "8 mph",
           "windDirection": "SSE"
         },
         {
@@ -105,27 +97,35 @@
           "temperature": 77,
           "temperatureUnit": "F",
           "shortForecast": "Sunny",
-          "windSpeed": "2 to 8 mph",
+          "windSpeed": "3 to 8 mph",
           "windDirection": "SSE"
         },
         {
           "name": "Saturday Night",
-          "temperature": 43,
+          "temperature": 44,
           "temperatureUnit": "F",
           "shortForecast": "Mostly Clear",
-          "windSpeed": "7 mph",
+          "windSpeed": "5 to 8 mph",
           "windDirection": "S"
         },
         {
           "name": "Sunday",
-          "temperature": 72,
+          "temperature": 73,
           "temperatureUnit": "F",
           "shortForecast": "Mostly Sunny",
           "windSpeed": "5 to 9 mph",
-          "windDirection": "N"
+          "windDirection": "NNW"
+        },
+        {
+          "name": "Sunday Night",
+          "temperature": 42,
+          "temperatureUnit": "F",
+          "shortForecast": "Partly Cloudy",
+          "windSpeed": "6 mph",
+          "windDirection": "S"
         }
       ],
-      "checked_at": "2026-10-15T12:10:29.618611Z",
+      "checked_at": "2026-10-15T17:00:58.979596Z",
       "next_check_minutes": 15
     },
     {
@@ -144,20 +144,20 @@
       },
       "reasons": [],
       "metar": {
-        "raw": "METAR KIAD 151152Z 01010KT 10SM BKN038 BKN075 18/12 A3015 RMK AO2 SLP208 T01780122 10244 20178 51025",
-        "observed": "2026-10-15T12:00:00.000Z",
-        "wind_kt": 10.0,
-        "wind_mph": 11.5,
+        "raw": "METAR KIAD 151652Z 07004KT 7SM FEW043 OVC050 18/12 A3019 RMK AO2 SLP220 T01830122",
+        "observed": "2026-10-15T17:00:00.000Z",
+        "wind_kt": 4.0,
+        "wind_mph": 4.6,
         "gust_kt": null,
         "gust_mph": null,
-        "temperature_f": 64.0,
-        "visibility_sm": 10.0,
+        "temperature_f": 64.9,
+        "visibility_sm": 7.0,
         "flight_category": "VFR"
       },
       "taf": {
-        "raw": "TAF KIAD 151124Z 1512/1618 03009KT P6SM OVC070 FM151300 02007KT P6SM OVC050 FM151800 06005KT P6SM -SHRA OVC035 FM152200 09004KT P6SM OVC025 FM160300 14005KT 6SM -RA BR OVC015 FM160500 15003KT 4SM -RA BR OVC006 FM161200 19010KT P6SM SCT025 SCT110",
-        "issued": "2026-10-15T11:24:00.000Z",
-        "valid_from": 1792065600,
+        "raw": "TAF KIAD 151456Z 1515/1618 02007KT P6SM -SHRA BKN023 BKN080 FM152200 09004KT P6SM OVC025 FM160300 14005KT 6SM -RA BR OVC015 FM160500 15003KT 4SM -RA BR OVC006 FM161200 19010KT P6SM SCT025 SCT110",
+        "issued": "2026-10-15T14:56:00.000Z",
+        "valid_from": 1792076400,
         "valid_to": 1792173600,
         "thunder": false,
         "snow": false,
@@ -165,19 +165,19 @@
       },
       "alerts": [],
       "metrics": {
-        "peak_gust_24h_kt": 17.0,
-        "peak_gust_24h_mph": 19.6,
-        "precip_7d_in": 0.46,
+        "peak_gust_24h_kt": 20.0,
+        "peak_gust_24h_mph": 23.0,
+        "precip_7d_in": 0.44,
         "snow_7d_in": 0.0
       },
       "forecast": [
         {
-          "name": "Today",
+          "name": "This Afternoon",
           "temperature": 66,
           "temperatureUnit": "F",
           "shortForecast": "Chance Rain Showers",
-          "windSpeed": "3 to 8 mph",
-          "windDirection": "NE"
+          "windSpeed": "5 mph",
+          "windDirection": "E"
         },
         {
           "name": "Tonight",
@@ -236,7 +236,7 @@
           "windDirection": "NE"
         }
       ],
-      "checked_at": "2026-10-15T12:10:33.039214Z",
+      "checked_at": "2026-10-15T17:01:02.743023Z",
       "next_check_minutes": 30
     }
   ],
