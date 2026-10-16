@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T15:11:57.973508Z",
+  "generated_at": "2026-10-16T18:49:11.033410Z",
   "facilities": [
     {
       "id": "den",
@@ -17,21 +17,21 @@
       },
       "reasons": [],
       "metar": {
-        "raw": "METAR KDEN 161453Z 12005KT 10SM FEW035 FEW220 02/M08 A3077 RMK AO2 SLP419 T00221078 53001",
-        "observed": "2026-10-16T15:00:00.000Z",
-        "wind_kt": 5.0,
-        "wind_mph": 5.8,
+        "raw": "METAR KDEN 161753Z 14006KT 10SM CLR 08/M04 A3071 RMK AO2 SLP394 T00831039 10083 21022 58016",
+        "observed": "2026-10-16T18:00:00.000Z",
+        "wind_kt": 6.0,
+        "wind_mph": 6.9,
         "gust_kt": null,
         "gust_mph": null,
-        "temperature_f": 36.0,
+        "temperature_f": 46.9,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
       "taf": {
-        "raw": "TAF KDEN 161459Z 1615/1718 12006KT P6SM SKC FM162000 09007KT P6SM SKC FM170200 14006KT P6SM SKC FM170500 21007KT P6SM SKC FM171600 13006KT P6SM SKC",
-        "issued": "2026-10-16T14:59:00.000Z",
-        "valid_from": 1792162800,
-        "valid_to": 1792260000,
+        "raw": "TAF KDEN 161727Z 1618/1724 13006KT P6SM SKC FM170200 16006KT P6SM SKC FM170500 21007KT P6SM SKC FM171700 VRB06KT P6SM SKC FM172000 14006KT P6SM SKC",
+        "issued": "2026-10-16T17:27:00.000Z",
+        "valid_from": 1792173600,
+        "valid_to": 1792281600,
         "thunder": false,
         "snow": false,
         "freezing_precip": false
@@ -109,7 +109,7 @@
           "windDirection": "S"
         }
       ],
-      "checked_at": "2026-10-16T15:11:59.230325Z",
+      "checked_at": "2026-10-16T18:49:11.866101Z",
       "next_check_minutes": 30
     },
     {
@@ -129,44 +129,59 @@
       "reasons": [
         {
           "level": "watch",
+          "title": "Severe Thunderstorm Watch",
+          "detail": "Severe Thunderstorm Watch issued October 16 at 2:14PM EDT until October 16 at 8:00PM EDT by NWS Baltimore MD/Washington DC",
+          "action": "Monitor updates and prepare staff or equipment. Source: Exact facility location."
+        },
+        {
+          "level": "watch",
           "title": "Thunderstorms may affect the facility",
           "detail": "A thunderstorm signal appears in the next 6 hours in the local or airport forecast.",
           "action": "Monitor official warnings and your approved lightning procedure. This system does not measure lightning strike distance."
         }
       ],
       "metar": {
-        "raw": "METAR KIAD 161452Z 20009KT 7SM OVC007 19/18 A2987 RMK AO2 SLP112 T01940178 58019",
-        "observed": "2026-10-16T15:00:00.000Z",
-        "wind_kt": 9.0,
-        "wind_mph": 10.4,
+        "raw": "METAR KIAD 161752Z 20008KT 10SM FEW020 FEW031 26/20 A2977 RMK AO2 SLP079 T02610200 10261 20167 58032",
+        "observed": "2026-10-16T18:00:00.000Z",
+        "wind_kt": 8.0,
+        "wind_mph": 9.2,
         "gust_kt": null,
         "gust_mph": null,
-        "temperature_f": 66.9,
-        "visibility_sm": 7.0,
-        "flight_category": "IFR"
+        "temperature_f": 79.0,
+        "visibility_sm": 10.0,
+        "flight_category": "VFR"
       },
       "taf": {
-        "raw": "TAF KIAD 161459Z 1615/1718 20009KT P6SM OVC007 FM161600 20010KT P6SM SCT035 FM162100 25013G21KT P6SM -SHRA BKN060 TEMPO 1622/1624 30016G30KT 2SM TSRA BKN060CB FM170000 33013G21KT P6SM BKN060 PROB30 1706/1710 6SM -SHRA BKN020",
-        "issued": "2026-10-16T14:59:00.000Z",
-        "valid_from": 1792162800,
-        "valid_to": 1792260000,
+        "raw": "TAF KIAD 161732Z 1618/1724 17009KT P6SM FEW010 FEW030 FM162100 25013G21KT P6SM -SHRA BKN060 TEMPO 1621/1623 30016G30KT 2SM TSRA BKN060CB FM170000 33013G21KT P6SM BKN060 PROB30 1706/1710 6SM -SHRA BKN020",
+        "issued": "2026-10-16T17:32:00.000Z",
+        "valid_from": 1792173600,
+        "valid_to": 1792281600,
         "thunder": true,
         "snow": false,
         "freezing_precip": false
       },
-      "alerts": [],
+      "alerts": [
+        {
+          "event": "Severe Thunderstorm Watch",
+          "headline": "Severe Thunderstorm Watch issued October 16 at 2:14PM EDT until October 16 at 8:00PM EDT by NWS Baltimore MD/Washington DC",
+          "severity": "Severe",
+          "urgency": "Future",
+          "expires": "2026-10-16T20:00:00-04:00",
+          "source": "Exact facility location"
+        }
+      ],
       "metrics": {
-        "peak_gust_24h_kt": 25.0,
-        "peak_gust_24h_mph": 28.8,
-        "precip_7d_in": 0.2,
+        "peak_gust_24h_kt": 27.0,
+        "peak_gust_24h_mph": 31.1,
+        "precip_7d_in": 0.29,
         "snow_7d_in": 0.0
       },
       "forecast": [
         {
-          "name": "Today",
-          "temperature": 83,
+          "name": "This Afternoon",
+          "temperature": 82,
           "temperatureUnit": "F",
-          "shortForecast": "Mostly Sunny then Showers And Thunderstorms Likely",
+          "shortForecast": "Chance Showers And Thunderstorms",
           "windSpeed": "13 mph",
           "windDirection": "SW"
         },
@@ -182,13 +197,13 @@
           "name": "Saturday",
           "temperature": 54,
           "temperatureUnit": "F",
-          "shortForecast": "Chance Rain Showers then Mostly Sunny",
+          "shortForecast": "Scattered Rain Showers then Partly Sunny",
           "windSpeed": "16 to 20 mph",
           "windDirection": "N"
         },
         {
           "name": "Saturday Night",
-          "temperature": 35,
+          "temperature": 34,
           "temperatureUnit": "F",
           "shortForecast": "Clear",
           "windSpeed": "5 to 14 mph",
@@ -196,38 +211,38 @@
         },
         {
           "name": "Sunday",
-          "temperature": 57,
+          "temperature": 56,
           "temperatureUnit": "F",
           "shortForecast": "Sunny",
-          "windSpeed": "6 mph",
-          "windDirection": "NE"
+          "windSpeed": "8 mph",
+          "windDirection": "N"
         },
         {
           "name": "Sunday Night",
           "temperature": 38,
           "temperatureUnit": "F",
           "shortForecast": "Mostly Clear",
-          "windSpeed": "1 to 5 mph",
-          "windDirection": "NE"
+          "windSpeed": "3 to 8 mph",
+          "windDirection": "N"
         },
         {
           "name": "Monday",
-          "temperature": 59,
+          "temperature": 57,
           "temperatureUnit": "F",
-          "shortForecast": "Mostly Sunny",
-          "windSpeed": "5 to 8 mph",
+          "shortForecast": "Chance Rain Showers",
+          "windSpeed": "12 mph",
           "windDirection": "N"
         },
         {
           "name": "Monday Night",
-          "temperature": 43,
+          "temperature": 44,
           "temperatureUnit": "F",
-          "shortForecast": "Partly Cloudy",
-          "windSpeed": "3 to 8 mph",
+          "shortForecast": "Chance Rain Showers",
+          "windSpeed": "9 to 13 mph",
           "windDirection": "N"
         }
       ],
-      "checked_at": "2026-10-16T15:12:00.663944Z",
+      "checked_at": "2026-10-16T18:49:12.930189Z",
       "next_check_minutes": 15
     }
   ],
