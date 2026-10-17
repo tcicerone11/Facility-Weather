@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T08:28:39.647623Z",
+  "generated_at": "2026-10-17T12:21:01.059673Z",
   "facilities": [
     {
       "id": "den",
@@ -17,21 +17,21 @@
       },
       "reasons": [],
       "metar": {
-        "raw": "METAR KDEN 170753Z 22007KT 10SM CLR 04/M04 A3047 RMK AO2 SLP300 T00391044",
-        "observed": "2026-10-17T08:00:00.000Z",
-        "wind_kt": 7.0,
-        "wind_mph": 8.1,
+        "raw": "METAR KDEN 171153Z 21010KT 10SM CLR 06/M06 A3039 RMK AO2 SLP270 T00561056 10056 20017 56018",
+        "observed": "2026-10-17T12:00:00.000Z",
+        "wind_kt": 10.0,
+        "wind_mph": 11.5,
         "gust_kt": null,
         "gust_mph": null,
-        "temperature_f": 39.0,
+        "temperature_f": 42.1,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
       "taf": {
-        "raw": "TAF KDEN 170532Z 1706/1812 21009KT P6SM SKC FM171700 VRB06KT P6SM SKC FM171900 13007KT P6SM SKC FM180200 21008KT P6SM FEW220",
-        "issued": "2026-10-17T05:32:00.000Z",
-        "valid_from": 1792216800,
-        "valid_to": 1792324800,
+        "raw": "TAF KDEN 171133Z 1712/1818 21011KT P6SM SKC FM171500 VRB06KT P6SM SKC FM171900 13007KT P6SM SKC FM180200 21008KT P6SM FEW220 FM181500 33006KT P6SM FEW220",
+        "issued": "2026-10-17T11:33:00.000Z",
+        "valid_from": 1792238400,
+        "valid_to": 1792346400,
         "thunder": false,
         "snow": false,
         "freezing_precip": false
@@ -40,7 +40,7 @@
       "metrics": {
         "peak_gust_24h_kt": 13.0,
         "peak_gust_24h_mph": 15.0,
-        "precip_7d_in": 0.11,
+        "precip_7d_in": 0.13,
         "snow_7d_in": 0.0
       },
       "forecast": [
@@ -109,7 +109,7 @@
           "windDirection": "NNW"
         }
       ],
-      "checked_at": "2026-10-17T08:28:40.652223Z",
+      "checked_at": "2026-10-17T12:21:02.274625Z",
       "next_check_minutes": 30
     },
     {
@@ -128,21 +128,21 @@
       },
       "reasons": [],
       "metar": {
-        "raw": "METAR KIAD 170752Z 34011G17KT 10SM -RA BKN041 OVC055 14/11 A2997 RMK AO2 RAB0659 SLP145 P0001 T01440111",
-        "observed": "2026-10-17T08:00:00.000Z",
-        "wind_kt": 11.0,
-        "wind_mph": 12.7,
-        "gust_kt": 17.0,
-        "gust_mph": 19.6,
-        "temperature_f": 57.9,
+        "raw": "METAR KIAD 171152Z 33008KT 10SM FEW015 BKN039 BKN060 OVC150 12/08 A3008 RMK AO2 SLP186 60003 70020 T01220083 10161 20122 51033 $",
+        "observed": "2026-10-17T12:00:00.000Z",
+        "wind_kt": 8.0,
+        "wind_mph": 9.2,
+        "gust_kt": null,
+        "gust_mph": null,
+        "temperature_f": 54.0,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
       "taf": {
-        "raw": "TAF KIAD 170534Z 1706/1812 31005KT P6SM OVC060 PROB30 1706/1710 6SM -SHRA BKN020 FM171500 34016G26KT P6SM BKN030 FM172300 35010G18KT P6SM SKC FM180300 36007KT P6SM SKC",
-        "issued": "2026-10-17T05:34:00.000Z",
-        "valid_from": 1792216800,
-        "valid_to": 1792324800,
+        "raw": "TAF KIAD 171131Z 1712/1818 33009KT P6SM FEW015 BKN060 FM171300 34016G26KT P6SM BKN050 FM172300 35010G18KT P6SM SKC FM180300 36007KT P6SM SKC FM181500 03007KT P6SM SKC",
+        "issued": "2026-10-17T11:31:00.000Z",
+        "valid_from": 1792238400,
+        "valid_to": 1792346400,
         "thunder": false,
         "snow": false,
         "freezing_precip": false
@@ -150,42 +150,34 @@
       "alerts": [
         {
           "event": "Frost Advisory",
-          "headline": "Frost Advisory issued October 17 at 12:36AM EDT until October 18 at 8:00AM EDT by NWS Baltimore MD/Washington DC",
+          "headline": "Frost Advisory issued October 17 at 8:09AM EDT until October 18 at 9:00AM EDT by NWS Baltimore MD/Washington DC",
           "severity": "Minor",
           "urgency": "Expected",
-          "expires": "2026-10-17T08:45:00-04:00",
+          "expires": "2026-10-17T16:15:00-04:00",
           "source": "Exact facility location"
         }
       ],
       "metrics": {
         "peak_gust_24h_kt": 26.0,
         "peak_gust_24h_mph": 29.9,
-        "precip_7d_in": 0.03,
+        "precip_7d_in": 0.04,
         "snow_7d_in": 0.0
       },
       "forecast": [
         {
-          "name": "Overnight",
-          "temperature": 48,
-          "temperatureUnit": "F",
-          "shortForecast": "Chance Rain Showers",
-          "windSpeed": "15 mph",
-          "windDirection": "NW"
-        },
-        {
-          "name": "Saturday",
+          "name": "Today",
           "temperature": 55,
           "temperatureUnit": "F",
           "shortForecast": "Chance Rain Showers then Partly Sunny",
-          "windSpeed": "17 mph",
+          "windSpeed": "15 to 18 mph",
           "windDirection": "N"
         },
         {
-          "name": "Saturday Night",
+          "name": "Tonight",
           "temperature": 33,
           "temperatureUnit": "F",
           "shortForecast": "Mostly Clear then Areas Of Frost",
-          "windSpeed": "6 to 14 mph",
+          "windSpeed": "6 to 13 mph",
           "windDirection": "N"
         },
         {
@@ -227,9 +219,17 @@
           "shortForecast": "Mostly Sunny",
           "windSpeed": "10 mph",
           "windDirection": "N"
+        },
+        {
+          "name": "Tuesday Night",
+          "temperature": 45,
+          "temperatureUnit": "F",
+          "shortForecast": "Mostly Clear",
+          "windSpeed": "9 mph",
+          "windDirection": "N"
         }
       ],
-      "checked_at": "2026-10-17T08:28:42.376320Z",
+      "checked_at": "2026-10-17T12:21:04.676322Z",
       "next_check_minutes": 30
     }
   ],
