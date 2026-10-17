@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T17:58:06.493373Z",
+  "generated_at": "2026-10-17T20:25:32.004085Z",
   "facilities": [
     {
       "id": "den",
@@ -17,13 +17,13 @@
       },
       "reasons": [],
       "metar": {
-        "raw": "METAR KDEN 171753Z 22005KT 10SM CLR 22/M07 A3032 RMK AO2 SLP221 T02221072 10222 20056 58013",
-        "observed": "2026-10-17T18:00:00.000Z",
-        "wind_kt": 5.0,
-        "wind_mph": 5.8,
+        "raw": "METAR KDEN 171953Z 17003KT 10SM CLR 25/M10 A3025 RMK AO2 SLP194 T02501100",
+        "observed": "2026-10-17T20:00:00.000Z",
+        "wind_kt": 3.0,
+        "wind_mph": 3.5,
         "gust_kt": null,
         "gust_mph": null,
-        "temperature_f": 72.0,
+        "temperature_f": 77.0,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
@@ -40,53 +40,53 @@
       "metrics": {
         "peak_gust_24h_kt": 13.0,
         "peak_gust_24h_mph": 15.0,
-        "precip_7d_in": 0.13,
+        "precip_7d_in": 0.02,
         "snow_7d_in": 0.0
       },
       "forecast": [
         {
-          "name": "Today",
-          "temperature": 77,
+          "name": "This Afternoon",
+          "temperature": 76,
           "temperatureUnit": "F",
           "shortForecast": "Sunny",
-          "windSpeed": "3 to 9 mph",
-          "windDirection": "SSE"
+          "windSpeed": "5 mph",
+          "windDirection": "SE"
         },
         {
           "name": "Tonight",
           "temperature": 44,
           "temperatureUnit": "F",
           "shortForecast": "Clear",
-          "windSpeed": "9 mph",
-          "windDirection": "S"
+          "windSpeed": "5 to 8 mph",
+          "windDirection": "SSW"
         },
         {
           "name": "Sunday",
-          "temperature": 75,
+          "temperature": 74,
           "temperatureUnit": "F",
           "shortForecast": "Sunny",
-          "windSpeed": "2 to 10 mph",
-          "windDirection": "SE"
+          "windSpeed": "2 to 9 mph",
+          "windDirection": "SSW"
         },
         {
           "name": "Sunday Night",
           "temperature": 45,
           "temperatureUnit": "F",
           "shortForecast": "Partly Cloudy",
-          "windSpeed": "2 to 6 mph",
-          "windDirection": "N"
+          "windSpeed": "5 mph",
+          "windDirection": "S"
         },
         {
           "name": "Monday",
-          "temperature": 72,
+          "temperature": 68,
           "temperatureUnit": "F",
-          "shortForecast": "Mostly Sunny",
+          "shortForecast": "Sunny",
           "windSpeed": "2 to 8 mph",
           "windDirection": "SE"
         },
         {
           "name": "Monday Night",
-          "temperature": 46,
+          "temperature": 44,
           "temperatureUnit": "F",
           "shortForecast": "Mostly Clear",
           "windSpeed": "3 to 8 mph",
@@ -94,7 +94,7 @@
         },
         {
           "name": "Tuesday",
-          "temperature": 73,
+          "temperature": 72,
           "temperatureUnit": "F",
           "shortForecast": "Sunny",
           "windSpeed": "5 mph",
@@ -106,10 +106,10 @@
           "temperatureUnit": "F",
           "shortForecast": "Mostly Clear",
           "windSpeed": "6 mph",
-          "windDirection": "SE"
+          "windDirection": "SSE"
         }
       ],
-      "checked_at": "2026-10-17T17:58:07.333357Z",
+      "checked_at": "2026-10-17T20:25:33.840469Z",
       "next_check_minutes": 30
     },
     {
@@ -120,29 +120,36 @@
       "latitude": 38.9531,
       "longitude": -77.4565,
       "forecast_zone_name": "VAZ506",
-      "status": "normal",
+      "status": "watch",
       "status_copy": {
-        "label": "NORMAL",
-        "summary": "No configured weather condition currently suggests an operational change.",
-        "action": "Continue normal operations and routine monitoring."
+        "label": "WATCH",
+        "summary": "Weather could affect operations if conditions develop as forecast.",
+        "action": "Monitor conditions and prepare staff, equipment, or outdoor operations."
       },
-      "reasons": [],
+      "reasons": [
+        {
+          "level": "watch",
+          "title": "Wind may affect operations",
+          "detail": "Observed or forecast gusts may reach about 38 mph (33 kt).",
+          "action": "Monitor wind conditions and prepare for outdoor restrictions if winds increase."
+        }
+      ],
       "metar": {
-        "raw": "METAR KIAD 171452Z 01009G18KT 10SM FEW015 SCT035 BKN048 BKN130 12/05 A3021 RMK AO2 PK WND 02026/1358 SLP229 60000 T01220050 51043 $",
-        "observed": "2026-10-17T15:00:00.000Z",
-        "wind_kt": 9.0,
-        "wind_mph": 10.4,
-        "gust_kt": 18.0,
-        "gust_mph": 20.7,
-        "temperature_f": 54.0,
+        "raw": "METAR KIAD 171952Z 33017G33KT 10SM FEW060 FEW150 14/00 A3025 RMK AO2 PK WND 35033/1943 SLP243 T01440000 $",
+        "observed": "2026-10-17T20:00:00.000Z",
+        "wind_kt": 17.0,
+        "wind_mph": 19.6,
+        "gust_kt": 33.0,
+        "gust_mph": 38.0,
+        "temperature_f": 57.9,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
       "taf": {
-        "raw": "TAF KIAD 171500Z 1715/1818 36016G26KT P6SM SCT035 BKN050 FM172300 35010G18KT P6SM SKC FM180300 36007KT P6SM SKC FM181500 03007KT P6SM SKC",
-        "issued": "2026-10-17T15:00:00.000Z",
-        "valid_from": 1792249200,
-        "valid_to": 1792346400,
+        "raw": "TAF KIAD 171736Z 1718/1824 36016G25KT P6SM SCT045 SCT120 FM172300 35010G18KT P6SM SKC FM180300 36006KT P6SM SKC",
+        "issued": "2026-10-17T17:36:00.000Z",
+        "valid_from": 1792260000,
+        "valid_to": 1792368000,
         "thunder": false,
         "snow": false,
         "freezing_precip": false
@@ -150,58 +157,58 @@
       "alerts": [
         {
           "event": "Frost Advisory",
-          "headline": "Frost Advisory issued October 17 at 8:09AM EDT until October 18 at 9:00AM EDT by NWS Baltimore MD/Washington DC",
+          "headline": "Frost Advisory issued October 17 at 3:25PM EDT until October 18 at 9:00AM EDT by NWS Baltimore MD/Washington DC",
           "severity": "Minor",
           "urgency": "Expected",
-          "expires": "2026-10-17T16:15:00-04:00",
+          "expires": "2026-10-17T23:30:00-04:00",
           "source": "Exact facility location"
         }
       ],
       "metrics": {
-        "peak_gust_24h_kt": 26.0,
-        "peak_gust_24h_mph": 29.9,
-        "precip_7d_in": 0.03,
+        "peak_gust_24h_kt": 33.0,
+        "peak_gust_24h_mph": 38.0,
+        "precip_7d_in": 0.02,
         "snow_7d_in": 0.0
       },
       "forecast": [
         {
-          "name": "Today",
-          "temperature": 55,
+          "name": "This Afternoon",
+          "temperature": 56,
           "temperatureUnit": "F",
-          "shortForecast": "Partly Sunny",
-          "windSpeed": "18 mph",
+          "shortForecast": "Mostly Sunny",
+          "windSpeed": "17 mph",
           "windDirection": "N"
         },
         {
           "name": "Tonight",
-          "temperature": 33,
+          "temperature": 35,
           "temperatureUnit": "F",
-          "shortForecast": "Mostly Clear then Areas Of Frost",
+          "shortForecast": "Clear then Areas Of Frost",
           "windSpeed": "6 to 13 mph",
           "windDirection": "N"
         },
         {
           "name": "Sunday",
-          "temperature": 58,
+          "temperature": 59,
           "temperatureUnit": "F",
-          "shortForecast": "Widespread Frost then Sunny",
-          "windSpeed": "7 mph",
+          "shortForecast": "Areas Of Frost then Sunny",
+          "windSpeed": "8 mph",
           "windDirection": "N"
         },
         {
           "name": "Sunday Night",
-          "temperature": 37,
+          "temperature": 36,
           "temperatureUnit": "F",
-          "shortForecast": "Mostly Clear",
+          "shortForecast": "Clear",
           "windSpeed": "1 to 5 mph",
           "windDirection": "N"
         },
         {
           "name": "Monday",
-          "temperature": 61,
+          "temperature": 63,
           "temperatureUnit": "F",
-          "shortForecast": "Mostly Sunny",
-          "windSpeed": "5 to 8 mph",
+          "shortForecast": "Areas Of Frost then Sunny",
+          "windSpeed": "5 to 9 mph",
           "windDirection": "N"
         },
         {
@@ -209,29 +216,28 @@
           "temperature": 43,
           "temperatureUnit": "F",
           "shortForecast": "Partly Cloudy",
-          "windSpeed": "5 to 8 mph",
+          "windSpeed": "8 mph",
           "windDirection": "N"
         },
         {
           "name": "Tuesday",
           "temperature": 67,
           "temperatureUnit": "F",
-          "shortForecast": "Mostly Sunny",
+          "shortForecast": "Sunny",
           "windSpeed": "10 mph",
           "windDirection": "N"
         },
         {
           "name": "Tuesday Night",
-          "temperature": 45,
+          "temperature": 44,
           "temperatureUnit": "F",
           "shortForecast": "Mostly Clear",
-          "windSpeed": "9 mph",
+          "windSpeed": "8 mph",
           "windDirection": "N"
         }
       ],
-      "checked_at": "2026-10-17T15:44:59.650710Z",
-      "next_check_minutes": 30,
-      "data_error": "500 Server Error: Internal Server Error for url: https://api.weather.gov/gridpoints/LWX/82,72"
+      "checked_at": "2026-10-17T20:25:35.801449Z",
+      "next_check_minutes": 15
     }
   ],
   "settings": {
