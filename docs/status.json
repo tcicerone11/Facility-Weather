@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T21:12:00.337880Z",
+  "generated_at": "2026-10-18T23:14:44.611395Z",
   "facilities": [
     {
       "id": "den",
@@ -17,13 +17,13 @@
       },
       "reasons": [],
       "metar": {
-        "raw": "METAR KDEN 182053Z 05009KT 10SM FEW150 SCT220 23/M09 A3011 RMK AO2 SLP134 T02331094 57015",
-        "observed": "2026-10-18T21:00:00.000Z",
-        "wind_kt": 9.0,
-        "wind_mph": 10.4,
+        "raw": "METAR KDEN 182253Z 08007KT 10SM FEW120 FEW150 BKN220 23/M09 A3012 RMK AO2 SLP140 T02281094",
+        "observed": "2026-10-18T23:00:00.000Z",
+        "wind_kt": 7.0,
+        "wind_mph": 8.1,
         "gust_kt": null,
         "gust_mph": null,
-        "temperature_f": 73.9,
+        "temperature_f": 73.0,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
@@ -109,7 +109,7 @@
           "windDirection": "SSE"
         }
       ],
-      "checked_at": "2026-10-18T21:12:02.201308Z",
+      "checked_at": "2026-10-18T23:14:45.449968Z",
       "next_check_minutes": 30
     },
     {
@@ -128,13 +128,13 @@
       },
       "reasons": [],
       "metar": {
-        "raw": "METAR KIAD 182052Z 36006KT 10SM CLR 17/M04 A3054 RMK AO2 SLP343 T01671039 56014 $",
-        "observed": "2026-10-18T21:00:00.000Z",
-        "wind_kt": 6.0,
-        "wind_mph": 6.9,
+        "raw": "METAR KIAD 182252Z 33005KT 10SM CLR 13/M01 A3053 RMK AO2 SLP340 T01331006 $",
+        "observed": "2026-10-18T23:00:00.000Z",
+        "wind_kt": 5.0,
+        "wind_mph": 5.8,
         "gust_kt": null,
         "gust_mph": null,
-        "temperature_f": 62.1,
+        "temperature_f": 55.9,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
@@ -150,10 +150,10 @@
       "alerts": [
         {
           "event": "Frost Advisory",
-          "headline": "Frost Advisory issued October 18 at 1:50PM EDT until October 19 at 9:00AM EDT by NWS Baltimore MD/Washington DC",
+          "headline": "Frost Advisory issued October 18 at 7:02PM EDT until October 19 at 9:00AM EDT by NWS Baltimore MD/Washington DC",
           "severity": "Minor",
           "urgency": "Expected",
-          "expires": "2026-10-18T22:00:00-04:00",
+          "expires": "2026-10-19T05:00:00-04:00",
           "source": "Exact facility location"
         }
       ],
@@ -165,18 +165,10 @@
       },
       "forecast": [
         {
-          "name": "This Afternoon",
-          "temperature": 62,
-          "temperatureUnit": "F",
-          "shortForecast": "Sunny",
-          "windSpeed": "6 mph",
-          "windDirection": "NE"
-        },
-        {
           "name": "Tonight",
           "temperature": 35,
           "temperatureUnit": "F",
-          "shortForecast": "Clear then Areas Of Frost",
+          "shortForecast": "Mostly Clear then Areas Of Frost",
           "windSpeed": "1 to 5 mph",
           "windDirection": "N"
         },
@@ -227,9 +219,17 @@
           "shortForecast": "Mostly Clear",
           "windSpeed": "6 mph",
           "windDirection": "N"
+        },
+        {
+          "name": "Thursday",
+          "temperature": 66,
+          "temperatureUnit": "F",
+          "shortForecast": "Sunny",
+          "windSpeed": "6 to 9 mph",
+          "windDirection": "NW"
         }
       ],
-      "checked_at": "2026-10-18T21:12:03.340742Z",
+      "checked_at": "2026-10-18T23:14:46.697057Z",
       "next_check_minutes": 30
     }
   ],
