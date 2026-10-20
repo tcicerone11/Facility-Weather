@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T01:42:31.992007Z",
+  "generated_at": "2026-10-20T06:39:55.169593Z",
   "facilities": [
     {
       "id": "den",
@@ -17,21 +17,21 @@
       },
       "reasons": [],
       "metar": {
-        "raw": "METAR KDEN 200053Z 06008KT 10SM BKN130 18/M02 A3015 RMK AO2 SLP164 T01781017 $",
-        "observed": "2026-10-20T01:00:00.000Z",
-        "wind_kt": 8.0,
-        "wind_mph": 9.2,
+        "raw": "METAR KDEN 200553Z 18007KT 10SM CLR 13/03 A3017 RMK AO2 SLP169 T01280033 10200 20128 51003 $",
+        "observed": "2026-10-20T06:00:00.000Z",
+        "wind_kt": 7.0,
+        "wind_mph": 8.1,
         "gust_kt": null,
         "gust_mph": null,
-        "temperature_f": 64.0,
+        "temperature_f": 55.0,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
       "taf": {
-        "raw": "TAF KDEN 192334Z 2000/2106 08013KT P6SM FEW150 FM200200 10011KT P6SM FEW150 FM200400 17009KT P6SM FEW150 FM200600 21009KT P6SM FEW150 FM201100 24007KT P6SM FEW150 FM201500 VRB05KT P6SM FEW150 FM201900 01009KT P6SM FEW120 FM210000 VRB06KT P6SM FEW120 FM210300 21008KT P6SM FEW120",
-        "issued": "2026-10-19T23:34:00.000Z",
-        "valid_from": 1792454400,
-        "valid_to": 1792562400,
+        "raw": "TAF KDEN 200523Z 2006/2112 21009KT P6SM FEW150 FM201100 24007KT P6SM FEW150 FM201500 VRB05KT P6SM FEW150 FM201900 01009KT P6SM SCT120 FM210000 09006KT P6SM SCT120 FM210300 16008KT P6SM FEW120 FM210600 21008KT P6SM FEW120",
+        "issued": "2026-10-20T05:23:00.000Z",
+        "valid_from": 1792476000,
+        "valid_to": 1792584000,
         "thunder": false,
         "snow": false,
         "freezing_precip": false
@@ -109,7 +109,7 @@
           "windDirection": "SW"
         }
       ],
-      "checked_at": "2026-10-20T01:42:33.926068Z",
+      "checked_at": "2026-10-20T06:39:57.174111Z",
       "next_check_minutes": 30
     },
     {
@@ -128,35 +128,35 @@
       },
       "reasons": [],
       "metar": {
-        "raw": "METAR KIAD 200052Z 33004KT 10SM CLR 13/04 A3028 RMK AO2 SLP255 T01330039",
-        "observed": "2026-10-20T01:00:00.000Z",
-        "wind_kt": 4.0,
-        "wind_mph": 4.6,
+        "raw": "METAR KIAD 200552Z 31003KT 10SM CLR 07/03 A3025 RMK AO2 SLP243 T00720028 10144 20061 56004",
+        "observed": "2026-10-20T06:00:00.000Z",
+        "wind_kt": 3.0,
+        "wind_mph": 3.5,
         "gust_kt": null,
         "gust_mph": null,
-        "temperature_f": 55.9,
+        "temperature_f": 45.0,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
       "taf": {
-        "raw": "TAF KIAD 192320Z 2000/2106 35006KT P6SM SKC FM201500 35011G18KT P6SM FEW250 FM210000 36005KT P6SM FEW250",
-        "issued": "2026-10-19T23:20:00.000Z",
-        "valid_from": 1792454400,
-        "valid_to": 1792562400,
+        "raw": "TAF KIAD 200521Z 2006/2112 31004KT P6SM SKC FM201500 35011G18KT P6SM FEW250 FM210000 36005KT P6SM FEW250",
+        "issued": "2026-10-20T05:21:00.000Z",
+        "valid_from": 1792476000,
+        "valid_to": 1792584000,
         "thunder": false,
         "snow": false,
         "freezing_precip": false
       },
       "alerts": [],
       "metrics": {
-        "peak_gust_24h_kt": 17.0,
-        "peak_gust_24h_mph": 19.6,
+        "peak_gust_24h_kt": 16.0,
+        "peak_gust_24h_mph": 18.4,
         "precip_7d_in": 0.0,
         "snow_7d_in": 0.0
       },
       "forecast": [
         {
-          "name": "Tonight",
+          "name": "Overnight",
           "temperature": 38,
           "temperatureUnit": "F",
           "shortForecast": "Clear",
@@ -168,15 +168,15 @@
           "temperature": 69,
           "temperatureUnit": "F",
           "shortForecast": "Sunny",
-          "windSpeed": "7 to 12 mph",
+          "windSpeed": "7 to 10 mph",
           "windDirection": "N"
         },
         {
           "name": "Tuesday Night",
-          "temperature": 45,
+          "temperature": 44,
           "temperatureUnit": "F",
-          "shortForecast": "Mostly Clear",
-          "windSpeed": "6 to 9 mph",
+          "shortForecast": "Clear",
+          "windSpeed": "8 mph",
           "windDirection": "N"
         },
         {
@@ -189,10 +189,10 @@
         },
         {
           "name": "Wednesday Night",
-          "temperature": 42,
+          "temperature": 43,
           "temperatureUnit": "F",
           "shortForecast": "Mostly Clear",
-          "windSpeed": "2 to 6 mph",
+          "windSpeed": "6 mph",
           "windDirection": "N"
         },
         {
@@ -200,14 +200,14 @@
           "temperature": 67,
           "temperatureUnit": "F",
           "shortForecast": "Sunny",
-          "windSpeed": "5 to 9 mph",
+          "windSpeed": "6 to 10 mph",
           "windDirection": "NW"
         },
         {
           "name": "Thursday Night",
-          "temperature": 47,
+          "temperature": 45,
           "temperatureUnit": "F",
-          "shortForecast": "Clear",
+          "shortForecast": "Mostly Clear",
           "windSpeed": "8 mph",
           "windDirection": "N"
         },
@@ -216,11 +216,11 @@
           "temperature": 61,
           "temperatureUnit": "F",
           "shortForecast": "Sunny",
-          "windSpeed": "6 to 9 mph",
+          "windSpeed": "9 mph",
           "windDirection": "N"
         }
       ],
-      "checked_at": "2026-10-20T01:42:35.166596Z",
+      "checked_at": "2026-10-20T06:39:58.783181Z",
       "next_check_minutes": 30
     }
   ],
