@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T21:38:11.228242Z",
+  "generated_at": "2026-10-24T00:01:04.540135Z",
   "facilities": [
     {
       "id": "den",
@@ -9,44 +9,44 @@
       "latitude": 39.8561,
       "longitude": -104.6737,
       "forecast_zone_name": "COZ040",
-      "status": "action",
+      "status": "watch",
       "status_copy": {
-        "label": "ACTION",
-        "summary": "A significant weather threshold has been reached or is expected.",
-        "action": "Take the protective action defined by your facility's operating plan."
+        "label": "WATCH",
+        "summary": "Weather could affect operations if conditions develop as forecast.",
+        "action": "Monitor conditions and prepare staff, equipment, or outdoor operations."
       },
       "reasons": [
         {
-          "level": "action",
-          "title": "Strong winds expected",
-          "detail": "Observed or forecast gusts may reach about 41 mph (36 kt).",
-          "action": "Secure vulnerable outdoor items and take the protective action defined by the facility plan."
+          "level": "watch",
+          "title": "Wind may affect operations",
+          "detail": "Observed or forecast gusts may reach about 34 mph (30 kt).",
+          "action": "Monitor wind conditions and prepare for outdoor restrictions if winds increase."
         }
       ],
       "metar": {
-        "raw": "METAR KDEN 232053Z 19026G36KT 10SM FEW090 FEW120 SCT220 25/M01 A2985 RMK AO2 PK WND 20039/2041 SLP031 T02501011 56021",
-        "observed": "2026-10-23T21:00:00.000Z",
-        "wind_kt": 26.0,
-        "wind_mph": 29.9,
-        "gust_kt": 36.0,
-        "gust_mph": 41.4,
-        "temperature_f": 77.0,
+        "raw": "METAR KDEN 232353Z 20018KT 10SM FEW100 SCT130 SCT220 22/M02 A2989 RMK AO2 PK WND 20036/2324 SLP049 T02221022 10250 20222 53010",
+        "observed": "2026-10-24T00:00:00.000Z",
+        "wind_kt": 18.0,
+        "wind_mph": 20.7,
+        "gust_kt": null,
+        "gust_mph": null,
+        "temperature_f": 72.0,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
       "taf": {
-        "raw": "TAF KDEN 232052Z 2321/2424 19025G35KT P6SM FEW120 SCT220 FM240000 20010G20KT P6SM FEW120 SCT220 FM240200 23009KT P6SM FEW120 SCT200 FM240500 VRB06KT P6SM FEW120 SCT200 FM241000 07007KT P6SM FEW090 FEW180 FM241300 01011KT P6SM FEW090 FEW180 FM241500 02012G20KT P6SM FEW050 SCT080 FM241700 02012KT P6SM FEW040 BKN060 FM242200 05007KT P6SM SCT040 BKN060 PROB30 2422/2424 -SHRA BKN040",
-        "issued": "2026-10-23T20:52:00.000Z",
-        "valid_from": 1792789200,
-        "valid_to": 1792886400,
+        "raw": "TAF KDEN 232332Z 2400/2506 19023G33KT P6SM FEW120 FEW220 FM240100 20012KT P6SM FEW120 SCT220 TEMPO 2401/2403 19014G24KT FM240300 22011KT P6SM FEW120 SCT200 FM240600 VRB06KT P6SM FEW120 SCT200 FM241000 07007KT P6SM FEW090 FEW180 FM241300 01011KT P6SM FEW090 FEW180 FM241500 02012G20KT P6SM FEW050 SCT080 FM241800 02011KT P6SM FEW040 BKN060 FM242200 06007KT P6SM SCT035 BKN050 PROB30 2422/2504 -SHRA BKN035",
+        "issued": "2026-10-23T23:32:00.000Z",
+        "valid_from": 1792800000,
+        "valid_to": 1792908000,
         "thunder": false,
         "snow": false,
         "freezing_precip": false
       },
       "alerts": [],
       "metrics": {
-        "peak_gust_24h_kt": 36.0,
-        "peak_gust_24h_mph": 41.4,
+        "peak_gust_24h_kt": 30.0,
+        "peak_gust_24h_mph": 34.5,
         "precip_7d_in": 0.04,
         "snow_7d_in": 0.0
       },
@@ -116,8 +116,8 @@
           "windDirection": "SSE"
         }
       ],
-      "checked_at": "2026-10-23T21:38:12.251233Z",
-      "next_check_minutes": 5
+      "checked_at": "2026-10-24T00:01:11.002916Z",
+      "next_check_minutes": 15
     },
     {
       "id": "iad",
@@ -135,21 +135,21 @@
       },
       "reasons": [],
       "metar": {
-        "raw": "METAR KIAD 232052Z 06004KT 10SM FEW050 FEW250 17/04 A3034 RMK AO2 SLP275 T01720044 53002",
-        "observed": "2026-10-23T21:00:00.000Z",
-        "wind_kt": 4.0,
-        "wind_mph": 4.6,
+        "raw": "METAR KIAD 232352Z 10005KT 10SM CLR 12/04 A3040 RMK AO2 SLP295 T01220044 10178 20122 53020",
+        "observed": "2026-10-24T00:00:00.000Z",
+        "wind_kt": 5.0,
+        "wind_mph": 5.8,
         "gust_kt": null,
         "gust_mph": null,
-        "temperature_f": 63.0,
+        "temperature_f": 54.0,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
       "taf": {
-        "raw": "TAF KIAD 232058Z 2321/2424 06004KT P6SM FEW050 FEW250 FM240000 08004KT P6SM FEW250 FM241800 14005KT P6SM FEW050",
-        "issued": "2026-10-23T20:58:00.000Z",
-        "valid_from": 1792789200,
-        "valid_to": 1792886400,
+        "raw": "TAF KIAD 232320Z 2400/2506 VRB03KT P6SM SKC FM241500 14006KT P6SM FEW040 FM250000 00000KT P6SM SKC",
+        "issued": "2026-10-23T23:20:00.000Z",
+        "valid_from": 1792800000,
+        "valid_to": 1792908000,
         "thunder": false,
         "snow": false,
         "freezing_precip": false
@@ -163,19 +163,11 @@
       },
       "forecast": [
         {
-          "name": "This Afternoon",
-          "temperature": 64,
-          "temperatureUnit": "F",
-          "shortForecast": "Mostly Sunny",
-          "windSpeed": "7 mph",
-          "windDirection": "NE"
-        },
-        {
           "name": "Tonight",
           "temperature": 36,
           "temperatureUnit": "F",
           "shortForecast": "Mostly Clear then Patchy Fog",
-          "windSpeed": "0 to 6 mph",
+          "windSpeed": "0 to 5 mph",
           "windDirection": "NE"
         },
         {
@@ -225,9 +217,17 @@
           "shortForecast": "Mostly Clear",
           "windSpeed": "1 to 6 mph",
           "windDirection": "NW"
+        },
+        {
+          "name": "Tuesday",
+          "temperature": 68,
+          "temperatureUnit": "F",
+          "shortForecast": "Sunny",
+          "windSpeed": "6 mph",
+          "windDirection": "N"
         }
       ],
-      "checked_at": "2026-10-23T21:38:14.053754Z",
+      "checked_at": "2026-10-24T00:01:16.646938Z",
       "next_check_minutes": 30
     }
   ],
