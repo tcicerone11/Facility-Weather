@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T00:01:04.540135Z",
+  "generated_at": "2026-10-24T04:25:02.804828Z",
   "facilities": [
     {
       "id": "den",
@@ -24,20 +24,20 @@
         }
       ],
       "metar": {
-        "raw": "METAR KDEN 232353Z 20018KT 10SM FEW100 SCT130 SCT220 22/M02 A2989 RMK AO2 PK WND 20036/2324 SLP049 T02221022 10250 20222 53010",
-        "observed": "2026-10-24T00:00:00.000Z",
-        "wind_kt": 18.0,
-        "wind_mph": 20.7,
+        "raw": "METAR KDEN 240353Z 21013KT 10SM FEW120 BKN220 18/01 A2996 RMK AO2 SLP076 T01830006",
+        "observed": "2026-10-24T04:00:00.000Z",
+        "wind_kt": 13.0,
+        "wind_mph": 15.0,
         "gust_kt": null,
         "gust_mph": null,
-        "temperature_f": 72.0,
+        "temperature_f": 64.9,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
       "taf": {
-        "raw": "TAF KDEN 232332Z 2400/2506 19023G33KT P6SM FEW120 FEW220 FM240100 20012KT P6SM FEW120 SCT220 TEMPO 2401/2403 19014G24KT FM240300 22011KT P6SM FEW120 SCT200 FM240600 VRB06KT P6SM FEW120 SCT200 FM241000 07007KT P6SM FEW090 FEW180 FM241300 01011KT P6SM FEW090 FEW180 FM241500 02012G20KT P6SM FEW050 SCT080 FM241800 02011KT P6SM FEW040 BKN060 FM242200 06007KT P6SM SCT035 BKN050 PROB30 2422/2504 -SHRA BKN035",
-        "issued": "2026-10-23T23:32:00.000Z",
-        "valid_from": 1792800000,
+        "raw": "TAF KDEN 240255Z 2403/2506 21013KT P6SM FEW120 SCT200 FM240600 VRB06KT P6SM FEW120 SCT200 FM241000 07007KT P6SM FEW090 FEW180 FM241300 01011KT P6SM FEW090 FEW180 FM241500 03012G20KT P6SM FEW050 SCT080 FM241800 04011KT P6SM FEW040 BKN060 FM242200 06007KT P6SM SCT035 BKN050 PROB30 2422/2504 -SHRA BKN035",
+        "issued": "2026-10-24T02:55:00.000Z",
+        "valid_from": 1792810800,
         "valid_to": 1792908000,
         "thunder": false,
         "snow": false,
@@ -51,14 +51,6 @@
         "snow_7d_in": 0.0
       },
       "forecast": [
-        {
-          "name": "This Afternoon",
-          "temperature": 79,
-          "temperatureUnit": "F",
-          "shortForecast": "Sunny",
-          "windSpeed": "22 mph",
-          "windDirection": "SSW"
-        },
         {
           "name": "Tonight",
           "temperature": 46,
@@ -114,9 +106,17 @@
           "shortForecast": "Mostly Clear",
           "windSpeed": "5 to 9 mph",
           "windDirection": "SSE"
+        },
+        {
+          "name": "Tuesday",
+          "temperature": 65,
+          "temperatureUnit": "F",
+          "shortForecast": "Sunny",
+          "windSpeed": "2 to 7 mph",
+          "windDirection": "ESE"
         }
       ],
-      "checked_at": "2026-10-24T00:01:11.002916Z",
+      "checked_at": "2026-10-24T04:25:04.228271Z",
       "next_check_minutes": 15
     },
     {
@@ -135,20 +135,20 @@
       },
       "reasons": [],
       "metar": {
-        "raw": "METAR KIAD 232352Z 10005KT 10SM CLR 12/04 A3040 RMK AO2 SLP295 T01220044 10178 20122 53020",
-        "observed": "2026-10-24T00:00:00.000Z",
-        "wind_kt": 5.0,
-        "wind_mph": 5.8,
+        "raw": "METAR KIAD 240352Z 00000KT 10SM FEW250 06/04 A3045 RMK AO2 SLP312 T00610039 $",
+        "observed": "2026-10-24T04:00:00.000Z",
+        "wind_kt": 0.0,
+        "wind_mph": 0.0,
         "gust_kt": null,
         "gust_mph": null,
-        "temperature_f": 54.0,
+        "temperature_f": 43.0,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
       "taf": {
-        "raw": "TAF KIAD 232320Z 2400/2506 VRB03KT P6SM SKC FM241500 14006KT P6SM FEW040 FM250000 00000KT P6SM SKC",
-        "issued": "2026-10-23T23:20:00.000Z",
-        "valid_from": 1792800000,
+        "raw": "TAF KIAD 240240Z 2403/2506 VRB03KT P6SM SKC FM241500 14006KT P6SM FEW040 FM250000 00000KT P6SM SKC",
+        "issued": "2026-10-24T02:40:00.000Z",
+        "valid_from": 1792810800,
         "valid_to": 1792908000,
         "thunder": false,
         "snow": false,
@@ -156,8 +156,8 @@
       },
       "alerts": [],
       "metrics": {
-        "peak_gust_24h_kt": 11.0,
-        "peak_gust_24h_mph": 12.7,
+        "peak_gust_24h_kt": 7.0,
+        "peak_gust_24h_mph": 8.1,
         "precip_7d_in": 0.0,
         "snow_7d_in": 0.0
       },
@@ -167,7 +167,7 @@
           "temperature": 36,
           "temperatureUnit": "F",
           "shortForecast": "Mostly Clear then Patchy Fog",
-          "windSpeed": "0 to 5 mph",
+          "windSpeed": "2 mph",
           "windDirection": "NE"
         },
         {
@@ -227,7 +227,7 @@
           "windDirection": "N"
         }
       ],
-      "checked_at": "2026-10-24T00:01:16.646938Z",
+      "checked_at": "2026-10-24T04:25:11.120695Z",
       "next_check_minutes": 30
     }
   ],
