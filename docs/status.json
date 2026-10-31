@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T08:54:31.044065Z",
+  "generated_at": "2026-10-31T15:00:04.524259Z",
   "facilities": [
     {
       "id": "den",
@@ -19,26 +19,26 @@
         {
           "level": "watch",
           "title": "Dense Fog Advisory",
-          "detail": "Dense Fog Advisory issued October 30 at 10:32PM MDT until October 31 at 10:00AM MDT by NWS Denver CO",
+          "detail": "Dense Fog Advisory issued October 31 at 3:17AM MDT until October 31 at 10:00AM MDT by NWS Denver CO",
           "action": "Monitor updates and prepare staff or equipment. Source: Exact facility location."
         }
       ],
       "metar": {
-        "raw": "METAR KDEN 310753Z 00000KT 10SM FEW180 BKN200 09/06 A3004 RMK AO2 SLP129 T00890061",
-        "observed": "2026-10-31T08:00:00.000Z",
-        "wind_kt": 0.0,
-        "wind_mph": 0.0,
+        "raw": "METAR KDEN 311453Z 27003KT 1/4SM R35L/3500VP6000FT FG OVC002 08/08 A3003 RMK AO2 SFC VIS 1/2 SLP135 T00780078 53007",
+        "observed": "2026-10-31T15:00:00.000Z",
+        "wind_kt": 3.0,
+        "wind_mph": 3.5,
         "gust_kt": null,
         "gust_mph": null,
-        "temperature_f": 48.0,
-        "visibility_sm": 10.0,
-        "flight_category": "VFR"
+        "temperature_f": 46.0,
+        "visibility_sm": 0.25,
+        "flight_category": "LIFR"
       },
       "taf": {
-        "raw": "TAF KDEN 310523Z 3106/0112 22006KT P6SM FEW030 SCT110 BKN200 TEMPO 3106/3109 6SM BR BKN002 FM310900 VRB05KT 6SM BR VCFG SCT002 TEMPO 3111/3112 1/4SM FG BKN002 FM311200 VRB05KT 1/4SM FG VV001 FM311700 31007KT 3/4SM BR OVC001 TEMPO 3117/3119 6SM SCT002 SCT070 FM312000 36007KT P6SM FEW009 FEW080 FM312300 05007KT P6SM SCT090 FM010100 VRB05KT P6SM FEW080 SCT090 FM010400 17006KT P6SM FEW060 SCT080",
-        "issued": "2026-10-31T05:23:00.000Z",
-        "valid_from": 1793426400,
-        "valid_to": 1793534400,
+        "raw": "TAF KDEN 311123Z 3112/0118 31007KT 1/4SM FG VV001 FM311700 33007KT 3/4SM BR OVC001 TEMPO 3117/3119 6SM SCT002 SCT070 FM312000 36007KT P6SM FEW010 FEW080 FM312300 05007KT P6SM SCT090 FM010100 VRB05KT P6SM FEW080 SCT090 FM010400 17006KT P6SM FEW060 SCT080 SCT200 FM011000 20007KT P6SM VCFG FEW005 BKN120 FM011600 18011KT P6SM FEW010 BKN080 BKN100",
+        "issued": "2026-10-31T11:23:00.000Z",
+        "valid_from": 1793448000,
+        "valid_to": 1793556000,
         "thunder": false,
         "snow": false,
         "freezing_precip": false
@@ -46,7 +46,7 @@
       "alerts": [
         {
           "event": "Dense Fog Advisory",
-          "headline": "Dense Fog Advisory issued October 30 at 10:32PM MDT until October 31 at 10:00AM MDT by NWS Denver CO",
+          "headline": "Dense Fog Advisory issued October 31 at 3:17AM MDT until October 31 at 10:00AM MDT by NWS Denver CO",
           "severity": "Moderate",
           "urgency": "Expected",
           "expires": "2026-10-31T10:00:00-06:00",
@@ -61,15 +61,7 @@
       },
       "forecast": [
         {
-          "name": "Overnight",
-          "temperature": 43,
-          "temperatureUnit": "F",
-          "shortForecast": "Areas Of Fog",
-          "windSpeed": "7 mph",
-          "windDirection": "SSW"
-        },
-        {
-          "name": "Saturday",
+          "name": "Today",
           "temperature": 59,
           "temperatureUnit": "F",
           "shortForecast": "Areas Of Fog then Partly Sunny",
@@ -77,7 +69,7 @@
           "windDirection": "NW"
         },
         {
-          "name": "Saturday Night",
+          "name": "Tonight",
           "temperature": 43,
           "temperatureUnit": "F",
           "shortForecast": "Partly Cloudy",
@@ -123,9 +115,17 @@
           "shortForecast": "Sunny",
           "windSpeed": "7 mph",
           "windDirection": "NNE"
+        },
+        {
+          "name": "Tuesday Night",
+          "temperature": 36,
+          "temperatureUnit": "F",
+          "shortForecast": "Mostly Clear",
+          "windSpeed": "8 mph",
+          "windDirection": "S"
         }
       ],
-      "checked_at": "2026-10-31T08:54:35.579836Z",
+      "checked_at": "2026-10-31T15:00:14.078575Z",
       "next_check_minutes": 15
     },
     {
@@ -144,51 +144,43 @@
       },
       "reasons": [],
       "metar": {
-        "raw": "METAR KIAD 310752Z 00000KT 10SM CLR 07/04 A3039 RMK AO2 SLP292 T00670039 $",
-        "observed": "2026-10-31T08:00:00.000Z",
-        "wind_kt": 0.0,
-        "wind_mph": 0.0,
+        "raw": "METAR KIAD 311452Z 01007KT 10SM BKN250 14/04 A3049 RMK AO2 SLP325 T01390039 50012 $",
+        "observed": "2026-10-31T15:00:00.000Z",
+        "wind_kt": 7.0,
+        "wind_mph": 8.1,
         "gust_kt": null,
         "gust_mph": null,
-        "temperature_f": 44.1,
+        "temperature_f": 57.0,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
       "taf": {
-        "raw": "TAF KIAD 310851Z 3109/0112 00000KT P6SM SKC FM311600 02006KT P6SM FEW160 SCT250 FM312300 01004KT P6SM SCT250 FM010600 00000KT P6SM SCT170 BKN250",
-        "issued": "2026-10-31T08:51:00.000Z",
-        "valid_from": 1793437200,
-        "valid_to": 1793534400,
+        "raw": "TAF KIAD 311129Z 3112/0118 00000KT P6SM FEW250 FM311400 36006KT P6SM SCT250 FM010300 00000KT P6SM SCT160 BKN250",
+        "issued": "2026-10-31T11:29:00.000Z",
+        "valid_from": 1793448000,
+        "valid_to": 1793556000,
         "thunder": false,
         "snow": false,
         "freezing_precip": false
       },
       "alerts": [],
       "metrics": {
-        "peak_gust_24h_kt": 13.0,
-        "peak_gust_24h_mph": 15.0,
+        "peak_gust_24h_kt": 10.0,
+        "peak_gust_24h_mph": 11.5,
         "precip_7d_in": 0.0,
         "snow_7d_in": 0.0
       },
       "forecast": [
         {
-          "name": "Overnight",
-          "temperature": 43,
-          "temperatureUnit": "F",
-          "shortForecast": "Mostly Clear",
-          "windSpeed": "5 mph",
-          "windDirection": "N"
-        },
-        {
-          "name": "Saturday",
+          "name": "Today",
           "temperature": 63,
           "temperatureUnit": "F",
-          "shortForecast": "Mostly Sunny",
+          "shortForecast": "Partly Sunny",
           "windSpeed": "6 mph",
           "windDirection": "N"
         },
         {
-          "name": "Saturday Night",
+          "name": "Tonight",
           "temperature": 44,
           "temperatureUnit": "F",
           "shortForecast": "Mostly Cloudy",
@@ -234,9 +226,17 @@
           "shortForecast": "Mostly Sunny",
           "windSpeed": "2 to 7 mph",
           "windDirection": "S"
+        },
+        {
+          "name": "Tuesday Night",
+          "temperature": 53,
+          "temperatureUnit": "F",
+          "shortForecast": "Mostly Cloudy",
+          "windSpeed": "6 mph",
+          "windDirection": "SE"
         }
       ],
-      "checked_at": "2026-10-31T08:54:36.276335Z",
+      "checked_at": "2026-10-31T15:00:28.954882Z",
       "next_check_minutes": 30
     }
   ],
