@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-07T22:54:02.938632Z",
+  "generated_at": "2026-11-08T02:00:30.522370Z",
   "facilities": [
     {
       "id": "den",
@@ -17,21 +17,21 @@
       },
       "reasons": [],
       "metar": {
-        "raw": "METAR KDEN 072153Z VRB06KT 10SM FEW220 18/M08 A3020 RMK AO2 SLP191 T01781078",
-        "observed": "2026-11-07T22:00:00.000Z",
-        "wind_kt": 6.0,
-        "wind_mph": 6.9,
+        "raw": "METAR KDEN 080153Z 15005KT 10SM BKN250 10/M06 A3026 RMK AO2 SLP227 T01001061",
+        "observed": "2026-11-08T02:00:00.000Z",
+        "wind_kt": 5.0,
+        "wind_mph": 5.8,
         "gust_kt": null,
         "gust_mph": null,
-        "temperature_f": 64.0,
+        "temperature_f": 50.0,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
       "taf": {
-        "raw": "TAF KDEN 072100Z 0721/0824 VRB05KT P6SM FEW220 FM080000 09006KT P6SM FEW220 FM080200 15007KT P6SM SCT220 FM080500 24007KT P6SM FEW160 FEW200 FM081000 21008KT P6SM FEW200 FM081600 16007KT P6SM SKC",
-        "issued": "2026-11-07T21:00:00.000Z",
-        "valid_from": 1794085200,
-        "valid_to": 1794182400,
+        "raw": "TAF KDEN 080056Z 0801/0906 14006KT P6SM BKN220 FM080300 17007KT P6SM BKN220 FM080600 24007KT P6SM FEW160 FEW200 FM081000 21008KT P6SM FEW200 FM081700 16007KT P6SM SKC FM090200 19009KT P6SM FEW220",
+        "issued": "2026-11-08T00:56:00.000Z",
+        "valid_from": 1794099600,
+        "valid_to": 1794204000,
         "thunder": false,
         "snow": false,
         "freezing_precip": false
@@ -44,14 +44,6 @@
         "snow_7d_in": 0.0
       },
       "forecast": [
-        {
-          "name": "This Afternoon",
-          "temperature": 65,
-          "temperatureUnit": "F",
-          "shortForecast": "Sunny",
-          "windSpeed": "5 mph",
-          "windDirection": "ENE"
-        },
         {
           "name": "Tonight",
           "temperature": 38,
@@ -107,9 +99,17 @@
           "shortForecast": "Mostly Clear",
           "windSpeed": "5 to 8 mph",
           "windDirection": "NNW"
+        },
+        {
+          "name": "Veterans Day",
+          "temperature": 62,
+          "temperatureUnit": "F",
+          "shortForecast": "Sunny",
+          "windSpeed": "3 to 9 mph",
+          "windDirection": "NW"
         }
       ],
-      "checked_at": "2026-11-07T22:54:03.946586Z",
+      "checked_at": "2026-11-08T02:00:32.972249Z",
       "next_check_minutes": 30
     },
     {
@@ -128,21 +128,21 @@
       },
       "reasons": [],
       "metar": {
-        "raw": "METAR KIAD 072152Z 30015G21KT 10SM FEW050 FEW065 11/02 A2999 RMK AO2 PK WND 32033/2104 SLP155 T01110022 $",
-        "observed": "2026-11-07T22:00:00.000Z",
-        "wind_kt": 15.0,
-        "wind_mph": 17.3,
-        "gust_kt": 21.0,
-        "gust_mph": 24.2,
-        "temperature_f": 52.0,
+        "raw": "METAR KIAD 080152Z 28008G17KT 10SM SCT043 09/02 A3004 RMK AO2 SLP171 T00890017 $",
+        "observed": "2026-11-08T02:00:00.000Z",
+        "wind_kt": 8.0,
+        "wind_mph": 9.2,
+        "gust_kt": 17.0,
+        "gust_mph": 19.6,
+        "temperature_f": 48.0,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
       "taf": {
-        "raw": "TAF KIAD 072057Z 0721/0824 32017G30KT P6SM SCT050 SCT070 FM072300 30013G22KT P6SM FEW050 FM080400 30009G17KT P6SM FEW050 FM081000 29006KT P6SM FEW050 FM081500 28011G20KT P6SM FEW050 FM082100 23007KT P6SM SKC",
-        "issued": "2026-11-07T20:57:00.000Z",
-        "valid_from": 1794085200,
-        "valid_to": 1794182400,
+        "raw": "TAF KIAD 072339Z 0800/0906 30013G22KT P6SM FEW050 FM080400 30009G17KT P6SM FEW050 FM081000 29006KT P6SM FEW050 FM081500 28011G20KT P6SM FEW050 FM082100 23007KT P6SM SKC FM090300 28006KT P6SM FEW250",
+        "issued": "2026-11-07T23:39:00.000Z",
+        "valid_from": 1794096000,
+        "valid_to": 1794204000,
         "thunder": false,
         "snow": false,
         "freezing_precip": false
@@ -156,19 +156,11 @@
       },
       "forecast": [
         {
-          "name": "This Afternoon",
-          "temperature": 58,
-          "temperatureUnit": "F",
-          "shortForecast": "Partly Sunny",
-          "windSpeed": "16 mph",
-          "windDirection": "NW"
-        },
-        {
           "name": "Tonight",
           "temperature": 41,
           "temperatureUnit": "F",
           "shortForecast": "Mostly Clear",
-          "windSpeed": "10 to 15 mph",
+          "windSpeed": "10 to 14 mph",
           "windDirection": "NW"
         },
         {
@@ -218,9 +210,17 @@
           "shortForecast": "Mostly Clear",
           "windSpeed": "5 mph",
           "windDirection": "W"
+        },
+        {
+          "name": "Veterans Day",
+          "temperature": 67,
+          "temperatureUnit": "F",
+          "shortForecast": "Sunny",
+          "windSpeed": "1 to 6 mph",
+          "windDirection": "W"
         }
       ],
-      "checked_at": "2026-11-07T22:54:05.885198Z",
+      "checked_at": "2026-11-08T02:00:36.395649Z",
       "next_check_minutes": 30
     }
   ],
