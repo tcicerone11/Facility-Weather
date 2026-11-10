@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T18:55:11.567324Z",
+  "generated_at": "2026-11-10T23:54:23.756073Z",
   "facilities": [
     {
       "id": "den",
@@ -17,56 +17,56 @@
       },
       "reasons": [],
       "metar": {
-        "raw": "METAR KDEN 101753Z 07003KT 10SM FEW160 BKN220 15/M03 A3019 RMK AO2 SLP181 T01501028 10150 20011 51009",
-        "observed": "2026-11-10T18:00:00.000Z",
-        "wind_kt": 3.0,
-        "wind_mph": 3.5,
+        "raw": "METAR KDEN 102253Z 00000KT 10SM FEW160 BKN220 18/M06 A3015 RMK AO2 SLP170 T01831061",
+        "observed": "2026-11-10T23:00:00.000Z",
+        "wind_kt": 0.0,
+        "wind_mph": 0.0,
         "gust_kt": null,
         "gust_mph": null,
-        "temperature_f": 59.0,
+        "temperature_f": 64.9,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
       "taf": {
-        "raw": "TAF KDEN 101735Z 1018/1124 03006KT P6SM BKN220 FM101900 07007KT P6SM BKN220 FM102200 14007KT P6SM BKN220 FM110300 03010KT P6SM SCT220 FM110700 19009KT P6SM FEW220 FM111700 VRB05KT P6SM FEW220 FM112100 03006KT P6SM FEW220",
-        "issued": "2026-11-10T17:35:00.000Z",
-        "valid_from": 1794333600,
-        "valid_to": 1794441600,
+        "raw": "TAF KDEN 102332Z 1100/1206 14005KT P6SM BKN220 FM110100 02008KT P6SM SCT220 FM110600 19009KT P6SM FEW220 FM111600 13005KT P6SM FEW220 FM112100 03006KT P6SM FEW220 FM120200 13006KT P6SM FEW220 FM120500 20009KT P6SM FEW220",
+        "issued": "2026-11-10T23:32:00.000Z",
+        "valid_from": 1794355200,
+        "valid_to": 1794463200,
         "thunder": false,
         "snow": false,
         "freezing_precip": false
       },
       "alerts": [],
       "metrics": {
-        "peak_gust_24h_kt": 13.0,
-        "peak_gust_24h_mph": 15.0,
+        "peak_gust_24h_kt": 11.0,
+        "peak_gust_24h_mph": 12.7,
         "precip_7d_in": 0.0,
         "snow_7d_in": 0.0
       },
       "forecast": [
         {
-          "name": "Today",
-          "temperature": 67,
+          "name": "This Afternoon",
+          "temperature": 69,
           "temperatureUnit": "F",
           "shortForecast": "Partly Sunny",
-          "windSpeed": "8 mph",
-          "windDirection": "W"
+          "windSpeed": "3 mph",
+          "windDirection": "NNE"
         },
         {
           "name": "Tonight",
           "temperature": 38,
           "temperatureUnit": "F",
           "shortForecast": "Mostly Clear",
-          "windSpeed": "7 mph",
-          "windDirection": "SW"
+          "windSpeed": "2 to 6 mph",
+          "windDirection": "SSE"
         },
         {
           "name": "Veterans Day",
           "temperature": 63,
           "temperatureUnit": "F",
           "shortForecast": "Sunny",
-          "windSpeed": "2 to 7 mph",
-          "windDirection": "SE"
+          "windSpeed": "2 to 6 mph",
+          "windDirection": "ESE"
         },
         {
           "name": "Wednesday Night",
@@ -74,19 +74,19 @@
           "temperatureUnit": "F",
           "shortForecast": "Clear",
           "windSpeed": "3 to 7 mph",
-          "windDirection": "S"
+          "windDirection": "SSW"
         },
         {
           "name": "Thursday",
           "temperature": 67,
           "temperatureUnit": "F",
           "shortForecast": "Sunny",
-          "windSpeed": "3 to 8 mph",
-          "windDirection": "S"
+          "windSpeed": "2 to 7 mph",
+          "windDirection": "SSE"
         },
         {
           "name": "Thursday Night",
-          "temperature": 39,
+          "temperature": 41,
           "temperatureUnit": "F",
           "shortForecast": "Mostly Clear",
           "windSpeed": "8 mph",
@@ -98,18 +98,18 @@
           "temperatureUnit": "F",
           "shortForecast": "Mostly Sunny",
           "windSpeed": "2 to 6 mph",
-          "windDirection": "SSE"
+          "windDirection": "WNW"
         },
         {
           "name": "Friday Night",
           "temperature": 39,
           "temperatureUnit": "F",
-          "shortForecast": "Partly Cloudy",
-          "windSpeed": "7 mph",
+          "shortForecast": "Mostly Cloudy",
+          "windSpeed": "3 to 7 mph",
           "windDirection": "SSW"
         }
       ],
-      "checked_at": "2026-11-10T18:55:14.934540Z",
+      "checked_at": "2026-11-10T23:54:25.556860Z",
       "next_check_minutes": 30
     },
     {
@@ -221,7 +221,8 @@
         }
       ],
       "checked_at": "2026-11-10T18:55:17.335478Z",
-      "next_check_minutes": 30
+      "next_check_minutes": 30,
+      "data_error": "504 Server Error: Gateway Time-out for url: https://aviationweather.gov/api/data/taf?ids=KIAD&format=json"
     }
   ],
   "settings": {
