@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T20:58:08.555036Z",
+  "generated_at": "2026-11-15T00:55:33.278321Z",
   "facilities": [
     {
       "id": "den",
@@ -17,29 +17,29 @@
       },
       "reasons": [],
       "metar": {
-        "raw": "METAR KDEN 142053Z 05010KT 10SM FEW030 FEW075 SCT120 BKN200 11/06 A2978 RMK AO2 SLP056 T01060061 56014",
-        "observed": "2026-11-14T21:00:00.000Z",
-        "wind_kt": 10.0,
-        "wind_mph": 11.5,
+        "raw": "METAR KDEN 142353Z VRB04KT 10SM FEW120 SCT160 BKN200 08/04 A2984 RMK AO2 SLP087 T00830044 10117 20061 53018",
+        "observed": "2026-11-15T00:00:00.000Z",
+        "wind_kt": 4.0,
+        "wind_mph": 4.6,
         "gust_kt": null,
         "gust_mph": null,
-        "temperature_f": 51.1,
+        "temperature_f": 46.9,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
       "taf": {
-        "raw": "TAF KDEN 142003Z 1420/1524 07010KT P6SM FEW020 SCT100 BKN200 FM142200 05008KT P6SM SCT040 SCT100 BKN200 FM150300 24006KT P6SM SCT100 BKN150 FM150900 29006KT 1/4SM FG VV002 FM151600 VRB06KT 3SM BR BKN005 TEMPO 1516/1517 1/2SM FG BKN002 FM151800 10007KT P6SM FEW010 FEW200",
-        "issued": "2026-11-14T20:03:00.000Z",
-        "valid_from": 1794686400,
-        "valid_to": 1794787200,
+        "raw": "TAF KDEN 142334Z 1500/1606 11008KT P6SM FEW030 SCT100 BKN200 FM150100 30009KT P6SM SCT100 BKN150 FM150900 29006KT 1/4SM FG VV002 FM151600 VRB06KT 3SM BR BKN005 TEMPO 1516/1517 1/2SM FG BKN002 FM151700 10007KT P6SM FEW010 FEW200 FM152000 11012KT P6SM FEW200 FM160200 15009KT P6SM FEW200 FM160500 20008KT P6SM FEW200",
+        "issued": "2026-11-14T23:34:00.000Z",
+        "valid_from": 1794700800,
+        "valid_to": 1794808800,
         "thunder": false,
         "snow": false,
         "freezing_precip": false
       },
       "alerts": [],
       "metrics": {
-        "peak_gust_24h_kt": 10.0,
-        "peak_gust_24h_mph": 11.5,
+        "peak_gust_24h_kt": 12.0,
+        "peak_gust_24h_mph": 13.8,
         "precip_7d_in": 0.07,
         "snow_7d_in": 0.0
       },
@@ -109,7 +109,7 @@
           "windDirection": "SSW"
         }
       ],
-      "checked_at": "2026-11-14T20:58:09.906098Z",
+      "checked_at": "2026-11-15T00:55:33.977835Z",
       "next_check_minutes": 30
     },
     {
@@ -120,55 +120,54 @@
       "latitude": 38.9531,
       "longitude": -77.4565,
       "forecast_zone_name": "VAZ506",
-      "status": "normal",
+      "status": "watch",
       "status_copy": {
-        "label": "NORMAL",
-        "summary": "No configured weather condition currently suggests an operational change.",
-        "action": "Continue normal operations and routine monitoring."
+        "label": "WATCH",
+        "summary": "Weather could affect operations if conditions develop as forecast.",
+        "action": "Monitor conditions and prepare staff, equipment, or outdoor operations."
       },
-      "reasons": [],
+      "reasons": [
+        {
+          "level": "watch",
+          "title": "Wind may affect operations",
+          "detail": "Observed or forecast gusts may reach about 34 mph (30 kt).",
+          "action": "Monitor wind conditions and prepare for outdoor restrictions if winds increase."
+        }
+      ],
       "metar": {
-        "raw": "METAR KIAD 142052Z 30019G27KT 10SM OVC050 09/M01 A2996 RMK AO2 PK WND 29030/2021 SLP145 T00891011 53014 $",
-        "observed": "2026-11-14T21:00:00.000Z",
-        "wind_kt": 19.0,
-        "wind_mph": 21.9,
-        "gust_kt": 27.0,
-        "gust_mph": 31.1,
-        "temperature_f": 48.0,
+        "raw": "METAR KIAD 142352Z 30012KT 10SM BKN055 08/M01 A3002 RMK AO2 SLP167 T00831011 10094 20083 51022 $",
+        "observed": "2026-11-15T00:00:00.000Z",
+        "wind_kt": 12.0,
+        "wind_mph": 13.8,
+        "gust_kt": null,
+        "gust_mph": null,
+        "temperature_f": 46.9,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
       "taf": {
-        "raw": "TAF KIAD 141720Z 1418/1524 30016G28KT P6SM BKN050 FM142300 29012G23KT P6SM BKN050 FM150500 29010G19KT P6SM BKN045 FM151000 30008KT P6SM BKN045 FM151500 33013G22KT P6SM BKN045 FM152200 33009KT P6SM BKN050",
-        "issued": "2026-11-14T17:20:00.000Z",
-        "valid_from": 1794679200,
-        "valid_to": 1794787200,
+        "raw": "TAF KIAD 142333Z 1500/1606 29012G23KT P6SM BKN050 FM150500 29010G19KT P6SM BKN045 FM151000 30008KT P6SM BKN045 FM151500 33013G22KT P6SM BKN045 FM152200 33009KT P6SM SCT045 BKN080",
+        "issued": "2026-11-14T23:33:00.000Z",
+        "valid_from": 1794700800,
+        "valid_to": 1794808800,
         "thunder": false,
         "snow": false,
         "freezing_precip": false
       },
       "alerts": [],
       "metrics": {
-        "peak_gust_24h_kt": 29.0,
-        "peak_gust_24h_mph": 33.4,
+        "peak_gust_24h_kt": 30.0,
+        "peak_gust_24h_mph": 34.5,
         "precip_7d_in": 0.0,
         "snow_7d_in": 0.0
       },
       "forecast": [
         {
-          "name": "This Afternoon",
-          "temperature": 51,
-          "temperatureUnit": "F",
-          "shortForecast": "Scattered Rain Showers",
-          "windSpeed": "18 mph",
-          "windDirection": "NW"
-        },
-        {
           "name": "Tonight",
           "temperature": 37,
           "temperatureUnit": "F",
           "shortForecast": "Scattered Rain Showers then Scattered Rain And Snow Showers",
-          "windSpeed": "10 to 14 mph",
+          "windSpeed": "13 mph",
           "windDirection": "NW"
         },
         {
@@ -218,10 +217,18 @@
           "shortForecast": "Clear",
           "windSpeed": "1 mph",
           "windDirection": "NW"
+        },
+        {
+          "name": "Wednesday",
+          "temperature": 64,
+          "temperatureUnit": "F",
+          "shortForecast": "Sunny",
+          "windSpeed": "2 mph",
+          "windDirection": "NW"
         }
       ],
-      "checked_at": "2026-11-14T20:58:11.535859Z",
-      "next_check_minutes": 30
+      "checked_at": "2026-11-15T00:55:35.342396Z",
+      "next_check_minutes": 15
     }
   ],
   "settings": {
