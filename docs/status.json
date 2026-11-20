@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T08:32:25.719660Z",
+  "generated_at": "2026-11-20T17:12:44.922837Z",
   "facilities": [
     {
       "id": "den",
@@ -24,21 +24,21 @@
         }
       ],
       "metar": {
-        "raw": "METAR KDEN 200753Z 18020KT 10SM CLR 11/M07 A2983 RMK AO2 PK WND 19027/0750 SLP058 T01111072",
-        "observed": "2026-11-20T08:00:00.000Z",
-        "wind_kt": 20.0,
-        "wind_mph": 23.0,
+        "raw": "METAR KDEN 201653Z 20014KT 10SM FEW090 FEW160 SCT220 16/M07 A2973 RMK AO2 PK WND 21030/1641 SLP030 T01561072",
+        "observed": "2026-11-20T17:00:00.000Z",
+        "wind_kt": 14.0,
+        "wind_mph": 16.1,
         "gust_kt": null,
         "gust_mph": null,
-        "temperature_f": 52.0,
+        "temperature_f": 60.1,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
       "taf": {
-        "raw": "TAF KDEN 200802Z 2008/2112 18016KT P6SM FEW140 SCT220 FM201000 18013G19KT P6SM FEW140 SCT220 FM201700 23017G30KT P6SM FEW100 SCT220 FM202300 27012KT P6SM FEW100 SCT220 FM210200 VRB06KT P6SM FEW100 SCT220 FM210600 15006KT P6SM SCT050 BKN100",
-        "issued": "2026-11-20T08:02:00.000Z",
-        "valid_from": 1795161600,
-        "valid_to": 1795262400,
+        "raw": "TAF KDEN 201459Z 2015/2118 18015KT P6SM FEW090 SCT160 BKN220 FM201700 23021G32KT P6SM FEW100 SCT220 FM202300 27012KT P6SM FEW100 SCT220 FM210200 VRB06KT P6SM FEW100 SCT220 FM210600 15006KT P6SM SCT070 SCT120 FM211200 15006KT P6SM SCT040 BKN100",
+        "issued": "2026-11-20T14:59:00.000Z",
+        "valid_from": 1795186800,
+        "valid_to": 1795284000,
         "thunder": false,
         "snow": false,
         "freezing_precip": false
@@ -52,15 +52,7 @@
       },
       "forecast": [
         {
-          "name": "Overnight",
-          "temperature": 37,
-          "temperatureUnit": "F",
-          "shortForecast": "Partly Cloudy",
-          "windSpeed": "9 to 16 mph",
-          "windDirection": "SSW"
-        },
-        {
-          "name": "Friday",
+          "name": "Today",
           "temperature": 61,
           "temperatureUnit": "F",
           "shortForecast": "Mostly Sunny",
@@ -68,7 +60,7 @@
           "windDirection": "SW"
         },
         {
-          "name": "Friday Night",
+          "name": "Tonight",
           "temperature": 32,
           "temperatureUnit": "F",
           "shortForecast": "Partly Cloudy then Slight Chance Rain And Snow Showers",
@@ -114,9 +106,17 @@
           "shortForecast": "Partly Sunny then Chance Snow Showers",
           "windSpeed": "2 to 6 mph",
           "windDirection": "NNW"
+        },
+        {
+          "name": "Monday Night",
+          "temperature": 25,
+          "temperatureUnit": "F",
+          "shortForecast": "Chance Snow Showers",
+          "windSpeed": "6 mph",
+          "windDirection": "NW"
         }
       ],
-      "checked_at": "2026-11-20T08:32:26.462020Z",
+      "checked_at": "2026-11-20T17:12:45.991330Z",
       "next_check_minutes": 15
     },
     {
@@ -135,21 +135,21 @@
       },
       "reasons": [],
       "metar": {
-        "raw": "METAR KIAD 200752Z 00000KT 10SM FEW240 02/M01 A3036 RMK AO2 SLP281 T00171011 $",
-        "observed": "2026-11-20T08:00:00.000Z",
-        "wind_kt": 0.0,
-        "wind_mph": 0.0,
+        "raw": "METAR KIAD 201652Z 35006KT 9SM SCT250 19/01 A3037 RMK AO2 SLP286 T01890011 $",
+        "observed": "2026-11-20T17:00:00.000Z",
+        "wind_kt": 6.0,
+        "wind_mph": 6.9,
         "gust_kt": null,
         "gust_mph": null,
-        "temperature_f": 35.1,
-        "visibility_sm": 10.0,
+        "temperature_f": 66.0,
+        "visibility_sm": 9.0,
         "flight_category": "VFR"
       },
       "taf": {
-        "raw": "TAF KIAD 200525Z 2006/2112 28003KT P6SM BKN250 FM201000 34004KT P6SM FEW250 FM210000 04003KT P6SM FEW250 FM210800 00000KT P6SM BKN250",
-        "issued": "2026-11-20T05:25:00.000Z",
-        "valid_from": 1795154400,
-        "valid_to": 1795262400,
+        "raw": "TAF KIAD 201536Z 2016/2118 00000KT P6SM SCT250 FM210000 04003KT P6SM FEW250 FM210800 00000KT P6SM BKN250 FM211500 08004KT P6SM BKN200",
+        "issued": "2026-11-20T15:36:00.000Z",
+        "valid_from": 1795190400,
+        "valid_to": 1795284000,
         "thunder": false,
         "snow": false,
         "freezing_precip": false
@@ -163,15 +163,7 @@
       },
       "forecast": [
         {
-          "name": "Overnight",
-          "temperature": 33,
-          "temperatureUnit": "F",
-          "shortForecast": "Mostly Clear",
-          "windSpeed": "2 mph",
-          "windDirection": "NW"
-        },
-        {
-          "name": "Friday",
+          "name": "Today",
           "temperature": 68,
           "temperatureUnit": "F",
           "shortForecast": "Sunny",
@@ -179,7 +171,7 @@
           "windDirection": "N"
         },
         {
-          "name": "Friday Night",
+          "name": "Tonight",
           "temperature": 39,
           "temperatureUnit": "F",
           "shortForecast": "Partly Cloudy",
@@ -225,9 +217,17 @@
           "shortForecast": "Slight Chance Light Rain then Mostly Sunny",
           "windSpeed": "12 to 15 mph",
           "windDirection": "NW"
+        },
+        {
+          "name": "Monday Night",
+          "temperature": 36,
+          "temperatureUnit": "F",
+          "shortForecast": "Mostly Clear",
+          "windSpeed": "13 mph",
+          "windDirection": "NW"
         }
       ],
-      "checked_at": "2026-11-20T08:32:27.740675Z",
+      "checked_at": "2026-11-20T17:12:51.158913Z",
       "next_check_minutes": 30
     }
   ],
