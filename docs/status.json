@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T12:01:00.168179Z",
+  "generated_at": "2026-11-22T19:27:27.193075Z",
   "facilities": [
     {
       "id": "den",
@@ -17,21 +17,21 @@
       },
       "reasons": [],
       "metar": {
-        "raw": "METAR KDEN 221153Z 15006KT 10SM CLR M08/M11 A3014 RMK AO2 SLP225 T10781106 11028 21089 53006",
-        "observed": "2026-11-22T12:00:00.000Z",
-        "wind_kt": 6.0,
-        "wind_mph": 6.9,
+        "raw": "METAR KDEN 221853Z 34008KT 10SM FEW150 BKN200 05/M06 A3013 RMK AO2 SLP210 T00501056",
+        "observed": "2026-11-22T19:00:00.000Z",
+        "wind_kt": 8.0,
+        "wind_mph": 9.2,
         "gust_kt": null,
         "gust_mph": null,
-        "temperature_f": 18.0,
+        "temperature_f": 41.0,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
       "taf": {
-        "raw": "TAF KDEN 221120Z 2212/2318 15008KT P6SM SKC FM221400 16008KT P6SM VCFG FEW005 FM221600 16009KT P6SM FEW140 BKN200 FM221900 VRB06KT P6SM SCT140 BKN180 FM222100 05008KT P6SM SCT140 BKN180 FM230100 VRB06KT P6SM SCT140 BKN180 FM230300 19007KT P6SM FEW150 SCT180 FM230900 23005KT P6SM FEW150 SCT200 FM231200 26006KT P6SM SCT220",
-        "issued": "2026-11-22T11:20:00.000Z",
-        "valid_from": 1795348800,
-        "valid_to": 1795456800,
+        "raw": "TAF KDEN 221842Z 2219/2324 32007KT P6SM SCT140 BKN200 FM222300 34007KT P6SM SCT140 BKN180 FM230200 26006KT P6SM FEW140 BKN180 FM230400 21010KT P6SM SCT180 FM231100 24006KT P6SM SCT180 FM231800 36007KT P6SM FEW120 BKN180 FM232000 05008KT P6SM FEW120 BKN170",
+        "issued": "2026-11-22T18:42:00.000Z",
+        "valid_from": 1795374000,
+        "valid_to": 1795478400,
         "thunder": false,
         "snow": false,
         "freezing_precip": false
@@ -45,27 +45,19 @@
       },
       "forecast": [
         {
-          "name": "Tonight",
-          "temperature": 24,
-          "temperatureUnit": "F",
-          "shortForecast": "Mostly Clear then Patchy Freezing Fog",
-          "windSpeed": "6 mph",
-          "windDirection": "SSE"
-        },
-        {
-          "name": "Sunday",
+          "name": "This Afternoon",
           "temperature": 46,
           "temperatureUnit": "F",
-          "shortForecast": "Patchy Freezing Fog then Mostly Sunny",
-          "windSpeed": "7 mph",
-          "windDirection": "WNW"
+          "shortForecast": "Mostly Sunny",
+          "windSpeed": "8 mph",
+          "windDirection": "NNW"
         },
         {
-          "name": "Sunday Night",
+          "name": "Tonight",
           "temperature": 25,
           "temperatureUnit": "F",
-          "shortForecast": "Partly Cloudy",
-          "windSpeed": "7 mph",
+          "shortForecast": "Mostly Cloudy",
+          "windSpeed": "3 to 7 mph",
           "windDirection": "SW"
         },
         {
@@ -74,22 +66,22 @@
           "temperatureUnit": "F",
           "shortForecast": "Mostly Cloudy",
           "windSpeed": "6 mph",
-          "windDirection": "NW"
+          "windDirection": "NNW"
         },
         {
           "name": "Monday Night",
-          "temperature": 25,
+          "temperature": 26,
           "temperatureUnit": "F",
           "shortForecast": "Mostly Cloudy",
-          "windSpeed": "2 to 6 mph",
-          "windDirection": "NW"
+          "windSpeed": "5 mph",
+          "windDirection": "W"
         },
         {
           "name": "Tuesday",
-          "temperature": 46,
+          "temperature": 49,
           "temperatureUnit": "F",
           "shortForecast": "Sunny",
-          "windSpeed": "2 to 6 mph",
+          "windSpeed": "6 mph",
           "windDirection": "S"
         },
         {
@@ -97,19 +89,27 @@
           "temperature": 28,
           "temperatureUnit": "F",
           "shortForecast": "Mostly Clear",
-          "windSpeed": "6 to 9 mph",
+          "windSpeed": "5 to 8 mph",
           "windDirection": "S"
         },
         {
           "name": "Wednesday",
-          "temperature": 50,
+          "temperature": 51,
           "temperatureUnit": "F",
           "shortForecast": "Mostly Sunny",
-          "windSpeed": "2 to 6 mph",
-          "windDirection": "N"
+          "windSpeed": "2 to 7 mph",
+          "windDirection": "E"
+        },
+        {
+          "name": "Wednesday Night",
+          "temperature": 30,
+          "temperatureUnit": "F",
+          "shortForecast": "Partly Cloudy",
+          "windSpeed": "6 mph",
+          "windDirection": "S"
         }
       ],
-      "checked_at": "2026-11-22T12:01:01.300460Z",
+      "checked_at": "2026-11-22T19:27:28.236097Z",
       "next_check_minutes": 30
     },
     {
@@ -128,54 +128,54 @@
       },
       "reasons": [],
       "metar": {
-        "raw": "METAR KIAD 221152Z 35004KT 10SM FEW025 BKN038 BKN140 OVC170 11/08 A3013 RMK AO2 SLP203 T01110078 10122 20100 56006 $",
-        "observed": "2026-11-22T12:00:00.000Z",
-        "wind_kt": 4.0,
-        "wind_mph": 4.6,
+        "raw": "SPECI KIAD 221921Z 32006KT 10SM -RA BKN027 OVC050 17/12 A2998 RMK AO2 P0000 T01670122 $",
+        "observed": "2026-11-22T19:21:00.000Z",
+        "wind_kt": 6.0,
+        "wind_mph": 6.9,
         "gust_kt": null,
         "gust_mph": null,
-        "temperature_f": 52.0,
+        "temperature_f": 62.1,
         "visibility_sm": 10.0,
-        "flight_category": "VFR"
+        "flight_category": "MVFR"
       },
       "taf": {
-        "raw": "TAF KIAD 221132Z 2212/2318 33007KT P6SM SCT020 BKN140 OVC180 FM221800 04004KT P6SM VCSH OVC025 FM222200 01006KT 6SM -RA BR BKN025 OVC050 FM230300 31004KT P6SM SCT025 BKN110 FM230900 00000KT 6SM BR FEW035 SCT200 FM231400 30008KT P6SM FEW035",
-        "issued": "2026-11-22T11:32:00.000Z",
-        "valid_from": 1795348800,
-        "valid_to": 1795456800,
+        "raw": "TAF KIAD 221739Z 2218/2324 02005KT P6SM SCT025 OVC035 TEMPO 2218/2221 BKN025 FM222100 35003KT P6SM VCSH BKN025 OVC035 FM230500 32003KT 6SM BR BKN050 FM231200 28004KT P6SM SCT060 FM231700 30008G17KT P6SM BKN060",
+        "issued": "2026-11-22T17:39:00.000Z",
+        "valid_from": 1795370400,
+        "valid_to": 1795478400,
         "thunder": false,
         "snow": false,
         "freezing_precip": false
       },
       "alerts": [],
       "metrics": {
-        "peak_gust_24h_kt": 8.0,
-        "peak_gust_24h_mph": 9.2,
-        "precip_7d_in": 0.07,
+        "peak_gust_24h_kt": 16.0,
+        "peak_gust_24h_mph": 18.4,
+        "precip_7d_in": 0.0,
         "snow_7d_in": 0.0
       },
       "forecast": [
         {
-          "name": "Today",
-          "temperature": 65,
+          "name": "This Afternoon",
+          "temperature": 64,
           "temperatureUnit": "F",
-          "shortForecast": "Cloudy then Chance Light Rain",
+          "shortForecast": "Slight Chance Light Rain",
           "windSpeed": "5 mph",
           "windDirection": "N"
         },
         {
           "name": "Tonight",
-          "temperature": 49,
+          "temperature": 50,
           "temperatureUnit": "F",
-          "shortForecast": "Chance Light Rain then Patchy Fog",
+          "shortForecast": "Slight Chance Light Rain then Patchy Fog",
           "windSpeed": "5 mph",
           "windDirection": "NW"
         },
         {
           "name": "Monday",
-          "temperature": 67,
+          "temperature": 68,
           "temperatureUnit": "F",
-          "shortForecast": "Patchy Fog then Mostly Sunny",
+          "shortForecast": "Patchy Fog then Slight Chance Light Rain",
           "windSpeed": "2 to 12 mph",
           "windDirection": "W"
         },
@@ -184,15 +184,15 @@
           "temperature": 35,
           "temperatureUnit": "F",
           "shortForecast": "Mostly Clear",
-          "windSpeed": "8 to 12 mph",
+          "windSpeed": "12 mph",
           "windDirection": "NW"
         },
         {
           "name": "Tuesday",
-          "temperature": 52,
+          "temperature": 51,
           "temperatureUnit": "F",
           "shortForecast": "Sunny",
-          "windSpeed": "6 to 10 mph",
+          "windSpeed": "7 to 10 mph",
           "windDirection": "N"
         },
         {
@@ -205,7 +205,7 @@
         },
         {
           "name": "Wednesday",
-          "temperature": 50,
+          "temperature": 51,
           "temperatureUnit": "F",
           "shortForecast": "Partly Sunny",
           "windSpeed": "5 to 9 mph",
@@ -213,14 +213,14 @@
         },
         {
           "name": "Wednesday Night",
-          "temperature": 39,
+          "temperature": 41,
           "temperatureUnit": "F",
-          "shortForecast": "Light Rain",
-          "windSpeed": "9 to 20 mph",
+          "shortForecast": "Light Rain Likely",
+          "windSpeed": "10 to 18 mph",
           "windDirection": "NE"
         }
       ],
-      "checked_at": "2026-11-22T12:01:04.858234Z",
+      "checked_at": "2026-11-22T19:27:29.743512Z",
       "next_check_minutes": 30
     }
   ],
