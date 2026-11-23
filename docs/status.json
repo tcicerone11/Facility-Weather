@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T07:59:10.655948Z",
+  "generated_at": "2026-11-23T20:03:39.840291Z",
   "facilities": [
     {
       "id": "den",
@@ -17,55 +17,47 @@
       },
       "reasons": [],
       "metar": {
-        "raw": "METAR KDEN 230753Z 26004KT 10SM BKN180 OVC220 M03/M06 A3012 RMK AO2 SLP204 T10281061",
-        "observed": "2026-11-23T08:00:00.000Z",
-        "wind_kt": 4.0,
-        "wind_mph": 4.6,
+        "raw": "METAR KDEN 231953Z VRB06KT 10SM FEW100 SCT150 BKN220 03/M05 A3011 RMK AO2 SLP206 T00331050",
+        "observed": "2026-11-23T20:00:00.000Z",
+        "wind_kt": 6.0,
+        "wind_mph": 6.9,
         "gust_kt": null,
         "gust_mph": null,
-        "temperature_f": 27.0,
+        "temperature_f": 37.9,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
       "taf": {
-        "raw": "TAF KDEN 230520Z 2306/2412 18007KT P6SM BKN220 FM230900 24006KT P6SM SCT150 BKN200 FM231600 34007KT P6SM SCT140 BKN180 FM232000 05008KT P6SM SCT120 BKN180 FM240200 VRB06KT P6SM SCT120 BKN180",
-        "issued": "2026-11-23T05:20:00.000Z",
-        "valid_from": 1795413600,
-        "valid_to": 1795521600,
+        "raw": "TAF KDEN 231727Z 2318/2424 03007KT P6SM SCT120 BKN180 FM240300 VRB06KT P6SM FEW040 SCT120 BKN180 FM240600 22006KT P6SM FEW001 SCT040 BKN150 FM241400 VRB06KT P6SM SCT120 BKN200 FM241900 14009KT P6SM FEW120 SCT200",
+        "issued": "2026-11-23T17:27:00.000Z",
+        "valid_from": 1795456800,
+        "valid_to": 1795564800,
         "thunder": false,
         "snow": false,
         "freezing_precip": false
       },
       "alerts": [],
       "metrics": {
-        "peak_gust_24h_kt": 11.0,
-        "peak_gust_24h_mph": 12.7,
+        "peak_gust_24h_kt": 8.0,
+        "peak_gust_24h_mph": 9.2,
         "precip_7d_in": 0.0,
         "snow_7d_in": 0.0
       },
       "forecast": [
         {
-          "name": "Tonight",
-          "temperature": 25,
+          "name": "This Afternoon",
+          "temperature": 40,
           "temperatureUnit": "F",
           "shortForecast": "Mostly Cloudy",
           "windSpeed": "6 mph",
-          "windDirection": "SW"
+          "windDirection": "NNE"
         },
         {
-          "name": "Monday",
-          "temperature": 42,
-          "temperatureUnit": "F",
-          "shortForecast": "Partly Sunny",
-          "windSpeed": "7 mph",
-          "windDirection": "N"
-        },
-        {
-          "name": "Monday Night",
+          "name": "Tonight",
           "temperature": 24,
           "temperatureUnit": "F",
-          "shortForecast": "Slight Chance Snow Showers then Mostly Cloudy",
-          "windSpeed": "6 mph",
+          "shortForecast": "Mostly Cloudy",
+          "windSpeed": "5 mph",
           "windDirection": "WSW"
         },
         {
@@ -78,7 +70,7 @@
         },
         {
           "name": "Tuesday Night",
-          "temperature": 26,
+          "temperature": 28,
           "temperatureUnit": "F",
           "shortForecast": "Mostly Clear",
           "windSpeed": "8 mph",
@@ -94,10 +86,10 @@
         },
         {
           "name": "Wednesday Night",
-          "temperature": 28,
+          "temperature": 29,
           "temperatureUnit": "F",
           "shortForecast": "Partly Cloudy",
-          "windSpeed": "6 mph",
+          "windSpeed": "7 mph",
           "windDirection": "S"
         },
         {
@@ -107,9 +99,17 @@
           "shortForecast": "Mostly Sunny",
           "windSpeed": "2 to 6 mph",
           "windDirection": "S"
+        },
+        {
+          "name": "Thursday Night",
+          "temperature": 37,
+          "temperatureUnit": "F",
+          "shortForecast": "Partly Cloudy",
+          "windSpeed": "7 to 13 mph",
+          "windDirection": "SSW"
         }
       ],
-      "checked_at": "2026-11-23T07:59:11.469929Z",
+      "checked_at": "2026-11-23T20:03:40.847302Z",
       "next_check_minutes": 30
     },
     {
@@ -221,7 +221,8 @@
         }
       ],
       "checked_at": "2026-11-23T07:59:12.075792Z",
-      "next_check_minutes": 30
+      "next_check_minutes": 30,
+      "data_error": "504 Server Error: Gateway Time-out for url: https://aviationweather.gov/api/data/metar?ids=KIAD&format=json"
     }
   ],
   "settings": {
