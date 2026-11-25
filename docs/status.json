@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T07:54:40.979114Z",
+  "generated_at": "2026-11-25T18:24:53.713596Z",
   "facilities": [
     {
       "id": "den",
@@ -17,21 +17,21 @@
       },
       "reasons": [],
       "metar": {
-        "raw": "METAR KDEN 250653Z 17004KT 10SM FEW220 M02/M12 A3019 RMK AO2 SLP218 T10171122 401171078",
-        "observed": "2026-11-25T07:00:00.000Z",
-        "wind_kt": 4.0,
-        "wind_mph": 4.6,
+        "raw": "METAR KDEN 251753Z 00000KT 10SM SCT220 06/M09 A3033 RMK AO2 SLP269 T00611094 10061 21039 50004",
+        "observed": "2026-11-25T18:00:00.000Z",
+        "wind_kt": 0.0,
+        "wind_mph": 0.0,
         "gust_kt": null,
         "gust_mph": null,
-        "temperature_f": 28.9,
+        "temperature_f": 43.0,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
       "taf": {
-        "raw": "TAF KDEN 250525Z 2506/2612 22007KT P6SM FEW220 FM251400 17007KT P6SM FEW200 FM251600 12008KT P6SM FEW100 FEW150 FM260200 14008KT P6SM SCT100 SCT180 FM260400 18008KT P6SM SCT100 BKN180 FM260700 22007KT P6SM SCT100 BKN180",
-        "issued": "2026-11-25T05:25:00.000Z",
-        "valid_from": 1795586400,
-        "valid_to": 1795694400,
+        "raw": "TAF KDEN 251722Z 2518/2624 VRB05KT P6SM SCT220 FM251900 08006KT P6SM SCT220 FM252200 11007KT P6SM FEW100 SCT200 FM260200 14008KT P6SM FEW100 SCT180 FM260400 18008KT P6SM FEW100 BKN180 FM260700 22007KT P6SM FEW100 BKN180 FM261700 VRB05KT P6SM FEW100 SCT180",
+        "issued": "2026-11-25T17:22:00.000Z",
+        "valid_from": 1795629600,
+        "valid_to": 1795737600,
         "thunder": false,
         "snow": false,
         "freezing_precip": false
@@ -45,15 +45,7 @@
       },
       "forecast": [
         {
-          "name": "Overnight",
-          "temperature": 28,
-          "temperatureUnit": "F",
-          "shortForecast": "Clear",
-          "windSpeed": "6 mph",
-          "windDirection": "SSW"
-        },
-        {
-          "name": "Wednesday",
+          "name": "Today",
           "temperature": 51,
           "temperatureUnit": "F",
           "shortForecast": "Sunny",
@@ -61,7 +53,7 @@
           "windDirection": "SE"
         },
         {
-          "name": "Wednesday Night",
+          "name": "Tonight",
           "temperature": 29,
           "temperatureUnit": "F",
           "shortForecast": "Partly Cloudy",
@@ -107,9 +99,17 @@
           "shortForecast": "Partly Sunny",
           "windSpeed": "10 to 28 mph",
           "windDirection": "WNW"
+        },
+        {
+          "name": "Saturday Night",
+          "temperature": 30,
+          "temperatureUnit": "F",
+          "shortForecast": "Partly Cloudy",
+          "windSpeed": "7 to 23 mph",
+          "windDirection": "ENE"
         }
       ],
-      "checked_at": "2026-11-25T07:54:42.005747Z",
+      "checked_at": "2026-11-25T18:24:54.704902Z",
       "next_check_minutes": 30
     },
     {
@@ -120,36 +120,42 @@
       "latitude": 38.9531,
       "longitude": -77.4565,
       "forecast_zone_name": "VAZ506",
-      "status": "watch",
+      "status": "close",
       "status_copy": {
-        "label": "WATCH",
-        "summary": "Weather could affect operations if conditions develop as forecast.",
-        "action": "Monitor conditions and prepare staff, equipment, or outdoor operations."
+        "label": "CLOSE CRITERIA MET",
+        "summary": "A configured closure threshold or critical weather warning has been reached.",
+        "action": "Follow your approved closure, restriction, or emergency procedure."
       },
       "reasons": [
         {
           "level": "watch",
           "title": "Wind Advisory",
-          "detail": "Wind Advisory issued November 25 at 1:48AM EST until November 26 at 4:00PM EST by NWS Baltimore MD/Washington DC",
+          "detail": "Wind Advisory issued November 25 at 1:23PM EST until November 26 at 7:00PM EST by NWS Baltimore MD/Washington DC",
           "action": "Monitor updates and prepare staff or equipment. Source: Exact facility location."
+        },
+        {
+          "level": "close",
+          "title": "Strong wind threshold reached",
+          "detail": "Observed or forecast gusts may reach about 51 mph (44 kt).",
+          "action": "Follow your approved high-wind closure or restriction procedure."
         }
       ],
       "metar": {
-        "raw": "METAR KIAD 250752Z 00000KT 10SM CLR M02/M06 A3061 RMK AO2 SLP369 T10221056 $",
-        "observed": "2026-11-25T08:00:00.000Z",
-        "wind_kt": 0.0,
-        "wind_mph": 0.0,
+        "raw": "METAR KIAD 251752Z 36007KT 10SM BKN046 BKN190 OVC250 06/M01 A3057 RMK AO2 SLP353 VIRGA T00611011 10061 20006 56018 $",
+        "observed": "2026-11-25T18:00:00.000Z",
+        "wind_kt": 7.0,
+        "wind_mph": 8.1,
         "gust_kt": null,
         "gust_mph": null,
-        "temperature_f": 28.0,
+        "temperature_f": 43.0,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
       "taf": {
-        "raw": "TAF KIAD 250536Z 2506/2612 03007KT P6SM SKC FM251500 04008KT P6SM SCT040 BKN200 FM251800 06012G20KT P6SM SCT040 OVC090 FM260500 05014G27KT 6SM -RA OVC020 FM260800 05018G35KT 4SM RA BKN010 OVC020 WS020/07050KT FM261100 05021G40KT 2SM RA BKN008 OVC015 WS020/07055KT",
-        "issued": "2026-11-25T05:36:00.000Z",
-        "valid_from": 1795586400,
-        "valid_to": 1795694400,
+        "raw": "TAF KIAD 251741Z 2518/2624 02008KT P6SM SCT050 OVC200 FM252300 05012G22KT P6SM OVC025 FM260500 05014G25KT 6SM -RA OVC019 FM260800 05019G35KT 4SM RA OVC009 WS020/06045KT FM261200 05028G45KT 1SM RA BKN006 OVC013 WS020/07060KT FM261800 05023G42KT 2SM -RA BKN007 OVC012 WS020/08050KT FM262100 07018G32KT 3SM -RA BR OVC005",
+        "issued": "2026-11-25T17:41:00.000Z",
+        "valid_from": 1795629600,
+        "valid_to": 1795737600,
         "thunder": false,
         "snow": false,
         "freezing_precip": false
@@ -157,38 +163,30 @@
       "alerts": [
         {
           "event": "Wind Advisory",
-          "headline": "Wind Advisory issued November 25 at 1:48AM EST until November 26 at 4:00PM EST by NWS Baltimore MD/Washington DC",
+          "headline": "Wind Advisory issued November 25 at 1:23PM EST until November 26 at 7:00PM EST by NWS Baltimore MD/Washington DC",
           "severity": "Moderate",
           "urgency": "Expected",
-          "expires": "2026-11-25T10:00:00-05:00",
+          "expires": "2026-11-25T21:30:00-05:00",
           "source": "Exact facility location"
         }
       ],
       "metrics": {
-        "peak_gust_24h_kt": 28.0,
-        "peak_gust_24h_mph": 32.2,
+        "peak_gust_24h_kt": 44.0,
+        "peak_gust_24h_mph": 50.6,
         "precip_7d_in": 1.63,
         "snow_7d_in": 0.0
       },
       "forecast": [
         {
-          "name": "Overnight",
-          "temperature": 27,
-          "temperatureUnit": "F",
-          "shortForecast": "Mostly Clear",
-          "windSpeed": "6 mph",
-          "windDirection": "N"
-        },
-        {
-          "name": "Wednesday",
+          "name": "Today",
           "temperature": 51,
           "temperatureUnit": "F",
-          "shortForecast": "Mostly Cloudy",
-          "windSpeed": "6 to 13 mph",
+          "shortForecast": "Cloudy",
+          "windSpeed": "8 to 13 mph",
           "windDirection": "NE"
         },
         {
-          "name": "Wednesday Night",
+          "name": "Tonight",
           "temperature": 41,
           "temperatureUnit": "F",
           "shortForecast": "Rain",
@@ -234,10 +232,18 @@
           "shortForecast": "Mostly Sunny",
           "windSpeed": "3 to 10 mph",
           "windDirection": "W"
+        },
+        {
+          "name": "Saturday Night",
+          "temperature": 34,
+          "temperatureUnit": "F",
+          "shortForecast": "Partly Cloudy",
+          "windSpeed": "0 to 3 mph",
+          "windDirection": "NW"
         }
       ],
-      "checked_at": "2026-11-25T07:54:43.374709Z",
-      "next_check_minutes": 15
+      "checked_at": "2026-11-25T18:25:00.788783Z",
+      "next_check_minutes": 5
     }
   ],
   "settings": {
