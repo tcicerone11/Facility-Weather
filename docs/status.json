@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T19:42:46.682125Z",
+  "generated_at": "2026-11-27T02:24:49.147869Z",
   "facilities": [
     {
       "id": "den",
@@ -17,41 +17,33 @@
       },
       "reasons": [],
       "metar": {
-        "raw": "METAR KDEN 261853Z 06006KT 10SM FEW150 BKN220 13/M09 A3020 RMK AO2 SLP210 T01281089",
-        "observed": "2026-11-26T19:00:00.000Z",
-        "wind_kt": 6.0,
-        "wind_mph": 6.9,
+        "raw": "METAR KDEN 270153Z 17009KT 10SM FEW140 BKN220 06/M11 A3008 RMK AO2 SLP185 T00611111",
+        "observed": "2026-11-27T02:00:00.000Z",
+        "wind_kt": 9.0,
+        "wind_mph": 10.4,
         "gust_kt": null,
         "gust_mph": null,
-        "temperature_f": 55.0,
+        "temperature_f": 43.0,
         "visibility_sm": 10.0,
         "flight_category": "VFR"
       },
       "taf": {
-        "raw": "TAF KDEN 261721Z 2618/2724 VRB06KT P6SM SCT220 FM262100 06006KT P6SM BKN220 FM270000 14009KT P6SM BKN200 FM270300 20008KT P6SM FEW140 BKN200 FM270900 24009KT P6SM FEW140 BKN200 FM271700 29013KT P6SM SCT100 BKN200 FM272200 03009KT P6SM SCT100 BKN200",
-        "issued": "2026-11-26T17:21:00.000Z",
-        "valid_from": 1795716000,
-        "valid_to": 1795824000,
+        "raw": "TAF KDEN 270157Z 2702/2806 17009KT P6SM FEW140 BKN220 FM270300 21008KT P6SM FEW140 BKN200 FM270900 24009KT P6SM FEW140 BKN200 FM271700 29013KT P6SM SCT120 BKN200 FM272300 10009KT P6SM SCT120 BKN200 FM280200 14008KT P6SM BKN120 FM280400 19008KT P6SM BKN120",
+        "issued": "2026-11-27T01:57:00.000Z",
+        "valid_from": 1795744800,
+        "valid_to": 1795845600,
         "thunder": false,
         "snow": false,
         "freezing_precip": false
       },
       "alerts": [],
       "metrics": {
-        "peak_gust_24h_kt": 18.0,
-        "peak_gust_24h_mph": 20.7,
+        "peak_gust_24h_kt": 20.0,
+        "peak_gust_24h_mph": 23.0,
         "precip_7d_in": 0.07,
         "snow_7d_in": 0.2
       },
       "forecast": [
-        {
-          "name": "Thanksgiving Day",
-          "temperature": 58,
-          "temperatureUnit": "F",
-          "shortForecast": "Mostly Sunny",
-          "windSpeed": "6 mph",
-          "windDirection": "E"
-        },
         {
           "name": "Tonight",
           "temperature": 37,
@@ -107,9 +99,17 @@
           "shortForecast": "Partly Cloudy",
           "windSpeed": "6 to 9 mph",
           "windDirection": "SSW"
+        },
+        {
+          "name": "Monday",
+          "temperature": 57,
+          "temperatureUnit": "F",
+          "shortForecast": "Partly Sunny",
+          "windSpeed": "5 to 9 mph",
+          "windDirection": "WSW"
         }
       ],
-      "checked_at": "2026-11-26T19:42:47.317327Z",
+      "checked_at": "2026-11-27T02:24:50.091739Z",
       "next_check_minutes": 30
     },
     {
@@ -128,82 +128,53 @@
       },
       "reasons": [
         {
-          "level": "watch",
-          "title": "Wind Advisory",
-          "detail": "Wind Advisory issued November 26 at 12:20PM EST until November 26 at 7:00PM EST by NWS Baltimore MD/Washington DC",
-          "action": "Monitor updates and prepare staff or equipment. Source: Exact facility location."
-        },
-        {
           "level": "close",
           "title": "Strong wind threshold reached",
-          "detail": "Observed or forecast gusts may reach about 54 mph (47 kt).",
+          "detail": "Observed or forecast gusts may reach about 51 mph (44 kt).",
           "action": "Follow your approved high-wind closure or restriction procedure."
-        },
-        {
-          "level": "watch",
-          "title": "Wet weather may affect operations",
-          "detail": "About 2.1 inches of liquid precipitation is represented in the 7 day outlook.",
-          "action": "Monitor drainage, outdoor work, and access conditions."
         }
       ],
       "metar": {
-        "raw": "SPECI KIAD 261901Z 07012KT 1 1/2SM R01R/5000VP6000FT +RA BR BKN014 OVC018 10/08 A2969 RMK AO2 PRESRR P0008 T01000083 $",
-        "observed": "2026-11-26T19:01:00.000Z",
-        "wind_kt": 12.0,
-        "wind_mph": 13.8,
+        "raw": "METAR KIAD 270152Z 33007KT 1 1/2SM -RA BR OVC004 09/08 A2947 RMK AO2 SLP978 P0005 T00890083 $",
+        "observed": "2026-11-27T02:00:00.000Z",
+        "wind_kt": 7.0,
+        "wind_mph": 8.1,
         "gust_kt": null,
         "gust_mph": null,
-        "temperature_f": 50.0,
+        "temperature_f": 48.0,
         "visibility_sm": 1.5,
-        "flight_category": "IFR"
+        "flight_category": "LIFR"
       },
       "taf": {
-        "raw": "TAF KIAD 261721Z 2618/2724 06024G38KT 3SM -RA OVC015 WS020/07055KT FM262300 07016G32KT 3SM -RA OVC005 WS020/09050KT FM270000 07014G27KT 3SM BR OVC005 FM270200 14011G20KT 2SM BR OVC003 FM270500 19012G22KT 5SM BR OVC005 FM271700 23014G27KT P6SM BKN018",
-        "issued": "2026-11-26T17:21:00.000Z",
-        "valid_from": 1795716000,
-        "valid_to": 1795824000,
+        "raw": "TAF KIAD 262335Z 2700/2806 05014G25KT 6SM -RA BR OVC012 WS020/09050KT FM270300 17011G19KT 3SM BR OVC005 FM270700 20012G23KT P6SM OVC012 FM271200 21014G26KT P6SM BKN025 FM271900 23015G27KT P6SM BKN040 FM280000 25010KT P6SM BKN050",
+        "issued": "2026-11-26T23:35:00.000Z",
+        "valid_from": 1795737600,
+        "valid_to": 1795845600,
         "thunder": false,
         "snow": false,
         "freezing_precip": false
       },
-      "alerts": [
-        {
-          "event": "Wind Advisory",
-          "headline": "Wind Advisory issued November 26 at 12:20PM EST until November 26 at 7:00PM EST by NWS Baltimore MD/Washington DC",
-          "severity": "Moderate",
-          "urgency": "Expected",
-          "expires": "2026-11-26T19:00:00-05:00",
-          "source": "Exact facility location"
-        }
-      ],
+      "alerts": [],
       "metrics": {
-        "peak_gust_24h_kt": 47.0,
-        "peak_gust_24h_mph": 54.1,
-        "precip_7d_in": 2.1,
+        "peak_gust_24h_kt": 44.0,
+        "peak_gust_24h_mph": 50.6,
+        "precip_7d_in": 1.05,
         "snow_7d_in": 0.0
       },
       "forecast": [
         {
-          "name": "Thanksgiving Day",
-          "temperature": 53,
-          "temperatureUnit": "F",
-          "shortForecast": "Rain",
-          "windSpeed": "21 to 26 mph",
-          "windDirection": "NE"
-        },
-        {
           "name": "Tonight",
           "temperature": 45,
           "temperatureUnit": "F",
-          "shortForecast": "Light Rain then Scattered Rain Showers",
-          "windSpeed": "13 to 18 mph",
-          "windDirection": "SE"
+          "shortForecast": "Chance Light Rain",
+          "windSpeed": "13 to 17 mph",
+          "windDirection": "S"
         },
         {
           "name": "Friday",
           "temperature": 55,
           "temperatureUnit": "F",
-          "shortForecast": "Isolated Rain Showers",
+          "shortForecast": "Mostly Cloudy then Chance Light Rain",
           "windSpeed": "17 mph",
           "windDirection": "SW"
         },
@@ -246,9 +217,17 @@
           "shortForecast": "Light Rain",
           "windSpeed": "9 to 15 mph",
           "windDirection": "S"
+        },
+        {
+          "name": "Monday",
+          "temperature": 57,
+          "temperatureUnit": "F",
+          "shortForecast": "Light Rain Likely then Partly Sunny",
+          "windSpeed": "14 to 20 mph",
+          "windDirection": "W"
         }
       ],
-      "checked_at": "2026-11-26T19:42:48.861875Z",
+      "checked_at": "2026-11-27T02:24:51.498854Z",
       "next_check_minutes": 5
     }
   ],
